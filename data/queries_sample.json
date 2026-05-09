@@ -1,0 +1,71 @@
+{
+  "CIR-0": {
+    "image_path": "images/78/54/785481113_18330819990.jpg",
+    "product_id": "1826",
+    "question": "My wife's looking for the same product, but the price should be cheaper. The product origin is French.",
+    "answer_image_path": [
+      "images/43/49/434983286_11734384224.jpg"
+    ],
+    "answer_product_id": [
+      "2146"
+    ]
+  },
+  "CIR-1": {
+    "image_path": "images/23/12/231252429_13232923198.jpg",
+    "product_id": "1869",
+    "question": "I don't like these ones. What I really want is a set of body wash made from vegetables, and I think they're from Korea.",
+    "answer_image_path": [
+      "images/59/88/598813572_17533265565.jpg"
+    ],
+    "answer_product_id": [
+      "1654"
+    ]
+  },
+  "CIR-2": {
+    "image_path": "images/82/52/8252086_13829791072.jpg",
+    "product_id": "1857",
+    "question": "Suggest 5 products with the same uses.",
+    "answer_image_path": [
+      "images/52/57/525733762_15881993218.jpg",
+      "images/25/74/257422144_7544660810.jpg",
+      "images/26/49/264988200_19728481883.jpg",
+      "images/32/84/32842560_21731373370.jpg",
+      "images/45/16/45164289_5608691435.jpg"
+    ],
+    "answer_product_id": [
+      "585",
+      "1258",
+      "1265",
+      "1672",
+      "2201"
+    ]
+  },
+  "CIR-3": {
+    "image_path": "images/46/16/461623253_12625264006.jpg",
+    "product_id": "1854",
+    "question": "My girfriend doesn't like this product. She prefers American brands, especially St. Ives.",
+    "answer_image_path": [
+      "images/11/84/118436101_14711682233.jpg",
+      "images/28/09/280956580_5443983138.jpg"
+    ],
+    "answer_product_id": [
+      "443",
+      "96"
+    ]
+  },
+  "CIR-4": {
+    "image_path": "images/43/89/43890636_18322754482.jpg",
+    "product_id": "1842",
+    "question": "I prefer HATOMUGI brands more. Please help me suggest some.",
+    "answer_image_path": [
+      "images/13/88/138806876_2209295083.jpg",
+      "images/43/28/432880057_9162708261.jpg",
+      "images/59/46/59469481_1458012848.jpg"
+    ],
+    "answer_product_id": [
+      "549",
+      "138",
+      "482"
+    ]
+  }
+}

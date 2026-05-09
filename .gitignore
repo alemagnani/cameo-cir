@@ -1,5 +1,24 @@
 .venv/
 __pycache__/
 *.pyc
-data/raw/
 .env
+*.egg-info/
+
+# Large / regenerable data
+data/raw/
+data/eval_cache/
+data/processed/
+
+# Vendored baseline implementations (each is a separate clone with its own history)
+LaSCo/
+SEARLE/
+SPN4CIR/
+UNION_for_IGROT/
+
+# Reference papers (bulky PDFs, easy to re-download)
+related_papers/
+
+# IDE / OS
+.idea/
+.DS_Store
+*.swp
