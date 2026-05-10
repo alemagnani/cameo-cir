@@ -3,12 +3,12 @@
 ## Project goal
 Participate in the CAMEO composed image retrieval subtask (NTCIR-19, Dec 2026, Tokyo).
 Given a reference product image + natural language modification query, retrieve a ranked 
-list of matching products from a corpus of 2,244 face cleanser products (ViEcom-Rec dataset).
+list of matching products from a corpus of 4,075 face cleanser products (ViEcom-Rec dataset).
 
 ## Dataset
 - Source: HuggingFace `allietran/CAMEO`
 - Raw data lives in `data/raw/` (gitignored)
-- 2,244 products, face cleanser category, Vietnamese e-commerce
+- 4,075 products, face cleanser category, Vietnamese e-commerce
 - Evaluation: NDCG@K and MAP, TREC-style human relevance judgments
 
 ## Stack
@@ -16,7 +16,7 @@ list of matching products from a corpus of 2,244 face cleanser products (ViEcom-
 - Arch Linux, PyCharm, Claude Code
 
 ## Architecture plan
-- Stage 1: MagicLens zero-shot CIR scoring over full 2,244 corpus (exhaustive, no ANN)
+- Stage 1: MagicLens zero-shot CIR scoring over full 4,075 corpus (exhaustive, no ANN)
 - Stage 2: Cross-encoder reranking over candidates
 
 ## Key files
