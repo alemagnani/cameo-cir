@@ -1,0 +1,1426 @@
+{
+  "DEV-0190": {
+    "image_path": "images/15/78/157824670_3057868700.jpg",
+    "product_id": "492",
+    "question": "Mình muốn tìm sữa rửa mặt tạo bọt cho da nhạy cảm tương tự vậy nhưng của Wonjin Effect thay vì BYVIBES WONDER BATH nhé.",
+    "translated_question": "I want something similar — a foaming cleanser for sensitive skin — but from Wonjin Effect instead of BYVIBES WONDER BATH.",
+    "answer_product_id": [
+      "1321"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 135000,
+    "tgt_price": 139000,
+    "ref_brand": "BYVIBES WONDER BATH",
+    "tgt_brand": "Wonjin Effect",
+    "format": "foam",
+    "claim": "sensitive"
+  },
+  "DEV-0191": {
+    "image_path": "images/17/81/tiki_1781_tikishop_6_big.jpg",
+    "product_id": "tiki_1781",
+    "question": "Mình muốn tìm nước tẩy trang cho da khô/dưỡng ẩm tương tự vậy nhưng của Snow White thay vì BIOAQUA nhé.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for dry skin / hydrating — but from Snow White instead of BIOAQUA.",
+    "answer_product_id": [
+      "tiki_1771"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 39000,
+    "tgt_price": 35000,
+    "ref_brand": "BIOAQUA",
+    "tgt_brand": "Snow White",
+    "format": "micellar",
+    "claim": "dry"
+  },
+  "DEV-0192": {
+    "image_path": "images/23/12/231252429_9219864246.jpg",
+    "product_id": "2220",
+    "question": "Mình muốn tìm sữa rửa mặt tạo bọt dưỡng sáng/làm trắng tương tự vậy nhưng của Estée Lauder thay vì W.SKIN LABORATORY nhé.",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from Estée Lauder instead of W.SKIN LABORATORY.",
+    "answer_product_id": [
+      "1604"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 182500,
+    "tgt_price": 194600,
+    "ref_brand": "W.SKIN LABORATORY",
+    "tgt_brand": "Estée Lauder",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0193": {
+    "image_path": "images/13/68/tiki_1368_tikishop_1_big.jpg",
+    "product_id": "tiki_1368",
+    "question": "Mình muốn tìm sữa rửa mặt dạng kem dưỡng sáng/làm trắng tương tự vậy nhưng của HIDATI thay vì OHUI nhé.",
+    "translated_question": "I want something similar — a cream cleanser for brightening / whitening — but from HIDATI instead of OHUI.",
+    "answer_product_id": [
+      "tiki_499"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 1150000,
+    "tgt_price": 1250000,
+    "ref_brand": "OHUI",
+    "tgt_brand": "HIDATI",
+    "format": "cream",
+    "claim": "whitening"
+  },
+  "DEV-0194": {
+    "image_path": "images/69/09/6909259_3111633654.jpg",
+    "product_id": "2048",
+    "question": "Mình muốn tìm nước tẩy trang cho da mụn tương tự vậy nhưng của ONYX COSMETICS thay vì Sennio nhé.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for acne-prone skin — but from ONYX COSMETICS instead of Sennio.",
+    "answer_product_id": [
+      "tiki_1824"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 24800,
+    "tgt_price": 25000,
+    "ref_brand": "Sennio",
+    "tgt_brand": "ONYX COSMETICS",
+    "format": "micellar",
+    "claim": "acne"
+  },
+  "DEV-0195": {
+    "image_path": "images/25/71/257152769_9718340751.jpg",
+    "product_id": "1127",
+    "question": "Mình muốn tìm sữa rửa mặt tạo bọt dưỡng sáng/làm trắng tương tự vậy nhưng của Cerave thay vì Watsons nhé.",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from Cerave instead of Watsons.",
+    "answer_product_id": [
+      "280"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 22000,
+    "tgt_price": 23500,
+    "ref_brand": "Watsons",
+    "tgt_brand": "Cerave",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0196": {
+    "image_path": "images/40/16/401692_21733848558.jpg",
+    "product_id": "1499",
+    "question": "Mình muốn tìm sữa rửa mặt tạo bọt cho da khô/dưỡng ẩm tương tự vậy nhưng của Cetaphil thay vì 36 Ingredients nhé.",
+    "translated_question": "I want something similar — a foaming cleanser for dry skin / hydrating — but from Cetaphil instead of 36 Ingredients.",
+    "answer_product_id": [
+      "292"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 260000,
+    "tgt_price": 222500,
+    "ref_brand": "36 Ingredients",
+    "tgt_brand": "Cetaphil",
+    "format": "foam",
+    "claim": "dry"
+  },
+  "DEV-0197": {
+    "image_path": "images/40/02/400280826_10950709224.jpg",
+    "product_id": "1801",
+    "question": "Mình muốn tìm sữa rửa mặt tạo bọt cho da dầu/kiểm soát nhờn tương tự vậy nhưng của Mediheal thay vì Estée Lauder nhé.",
+    "translated_question": "I want something similar — a foaming cleanser for oily skin / oil control — but from Mediheal instead of Estée Lauder.",
+    "answer_product_id": [
+      "192"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 175000,
+    "tgt_price": 168000,
+    "ref_brand": "Estée Lauder",
+    "tgt_brand": "Mediheal",
+    "format": "foam",
+    "claim": "oily"
+  },
+  "DEV-0198": {
+    "image_path": "images/17/92/tiki_1792_tikishop_30_big.jpg",
+    "product_id": "tiki_1792",
+    "question": "Mình muốn tìm nước tẩy trang cho da khô/dưỡng ẩm tương tự vậy nhưng của Lebelage thay vì Kosé nhé.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for dry skin / hydrating — but from Lebelage instead of Kosé.",
+    "answer_product_id": [
+      "tiki_1748"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 79000,
+    "tgt_price": 79000,
+    "ref_brand": "Kosé",
+    "tgt_brand": "Lebelage",
+    "format": "micellar",
+    "claim": "dry"
+  },
+  "DEV-0199": {
+    "image_path": "images/28/26/282614943_7141410474.mp4",
+    "product_id": "1459",
+    "question": "Mình muốn tìm sữa rửa mặt tạo bọt chống lão hóa tương tự vậy nhưng của dermaAngel thay vì OHUI nhé.",
+    "translated_question": "I want something similar — a foaming cleanser anti-aging — but from dermaAngel instead of OHUI.",
+    "answer_product_id": [
+      "1184"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 260000,
+    "tgt_price": 245000,
+    "ref_brand": "OHUI",
+    "tgt_brand": "dermaAngel",
+    "format": "foam",
+    "claim": "antiaging"
+  },
+  "DEV-0200": {
+    "image_path": "images/13/35/tiki_1335_tikishop_118_big.jpg",
+    "product_id": "tiki_1335",
+    "question": "Cho mình hỏi bên Eclado có sữa rửa mặt dạng kem dưỡng trắng/làm sáng da tương tự bên An Thái Hưng không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for brightening / whitening — but from Eclado instead of An Thái Hưng.",
+    "answer_product_id": [
+      "tiki_483"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 575040,
+    "tgt_price": 506000,
+    "ref_brand": "An Thái Hưng",
+    "tgt_brand": "Eclado",
+    "format": "cream",
+    "claim": "whitening"
+  },
+  "DEV-0201": {
+    "image_path": "images/14/46/tiki_1446_tikishop_15_big.jpg",
+    "product_id": "tiki_1446",
+    "question": "Cho mình hỏi bên Eau Thermale Avene có sữa rửa mặt dạng gel cho da nhạy cảm tương tự bên Laikou không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for sensitive skin — but from Eau Thermale Avene instead of Laikou.",
+    "answer_product_id": [
+      "2180"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 270630,
+    "tgt_price": 260000,
+    "ref_brand": "Laikou",
+    "tgt_brand": "Eau Thermale Avene",
+    "format": "gel",
+    "claim": "sensitive"
+  },
+  "DEV-0202": {
+    "image_path": "images/13/_t/tiki_13_tikishop_5_big.jpg",
+    "product_id": "tiki_13",
+    "question": "Cho mình hỏi bên Eclado có sữa rửa mặt dạng kem dưỡng trắng/làm sáng da tương tự bên Kyunglab không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for brightening / whitening — but from Eclado instead of Kyunglab.",
+    "answer_product_id": [
+      "tiki_483"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 450000,
+    "tgt_price": 506000,
+    "ref_brand": "Kyunglab",
+    "tgt_brand": "Eclado",
+    "format": "cream",
+    "claim": "whitening"
+  },
+  "DEV-0203": {
+    "image_path": "images/43/28/432880057_9162708261.jpg",
+    "product_id": "138",
+    "question": "Cho mình hỏi bên Image Skincare có nước tẩy trang/micellar cho da mụn tương tự bên HATOMUGI không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for acne-prone skin — but from Image Skincare instead of HATOMUGI.",
+    "answer_product_id": [
+      "tiki_1674"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 52785,
+    "tgt_price": 59000,
+    "ref_brand": "HATOMUGI",
+    "tgt_brand": "Image Skincare",
+    "format": "micellar",
+    "claim": "acne"
+  },
+  "DEV-0204": {
+    "image_path": "images/19/19/191939293_6706769027.jpg",
+    "product_id": "15",
+    "question": "Cho mình hỏi bên A-DERMA có sữa rửa mặt dạng kem cho da mụn tương tự bên Samsara không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from A-DERMA instead of Samsara.",
+    "answer_product_id": [
+      "415"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 72000,
+    "tgt_price": 72000,
+    "ref_brand": "Samsara",
+    "tgt_brand": "A-DERMA",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0205": {
+    "image_path": "images/12/25/122572609_2866652229.jpg",
+    "product_id": "1172",
+    "question": "Cho mình hỏi bên cica có sữa rửa mặt tạo bọt dưỡng trắng/làm sáng da tương tự bên ORIGINS không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from cica instead of ORIGINS.",
+    "answer_product_id": [
+      "1752"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 98000,
+    "tgt_price": 101000,
+    "ref_brand": "ORIGINS",
+    "tgt_brand": "cica",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0206": {
+    "image_path": "images/51/9_/tiki_519_tikishop_136_big.jpg",
+    "product_id": "tiki_519",
+    "question": "Cho mình hỏi bên Kosé có nước tẩy trang/micellar cho da khô/cấp ẩm tương tự bên KLAVUU không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for dry skin / hydrating — but from Kosé instead of KLAVUU.",
+    "answer_product_id": [
+      "tiki_1795"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 168000,
+    "tgt_price": 153000,
+    "ref_brand": "KLAVUU",
+    "tgt_brand": "Kosé",
+    "format": "micellar",
+    "claim": "dry"
+  },
+  "DEV-0207": {
+    "image_path": "images/15/12/tiki_1512_tikishop_0_big.jpg",
+    "product_id": "tiki_1512",
+    "question": "Cho mình hỏi bên Acne-Aid có sữa rửa mặt dạng gel dưỡng trắng/làm sáng da tương tự bên SCENTIO không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for brightening / whitening — but from Acne-Aid instead of SCENTIO.",
+    "answer_product_id": [
+      "tiki_893"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 178000,
+    "tgt_price": 169000,
+    "ref_brand": "SCENTIO",
+    "tgt_brand": "Acne-Aid",
+    "format": "gel",
+    "claim": "whitening"
+  },
+  "DEV-0208": {
+    "image_path": "images/15/83/tiki_1583_tikishop_6_big.jpg",
+    "product_id": "tiki_1583",
+    "question": "Cho mình hỏi bên C'ELAUD có nước tẩy trang/micellar cho da mụn tương tự bên Herbloom không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for acne-prone skin — but from C'ELAUD instead of Herbloom.",
+    "answer_product_id": [
+      "tiki_949"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 515000,
+    "tgt_price": 447000,
+    "ref_brand": "Herbloom",
+    "tgt_brand": "C'ELAUD",
+    "format": "micellar",
+    "claim": "acne"
+  },
+  "DEV-0209": {
+    "image_path": "images/50/64/50644_84285525.jpg",
+    "product_id": "27",
+    "question": "Cho mình hỏi bên Acwell có sữa rửa mặt dạng gel cho da nhạy cảm tương tự bên SK-II không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for sensitive skin — but from Acwell instead of SK-II.",
+    "answer_product_id": [
+      "tiki_858"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 69000,
+    "tgt_price": 59000,
+    "ref_brand": "SK-II",
+    "tgt_brand": "Acwell",
+    "format": "gel",
+    "claim": "sensitive"
+  },
+  "DEV-0210": {
+    "image_path": "images/95/99/9599948_7200710727.mp4",
+    "product_id": "675",
+    "question": "Cho mình hỏi bên ONYX COSMETICS có nước tẩy trang/micellar cho da mụn tương tự bên Sennio không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for acne-prone skin — but from ONYX COSMETICS instead of Sennio.",
+    "answer_product_id": [
+      "tiki_1824"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 24800,
+    "tgt_price": 25000,
+    "ref_brand": "Sennio",
+    "tgt_brand": "ONYX COSMETICS",
+    "format": "micellar",
+    "claim": "acne"
+  },
+  "DEV-0211": {
+    "image_path": "images/11/26/tiki_1126_tikishop_164_big.jpg",
+    "product_id": "tiki_1126",
+    "question": "Cho mình hỏi bên Heliocare có sữa rửa mặt dạng kem dưỡng trắng/làm sáng da tương tự bên Mizumi không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for brightening / whitening — but from Heliocare instead of Mizumi.",
+    "answer_product_id": [
+      "tiki_1697"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 202730,
+    "tgt_price": 198850,
+    "ref_brand": "Mizumi",
+    "tgt_brand": "Heliocare",
+    "format": "cream",
+    "claim": "whitening"
+  },
+  "DEV-0212": {
+    "image_path": "images/41/82/418272796_6484750720.jpg",
+    "product_id": "1289",
+    "question": "Cho mình hỏi bên Neogence có sữa rửa mặt dạng kem cho da khô/cấp ẩm tương tự bên Dr.Flomos không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from Neogence instead of Dr.Flomos.",
+    "answer_product_id": [
+      "tiki_1127"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 540000,
+    "tgt_price": 460000,
+    "ref_brand": "Dr.Flomos",
+    "tgt_brand": "Neogence",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0213": {
+    "image_path": "images/20/20/202008277_9211354382.jpg",
+    "product_id": "1343",
+    "question": "Cho mình hỏi bên SIMPLE có sữa rửa mặt dạng gel cho da nhạy cảm tương tự bên MAMONDE không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for sensitive skin — but from SIMPLE instead of MAMONDE.",
+    "answer_product_id": [
+      "1016"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 143000,
+    "tgt_price": 130000,
+    "ref_brand": "MAMONDE",
+    "tgt_brand": "SIMPLE",
+    "format": "gel",
+    "claim": "sensitive"
+  },
+  "DEV-0214": {
+    "image_path": "images/16/15/tiki_1615_tikishop_53_big.jpg",
+    "product_id": "tiki_1615",
+    "question": "Cho mình hỏi bên Herbloom có nước tẩy trang/micellar cho da nhạy cảm tương tự bên Beauty of Joseon không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for sensitive skin — but from Herbloom instead of Beauty of Joseon.",
+    "answer_product_id": [
+      "tiki_1599"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 208550,
+    "tgt_price": 198850,
+    "ref_brand": "Beauty of Joseon",
+    "tgt_brand": "Herbloom",
+    "format": "micellar",
+    "claim": "sensitive"
+  },
+  "DEV-0215": {
+    "image_path": "images/16/1_/tiki_161_tikishop_61_big.jpg",
+    "product_id": "tiki_161",
+    "question": "Cho mình hỏi bên Rusty Lab có nước tẩy trang/micellar cho da nhạy cảm tương tự bên B-LAB không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for sensitive skin — but from Rusty Lab instead of B-LAB.",
+    "answer_product_id": [
+      "tiki_342"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 525000,
+    "tgt_price": 540000,
+    "ref_brand": "B-LAB",
+    "tgt_brand": "Rusty Lab",
+    "format": "micellar",
+    "claim": "sensitive"
+  },
+  "DEV-0216": {
+    "image_path": "images/17/71/tiki_1771_tikishop_53_big.jpg",
+    "product_id": "tiki_1771",
+    "question": "Cho mình hỏi bên BIOAQUA có nước tẩy trang/micellar cho da khô/cấp ẩm tương tự bên Snow White không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for dry skin / hydrating — but from BIOAQUA instead of Snow White.",
+    "answer_product_id": [
+      "tiki_1781"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 35000,
+    "tgt_price": 39000,
+    "ref_brand": "Snow White",
+    "tgt_brand": "BIOAQUA",
+    "format": "micellar",
+    "claim": "dry"
+  },
+  "DEV-0217": {
+    "image_path": "images/15/26/tiki_1526_tikishop_53_big.jpg",
+    "product_id": "tiki_1526",
+    "question": "Cho mình hỏi bên MAMONDE có sữa rửa mặt dạng gel cho da nhạy cảm tương tự bên Medic S không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for sensitive skin — but from MAMONDE instead of Medic S.",
+    "answer_product_id": [
+      "1343"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 165000,
+    "tgt_price": 143000,
+    "ref_brand": "Medic S",
+    "tgt_brand": "MAMONDE",
+    "format": "gel",
+    "claim": "sensitive"
+  },
+  "DEV-0218": {
+    "image_path": "images/29/20/292075878_19643243445.jpg",
+    "product_id": "873",
+    "question": "Cho mình hỏi bên Bioré có sữa rửa mặt tạo bọt kiểm soát dầu/cho da dầu tương tự bên Farmona Dermacos không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for oily skin / oil control — but from Bioré instead of Farmona Dermacos.",
+    "answer_product_id": [
+      "1721"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 48000,
+    "tgt_price": 55000,
+    "ref_brand": "Farmona Dermacos",
+    "tgt_brand": "Bioré",
+    "format": "foam",
+    "claim": "oily"
+  },
+  "DEV-0219": {
+    "image_path": "images/15/78/157824670_9962708173.jpg",
+    "product_id": "1843",
+    "question": "Cho mình hỏi bên Image Skincare có nước tẩy trang/micellar cho da mụn tương tự bên HATOMUGI không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for acne-prone skin — but from Image Skincare instead of HATOMUGI.",
+    "answer_product_id": [
+      "tiki_1674"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 53040,
+    "tgt_price": 59000,
+    "ref_brand": "HATOMUGI",
+    "tgt_brand": "Image Skincare",
+    "format": "micellar",
+    "claim": "acne"
+  },
+  "DEV-0220": {
+    "image_path": "images/18/30/183019548_4300818416.jpg",
+    "product_id": "950",
+    "question": "Cho mình hỏi bên Kose có sữa rửa mặt dạng gel cho da khô/cấp ẩm tương tự bên Rataplan không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for dry skin / hydrating — but from Kose instead of Rataplan.",
+    "answer_product_id": [
+      "tiki_485"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 85000,
+    "tgt_price": 90000,
+    "ref_brand": "Rataplan",
+    "tgt_brand": "Kose",
+    "format": "gel",
+    "claim": "dry"
+  },
+  "DEV-0221": {
+    "image_path": "images/43/28/432880057_9162988631.jpg",
+    "product_id": "337",
+    "question": "Cho mình hỏi bên Wonjin Effect có sữa rửa mặt tạo bọt cho da nhạy cảm tương tự bên BYVIBES WONDER BATH không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for sensitive skin — but from Wonjin Effect instead of BYVIBES WONDER BATH.",
+    "answer_product_id": [
+      "1321"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 135000,
+    "tgt_price": 139000,
+    "ref_brand": "BYVIBES WONDER BATH",
+    "tgt_brand": "Wonjin Effect",
+    "format": "foam",
+    "claim": "sensitive"
+  },
+  "DEV-0222": {
+    "image_path": "images/72/17/72177588_1411807514.jpg",
+    "product_id": "2180",
+    "question": "Cho mình hỏi bên Laikou có sữa rửa mặt dạng gel cho da nhạy cảm tương tự bên Eau Thermale Avene không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for sensitive skin — but from Laikou instead of Eau Thermale Avene.",
+    "answer_product_id": [
+      "tiki_1446"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 260000,
+    "tgt_price": 270630,
+    "ref_brand": "Eau Thermale Avene",
+    "tgt_brand": "Laikou",
+    "format": "gel",
+    "claim": "sensitive"
+  },
+  "DEV-0223": {
+    "image_path": "images/14/05/140591350_2232059416.jpg",
+    "product_id": "1323",
+    "question": "Cho mình hỏi bên W.SKIN LABORATORY có sữa rửa mặt tạo bọt dưỡng trắng/làm sáng da tương tự bên Hatomugi Naturie không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from W.SKIN LABORATORY instead of Hatomugi Naturie.",
+    "answer_product_id": [
+      "1860"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 125000,
+    "tgt_price": 117000,
+    "ref_brand": "Hatomugi Naturie",
+    "tgt_brand": "W.SKIN LABORATORY",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0224": {
+    "image_path": "images/11/3_/tiki_113_tikishop_18_big.jpg",
+    "product_id": "tiki_113",
+    "question": "Cho mình hỏi bên cica có sữa rửa mặt dạng kem cho da khô/cấp ẩm tương tự bên Reihaku Hatomugi không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from cica instead of Reihaku Hatomugi.",
+    "answer_product_id": [
+      "tiki_1170"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 114000,
+    "tgt_price": 115000,
+    "ref_brand": "Reihaku Hatomugi",
+    "tgt_brand": "cica",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0225": {
+    "image_path": "images/13/20/tiki_1320_tikishop_5_big.jpg",
+    "product_id": "tiki_1320",
+    "question": "Cho mình hỏi bên A Cosmetics có sữa rửa mặt dạng kem cho da khô/cấp ẩm tương tự bên Enny không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from A Cosmetics instead of Enny.",
+    "answer_product_id": [
+      "tiki_251"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 1870000,
+    "tgt_price": 1730000,
+    "ref_brand": "Enny",
+    "tgt_brand": "A Cosmetics",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0226": {
+    "image_path": "images/16/97/tiki_1697_tikishop_27_big.jpg",
+    "product_id": "tiki_1697",
+    "question": "Cho mình hỏi bên Mizumi có sữa rửa mặt dạng kem dưỡng trắng/làm sáng da tương tự bên Heliocare không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for brightening / whitening — but from Mizumi instead of Heliocare.",
+    "answer_product_id": [
+      "tiki_1126"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 198850,
+    "tgt_price": 202730,
+    "ref_brand": "Heliocare",
+    "tgt_brand": "Mizumi",
+    "format": "cream",
+    "claim": "whitening"
+  },
+  "DEV-0227": {
+    "image_path": "images/41/27/412741369_7690815765.jpg",
+    "product_id": "1013",
+    "question": "Cho mình hỏi bên Men Stay Simplicity có sữa rửa mặt dạng kem cho da mụn tương tự bên Thorakao không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from Men Stay Simplicity instead of Thorakao.",
+    "answer_product_id": [
+      "220"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 58000,
+    "tgt_price": 58000,
+    "ref_brand": "Thorakao",
+    "tgt_brand": "Men Stay Simplicity",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0228": {
+    "image_path": "images/22/96/229623272_21430957853.jpg",
+    "product_id": "136",
+    "question": "Cho mình hỏi bên Deya Deya có sữa rửa mặt tạo bọt cho da khô/cấp ẩm tương tự bên K.B Pure không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for dry skin / hydrating — but from Deya Deya instead of K.B Pure.",
+    "answer_product_id": [
+      "857"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 23040,
+    "tgt_price": 22525,
+    "ref_brand": "K.B Pure",
+    "tgt_brand": "Deya Deya",
+    "format": "foam",
+    "claim": "dry"
+  },
+  "DEV-0229": {
+    "image_path": "images/43/32/433229_5505636985.jpg",
+    "product_id": "1333",
+    "question": "Cho mình hỏi bên cica có sữa rửa mặt tạo bọt dưỡng trắng/làm sáng da tương tự bên ORIGINS không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from cica instead of ORIGINS.",
+    "answer_product_id": [
+      "1752"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 99000,
+    "tgt_price": 101000,
+    "ref_brand": "ORIGINS",
+    "tgt_brand": "cica",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0230": {
+    "image_path": "images/46/72/467206068_2968859126.jpg",
+    "product_id": "1589",
+    "question": "Cho mình hỏi bên Image Skincare có nước tẩy trang/micellar cho da mụn tương tự bên HATOMUGI không ạ?",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for acne-prone skin — but from Image Skincare instead of HATOMUGI.",
+    "answer_product_id": [
+      "tiki_1674"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 52530,
+    "tgt_price": 59000,
+    "ref_brand": "HATOMUGI",
+    "tgt_brand": "Image Skincare",
+    "format": "micellar",
+    "claim": "acne"
+  },
+  "DEV-0231": {
+    "image_path": "images/81/56/815681326_20037015815.jpg",
+    "product_id": "857",
+    "question": "Cho mình hỏi bên K.B Pure có sữa rửa mặt tạo bọt cho da khô/cấp ẩm tương tự bên Deya Deya không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for dry skin / hydrating — but from K.B Pure instead of Deya Deya.",
+    "answer_product_id": [
+      "136"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 22525,
+    "tgt_price": 23040,
+    "ref_brand": "Deya Deya",
+    "tgt_brand": "K.B Pure",
+    "format": "foam",
+    "claim": "dry"
+  },
+  "DEV-0232": {
+    "image_path": "images/14/62/tiki_1462_tikishop_28_big.jpg",
+    "product_id": "tiki_1462",
+    "question": "Cho mình hỏi bên Masterni có sữa rửa mặt dạng gel dưỡng trắng/làm sáng da tương tự bên Goodal không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for brightening / whitening — but from Masterni instead of Goodal.",
+    "answer_product_id": [
+      "tiki_84"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 645000,
+    "tgt_price": 650000,
+    "ref_brand": "Goodal",
+    "tgt_brand": "Masterni",
+    "format": "gel",
+    "claim": "whitening"
+  },
+  "DEV-0233": {
+    "image_path": "images/71/64/716459829_16666002123.jpg",
+    "product_id": "1556",
+    "question": "Cho mình hỏi bên SENANA có sữa rửa mặt tạo bọt cho da khô/cấp ẩm tương tự bên YUSACHI không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for dry skin / hydrating — but from SENANA instead of YUSACHI.",
+    "answer_product_id": [
+      "391"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 345000,
+    "tgt_price": 360000,
+    "ref_brand": "YUSACHI",
+    "tgt_brand": "SENANA",
+    "format": "foam",
+    "claim": "dry"
+  },
+  "DEV-0234": {
+    "image_path": "images/15/66/156610565_3148123994.jpg",
+    "product_id": "1036",
+    "question": "Cho mình hỏi bên Mediheal có sữa rửa mặt tạo bọt chống lão hóa tương tự bên Pond's không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser anti-aging — but from Mediheal instead of Pond's.",
+    "answer_product_id": [
+      "1707"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 92000,
+    "tgt_price": 88000,
+    "ref_brand": "Pond's",
+    "tgt_brand": "Mediheal",
+    "format": "foam",
+    "claim": "antiaging"
+  },
+  "DEV-0235": {
+    "image_path": "images/84/72/84728643_10404575253.jpg",
+    "product_id": "277",
+    "question": "Cho mình hỏi bên Bihaku có sữa rửa mặt tạo bọt kiểm soát dầu/cho da dầu tương tự bên Mediheal không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for oily skin / oil control — but from Bihaku instead of Mediheal.",
+    "answer_product_id": [
+      "2122"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 39500,
+    "tgt_price": 35000,
+    "ref_brand": "Mediheal",
+    "tgt_brand": "Bihaku",
+    "format": "foam",
+    "claim": "oily"
+  },
+  "DEV-0236": {
+    "image_path": "images/27/7_/tiki_277_tikishop_95_big.jpg",
+    "product_id": "tiki_277",
+    "question": "Cho mình hỏi bên d program có sữa rửa mặt dạng kem cho da nhạy cảm tương tự bên DEWYTREE không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for sensitive skin — but from d program instead of DEWYTREE.",
+    "answer_product_id": [
+      "tiki_165"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 264000,
+    "tgt_price": 300000,
+    "ref_brand": "DEWYTREE",
+    "tgt_brand": "d program",
+    "format": "cream",
+    "claim": "sensitive"
+  },
+  "DEV-0237": {
+    "image_path": "images/15/8_/tiki_158_tikishop_21_big.jpg",
+    "product_id": "tiki_158",
+    "question": "Cho mình hỏi bên Herb Seedling có sữa rửa mặt dạng gel cho da nhạy cảm tương tự bên B-LAB không ạ?",
+    "translated_question": "I want something similar — a gel cleanser for sensitive skin — but from Herb Seedling instead of B-LAB.",
+    "answer_product_id": [
+      "tiki_1094"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 450000,
+    "tgt_price": 386000,
+    "ref_brand": "B-LAB",
+    "tgt_brand": "Herb Seedling",
+    "format": "gel",
+    "claim": "sensitive"
+  },
+  "DEV-0238": {
+    "image_path": "images/11/53/tiki_1153_tikishop_2_big.jpg",
+    "product_id": "tiki_1153",
+    "question": "Cho mình hỏi bên Sleepless Ant có sữa rửa mặt dạng kem cho da khô/cấp ẩm tương tự bên cica không ạ?",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from Sleepless Ant instead of cica.",
+    "answer_product_id": [
+      "tiki_679"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 150880,
+    "tgt_price": 159000,
+    "ref_brand": "cica",
+    "tgt_brand": "Sleepless Ant",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0239": {
+    "image_path": "images/41/59/41592556_3813339735.jpg",
+    "product_id": "1943",
+    "question": "Cho mình hỏi bên Mihoo có sữa rửa mặt tạo bọt kiểm soát dầu/cho da dầu tương tự bên Estée Lauder không ạ?",
+    "translated_question": "I want something similar — a foaming cleanser for oily skin / oil control — but from Mihoo instead of Estée Lauder.",
+    "answer_product_id": [
+      "1665"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 135000,
+    "tgt_price": 135000,
+    "ref_brand": "Estée Lauder",
+    "tgt_brand": "Mihoo",
+    "format": "foam",
+    "claim": "oily"
+  },
+  "DEV-0240": {
+    "image_path": "images/17/55/tiki_1755_tikishop_249_big.jpg",
+    "product_id": "tiki_1755",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt micellar / tẩy trang cho da mụn — nhưng của Image Skincare thay vì Uriage.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for acne-prone skin — but from Image Skincare instead of Uriage.",
+    "answer_product_id": [
+      "tiki_1674"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 69000,
+    "tgt_price": 59000,
+    "ref_brand": "Uriage",
+    "tgt_brand": "Image Skincare",
+    "format": "micellar",
+    "claim": "acne"
+  },
+  "DEV-0241": {
+    "image_path": "images/54/2_/tiki_542_tikishop_2_big.jpg",
+    "product_id": "tiki_542",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da mụn — nhưng của DR MAI thay vì DECUMAR.",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from DR MAI instead of DECUMAR.",
+    "answer_product_id": [
+      "tiki_1248"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 292560,
+    "tgt_price": 260930,
+    "ref_brand": "DECUMAR",
+    "tgt_brand": "DR MAI",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0242": {
+    "image_path": "images/49/9_/tiki_499_tikishop_21_big.jpg",
+    "product_id": "tiki_499",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem dưỡng sáng / trắng da — nhưng của OHUI thay vì HIDATI.",
+    "translated_question": "I want something similar — a cream cleanser for brightening / whitening — but from OHUI instead of HIDATI.",
+    "answer_product_id": [
+      "tiki_1368"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 1250000,
+    "tgt_price": 1150000,
+    "ref_brand": "HIDATI",
+    "tgt_brand": "OHUI",
+    "format": "cream",
+    "claim": "whitening"
+  },
+  "DEV-0243": {
+    "image_path": "images/11/15/tiki_1115_tikishop_36_big.jpg",
+    "product_id": "tiki_1115",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da mụn — nhưng của BL MIRACLE thay vì Ju:cy.",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from BL MIRACLE instead of Ju:cy.",
+    "answer_product_id": [
+      "1030"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 43000,
+    "tgt_price": 38500,
+    "ref_brand": "Ju:cy",
+    "tgt_brand": "BL MIRACLE",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0244": {
+    "image_path": "images/15/99/tiki_1599_tikishop_60_big.jpg",
+    "product_id": "tiki_1599",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt micellar / tẩy trang cho da nhạy cảm — nhưng của Beauty of Joseon thay vì Herbloom.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for sensitive skin — but from Beauty of Joseon instead of Herbloom.",
+    "answer_product_id": [
+      "tiki_1615"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 198850,
+    "tgt_price": 208550,
+    "ref_brand": "Herbloom",
+    "tgt_brand": "Beauty of Joseon",
+    "format": "micellar",
+    "claim": "sensitive"
+  },
+  "DEV-0245": {
+    "image_path": "images/42/64/4264454_7113210693.jpg",
+    "product_id": "1665",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt cho da dầu / kiểm soát nhờn — nhưng của Estée Lauder thay vì Mihoo.",
+    "translated_question": "I want something similar — a foaming cleanser for oily skin / oil control — but from Estée Lauder instead of Mihoo.",
+    "answer_product_id": [
+      "1943"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 135000,
+    "tgt_price": 135000,
+    "ref_brand": "Mihoo",
+    "tgt_brand": "Estée Lauder",
+    "format": "foam",
+    "claim": "oily"
+  },
+  "DEV-0246": {
+    "image_path": "images/25/38/253828149_4262981042.jpg",
+    "product_id": "2122",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt cho da dầu / kiểm soát nhờn — nhưng của Mediheal thay vì Bihaku.",
+    "translated_question": "I want something similar — a foaming cleanser for oily skin / oil control — but from Mediheal instead of Bihaku.",
+    "answer_product_id": [
+      "277"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 35000,
+    "tgt_price": 39500,
+    "ref_brand": "Bihaku",
+    "tgt_brand": "Mediheal",
+    "format": "foam",
+    "claim": "oily"
+  },
+  "DEV-0247": {
+    "image_path": "images/11/70/tiki_1170_tikishop_2_big.jpg",
+    "product_id": "tiki_1170",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của Reihaku Hatomugi thay vì cica.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from Reihaku Hatomugi instead of cica.",
+    "answer_product_id": [
+      "tiki_113"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 115000,
+    "tgt_price": 114000,
+    "ref_brand": "cica",
+    "tgt_brand": "Reihaku Hatomugi",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0248": {
+    "image_path": "images/26/3_/tiki_263_tikishop_78_big.jpg",
+    "product_id": "tiki_263",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của Clear Turn thay vì BIYOUGENEKI.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from Clear Turn instead of BIYOUGENEKI.",
+    "answer_product_id": [
+      "tiki_861"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 250000,
+    "tgt_price": 257000,
+    "ref_brand": "BIYOUGENEKI",
+    "tgt_brand": "Clear Turn",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0249": {
+    "image_path": "images/11/27/tiki_1127_tikishop_115_big.jpg",
+    "product_id": "tiki_1127",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của FRESH thay vì Neogence.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from FRESH instead of Neogence.",
+    "answer_product_id": [
+      "tiki_373"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 460000,
+    "tgt_price": 415000,
+    "ref_brand": "Neogence",
+    "tgt_brand": "FRESH",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0250": {
+    "image_path": "images/11/39/tiki_1139_tikishop_57_big.jpg",
+    "product_id": "tiki_1139",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem chống lão hóa — nhưng của KUMARGIC thay vì LYCOS.",
+    "translated_question": "I want something similar — a cream cleanser anti-aging — but from KUMARGIC instead of LYCOS.",
+    "answer_product_id": [
+      "tiki_911"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 160000,
+    "tgt_price": 145000,
+    "ref_brand": "LYCOS",
+    "tgt_brand": "KUMARGIC",
+    "format": "cream",
+    "claim": "antiaging"
+  },
+  "DEV-0251": {
+    "image_path": "images/16/66/tiki_1666_tikishop_29_big.jpg",
+    "product_id": "tiki_1666",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt micellar / tẩy trang cho da khô / cấp ẩm — nhưng của DR.LACIR thay vì NATURECOS.VN.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for dry skin / hydrating — but from DR.LACIR instead of NATURECOS.VN.",
+    "answer_product_id": [
+      "tiki_211"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 687000,
+    "tgt_price": 590000,
+    "ref_brand": "NATURECOS.VN",
+    "tgt_brand": "DR.LACIR",
+    "format": "micellar",
+    "claim": "dry"
+  },
+  "DEV-0252": {
+    "image_path": "images/38/55/385513181_9142469371.jpg",
+    "product_id": "1604",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt dưỡng sáng / trắng da — nhưng của W.SKIN LABORATORY thay vì Estée Lauder.",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from W.SKIN LABORATORY instead of Estée Lauder.",
+    "answer_product_id": [
+      "2220"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 194600,
+    "tgt_price": 182500,
+    "ref_brand": "Estée Lauder",
+    "tgt_brand": "W.SKIN LABORATORY",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0253": {
+    "image_path": "images/12/48/tiki_1248_tikishop_0_big.jpg",
+    "product_id": "tiki_1248",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da mụn — nhưng của DECUMAR thay vì DR MAI.",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from DECUMAR instead of DR MAI.",
+    "answer_product_id": [
+      "tiki_542"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 260930,
+    "tgt_price": 292560,
+    "ref_brand": "DR MAI",
+    "tgt_brand": "DECUMAR",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0254": {
+    "image_path": "images/67/9_/tiki_679_tikishop_0_big.jpg",
+    "product_id": "tiki_679",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của cica thay vì Sleepless Ant.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from cica instead of Sleepless Ant.",
+    "answer_product_id": [
+      "tiki_1153"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 159000,
+    "tgt_price": 150880,
+    "ref_brand": "Sleepless Ant",
+    "tgt_brand": "cica",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0255": {
+    "image_path": "images/14/05/140591350_6342915867.mp4",
+    "product_id": "83",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt dưỡng sáng / trắng da — nhưng của Pure Natural Fragrance thay vì Hatomugi Naturie.",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from Pure Natural Fragrance instead of Hatomugi Naturie.",
+    "answer_product_id": [
+      "1495"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 139000,
+    "tgt_price": 150000,
+    "ref_brand": "Hatomugi Naturie",
+    "tgt_brand": "Pure Natural Fragrance",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0256": {
+    "image_path": "images/16/09/tiki_1609_tikishop_0_big.jpg",
+    "product_id": "tiki_1609",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt micellar / tẩy trang cho da khô / cấp ẩm — nhưng của Kosé thay vì SIMPLE.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for dry skin / hydrating — but from Kosé instead of SIMPLE.",
+    "answer_product_id": [
+      "tiki_1795"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 139000,
+    "tgt_price": 153000,
+    "ref_brand": "SIMPLE",
+    "tgt_brand": "Kosé",
+    "format": "micellar",
+    "claim": "dry"
+  },
+  "DEV-0257": {
+    "image_path": "images/48/74/48747614_11251761531.jpg",
+    "product_id": "1048",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt dưỡng sáng / trắng da — nhưng của Pure Natural Fragrance thay vì Estée Lauder.",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from Pure Natural Fragrance instead of Estée Lauder.",
+    "answer_product_id": [
+      "1918"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 268000,
+    "tgt_price": 234900,
+    "ref_brand": "Estée Lauder",
+    "tgt_brand": "Pure Natural Fragrance",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0258": {
+    "image_path": "images/71/3_/tiki_713_tikishop_14_big.jpg",
+    "product_id": "tiki_713",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem dưỡng sáng / trắng da — nhưng của Sumdfine thay vì BREYLEE.",
+    "translated_question": "I want something similar — a cream cleanser for brightening / whitening — but from Sumdfine instead of BREYLEE.",
+    "answer_product_id": [
+      "tiki_559"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 76000,
+    "tgt_price": 65000,
+    "ref_brand": "BREYLEE",
+    "tgt_brand": "Sumdfine",
+    "format": "cream",
+    "claim": "whitening"
+  },
+  "DEV-0259": {
+    "image_path": "images/86/1_/tiki_861_tikishop_74_big.jpg",
+    "product_id": "tiki_861",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của BIYOUGENEKI thay vì Clear Turn.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from BIYOUGENEKI instead of Clear Turn.",
+    "answer_product_id": [
+      "tiki_263"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 257000,
+    "tgt_price": 250000,
+    "ref_brand": "Clear Turn",
+    "tgt_brand": "BIYOUGENEKI",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0260": {
+    "image_path": "images/17/21/tiki_1721_tikishop_250_big.jpg",
+    "product_id": "tiki_1721",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt micellar / tẩy trang cho da nhạy cảm — nhưng của Ipek thay vì Unilever.",
+    "translated_question": "I want something similar — a micellar / makeup-removing cleanser for sensitive skin — but from Ipek instead of Unilever.",
+    "answer_product_id": [
+      "tiki_1650"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 154000,
+    "tgt_price": 145000,
+    "ref_brand": "Unilever",
+    "tgt_brand": "Ipek",
+    "format": "micellar",
+    "claim": "sensitive"
+  },
+  "DEV-0261": {
+    "image_path": "images/37/3_/tiki_373_tikishop_92_big.jpg",
+    "product_id": "tiki_373",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của Neogence thay vì FRESH.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from Neogence instead of FRESH.",
+    "answer_product_id": [
+      "tiki_1127"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 415000,
+    "tgt_price": 460000,
+    "ref_brand": "FRESH",
+    "tgt_brand": "Neogence",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0262": {
+    "image_path": "images/28/6_/tiki_286_tikishop_28_big.jpg",
+    "product_id": "tiki_286",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem chống lão hóa — nhưng của Navacos thay vì OHUI.",
+    "translated_question": "I want something similar — a cream cleanser anti-aging — but from Navacos instead of OHUI.",
+    "answer_product_id": [
+      "tiki_616"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 1575000,
+    "tgt_price": 1592000,
+    "ref_brand": "OHUI",
+    "tgt_brand": "Navacos",
+    "format": "cream",
+    "claim": "antiaging"
+  },
+  "DEV-0263": {
+    "image_path": "images/18/53/185337128_17332778695.jpg",
+    "product_id": "1782",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da mụn — nhưng của BL MIRACLE thay vì Etude House.",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from BL MIRACLE instead of Etude House.",
+    "answer_product_id": [
+      "1030"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 34000,
+    "tgt_price": 38500,
+    "ref_brand": "Etude House",
+    "tgt_brand": "BL MIRACLE",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0264": {
+    "image_path": "images/80/70/807024_4005116409.jpg",
+    "product_id": "391",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt cho da khô / cấp ẩm — nhưng của YUSACHI thay vì SENANA.",
+    "translated_question": "I want something similar — a foaming cleanser for dry skin / hydrating — but from YUSACHI instead of SENANA.",
+    "answer_product_id": [
+      "1556"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 360000,
+    "tgt_price": 345000,
+    "ref_brand": "SENANA",
+    "tgt_brand": "YUSACHI",
+    "format": "foam",
+    "claim": "dry"
+  },
+  "DEV-0265": {
+    "image_path": "images/25/1_/tiki_251_tikishop_85_big.jpg",
+    "product_id": "tiki_251",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của Enny thay vì A Cosmetics.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from Enny instead of A Cosmetics.",
+    "answer_product_id": [
+      "tiki_1320"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 1730000,
+    "tgt_price": 1870000,
+    "ref_brand": "A Cosmetics",
+    "tgt_brand": "Enny",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0266": {
+    "image_path": "images/54/07/540766923_9694247088.jpg",
+    "product_id": "1707",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt chống lão hóa — nhưng của Pond's thay vì Mediheal.",
+    "translated_question": "I want something similar — a foaming cleanser anti-aging — but from Pond's instead of Mediheal.",
+    "answer_product_id": [
+      "1036"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 88000,
+    "tgt_price": 92000,
+    "ref_brand": "Mediheal",
+    "tgt_brand": "Pond's",
+    "format": "foam",
+    "claim": "antiaging"
+  },
+  "DEV-0267": {
+    "image_path": "images/17/1_/tiki_171_tikishop_1_big.jpg",
+    "product_id": "tiki_171",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da khô / cấp ẩm — nhưng của Sleepless Ant thay vì CNP Laboratory.",
+    "translated_question": "I want something similar — a cream cleanser for dry skin / hydrating — but from Sleepless Ant instead of CNP Laboratory.",
+    "answer_product_id": [
+      "tiki_679"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 183000,
+    "tgt_price": 159000,
+    "ref_brand": "CNP Laboratory",
+    "tgt_brand": "Sleepless Ant",
+    "format": "cream",
+    "claim": "dry"
+  },
+  "DEV-0268": {
+    "image_path": "images/20/50/205083574_16639239650.jpg",
+    "product_id": "220",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da mụn — nhưng của Thorakao thay vì Men Stay Simplicity.",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from Thorakao instead of Men Stay Simplicity.",
+    "answer_product_id": [
+      "1013"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 58000,
+    "tgt_price": 58000,
+    "ref_brand": "Men Stay Simplicity",
+    "tgt_brand": "Thorakao",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0269": {
+    "image_path": "images/12/15/tiki_1215_tikishop_0_big.jpg",
+    "product_id": "tiki_1215",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng gel cho da mụn — nhưng của MEDIHEAL thay vì Acnes.",
+    "translated_question": "I want something similar — a gel cleanser for acne-prone skin — but from MEDIHEAL instead of Acnes.",
+    "answer_product_id": [
+      "2052"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 65000,
+    "tgt_price": 70000,
+    "ref_brand": "Acnes",
+    "tgt_brand": "MEDIHEAL",
+    "format": "gel",
+    "claim": "acne"
+  },
+  "DEV-0270": {
+    "image_path": "images/61/6_/tiki_616_tikishop_146_big.jpg",
+    "product_id": "tiki_616",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem chống lão hóa — nhưng của OHUI thay vì Navacos.",
+    "translated_question": "I want something similar — a cream cleanser anti-aging — but from OHUI instead of Navacos.",
+    "answer_product_id": [
+      "tiki_286"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 1592000,
+    "tgt_price": 1575000,
+    "ref_brand": "Navacos",
+    "tgt_brand": "OHUI",
+    "format": "cream",
+    "claim": "antiaging"
+  },
+  "DEV-0271": {
+    "image_path": "images/15/61/156150413_2642130933.jpg",
+    "product_id": "415",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem cho da mụn — nhưng của Samsara thay vì A-DERMA.",
+    "translated_question": "I want something similar — a cream cleanser for acne-prone skin — but from Samsara instead of A-DERMA.",
+    "answer_product_id": [
+      "15"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 72000,
+    "tgt_price": 72000,
+    "ref_brand": "A-DERMA",
+    "tgt_brand": "Samsara",
+    "format": "cream",
+    "claim": "acne"
+  },
+  "DEV-0272": {
+    "image_path": "images/79/0_/tiki_790_tikishop_1_big.jpg",
+    "product_id": "tiki_790",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt cho da khô / cấp ẩm — nhưng của Aosacleanser thay vì BALANCE ACTIVE FORMULA.",
+    "translated_question": "I want something similar — a foaming cleanser for dry skin / hydrating — but from Aosacleanser instead of BALANCE ACTIVE FORMULA.",
+    "answer_product_id": [
+      "906"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 697000,
+    "tgt_price": 600000,
+    "ref_brand": "BALANCE ACTIVE FORMULA",
+    "tgt_brand": "Aosacleanser",
+    "format": "foam",
+    "claim": "dry"
+  },
+  "DEV-0273": {
+    "image_path": "images/20/50/205083574_7661625637.jpg",
+    "product_id": "243",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt cho da khô / cấp ẩm — nhưng của SIMPLE PURE thay vì cica.",
+    "translated_question": "I want something similar — a foaming cleanser for dry skin / hydrating — but from SIMPLE PURE instead of cica.",
+    "answer_product_id": [
+      "1757"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 55000,
+    "tgt_price": 59000,
+    "ref_brand": "cica",
+    "tgt_brand": "SIMPLE PURE",
+    "format": "foam",
+    "claim": "dry"
+  },
+  "DEV-0274": {
+    "image_path": "images/91/1_/tiki_911_tikishop_14_big.jpg",
+    "product_id": "tiki_911",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng kem chống lão hóa — nhưng của LYCOS thay vì KUMARGIC.",
+    "translated_question": "I want something similar — a cream cleanser anti-aging — but from LYCOS instead of KUMARGIC.",
+    "answer_product_id": [
+      "tiki_1139"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 145000,
+    "tgt_price": 160000,
+    "ref_brand": "KUMARGIC",
+    "tgt_brand": "LYCOS",
+    "format": "cream",
+    "claim": "antiaging"
+  },
+  "DEV-0275": {
+    "image_path": "images/11/11/111138057_18532946216.jpg",
+    "product_id": "431",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt cho da mụn — nhưng của MAMONDE thay vì Cerave.",
+    "translated_question": "I want something similar — a foaming cleanser for acne-prone skin — but from MAMONDE instead of Cerave.",
+    "answer_product_id": [
+      "535"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 93000,
+    "tgt_price": 90000,
+    "ref_brand": "Cerave",
+    "tgt_brand": "MAMONDE",
+    "format": "foam",
+    "claim": "acne"
+  },
+  "DEV-0276": {
+    "image_path": "images/17/57/175753395_3980168595.jpg",
+    "product_id": "567",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt dạng gel cho da khô / cấp ẩm — nhưng của Acne-Aid thay vì DHG PHARMA.",
+    "translated_question": "I want something similar — a gel cleanser for dry skin / hydrating — but from Acne-Aid instead of DHG PHARMA.",
+    "answer_product_id": [
+      "tiki_234"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 195000,
+    "tgt_price": 169000,
+    "ref_brand": "DHG PHARMA",
+    "tgt_brand": "Acne-Aid",
+    "format": "gel",
+    "claim": "dry"
+  },
+  "DEV-0277": {
+    "image_path": "images/37/25/37251933_591989299.jpg",
+    "product_id": "210",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt dưỡng sáng / trắng da — nhưng của cica thay vì ORIGINS.",
+    "translated_question": "I want something similar — a foaming cleanser for brightening / whitening — but from cica instead of ORIGINS.",
+    "answer_product_id": [
+      "1752"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 90000,
+    "tgt_price": 101000,
+    "ref_brand": "ORIGINS",
+    "tgt_brand": "cica",
+    "format": "foam",
+    "claim": "whitening"
+  },
+  "DEV-0278": {
+    "image_path": "images/17/21/17218651_7549508168.jpg",
+    "product_id": "1184",
+    "question": "Mình muốn tìm sản phẩm tương tự — sữa rửa mặt tạo bọt chống lão hóa — nhưng của OHUI thay vì dermaAngel.",
+    "translated_question": "I want something similar — a foaming cleanser anti-aging — but from OHUI instead of dermaAngel.",
+    "answer_product_id": [
+      "1459"
+    ],
+    "rule": "brand_swap",
+    "ref_price": 245000,
+    "tgt_price": 260000,
+    "ref_brand": "dermaAngel",
+    "tgt_brand": "OHUI",
+    "format": "foam",
+    "claim": "antiaging"
+  }
+}

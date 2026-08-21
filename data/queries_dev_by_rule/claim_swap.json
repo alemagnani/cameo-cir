@@ -1,0 +1,2252 @@
+{
+  "DEV-0279": {
+    "image_path": "images/63/4_/tiki_634_tikishop_3_big.jpg",
+    "product_id": "tiki_634",
+    "question": "Vẫn là thương hiệu COMPLIMENT, nhưng mình cần loại dưỡng sáng / trắng da thay vì loại dành cho da khô / cấp ẩm.",
+    "translated_question": "Same brand (COMPLIMENT), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1247"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 138000,
+    "tgt_price": 95000,
+    "ref_brand": "COMPLIMENT",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0280": {
+    "image_path": "images/23/38/233816484_3819653204.jpg",
+    "product_id": "1979",
+    "question": "Vẫn thương hiệu YUSACHI nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (YUSACHI), but I need one anti-aging instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1807"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 355000,
+    "tgt_price": 62000,
+    "ref_brand": "YUSACHI",
+    "ref_claim": "acne",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0281": {
+    "image_path": "images/15/14/tiki_1514_tikishop_92_big.jpg",
+    "product_id": "tiki_1514",
+    "question": "Vẫn thương hiệu FRESH nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (FRESH), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_905"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 2540000,
+    "tgt_price": 2560000,
+    "ref_brand": "FRESH",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0282": {
+    "image_path": "images/43/7_/tiki_437_tikishop_0_big.jpg",
+    "product_id": "tiki_437",
+    "question": "Vẫn thương hiệu Miss Saigon nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da dầu/kiểm soát dầu nhé.",
+    "translated_question": "Same brand (Miss Saigon), but I need one for dry skin / hydrating instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "tiki_333"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 399000,
+    "tgt_price": 345000,
+    "ref_brand": "Miss Saigon",
+    "ref_claim": "oily",
+    "tgt_claim": "dry"
+  },
+  "DEV-0283": {
+    "image_path": "images/10/54/tiki_1054_tikishop_31_big.jpg",
+    "product_id": "tiki_1054",
+    "question": "Vẫn thương hiệu KOSÉ nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (KOSÉ), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_76"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 32000,
+    "tgt_price": 32000,
+    "ref_brand": "KOSÉ",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0284": {
+    "image_path": "images/25/1_/tiki_251_tikishop_85_big.jpg",
+    "product_id": "tiki_251",
+    "question": "Vẫn thương hiệu A Cosmetics nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (A Cosmetics), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_603"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 1730000,
+    "tgt_price": 1820000,
+    "ref_brand": "A Cosmetics",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0285": {
+    "image_path": "images/16/65/tiki_1665_tikishop_98_big.jpg",
+    "product_id": "tiki_1665",
+    "question": "Vẫn thương hiệu PIME nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (PIME), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_299"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 380000,
+    "tgt_price": 883600,
+    "ref_brand": "PIME",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0286": {
+    "image_path": "images/18/64/18644537_4143515576.jpg",
+    "product_id": "217",
+    "question": "Vẫn thương hiệu Mediheal nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Mediheal), but I need one anti-aging instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1707"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 91000,
+    "tgt_price": 88000,
+    "ref_brand": "Mediheal",
+    "ref_claim": "acne",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0287": {
+    "image_path": "images/26/69/266965370_8366276038.jpg",
+    "product_id": "447",
+    "question": "Vẫn thương hiệu EIR nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (EIR), but I need one for brightening / whitening instead of for sensitive skin.",
+    "answer_product_id": [
+      "2155"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 17000,
+    "tgt_price": 28000,
+    "ref_brand": "EIR",
+    "ref_claim": "sensitive",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0288": {
+    "image_path": "images/14/05/140591350_2198499448.jpg",
+    "product_id": "975",
+    "question": "Vẫn thương hiệu Hatomugi Naturie nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Hatomugi Naturie), but I need one anti-aging instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "281"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 145000,
+    "tgt_price": 135000,
+    "ref_brand": "Hatomugi Naturie",
+    "ref_claim": "dry",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0289": {
+    "image_path": "images/48/4_/tiki_484_tikishop_49_big.jpg",
+    "product_id": "tiki_484",
+    "question": "Vẫn thương hiệu Rainbow L'affair nhưng cho mình xin loại chống lão hóa thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Rainbow L'affair), but I need one anti-aging instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_864"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 245000,
+    "tgt_price": 180000,
+    "ref_brand": "Rainbow L'affair",
+    "ref_claim": "whitening",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0290": {
+    "image_path": "images/10/7_/tiki_107_tikishop_42_big.jpg",
+    "product_id": "tiki_107",
+    "question": "Vẫn thương hiệu CLOBETAMIL G nhưng cho mình xin loại dành cho da mụn thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (CLOBETAMIL G), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1600"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 335000,
+    "tgt_price": 795000,
+    "ref_brand": "CLOBETAMIL G",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0291": {
+    "image_path": "images/81/7_/tiki_817_tikishop_1_big.jpg",
+    "product_id": "tiki_817",
+    "question": "Vẫn thương hiệu BALANCE ACTIVE FORMULA nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại chống lão hóa nhé.",
+    "translated_question": "Same brand (BALANCE ACTIVE FORMULA), but I need one for dry skin / hydrating instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_790"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 627000,
+    "tgt_price": 697000,
+    "ref_brand": "BALANCE ACTIVE FORMULA",
+    "ref_claim": "antiaging",
+    "tgt_claim": "dry"
+  },
+  "DEV-0292": {
+    "image_path": "images/14/48/tiki_1448_tikishop_18_big.jpg",
+    "product_id": "tiki_1448",
+    "question": "Vẫn thương hiệu SCENTIO nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da dầu/kiểm soát dầu nhé.",
+    "translated_question": "Same brand (SCENTIO), but I need one for dry skin / hydrating instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "tiki_1396"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 136800,
+    "tgt_price": 246600,
+    "ref_brand": "SCENTIO",
+    "ref_claim": "oily",
+    "tgt_claim": "dry"
+  },
+  "DEV-0293": {
+    "image_path": "images/94/7_/tiki_947_tikishop_53_big.jpg",
+    "product_id": "tiki_947",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1615"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 479000,
+    "tgt_price": 208550,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0294": {
+    "image_path": "images/69/3_/tiki_693_tikishop_21_big.jpg",
+    "product_id": "tiki_693",
+    "question": "Vẫn thương hiệu Hanyul nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Hanyul), but I need one for brightening / whitening instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_494"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 865000,
+    "tgt_price": 1250000,
+    "ref_brand": "Hanyul",
+    "ref_claim": "sensitive",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0295": {
+    "image_path": "images/71/6_/tiki_716_tikishop_0_big.jpg",
+    "product_id": "tiki_716",
+    "question": "Vẫn thương hiệu Sleepless Ant nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Sleepless Ant), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_679"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 88000,
+    "tgt_price": 159000,
+    "ref_brand": "Sleepless Ant",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0296": {
+    "image_path": "images/92/7_/tiki_927_tikishop_2_big.jpg",
+    "product_id": "tiki_927",
+    "question": "Vẫn thương hiệu SCENTIO nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (SCENTIO), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1396"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 155480,
+    "tgt_price": 246600,
+    "ref_brand": "SCENTIO",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0297": {
+    "image_path": "images/12/05/tiki_1205_tikishop_2_big.jpg",
+    "product_id": "tiki_1205",
+    "question": "Vẫn thương hiệu ROUND LAB nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (ROUND LAB), but I need one anti-aging instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1209"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 1320000,
+    "tgt_price": 639000,
+    "ref_brand": "ROUND LAB",
+    "ref_claim": "dry",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0298": {
+    "image_path": "images/12/89/tiki_1289_tikishop_5_big.jpg",
+    "product_id": "tiki_1289",
+    "question": "Vẫn thương hiệu PRETASA nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (PRETASA), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1185"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 625000,
+    "tgt_price": 4320000,
+    "ref_brand": "PRETASA",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0299": {
+    "image_path": "images/14/93/tiki_1493_tikishop_92_big.jpg",
+    "product_id": "tiki_1493",
+    "question": "Vẫn thương hiệu FRESH nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (FRESH), but I need one for brightening / whitening instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_905"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 2140000,
+    "tgt_price": 2560000,
+    "ref_brand": "FRESH",
+    "ref_claim": "sensitive",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0300": {
+    "image_path": "images/95/7_/tiki_957_tikishop_165_big.jpg",
+    "product_id": "tiki_957",
+    "question": "Vẫn thương hiệu Bioverse nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Bioverse), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_748"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 218250,
+    "tgt_price": 195000,
+    "ref_brand": "Bioverse",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0301": {
+    "image_path": "images/14/36/tiki_1436_tikishop_28_big.jpg",
+    "product_id": "tiki_1436",
+    "question": "Vẫn thương hiệu OHUI nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (OHUI), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_381"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 550000,
+    "tgt_price": 720000,
+    "ref_brand": "OHUI",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0302": {
+    "image_path": "images/11/0_/tiki_110_tikishop_43_big.jpg",
+    "product_id": "tiki_110",
+    "question": "Vẫn thương hiệu LYCOS nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (LYCOS), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1618"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 217500,
+    "tgt_price": 210490,
+    "ref_brand": "LYCOS",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0303": {
+    "image_path": "images/39/1_/tiki_391_tikishop_116_big.jpg",
+    "product_id": "tiki_391",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one anti-aging instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_948"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 399000,
+    "tgt_price": 425000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "dry",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0304": {
+    "image_path": "images/48/7_/tiki_487_tikishop_0_big.jpg",
+    "product_id": "tiki_487",
+    "question": "Vẫn thương hiệu BE PLAIN nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (BE PLAIN), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_521"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 335000,
+    "tgt_price": 335000,
+    "ref_brand": "BE PLAIN",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0305": {
+    "image_path": "images/10/86/tiki_1086_tikishop_45_big.jpg",
+    "product_id": "tiki_1086",
+    "question": "Vẫn thương hiệu Mayan nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Mayan), but I need one anti-aging instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_100"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 25000,
+    "tgt_price": 17000,
+    "ref_brand": "Mayan",
+    "ref_claim": "acne",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0306": {
+    "image_path": "images/29/0_/tiki_290_tikishop_6_big.jpg",
+    "product_id": "tiki_290",
+    "question": "Vẫn thương hiệu PEACHOLIC nhưng cho mình xin loại dành cho da mụn thay vì loại chống lão hóa nhé.",
+    "translated_question": "Same brand (PEACHOLIC), but I need one for acne-prone skin instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_1101"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 179000,
+    "tgt_price": 79000,
+    "ref_brand": "PEACHOLIC",
+    "ref_claim": "antiaging",
+    "tgt_claim": "acne"
+  },
+  "DEV-0307": {
+    "image_path": "images/12/06/tiki_1206_tikishop_15_big.jpg",
+    "product_id": "tiki_1206",
+    "question": "Vẫn thương hiệu Laikou nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Laikou), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1446"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 280330,
+    "tgt_price": 270630,
+    "ref_brand": "Laikou",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0308": {
+    "image_path": "images/89/3_/tiki_893_tikishop_0_big.jpg",
+    "product_id": "tiki_893",
+    "question": "Vẫn thương hiệu Acne-Aid nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Acne-Aid), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_234"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 169000,
+    "tgt_price": 169000,
+    "ref_brand": "Acne-Aid",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0309": {
+    "image_path": "images/98/4_/tiki_984_tikishop_2_big.jpg",
+    "product_id": "tiki_984",
+    "question": "Vẫn thương hiệu Kose nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da dầu/kiểm soát dầu nhé.",
+    "translated_question": "Same brand (Kose), but I need one for brightening / whitening instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "tiki_510"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 164680,
+    "tgt_price": 175000,
+    "ref_brand": "Kose",
+    "ref_claim": "oily",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0310": {
+    "image_path": "images/59/7_/tiki_597_tikishop_116_big.jpg",
+    "product_id": "tiki_597",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1615"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 169000,
+    "tgt_price": 208550,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0311": {
+    "image_path": "images/59/6_/tiki_596_tikishop_76_big.jpg",
+    "product_id": "tiki_596",
+    "question": "Vẫn thương hiệu AROMAZONE nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (AROMAZONE), but I need one for dry skin / hydrating instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_226"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 120000,
+    "tgt_price": 300000,
+    "ref_brand": "AROMAZONE",
+    "ref_claim": "sensitive",
+    "tgt_claim": "dry"
+  },
+  "DEV-0312": {
+    "image_path": "images/77/44/77440444_4571147728.jpg",
+    "product_id": "1488",
+    "question": "Vẫn thương hiệu Senana nhưng cho mình xin loại dành cho da mụn thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Senana), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "1035"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 15750,
+    "tgt_price": 15250,
+    "ref_brand": "Senana",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0313": {
+    "image_path": "images/93/4_/tiki_934_tikishop_2_big.jpg",
+    "product_id": "tiki_934",
+    "question": "Vẫn thương hiệu LYCOS nhưng cho mình xin loại dành cho da mụn thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (LYCOS), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1618"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 152490,
+    "tgt_price": 210490,
+    "ref_brand": "LYCOS",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0314": {
+    "image_path": "images/94/8_/tiki_948_tikishop_53_big.jpg",
+    "product_id": "tiki_948",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại chống lão hóa nhé.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one for brightening / whitening instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_947"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 425000,
+    "tgt_price": 479000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "antiaging",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0315": {
+    "image_path": "images/27/8_/tiki_278_tikishop_1_big.jpg",
+    "product_id": "tiki_278",
+    "question": "Vẫn thương hiệu Fixderma nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Fixderma), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1120"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 3285000,
+    "tgt_price": 330000,
+    "ref_brand": "Fixderma",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0316": {
+    "image_path": "images/25/80/258099521_4043100857.jpg",
+    "product_id": "1981",
+    "question": "Vẫn thương hiệu Eau Thermale Avene nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Eau Thermale Avene), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "2180"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 79000,
+    "tgt_price": 260000,
+    "ref_brand": "Eau Thermale Avene",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0317": {
+    "image_path": "images/66/0_/tiki_660_tikishop_2_big.jpg",
+    "product_id": "tiki_660",
+    "question": "Vẫn thương hiệu LACO nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (LACO), but I need one for dry skin / hydrating instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1179"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 16000,
+    "tgt_price": 197800,
+    "ref_brand": "LACO",
+    "ref_claim": "sensitive",
+    "tgt_claim": "dry"
+  },
+  "DEV-0318": {
+    "image_path": "images/15/94/tiki_1594_tikishop_67_big.jpg",
+    "product_id": "tiki_1594",
+    "question": "Vẫn thương hiệu FRESH nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da dầu/kiểm soát dầu nhé.",
+    "translated_question": "Same brand (FRESH), but I need one for brightening / whitening instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "tiki_905"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 470000,
+    "tgt_price": 2560000,
+    "ref_brand": "FRESH",
+    "ref_claim": "oily",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0319": {
+    "image_path": "images/10/69/tiki_1069_tikishop_0_big.jpg",
+    "product_id": "tiki_1069",
+    "question": "Vẫn thương hiệu dermaAngel nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (dermaAngel), but I need one anti-aging instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1184"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 345000,
+    "tgt_price": 245000,
+    "ref_brand": "dermaAngel",
+    "ref_claim": "acne",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0320": {
+    "image_path": "images/81/44/814435446_18929453539.jpg",
+    "product_id": "708",
+    "question": "Cùng thương hiệu BYVIBES WONDER BATH, nhưng mình cần loại dành cho da mụn thay vì da nhạy cảm.",
+    "translated_question": "Same brand (BYVIBES WONDER BATH), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "1939"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 169000,
+    "tgt_price": 170000,
+    "ref_brand": "BYVIBES WONDER BATH",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0321": {
+    "image_path": "images/81/24/812449960_18534562332.jpg",
+    "product_id": "157",
+    "question": "Cùng thương hiệu dermaAngel, nhưng mình cần loại chống lão hóa thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (dermaAngel), but I need one anti-aging instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1184"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 285000,
+    "tgt_price": 245000,
+    "ref_brand": "dermaAngel",
+    "ref_claim": "dry",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0322": {
+    "image_path": "images/84/72/84728643_10404575253.jpg",
+    "product_id": "277",
+    "question": "Cùng thương hiệu Mediheal, nhưng mình cần loại chống lão hóa thay vì kiểm soát dầu cho da dầu.",
+    "translated_question": "Same brand (Mediheal), but I need one anti-aging instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "1707"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 39500,
+    "tgt_price": 88000,
+    "ref_brand": "Mediheal",
+    "ref_claim": "oily",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0323": {
+    "image_path": "images/28/22/28228365_20205154492.jpg",
+    "product_id": "1620",
+    "question": "Cùng thương hiệu K.B Pure, nhưng mình cần loại dành cho da nhạy cảm thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (K.B Pure), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "2105"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 25900,
+    "tgt_price": 36000,
+    "ref_brand": "K.B Pure",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0324": {
+    "image_path": "images/15/12/tiki_1512_tikishop_0_big.jpg",
+    "product_id": "tiki_1512",
+    "question": "Cùng thương hiệu SCENTIO, nhưng mình cần loại dành cho da mụn thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (SCENTIO), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_927"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 178000,
+    "tgt_price": 155480,
+    "ref_brand": "SCENTIO",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0325": {
+    "image_path": "images/16/34/163465698_2648830960.jpg",
+    "product_id": "1792",
+    "question": "Cùng thương hiệu Jade Complexion Health, nhưng mình cần loại dưỡng sáng/trắng da thay vì dành cho da nhạy cảm.",
+    "translated_question": "Same brand (Jade Complexion Health), but I need one for brightening / whitening instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_658"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 36000,
+    "tgt_price": 127000,
+    "ref_brand": "Jade Complexion Health",
+    "ref_claim": "sensitive",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0326": {
+    "image_path": "images/58/2_/tiki_582_tikishop_51_big.jpg",
+    "product_id": "tiki_582",
+    "question": "Cùng thương hiệu Phoenix Pharma, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (Phoenix Pharma), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_912"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 7970000,
+    "tgt_price": 4870000,
+    "ref_brand": "Phoenix Pharma",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0327": {
+    "image_path": "images/18/30/183019548_4300818416.jpg",
+    "product_id": "950",
+    "question": "Cùng thương hiệu Rataplan, nhưng mình cần loại dưỡng sáng/trắng da thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (Rataplan), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1372"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 85000,
+    "tgt_price": 8000,
+    "ref_brand": "Rataplan",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0328": {
+    "image_path": "images/65/8_/tiki_658_tikishop_153_big.jpg",
+    "product_id": "tiki_658",
+    "question": "Cùng thương hiệu Jade Complexion Health, nhưng mình cần loại dành cho da nhạy cảm thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (Jade Complexion Health), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "1792"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 127000,
+    "tgt_price": 36000,
+    "ref_brand": "Jade Complexion Health",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0329": {
+    "image_path": "images/12/99/tiki_1299_tikishop_87_big.jpg",
+    "product_id": "tiki_1299",
+    "question": "Cùng thương hiệu Thorakao, nhưng mình cần loại dành cho da nhạy cảm thay vì dành cho da mụn.",
+    "translated_question": "Same brand (Thorakao), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_257"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 108000,
+    "tgt_price": 140000,
+    "ref_brand": "Thorakao",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0330": {
+    "image_path": "images/29/0_/tiki_290_tikishop_6_big.jpg",
+    "product_id": "tiki_290",
+    "question": "Cùng thương hiệu PEACHOLIC, nhưng mình cần loại dành cho da nhạy cảm thay vì chống lão hóa.",
+    "translated_question": "Same brand (PEACHOLIC), but I need one for sensitive skin instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_952"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 179000,
+    "tgt_price": 129000,
+    "ref_brand": "PEACHOLIC",
+    "ref_claim": "antiaging",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0331": {
+    "image_path": "images/12/07/tiki_1207_tikishop_0_big.jpg",
+    "product_id": "tiki_1207",
+    "question": "Cùng thương hiệu La Roche-Posay, nhưng mình cần loại dưỡng sáng/trắng da thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (La Roche-Posay), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1175"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 688000,
+    "tgt_price": 688000,
+    "ref_brand": "La Roche-Posay",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0332": {
+    "image_path": "images/59/7_/tiki_597_tikishop_116_big.jpg",
+    "product_id": "tiki_597",
+    "question": "Cùng thương hiệu Beauty of Joseon, nhưng mình cần loại dành cho da mụn thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_77"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 169000,
+    "tgt_price": 115000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0333": {
+    "image_path": "images/67/9_/tiki_679_tikishop_0_big.jpg",
+    "product_id": "tiki_679",
+    "question": "Cùng thương hiệu Sleepless Ant, nhưng mình cần loại dành cho da mụn thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (Sleepless Ant), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_716"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 159000,
+    "tgt_price": 88000,
+    "ref_brand": "Sleepless Ant",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0334": {
+    "image_path": "images/90/6_/tiki_906_tikishop_92_big.jpg",
+    "product_id": "tiki_906",
+    "question": "Cùng thương hiệu FRESH, nhưng mình cần loại kiểm soát dầu cho da dầu thay vì chống lão hóa.",
+    "translated_question": "Same brand (FRESH), but I need one for oily skin / oil control instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_1594"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 2140000,
+    "tgt_price": 470000,
+    "ref_brand": "FRESH",
+    "ref_claim": "antiaging",
+    "tgt_claim": "oily"
+  },
+  "DEV-0335": {
+    "image_path": "images/14/57/tiki_1457_tikishop_48_big.jpg",
+    "product_id": "tiki_1457",
+    "question": "Cùng thương hiệu LYCOS, nhưng mình cần loại dành cho da nhạy cảm thay vì chống lão hóa.",
+    "translated_question": "Same brand (LYCOS), but I need one for sensitive skin instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_1589"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 143500,
+    "tgt_price": 122000,
+    "ref_brand": "LYCOS",
+    "ref_claim": "antiaging",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0336": {
+    "image_path": "images/12/32/12325354_15514895814.jpg",
+    "product_id": "1674",
+    "question": "Cùng thương hiệu Derma, nhưng mình cần loại dành cho da mụn thay vì da nhạy cảm.",
+    "translated_question": "Same brand (Derma), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "2163"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 24999,
+    "tgt_price": 30000,
+    "ref_brand": "Derma",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0337": {
+    "image_path": "images/33/97/339714049_8645585509.jpg",
+    "product_id": "1347",
+    "question": "Cùng thương hiệu Estée Lauder, nhưng mình cần loại chống lão hóa thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (Estée Lauder), but I need one anti-aging instead of for brightening / whitening.",
+    "answer_product_id": [
+      "1794"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 175000,
+    "tgt_price": 28500,
+    "ref_brand": "Estée Lauder",
+    "ref_claim": "whitening",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0338": {
+    "image_path": "images/32/36/323611095_5788815230.jpg",
+    "product_id": "865",
+    "question": "Cùng thương hiệu Watsons, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (Watsons), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "1869"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 50000,
+    "tgt_price": 65072,
+    "ref_brand": "Watsons",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0339": {
+    "image_path": "images/32/83/328360277_11915315772.mp4",
+    "product_id": "1918",
+    "question": "Cùng thương hiệu Pure Natural Fragrance, nhưng mình cần loại dành cho da nhạy cảm thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (Pure Natural Fragrance), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "484"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 234900,
+    "tgt_price": 329000,
+    "ref_brand": "Pure Natural Fragrance",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0340": {
+    "image_path": "images/21/1_/tiki_211_nan_big.jpg",
+    "product_id": "tiki_211",
+    "question": "Cùng thương hiệu DR.LACIR, nhưng mình cần loại dành cho da mụn thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (DR.LACIR), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1081"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 590000,
+    "tgt_price": 120000,
+    "ref_brand": "DR.LACIR",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0341": {
+    "image_path": "images/92/4_/tiki_924_tikishop_0_big.jpg",
+    "product_id": "tiki_924",
+    "question": "Cùng thương hiệu Torriden, nhưng mình cần loại dành cho da nhạy cảm thay vì dành cho da mụn.",
+    "translated_question": "Same brand (Torriden), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_386"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 486000,
+    "tgt_price": 506000,
+    "ref_brand": "Torriden",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0342": {
+    "image_path": "images/11/75/tiki_1175_tikishop_0_big.jpg",
+    "product_id": "tiki_1175",
+    "question": "Cùng thương hiệu La Roche-Posay, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (La Roche-Posay), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1207"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 688000,
+    "tgt_price": 688000,
+    "ref_brand": "La Roche-Posay",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0343": {
+    "image_path": "images/45/3_/tiki_453_tikishop_31_big.jpg",
+    "product_id": "tiki_453",
+    "question": "Cùng thương hiệu 36 Ingredients, nhưng mình cần loại dưỡng ẩm cho da khô thay vì kiểm soát dầu cho da dầu.",
+    "translated_question": "Same brand (36 Ingredients), but I need one for dry skin / hydrating instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "1499"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 480000,
+    "tgt_price": 260000,
+    "ref_brand": "36 Ingredients",
+    "ref_claim": "oily",
+    "tgt_claim": "dry"
+  },
+  "DEV-0344": {
+    "image_path": "images/72/17/72177588_1411807514.jpg",
+    "product_id": "2180",
+    "question": "Cùng thương hiệu Eau Thermale Avene, nhưng mình cần loại dành cho da mụn thay vì da nhạy cảm.",
+    "translated_question": "Same brand (Eau Thermale Avene), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "1981"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 260000,
+    "tgt_price": 79000,
+    "ref_brand": "Eau Thermale Avene",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0345": {
+    "image_path": "images/14/05/140591350_6342915867.mp4",
+    "product_id": "83",
+    "question": "Cùng thương hiệu Hatomugi Naturie, nhưng mình cần loại chống lão hóa thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (Hatomugi Naturie), but I need one anti-aging instead of for brightening / whitening.",
+    "answer_product_id": [
+      "281"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 139000,
+    "tgt_price": 135000,
+    "ref_brand": "Hatomugi Naturie",
+    "ref_claim": "whitening",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0346": {
+    "image_path": "images/15/78/157824670_9962708173.jpg",
+    "product_id": "1843",
+    "question": "Cùng thương hiệu HATOMUGI, nhưng mình cần loại chống lão hóa thay vì dành cho da mụn.",
+    "translated_question": "Same brand (HATOMUGI), but I need one anti-aging instead of for acne-prone skin.",
+    "answer_product_id": [
+      "2182"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 53040,
+    "tgt_price": 54000,
+    "ref_brand": "HATOMUGI",
+    "ref_claim": "acne",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0347": {
+    "image_path": "images/14/96/tiki_1496_tikishop_71_big.jpg",
+    "product_id": "tiki_1496",
+    "question": "Cùng thương hiệu Jade Complexion Health, nhưng mình cần loại dành cho da nhạy cảm thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (Jade Complexion Health), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1792"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 115000,
+    "tgt_price": 36000,
+    "ref_brand": "Jade Complexion Health",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0348": {
+    "image_path": "images/41/6_/tiki_416_tikishop_92_big.jpg",
+    "product_id": "tiki_416",
+    "question": "Cùng thương hiệu FRESH, nhưng mình cần loại kiểm soát dầu cho da dầu thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (FRESH), but I need one for oily skin / oil control instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1594"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 470000,
+    "tgt_price": 470000,
+    "ref_brand": "FRESH",
+    "ref_claim": "dry",
+    "tgt_claim": "oily"
+  },
+  "DEV-0349": {
+    "image_path": "images/14/61/tiki_1461_tikishop_67_big.jpg",
+    "product_id": "tiki_1461",
+    "question": "Cùng thương hiệu FRESH, nhưng mình cần loại kiểm soát dầu cho da dầu thay vì dành cho da nhạy cảm.",
+    "translated_question": "Same brand (FRESH), but I need one for oily skin / oil control instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1594"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 653000,
+    "tgt_price": 470000,
+    "ref_brand": "FRESH",
+    "ref_claim": "sensitive",
+    "tgt_claim": "oily"
+  },
+  "DEV-0350": {
+    "image_path": "images/23/12/231252429_9219864246.jpg",
+    "product_id": "2220",
+    "question": "Cùng thương hiệu W.SKIN LABORATORY, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (W.SKIN LABORATORY), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "2194"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 182500,
+    "tgt_price": 164491,
+    "ref_brand": "W.SKIN LABORATORY",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0351": {
+    "image_path": "images/20/3_/tiki_203_tikishop_0_big.jpg",
+    "product_id": "tiki_203",
+    "question": "Cùng thương hiệu Kumano Cosmetic, nhưng mình cần loại dành cho da nhạy cảm thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (Kumano Cosmetic), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_315"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 74000,
+    "tgt_price": 142600,
+    "ref_brand": "Kumano Cosmetic",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0352": {
+    "image_path": "images/16/18/tiki_1618_tikishop_0_big.jpg",
+    "product_id": "tiki_1618",
+    "question": "Cùng thương hiệu LYCOS, nhưng mình cần loại dành cho da nhạy cảm thay vì dành cho da mụn.",
+    "translated_question": "Same brand (LYCOS), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1589"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 210490,
+    "tgt_price": 122000,
+    "ref_brand": "LYCOS",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0353": {
+    "image_path": "images/10/81/tiki_1081_tikishop_93_big.jpg",
+    "product_id": "tiki_1081",
+    "question": "Cùng thương hiệu DR.LACIR, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dành cho da mụn.",
+    "translated_question": "Same brand (DR.LACIR), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_211"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 120000,
+    "tgt_price": 590000,
+    "ref_brand": "DR.LACIR",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0354": {
+    "image_path": "images/63/9_/tiki_639_tikishop_1_big.jpg",
+    "product_id": "tiki_639",
+    "question": "Cùng thương hiệu OHUI, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (OHUI), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_381"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 967500,
+    "tgt_price": 720000,
+    "ref_brand": "OHUI",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0355": {
+    "image_path": "images/16/15/tiki_1615_tikishop_53_big.jpg",
+    "product_id": "tiki_1615",
+    "question": "Cùng thương hiệu Beauty of Joseon, nhưng mình cần loại chống lão hóa thay vì dành cho da nhạy cảm.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one anti-aging instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_948"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 208550,
+    "tgt_price": 425000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "sensitive",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0356": {
+    "image_path": "images/11/32/tiki_1132_tikishop_27_big.jpg",
+    "product_id": "tiki_1132",
+    "question": "Cùng thương hiệu Ponds, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (Ponds), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_786"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 319000,
+    "tgt_price": 430000,
+    "ref_brand": "Ponds",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0357": {
+    "image_path": "images/95/1_/tiki_951_tikishop_6_big.jpg",
+    "product_id": "tiki_951",
+    "question": "Cùng thương hiệu Farmstay, nhưng mình cần loại dành cho da mụn thay vì dưỡng ẩm cho da khô.",
+    "translated_question": "Same brand (Farmstay), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1507"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 212430,
+    "tgt_price": 282270,
+    "ref_brand": "Farmstay",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0358": {
+    "image_path": "images/12/47/tiki_1247_tikishop_3_big.jpg",
+    "product_id": "tiki_1247",
+    "question": "Cùng thương hiệu COMPLIMENT, nhưng mình cần loại dưỡng ẩm cho da khô thay vì dưỡng sáng/trắng da.",
+    "translated_question": "Same brand (COMPLIMENT), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_634"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 95000,
+    "tgt_price": 138000,
+    "ref_brand": "COMPLIMENT",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0359": {
+    "image_path": "images/11/30/113037750_11479774853.jpg",
+    "product_id": "925",
+    "question": "Cùng thương hiệu md ceuticals, nhưng mình cần loại dưỡng sáng/trắng da thay vì dành cho da mụn.",
+    "translated_question": "Same brand (md ceuticals), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1091"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 18000,
+    "tgt_price": 21000,
+    "ref_brand": "md ceuticals",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0360": {
+    "image_path": "images/29/9_/tiki_299_tikishop_99_big.jpg",
+    "product_id": "tiki_299",
+    "question": "Vẫn thương hiệu PIME nhưng cho mình xin loại dành cho da mụn thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (PIME), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1665"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 883600,
+    "tgt_price": 380000,
+    "ref_brand": "PIME",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0361": {
+    "image_path": "images/16/33/163380981_9858277684.jpg",
+    "product_id": "1372",
+    "question": "Vẫn thương hiệu Rataplan nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Rataplan), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "950"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 8000,
+    "tgt_price": 85000,
+    "ref_brand": "Rataplan",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0362": {
+    "image_path": "images/25/7_/tiki_257_tikishop_87_big.jpg",
+    "product_id": "tiki_257",
+    "question": "Vẫn thương hiệu Thorakao nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Thorakao), but I need one for dry skin / hydrating instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1607"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 140000,
+    "tgt_price": 84000,
+    "ref_brand": "Thorakao",
+    "ref_claim": "sensitive",
+    "tgt_claim": "dry"
+  },
+  "DEV-0363": {
+    "image_path": "images/15/86/158660528_2365378818.jpg",
+    "product_id": "608",
+    "question": "Vẫn thương hiệu Bioré nhưng cho mình xin loại dành cho da dầu/kiểm soát dầu thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Bioré), but I need one for oily skin / oil control instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1721"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 54000,
+    "tgt_price": 55000,
+    "ref_brand": "Bioré",
+    "ref_claim": "acne",
+    "tgt_claim": "oily"
+  },
+  "DEV-0364": {
+    "image_path": "images/41/82/418272796_6484750720.jpg",
+    "product_id": "1289",
+    "question": "Vẫn thương hiệu Dr.Flomos nhưng cho mình xin loại dành cho da dầu/kiểm soát dầu thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Dr.Flomos), but I need one for oily skin / oil control instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1926"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 540000,
+    "tgt_price": 580000,
+    "ref_brand": "Dr.Flomos",
+    "ref_claim": "dry",
+    "tgt_claim": "oily"
+  },
+  "DEV-0365": {
+    "image_path": "images/16/07/tiki_1607_tikishop_87_big.jpg",
+    "product_id": "tiki_1607",
+    "question": "Vẫn thương hiệu Thorakao nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Thorakao), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_257"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 84000,
+    "tgt_price": 140000,
+    "ref_brand": "Thorakao",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0366": {
+    "image_path": "images/19/60/196066937_6806446536.mp4",
+    "product_id": "1035",
+    "question": "Vẫn thương hiệu Senana nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Senana), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1488"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 15250,
+    "tgt_price": 15750,
+    "ref_brand": "Senana",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0367": {
+    "image_path": "images/90/5_/tiki_905_tikishop_67_big.jpg",
+    "product_id": "tiki_905",
+    "question": "Vẫn thương hiệu FRESH nhưng cho mình xin loại dành cho da dầu/kiểm soát dầu thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (FRESH), but I need one for oily skin / oil control instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1594"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 2560000,
+    "tgt_price": 470000,
+    "ref_brand": "FRESH",
+    "ref_claim": "whitening",
+    "tgt_claim": "oily"
+  },
+  "DEV-0368": {
+    "image_path": "images/16/24/tiki_1624_nan_big.jpg",
+    "product_id": "tiki_1624",
+    "question": "Vẫn thương hiệu Hatomugi nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Hatomugi), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1595"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 123000,
+    "tgt_price": 173000,
+    "ref_brand": "Hatomugi",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0369": {
+    "image_path": "images/15/89/tiki_1589_tikishop_57_big.jpg",
+    "product_id": "tiki_1589",
+    "question": "Vẫn thương hiệu LYCOS nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (LYCOS), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1618"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 122000,
+    "tgt_price": 210490,
+    "ref_brand": "LYCOS",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0370": {
+    "image_path": "images/15/42/tiki_1542_tikishop_2_big.jpg",
+    "product_id": "tiki_1542",
+    "question": "Vẫn thương hiệu LYCOS nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (LYCOS), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_934"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 162000,
+    "tgt_price": 152490,
+    "ref_brand": "LYCOS",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0371": {
+    "image_path": "images/75/4_/tiki_754_tikishop_168_big.jpg",
+    "product_id": "tiki_754",
+    "question": "Vẫn thương hiệu DECUMAR nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (DECUMAR), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_542"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 895000,
+    "tgt_price": 292560,
+    "ref_brand": "DECUMAR",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0372": {
+    "image_path": "images/93/4_/tiki_934_tikishop_2_big.jpg",
+    "product_id": "tiki_934",
+    "question": "Vẫn thương hiệu LYCOS nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (LYCOS), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1589"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 152490,
+    "tgt_price": 122000,
+    "ref_brand": "LYCOS",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0373": {
+    "image_path": "images/77/_t/tiki_77_tikishop_9_big.jpg",
+    "product_id": "tiki_77",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_947"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 115000,
+    "tgt_price": 479000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0374": {
+    "image_path": "images/10/34/tiki_1034_tikishop_1_big.jpg",
+    "product_id": "tiki_1034",
+    "question": "Vẫn thương hiệu OHUI nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (OHUI), but I need one for dry skin / hydrating instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_381"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 765000,
+    "tgt_price": 720000,
+    "ref_brand": "OHUI",
+    "ref_claim": "sensitive",
+    "tgt_claim": "dry"
+  },
+  "DEV-0375": {
+    "image_path": "images/95/48/95489804_4839531162.jpg",
+    "product_id": "1861",
+    "question": "Vẫn thương hiệu Auvi nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da dầu/kiểm soát dầu nhé.",
+    "translated_question": "Same brand (Auvi), but I need one for dry skin / hydrating instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "2230"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 191950,
+    "tgt_price": 65000,
+    "ref_brand": "Auvi",
+    "ref_claim": "oily",
+    "tgt_claim": "dry"
+  },
+  "DEV-0376": {
+    "image_path": "images/38/6_/tiki_386_tikishop_0_big.jpg",
+    "product_id": "tiki_386",
+    "question": "Vẫn thương hiệu Torriden nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Torriden), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_924"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 506000,
+    "tgt_price": 486000,
+    "ref_brand": "Torriden",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0377": {
+    "image_path": "images/15/66/156610565_17422364616.jpg",
+    "product_id": "1199",
+    "question": "Vẫn thương hiệu Medicube nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Medicube), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1958"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 28500,
+    "tgt_price": 26000,
+    "ref_brand": "Medicube",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0378": {
+    "image_path": "images/98/4_/tiki_984_tikishop_2_big.jpg",
+    "product_id": "tiki_984",
+    "question": "Vẫn thương hiệu Kose nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dành cho da dầu/kiểm soát dầu nhé.",
+    "translated_question": "Same brand (Kose), but I need one for sensitive skin instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "tiki_464"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 164680,
+    "tgt_price": 161000,
+    "ref_brand": "Kose",
+    "ref_claim": "oily",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0379": {
+    "image_path": "images/12/99/tiki_1299_tikishop_87_big.jpg",
+    "product_id": "tiki_1299",
+    "question": "Vẫn thương hiệu Thorakao nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Thorakao), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1607"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 108000,
+    "tgt_price": 84000,
+    "ref_brand": "Thorakao",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0380": {
+    "image_path": "images/31/5_/tiki_315_tikishop_2_big.jpg",
+    "product_id": "tiki_315",
+    "question": "Vẫn thương hiệu Kumano Cosmetic nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Kumano Cosmetic), but I need one for dry skin / hydrating instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_203"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 142600,
+    "tgt_price": 74000,
+    "ref_brand": "Kumano Cosmetic",
+    "ref_claim": "sensitive",
+    "tgt_claim": "dry"
+  },
+  "DEV-0381": {
+    "image_path": "images/86/4_/tiki_864_tikishop_49_big.jpg",
+    "product_id": "tiki_864",
+    "question": "Vẫn thương hiệu Rainbow L'affair nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại chống lão hóa nhé.",
+    "translated_question": "Same brand (Rainbow L'affair), but I need one for brightening / whitening instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_484"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 180000,
+    "tgt_price": 245000,
+    "ref_brand": "Rainbow L'affair",
+    "ref_claim": "antiaging",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0382": {
+    "image_path": "images/10/2_/tiki_102_tikishop_18_big.jpg",
+    "product_id": "tiki_102",
+    "question": "Vẫn thương hiệu SCENTIO nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (SCENTIO), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1396"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 220400,
+    "tgt_price": 246600,
+    "ref_brand": "SCENTIO",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  },
+  "DEV-0383": {
+    "image_path": "images/22/9_/tiki_229_tikishop_0_big.jpg",
+    "product_id": "tiki_229",
+    "question": "Vẫn thương hiệu Dermarium nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Dermarium), but I need one for brightening / whitening instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_886"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 328000,
+    "tgt_price": 415000,
+    "ref_brand": "Dermarium",
+    "ref_claim": "sensitive",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0384": {
+    "image_path": "images/40/31/403116788_9579848515.jpg",
+    "product_id": "595",
+    "question": "Vẫn thương hiệu Senka nhưng cho mình xin loại dành cho da dầu/kiểm soát dầu thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Senka), but I need one for oily skin / oil control instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1644"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 58000,
+    "tgt_price": 45000,
+    "ref_brand": "Senka",
+    "ref_claim": "dry",
+    "tgt_claim": "oily"
+  },
+  "DEV-0385": {
+    "image_path": "images/46/27/4627302_4330187906.jpg",
+    "product_id": "246",
+    "question": "Vẫn thương hiệu SKINDOM nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (SKINDOM), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1760"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 79000,
+    "tgt_price": 180000,
+    "ref_brand": "SKINDOM",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0386": {
+    "image_path": "images/21/20/212004800_4012091135.mp4",
+    "product_id": "1209",
+    "question": "Vẫn thương hiệu ROUND LAB nhưng cho mình xin loại dành cho da khô/cấp ẩm thay vì loại chống lão hóa nhé.",
+    "translated_question": "Same brand (ROUND LAB), but I need one for dry skin / hydrating instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_1205"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 639000,
+    "tgt_price": 1320000,
+    "ref_brand": "ROUND LAB",
+    "ref_claim": "antiaging",
+    "tgt_claim": "dry"
+  },
+  "DEV-0387": {
+    "image_path": "images/71/64/716459829_18504816553.jpg",
+    "product_id": "2184",
+    "question": "Vẫn thương hiệu YUSACHI nhưng cho mình xin loại chống lão hóa thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (YUSACHI), but I need one anti-aging instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "1807"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 180000,
+    "tgt_price": 62000,
+    "ref_brand": "YUSACHI",
+    "ref_claim": "dry",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0388": {
+    "image_path": "images/11/8_/tiki_118_tikishop_15_big.jpg",
+    "product_id": "tiki_118",
+    "question": "Vẫn thương hiệu Laikou nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Laikou), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1446"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 299000,
+    "tgt_price": 270630,
+    "ref_brand": "Laikou",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0389": {
+    "image_path": "images/13/7_/tiki_137_tikishop_14_big.jpg",
+    "product_id": "tiki_137",
+    "question": "Vẫn thương hiệu Sumdfine nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Sumdfine), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_559"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 39000,
+    "tgt_price": 65000,
+    "ref_brand": "Sumdfine",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0390": {
+    "image_path": "images/57/6_/tiki_576_tikishop_15_big.jpg",
+    "product_id": "tiki_576",
+    "question": "Vẫn thương hiệu Laikou nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Laikou), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1446"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 281060,
+    "tgt_price": 270630,
+    "ref_brand": "Laikou",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0391": {
+    "image_path": "images/12/5_/tiki_125_tikishop_3_big.jpg",
+    "product_id": "tiki_125",
+    "question": "Vẫn thương hiệu COMPLIMENT nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (COMPLIMENT), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1247"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 85000,
+    "tgt_price": 95000,
+    "ref_brand": "COMPLIMENT",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0392": {
+    "image_path": "images/51/0_/tiki_510_tikishop_0_big.jpg",
+    "product_id": "tiki_510",
+    "question": "Vẫn thương hiệu Kose nhưng cho mình xin loại dành cho da dầu/kiểm soát dầu thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Kose), but I need one for oily skin / oil control instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_984"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 175000,
+    "tgt_price": 164680,
+    "ref_brand": "Kose",
+    "ref_claim": "whitening",
+    "tgt_claim": "oily"
+  },
+  "DEV-0393": {
+    "image_path": "images/11/62/tiki_1162_tikishop_0_big.jpg",
+    "product_id": "tiki_1162",
+    "question": "Vẫn thương hiệu L'ORÉAL nhưng cho mình xin loại dành cho da nhạy cảm thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (L'ORÉAL), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1579"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 405000,
+    "tgt_price": 65000,
+    "ref_brand": "L'ORÉAL",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0394": {
+    "image_path": "images/48/5_/tiki_485_tikishop_2_big.jpg",
+    "product_id": "tiki_485",
+    "question": "Vẫn thương hiệu Kose nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (Kose), but I need one for brightening / whitening instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_510"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 90000,
+    "tgt_price": 175000,
+    "ref_brand": "Kose",
+    "ref_claim": "dry",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0395": {
+    "image_path": "images/25/2_/tiki_252_tikishop_49_big.jpg",
+    "product_id": "tiki_252",
+    "question": "Vẫn thương hiệu Farmstay nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Farmstay), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1507"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 319000,
+    "tgt_price": 282270,
+    "ref_brand": "Farmstay",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0396": {
+    "image_path": "images/38/1_/tiki_381_tikishop_1_big.jpg",
+    "product_id": "tiki_381",
+    "question": "Vẫn thương hiệu OHUI nhưng cho mình xin loại dành cho da mụn thay vì loại dành cho da khô/cấp ẩm nhé.",
+    "translated_question": "Same brand (OHUI), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_1436"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 720000,
+    "tgt_price": 550000,
+    "ref_brand": "OHUI",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0397": {
+    "image_path": "images/89/_t/tiki_89_tikishop_2_big.jpg",
+    "product_id": "tiki_89",
+    "question": "Vẫn thương hiệu Klirvin nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (Klirvin), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_93"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 59000,
+    "tgt_price": 15000,
+    "ref_brand": "Klirvin",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0398": {
+    "image_path": "images/10/55/tiki_1055_tikishop_198_big.jpg",
+    "product_id": "tiki_1055",
+    "question": "Vẫn thương hiệu QUYÊN LARA Natural product Spa Health club nhưng cho mình xin loại dưỡng sáng/trắng da thay vì loại dành cho da mụn nhé.",
+    "translated_question": "Same brand (QUYÊN LARA Natural product Spa Health club), but I need one for brightening / whitening instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_672"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 119000,
+    "tgt_price": 99000,
+    "ref_brand": "QUYÊN LARA Natural product Spa Health club",
+    "ref_claim": "acne",
+    "tgt_claim": "whitening"
+  },
+  "DEV-0399": {
+    "image_path": "images/94/7_/tiki_947_tikishop_53_big.jpg",
+    "product_id": "tiki_947",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng cho mình xin loại dành cho da mụn thay vì loại dưỡng sáng/trắng da nhé.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_77"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 479000,
+    "tgt_price": 115000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0400": {
+    "image_path": "images/10/40/tiki_1040_tikishop_195_big.jpg",
+    "product_id": "tiki_1040",
+    "question": "Vẫn thương hiệu Herb Seedling đó nhưng cho mình loại dành cho da nhạy cảm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Herb Seedling), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1094"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 189000,
+    "tgt_price": 386000,
+    "ref_brand": "Herb Seedling",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0401": {
+    "image_path": "images/16/78/167837582_20048340151.jpg",
+    "product_id": "140",
+    "question": "Vẫn thương hiệu Estée Lauder đó nhưng cho mình loại chống lão hóa thay vì dành cho da nhạy cảm nhé.",
+    "translated_question": "Same brand (Estée Lauder), but I need one anti-aging instead of for sensitive skin.",
+    "answer_product_id": [
+      "1794"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 22000,
+    "tgt_price": 28500,
+    "ref_brand": "Estée Lauder",
+    "ref_claim": "sensitive",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0402": {
+    "image_path": "images/10/1_/tiki_101_tikishop_18_big.jpg",
+    "product_id": "tiki_101",
+    "question": "Vẫn thương hiệu Reihaku Hatomugi đó nhưng cho mình loại dành cho da khô / dưỡng ẩm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Reihaku Hatomugi), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_113"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 220400,
+    "tgt_price": 114000,
+    "ref_brand": "Reihaku Hatomugi",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0403": {
+    "image_path": "images/51/48/51483705_5734777138.jpg",
+    "product_id": "418",
+    "question": "Vẫn thương hiệu BAIZTON đó nhưng cho mình loại dành cho da nhạy cảm thay vì da mụn nhé.",
+    "translated_question": "Same brand (BAIZTON), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "551"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 24000,
+    "tgt_price": 25000,
+    "ref_brand": "BAIZTON",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0404": {
+    "image_path": "images/84/4_/tiki_844_tikishop_0_big.jpg",
+    "product_id": "tiki_844",
+    "question": "Vẫn thương hiệu mcrow đó nhưng cho mình loại dành cho da mụn thay vì da khô / dưỡng ẩm nhé.",
+    "translated_question": "Same brand (mcrow), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_27"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 27000,
+    "tgt_price": 27000,
+    "ref_brand": "mcrow",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0405": {
+    "image_path": "images/33/7_/tiki_337_tikishop_40_big.jpg",
+    "product_id": "tiki_337",
+    "question": "Vẫn thương hiệu Senademar đó nhưng cho mình loại dành cho da khô / dưỡng ẩm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Senademar), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1210"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 340000,
+    "tgt_price": 420000,
+    "ref_brand": "Senademar",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0406": {
+    "image_path": "images/63/9_/tiki_639_tikishop_1_big.jpg",
+    "product_id": "tiki_639",
+    "question": "Vẫn thương hiệu OHUI đó nhưng cho mình loại dành cho da mụn thay vì dưỡng sáng / trắng da nhé.",
+    "translated_question": "Same brand (OHUI), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_1436"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 967500,
+    "tgt_price": 550000,
+    "ref_brand": "OHUI",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0407": {
+    "image_path": "images/15/34/15345495_9615284923.jpg",
+    "product_id": "1856",
+    "question": "Vẫn thương hiệu Estée Lauder đó nhưng cho mình loại chống lão hóa thay vì dành cho da dầu / kiểm soát dầu nhé.",
+    "translated_question": "Same brand (Estée Lauder), but I need one anti-aging instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "1794"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 25000,
+    "tgt_price": 28500,
+    "ref_brand": "Estée Lauder",
+    "ref_claim": "oily",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0408": {
+    "image_path": "images/88/6_/tiki_886_tikishop_61_big.jpg",
+    "product_id": "tiki_886",
+    "question": "Vẫn thương hiệu Dermarium đó nhưng cho mình loại dành cho da nhạy cảm thay vì dưỡng sáng / trắng da nhé.",
+    "translated_question": "Same brand (Dermarium), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_229"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 415000,
+    "tgt_price": 328000,
+    "ref_brand": "Dermarium",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0409": {
+    "image_path": "images/17/54/tiki_1754_tikishop_249_big.jpg",
+    "product_id": "tiki_1754",
+    "question": "Vẫn thương hiệu Uriage đó nhưng cho mình loại dành cho da nhạy cảm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Uriage), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1827"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 35000,
+    "tgt_price": 39000,
+    "ref_brand": "Uriage",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0410": {
+    "image_path": "images/10/52/tiki_1052_tikishop_0_big.jpg",
+    "product_id": "tiki_1052",
+    "question": "Vẫn thương hiệu Acne-Aid đó nhưng cho mình loại dành cho da khô / dưỡng ẩm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Acne-Aid), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_234"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 65000,
+    "tgt_price": 169000,
+    "ref_brand": "Acne-Aid",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0411": {
+    "image_path": "images/38/6_/tiki_386_tikishop_0_big.jpg",
+    "product_id": "tiki_386",
+    "question": "Vẫn thương hiệu Torriden đó nhưng cho mình loại dành cho da khô / dưỡng ẩm thay vì da nhạy cảm nhé.",
+    "translated_question": "Same brand (Torriden), but I need one for dry skin / hydrating instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1155"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 506000,
+    "tgt_price": 286700,
+    "ref_brand": "Torriden",
+    "ref_claim": "sensitive",
+    "tgt_claim": "dry"
+  },
+  "DEV-0412": {
+    "image_path": "images/13/96/tiki_1396_tikishop_18_big.jpg",
+    "product_id": "tiki_1396",
+    "question": "Vẫn thương hiệu SCENTIO đó nhưng cho mình loại dành cho da mụn thay vì da khô / dưỡng ẩm nhé.",
+    "translated_question": "Same brand (SCENTIO), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_927"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 246600,
+    "tgt_price": 155480,
+    "ref_brand": "SCENTIO",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0413": {
+    "image_path": "images/40/3_/tiki_403_tikishop_96_big.jpg",
+    "product_id": "tiki_403",
+    "question": "Vẫn thương hiệu Puderma đó nhưng cho mình loại dành cho da khô / dưỡng ẩm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Puderma), but I need one for dry skin / hydrating instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_1395"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 160000,
+    "tgt_price": 355000,
+    "ref_brand": "Puderma",
+    "ref_claim": "acne",
+    "tgt_claim": "dry"
+  },
+  "DEV-0414": {
+    "image_path": "images/40/16/401692_21733848558.jpg",
+    "product_id": "1499",
+    "question": "Vẫn thương hiệu 36 Ingredients đó nhưng cho mình loại dành cho da dầu / kiểm soát dầu thay vì da khô / dưỡng ẩm nhé.",
+    "translated_question": "Same brand (36 Ingredients), but I need one for oily skin / oil control instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_453"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 260000,
+    "tgt_price": 480000,
+    "ref_brand": "36 Ingredients",
+    "ref_claim": "dry",
+    "tgt_claim": "oily"
+  },
+  "DEV-0415": {
+    "image_path": "images/40/42/40424985_7684197120.jpg",
+    "product_id": "1512",
+    "question": "Vẫn thương hiệu Derma đó nhưng cho mình loại dành cho da mụn thay vì dưỡng sáng / trắng da nhé.",
+    "translated_question": "Same brand (Derma), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "2163"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 30000,
+    "tgt_price": 30000,
+    "ref_brand": "Derma",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0416": {
+    "image_path": "images/11/3_/tiki_113_tikishop_18_big.jpg",
+    "product_id": "tiki_113",
+    "question": "Vẫn thương hiệu Reihaku Hatomugi đó nhưng cho mình loại dành cho da mụn thay vì da khô / dưỡng ẩm nhé.",
+    "translated_question": "Same brand (Reihaku Hatomugi), but I need one for acne-prone skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_101"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 114000,
+    "tgt_price": 220400,
+    "ref_brand": "Reihaku Hatomugi",
+    "ref_claim": "dry",
+    "tgt_claim": "acne"
+  },
+  "DEV-0417": {
+    "image_path": "images/94/8_/tiki_948_tikishop_53_big.jpg",
+    "product_id": "tiki_948",
+    "question": "Vẫn thương hiệu Beauty of Joseon đó nhưng cho mình loại dành cho da mụn thay vì chống lão hóa nhé.",
+    "translated_question": "Same brand (Beauty of Joseon), but I need one for acne-prone skin instead of anti-aging.",
+    "answer_product_id": [
+      "tiki_77"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 425000,
+    "tgt_price": 115000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_claim": "antiaging",
+    "tgt_claim": "acne"
+  },
+  "DEV-0418": {
+    "image_path": "images/48/5_/tiki_485_tikishop_2_big.jpg",
+    "product_id": "tiki_485",
+    "question": "Vẫn thương hiệu Kose đó nhưng cho mình loại dành cho da dầu / kiểm soát dầu thay vì da khô / dưỡng ẩm nhé.",
+    "translated_question": "Same brand (Kose), but I need one for oily skin / oil control instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_984"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 90000,
+    "tgt_price": 164680,
+    "ref_brand": "Kose",
+    "ref_claim": "dry",
+    "tgt_claim": "oily"
+  },
+  "DEV-0419": {
+    "image_path": "images/11/01/tiki_1101_tikishop_6_big.jpg",
+    "product_id": "tiki_1101",
+    "question": "Vẫn thương hiệu PEACHOLIC đó nhưng cho mình loại chống lão hóa thay vì dành cho da mụn nhé.",
+    "translated_question": "Same brand (PEACHOLIC), but I need one anti-aging instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_290"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 79000,
+    "tgt_price": 179000,
+    "ref_brand": "PEACHOLIC",
+    "ref_claim": "acne",
+    "tgt_claim": "antiaging"
+  },
+  "DEV-0420": {
+    "image_path": "images/15/55/tiki_1555_tikishop_2_big.jpg",
+    "product_id": "tiki_1555",
+    "question": "Vẫn thương hiệu Dermafirm đó nhưng cho mình loại dành cho da nhạy cảm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Dermafirm), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "tiki_974"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 134100,
+    "tgt_price": 146000,
+    "ref_brand": "Dermafirm",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0421": {
+    "image_path": "images/16/66/tiki_1666_tikishop_29_big.jpg",
+    "product_id": "tiki_1666",
+    "question": "Vẫn thương hiệu NATURECOS.VN đó nhưng cho mình loại dành cho da nhạy cảm thay vì da khô / dưỡng ẩm nhé.",
+    "translated_question": "Same brand (NATURECOS.VN), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "tiki_607"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 687000,
+    "tgt_price": 993000,
+    "ref_brand": "NATURECOS.VN",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0422": {
+    "image_path": "images/21/42/214290776_4775807695.jpg",
+    "product_id": "451",
+    "question": "Vẫn thương hiệu Derma đó nhưng cho mình loại dành cho da nhạy cảm thay vì dưỡng sáng / trắng da nhé.",
+    "translated_question": "Same brand (Derma), but I need one for sensitive skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "1674"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 29000,
+    "tgt_price": 24999,
+    "ref_brand": "Derma",
+    "ref_claim": "whitening",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0423": {
+    "image_path": "images/55/9_/tiki_559_tikishop_14_big.jpg",
+    "product_id": "tiki_559",
+    "question": "Vẫn thương hiệu Sumdfine đó nhưng cho mình loại dành cho da mụn thay vì dưỡng sáng / trắng da nhé.",
+    "translated_question": "Same brand (Sumdfine), but I need one for acne-prone skin instead of for brightening / whitening.",
+    "answer_product_id": [
+      "tiki_137"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 65000,
+    "tgt_price": 39000,
+    "ref_brand": "Sumdfine",
+    "ref_claim": "whitening",
+    "tgt_claim": "acne"
+  },
+  "DEV-0424": {
+    "image_path": "images/22/96/229623272_21430957853.jpg",
+    "product_id": "136",
+    "question": "Vẫn thương hiệu K.B Pure đó nhưng cho mình loại dành cho da nhạy cảm thay vì da khô / dưỡng ẩm nhé.",
+    "translated_question": "Same brand (K.B Pure), but I need one for sensitive skin instead of for dry skin / hydrating.",
+    "answer_product_id": [
+      "2105"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 23040,
+    "tgt_price": 36000,
+    "ref_brand": "K.B Pure",
+    "ref_claim": "dry",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0425": {
+    "image_path": "images/85/21/85212841_6648073286.jpg",
+    "product_id": "2163",
+    "question": "Vẫn thương hiệu Derma đó nhưng cho mình loại dành cho da nhạy cảm thay vì da mụn nhé.",
+    "translated_question": "Same brand (Derma), but I need one for sensitive skin instead of for acne-prone skin.",
+    "answer_product_id": [
+      "1674"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 30000,
+    "tgt_price": 24999,
+    "ref_brand": "Derma",
+    "ref_claim": "acne",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0426": {
+    "image_path": "images/10/34/tiki_1034_tikishop_1_big.jpg",
+    "product_id": "tiki_1034",
+    "question": "Vẫn thương hiệu OHUI đó nhưng cho mình loại dành cho da mụn thay vì da nhạy cảm nhé.",
+    "translated_question": "Same brand (OHUI), but I need one for acne-prone skin instead of for sensitive skin.",
+    "answer_product_id": [
+      "tiki_1436"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 765000,
+    "tgt_price": 550000,
+    "ref_brand": "OHUI",
+    "ref_claim": "sensitive",
+    "tgt_claim": "acne"
+  },
+  "DEV-0427": {
+    "image_path": "images/77/94/779446567_18843254593.jpg",
+    "product_id": "507",
+    "question": "Vẫn thương hiệu K.B Pure đó nhưng cho mình loại dành cho da nhạy cảm thay vì da dầu / kiểm soát dầu nhé.",
+    "translated_question": "Same brand (K.B Pure), but I need one for sensitive skin instead of for oily skin / oil control.",
+    "answer_product_id": [
+      "2105"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 22000,
+    "tgt_price": 36000,
+    "ref_brand": "K.B Pure",
+    "ref_claim": "oily",
+    "tgt_claim": "sensitive"
+  },
+  "DEV-0428": {
+    "image_path": "images/32/83/328360277_11915315772.mp4",
+    "product_id": "1918",
+    "question": "Vẫn thương hiệu Pure Natural Fragrance đó nhưng cho mình loại dành cho da khô / dưỡng ẩm thay vì dưỡng sáng / trắng da nhé.",
+    "translated_question": "Same brand (Pure Natural Fragrance), but I need one for dry skin / hydrating instead of for brightening / whitening.",
+    "answer_product_id": [
+      "861"
+    ],
+    "rule": "claim_swap",
+    "ref_price": 234900,
+    "tgt_price": 199000,
+    "ref_brand": "Pure Natural Fragrance",
+    "ref_claim": "whitening",
+    "tgt_claim": "dry"
+  }
+}

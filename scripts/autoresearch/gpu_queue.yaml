@@ -1,0 +1,14 @@
+# Experiments that need a GPU; the CPU loop does not run these.
+# When this list has ≥2 items, batch them in one Vast.ai rental (~$0.30/hr).
+# After a GPU run, move outputs (e.g. OTI bundle) under data/checkpoints/
+# and add a CPU-side roadmap entry that points at them via `oti_tokens:` etc.
+
+- id: gpu_exp004_oti
+  notes: "SEARLE-OTI training on the 4,075-cleanser corpus (ViT-L/14, 350 OTI steps). Bundle prepared in scripts/exp004/."
+  requires: gpu
+  task: "Run scripts/exp004/setup_remote.sh + run_remote.sh; pull back oti_pseudo_tokens/cameo/test/cameo_GPTNeo27B/"
+
+- id: gpu_exp002_mclip_index
+  notes: "Re-encode the 4,075-cleanser corpus with multilingual SigLIP-mCLIP for VN-native query."
+  requires: gpu
+  task: "Replace CLIP ViT-L/14 backbone with a multilingual variant; rebuild image index"

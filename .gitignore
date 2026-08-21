@@ -8,6 +8,23 @@ __pycache__/
 data/raw/
 data/eval_cache/
 data/processed/
+data/checkpoints/
+data/gpu_rerank/
+data/runs/
+data/runs_v1_dev829/
+data/**/*.progress.json
+
+# Extra virtualenvs / tool caches
+.venv-magiclens/
+.playwright-mcp/
+
+# Bulky reference PDFs (manifest in docs/paper/refs/README.md; re-downloadable)
+docs/paper/refs/*.pdf
+
+# Autoresearch run logs / experiment dumps (regenerable, large)
+scripts/autoresearch/*.jsonl
+scripts/autoresearch/reports/
+*.log
 
 # Vendored baseline implementations (each is a separate clone with its own history)
 LaSCo/
@@ -17,6 +34,16 @@ UNION_for_IGROT/
 
 # Reference papers (bulky PDFs, easy to re-download)
 related_papers/
+
+# LaTeX build artifacts (keep .tex, .bib, and the final .pdf)
+*.aux
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
 
 # IDE / OS
 .idea/

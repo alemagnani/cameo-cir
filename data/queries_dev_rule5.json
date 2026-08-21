@@ -1,0 +1,4402 @@
+{
+  "DEV-R5-0000": {
+    "image_path": "images/33/9_/tiki_339_tikishop_2_big.jpg",
+    "product_id": "tiki_339",
+    "question": "nhưng có dung tích lớn hơn 310ml và công thức nghệ thay vì sen",
+    "translated_question": "with a larger 310ml size and turmeric formula instead of lotus",
+    "answer_product_id": [
+      "tiki_915"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0001": {
+    "image_path": "images/16/74/tiki_1674_nan_big.jpg",
+    "product_id": "tiki_1674",
+    "question": "cho tôi xem gel rửa mặt thay vì nước tẩy trang, có tính năng kháng khuẩn hoặc ngừa mụn",
+    "translated_question": "a gel face wash instead of micellar water, with antibacterial or acne-fighting properties",
+    "answer_product_id": [
+      "1905"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0002": {
+    "image_path": "images/96/13/96135171_5451468125.jpg",
+    "product_id": "1098",
+    "question": "có công thức sữa rửa mặt dạng foam tone up làm sáng da hơn, kích thước nhỏ gọn tiện mang đi",
+    "translated_question": "with a tone-up milk foam formula that brightens skin, in a smaller travel-friendly size",
+    "answer_product_id": [
+      "598"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0003": {
+    "image_path": "images/17/97/179727281_19943663832.jpg",
+    "product_id": "1559",
+    "question": "từ thương hiệu khác tập trung vào da mụn với kết cấu dạng bọt thay vì sữa rửa mặt axit PHA",
+    "translated_question": "from a different brand with a focus on acne-prone skin and a foam texture instead of a PHA acid cleanser",
+    "answer_product_id": [
+      "89"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0004": {
+    "image_path": "images/24/93/249374_845465208.jpg",
+    "product_id": "672",
+    "question": "của thương hiệu khác với dạng chai đơn dung tích lớn thay vì bộ chai có vòi bơm",
+    "translated_question": "from a different brand with a single large bottle format instead of a pump bottle set",
+    "answer_product_id": [
+      "900"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0005": {
+    "image_path": "images/18/55/185522883_21805022499.jpg",
+    "product_id": "1910",
+    "question": "cho tôi xem sản phẩm tương tự nhưng tập trung vào giảm đốm nâu và tàn nhang với thành phần thảo dược thay vì nhân sâm",
+    "translated_question": "show me something similar but focused on reducing dark spots and freckles with herbal ingredients instead of ginseng",
+    "answer_product_id": [
+      "490"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0006": {
+    "image_path": "images/43/8_/tiki_438_tikishop_0_big.jpg",
+    "product_id": "tiki_438",
+    "question": "dạng kem tuýp với chỉ số SPF nhẹ hơn và công thức kiềm dầu dưỡng da mặt thay vì dạng xịt thể thao",
+    "translated_question": "in a tube cream format with a lighter SPF rating and a no-sebum mattifying formula for the face instead of a sport spray",
+    "answer_product_id": [
+      "tiki_473"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0007": {
+    "image_path": "images/40/6_/tiki_406_tikishop_122_big.jpg",
+    "product_id": "tiki_406",
+    "question": "có đầu bơm tiện lợi và công thức thương hiệu Hàn Quốc cao cấp hơn dạng sữa rửa mặt tạo bọt nhẹ nhàng phù hợp cho mọi loại da",
+    "translated_question": "with a pump dispenser and a more luxurious Korean brand formula designed for gentle cleansing foam suitable for all skin types",
+    "answer_product_id": [
+      "1701"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0008": {
+    "image_path": "images/57/42/574286062_11264730232.mp4",
+    "product_id": "724",
+    "question": "có công thức trà xanh thay vì làm sạch lỗ chân lông bằng đất sét núi lửa, và size lớn hơn",
+    "translated_question": "with a green tea formula instead of volcanic pore-cleansing, in a larger size",
+    "answer_product_id": [
+      "2207"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0009": {
+    "image_path": "images/81/34/81341396_1573572245.jpg",
+    "product_id": "1941",
+    "question": "nhưng có công thức làm sáng da với nghệ và mật ong, đựng trong bao bì màu vàng nổi bật",
+    "translated_question": "but with a brightening formula featuring turmeric and honey, and comes in vibrant yellow packaging",
+    "answer_product_id": [
+      "1886"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0010": {
+    "image_path": "images/48/97/48973616_4080165442.jpg",
+    "product_id": "697",
+    "question": "đổi sang thương hiệu được biết đến rộng rãi hơn như Cetaphil, và dạng chai pump dung tích lớn hơn",
+    "translated_question": "from a lesser-known brand to a more internationally recognized brand like Cetaphil, and in a larger pump bottle size",
+    "answer_product_id": [
+      "410"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0011": {
+    "image_path": "images/28/_t/tiki_28_tikishop_0_big.jpg",
+    "product_id": "tiki_28",
+    "question": "từ thương hiệu khác có chiết xuất hoa hồng và dưỡng sáng da thay vì retinol và collagen",
+    "translated_question": "from a different brand with rose extract and brightening benefits instead of retinol and collagen",
+    "answer_product_id": [
+      "tiki_96"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0012": {
+    "image_path": "images/80/47/80473795_7016425827.jpg",
+    "product_id": "557",
+    "question": "dạng chai to hơn và có công thức nghệ giúp làm sáng da và mờ thâm thay vì bí đao",
+    "translated_question": "in a larger bottle size and with a turmeric formula that brightens skin and fades dark spots instead of winter melon",
+    "answer_product_id": [
+      "1335"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0013": {
+    "image_path": "images/51/47/514711479_11649383317.jpg",
+    "product_id": "114",
+    "question": "nhưng có thiết kế tuýp trắng tối giản hơn từ thương hiệu khác, tập trung vào làm sạch sâu bằng amino acid và kiểm soát dầu",
+    "translated_question": "with a cleaner, minimalist white tube design from a different brand that focuses on amino acid deep cleansing and oil control",
+    "answer_product_id": [
+      "1651"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0014": {
+    "image_path": "images/15/83/tiki_1583_tikishop_6_big.jpg",
+    "product_id": "tiki_1583",
+    "question": "nhưng dạng chai nhỏ hơn tiện mang theo khi đi du lịch thay vì chai 500ml to",
+    "translated_question": "in a smaller travel-friendly size instead of the large 500ml bottle",
+    "answer_product_id": [
+      "tiki_1559"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0015": {
+    "image_path": "images/18/64/18644537_2826033206.jpg",
+    "product_id": "1283",
+    "question": "nhưng là thương hiệu Nhật tập trung vào dưỡng sáng da và dưỡng ẩm với chiết xuất ngũ cốc tự nhiên thay vì công thức cấp nước của Hàn Quốc",
+    "translated_question": "with a Japanese brand focused on brightening and moisturizing with natural grain extracts instead of a Korean hydration formula",
+    "answer_product_id": [
+      "1040"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0016": {
+    "image_path": "images/40/41/404166010_7096938787.jpg",
+    "product_id": "1351",
+    "question": "nhưng có công thức thanh lọc và kiểm soát dầu trong tuýp màu xanh dương thay vì tuýp xanh lá làm mát này",
+    "translated_question": "with a detoxifying and oil-controlling formula in a blue tube instead of the green refreshing one",
+    "answer_product_id": [
+      "535"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0017": {
+    "image_path": "images/16/49/tiki_1649_tikishop_77_big.jpg",
+    "product_id": "tiki_1649",
+    "question": "dạng sữa rửa mặt tạo bọt trong tuýp thay vì dạng nước tẩy trang chai bơm",
+    "translated_question": "in a tube foam cleanser format instead of a liquid lotion bottle",
+    "answer_product_id": [
+      "1076"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0018": {
+    "image_path": "images/47/17/471702984_16931203907.jpg",
+    "product_id": "1864",
+    "question": "nhưng của thương hiệu Kiehl's và có công thức làm sạch nhẹ nhàng không gây khô da, có sẵn hai kích thước khác nhau",
+    "translated_question": "but from Kiehl's brand and with a formula that specifically targets gentle cleansing without over-drying, available in two different sizes",
+    "answer_product_id": [
+      "911"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0019": {
+    "image_path": "images/22/69/22691678_3756813045.jpg",
+    "product_id": "1749",
+    "question": "nhưng của thương hiệu Innisfree và đựng trong tuýp màu xanh lá đơn giản không có hộp giấy đi kèm",
+    "translated_question": "but from Innisfree brand and in a solid green tube without the illustrated box packaging",
+    "answer_product_id": [
+      "1301"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0020": {
+    "image_path": "images/50/64/50644_9779423304.jpg",
+    "product_id": "2128",
+    "question": "dạng chai bơm tiện lợi với thành phần tự nhiên dưỡng ẩm như bơ shea thay vì tuýp sữa rửa mặt chiết xuất trái cây",
+    "translated_question": "with a pump bottle format and nourishing natural ingredients like shea butter instead of a tube with fruit extracts",
+    "answer_product_id": [
+      "1829"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0021": {
+    "image_path": "images/15/28/152872415_2857314189.jpg",
+    "product_id": "561",
+    "question": "từ thương hiệu cao cấp hơn với tuýp to hơn và thiết kế bao bì màu xanh dương thay vì màu xanh lá",
+    "translated_question": "from a more premium brand with a larger tube size and a blue packaging design instead of green",
+    "answer_product_id": [
+      "2196"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0022": {
+    "image_path": "images/26/44/264498407_6934921300.mp4",
+    "product_id": "1380",
+    "question": "cho tôi xem sản phẩm tương tự nhưng của thương hiệu Hàn Quốc với công thức pH thấp và thiết kế tuýp trắng tối giản",
+    "translated_question": "show me something like this but from a Korean brand with a low pH formula and a minimalist white tube design",
+    "answer_product_id": [
+      "237"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0023": {
+    "image_path": "images/12/21/12211240_9926802720.jpg",
+    "product_id": "1711",
+    "question": "cho tôi xem sản phẩm tương tự nhưng là thương hiệu Nhật với tuýp màu hồng pastel và công thức dưỡng ẩm từ axit amin hoặc nhau thai thay vì loại này",
+    "translated_question": "show me something similar but in a Japanese brand with a pink pastel tube and amino acid or placenta moisturizing formula instead",
+    "answer_product_id": [
+      "58"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0024": {
+    "image_path": "images/22/03/22030358_18111675259.jpg",
+    "product_id": "1723",
+    "question": "nhưng của thương hiệu Hàn Quốc có thành phần glutathione làm sáng da và làm sạch lỗ chân lông sâu dạng sữa rửa mặt tạo bọt",
+    "translated_question": "but from a Korean brand with glutathione brightening and deep pore cleansing in a foam formula",
+    "answer_product_id": [
+      "1517"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0025": {
+    "image_path": "images/41/59/41592556_3813339735.jpg",
+    "product_id": "1943",
+    "question": "nhưng dùng công thức trà xanh thay vì tro núi lửa để làm sạch nhẹ nhàng và cấp ẩm hơn",
+    "translated_question": "with a green tea formula instead of volcanic ash for a gentler, hydrating cleanse",
+    "answer_product_id": [
+      "1972"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0026": {
+    "image_path": "images/12/5_/tiki_125_tikishop_3_big.jpg",
+    "product_id": "tiki_125",
+    "question": "cùng thương hiệu nhưng dạng gel rửa mặt trị mụn và đầu đen thay vì mặt nạ lột",
+    "translated_question": "same brand but in a gel facial cleanser format that fights acne and blackheads instead of a peel-off mask",
+    "answer_product_id": [
+      "265"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0027": {
+    "image_path": "images/15/44/154406528_2720038576.jpg",
+    "product_id": "2026",
+    "question": "từ thương hiệu khác dùng chiết xuất trà xanh thay vì ngải cứu và có dung tích lớn hơn",
+    "translated_question": "from a different brand that uses green tea extract instead of herbal wormwood and comes in a larger size",
+    "answer_product_id": [
+      "1801"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0028": {
+    "image_path": "images/15/66/156610565_3445719504.jpg",
+    "product_id": "747",
+    "question": "cùng hãng Pond's nhưng muốn xem bộ sản phẩm có nhiều lựa chọn hơn như White Beauty và Acne Clear bên cạnh phiên bản than hoạt tính",
+    "translated_question": "same brand but includes a multi-variant pack with brightening options like White Beauty and Acne Clear alongside the charcoal version",
+    "answer_product_id": [
+      "497"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0029": {
+    "image_path": "images/18/53/185337128_17332778695.jpg",
+    "product_id": "1782",
+    "question": "dạng gel từ thương hiệu khác có công dụng làm sáng da và dưỡng ẩm, và dung tích lớn hơn 150ml",
+    "translated_question": "in a gel formula from a different brand with brightening and moisturizing claims, and in a larger 150ml size",
+    "answer_product_id": [
+      "tiki_1125"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0030": {
+    "image_path": "images/11/10/111030665_13867811694.mp4",
+    "product_id": "366",
+    "question": "dạng tuýp nhỏ hơn của thương hiệu Nhật Bản với công dụng dưỡng ẩm và làm sáng da thay vì kiểm soát mụn",
+    "translated_question": "in a smaller tube format from a Japanese brand with moisturizing and brightening benefits instead of acne control",
+    "answer_product_id": [
+      "1831"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0031": {
+    "image_path": "images/32/36/323611095_16322184366.jpg",
+    "product_id": "1706",
+    "question": "từ thương hiệu da liễu cao cấp Pháp với dạng gel dành riêng cho da dầu nhạy cảm thay vì combo sữa rửa mặt than hoạt tính dạng foam",
+    "translated_question": "from a premium French dermatological brand with a gel formula specifically designed for sensitive oily skin instead of a charcoal foam cleanser combo",
+    "answer_product_id": [
+      "206"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0032": {
+    "image_path": "images/48/75/48753783_6880017816.jpg",
+    "product_id": "1978",
+    "question": "nhưng dung tích lớn hơn từ thương hiệu dược mỹ phẩm có ceramides và hyaluronic acid để kiểm soát dầu",
+    "translated_question": "but in a larger size from a drugstore brand with ceramides and hyaluronic acid for oil control",
+    "answer_product_id": [
+      "971"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0033": {
+    "image_path": "images/14/87/14879703_4247451414.mp4",
+    "product_id": "639",
+    "question": "cho tôi xem sản phẩm tương tự nhưng của thương hiệu St.Ives, dung tích lớn hơn 200ml, và phù hợp để dùng hàng ngày thay vì chỉ dành riêng cho da mụn",
+    "translated_question": "show me something like this but from St.Ives brand, in a larger 200ml size, and suitable for daily use rather than specifically targeting acne",
+    "answer_product_id": [
+      "488"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0034": {
+    "image_path": "images/15/66/156610565_4793604589.jpg",
+    "product_id": "551",
+    "question": "nhưng là hàng Nhật với thành phần chiết xuất hạt ý dĩ thay vì nha đam",
+    "translated_question": "from a Japanese brand with job's tears extract instead of aloe vera",
+    "answer_product_id": [
+      "549"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0035": {
+    "image_path": "images/11/10/111039025_19905373331.mp4",
+    "product_id": "1363",
+    "question": "cho tôi xem sản phẩm tương tự nhưng có thành phần thảo dược tự nhiên như nghệ và nhân sâm thay vì collagen",
+    "translated_question": "show me something like this but with natural herbal ingredients like turmeric and ginseng instead of collagen",
+    "answer_product_id": [
+      "2164"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0036": {
+    "image_path": "images/13/9_/tiki_139_tikishop_46_big.jpg",
+    "product_id": "tiki_139",
+    "question": "có bao bì cao cấp và sang trọng hơn, với công dụng làm sáng và săn chắc da từ chiết xuất hoa thay vì lô hội",
+    "translated_question": "with a more premium and elegant packaging, featuring brightening and firming benefits from floral extracts rather than aloe vera",
+    "answer_product_id": [
+      "tiki_560"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0037": {
+    "image_path": "images/30/22/30223877_2932426332.jpg",
+    "product_id": "727",
+    "question": "có công thức làm trắng sáng da trong tuýp lớn hơn với bao bì màu hồng thay vì công thức đất sét khoáng",
+    "translated_question": "with a brightening whitening formula in a larger tube and pink packaging instead of the clay-based formula",
+    "answer_product_id": [
+      "1684"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0038": {
+    "image_path": "images/20/50/205083574_17083950429.jpg",
+    "product_id": "426",
+    "question": "nhưng size lớn hơn và có các biến thể thành phần khác như nghệ kiwi, yến mạch dâu tằm, hoặc matcha lựu đỏ thay vì matcha tràm trà",
+    "translated_question": "with a bigger size and different ingredient variants like turmeric kiwi, oat strawberry, or matcha pomegranate instead of matcha tea tree",
+    "answer_product_id": [
+      "884"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0039": {
+    "image_path": "images/40/93/409361948_9066665854.jpg",
+    "product_id": "1889",
+    "question": "có công thức thảo dược truyền thống tập trung vào giảm thâm nám và tàn nhang thay vì dưỡng trắng và kiểm soát dầu",
+    "translated_question": "with a traditional herbal formula focused on reducing dark spots and freckles instead of whitening and oil control",
+    "answer_product_id": [
+      "34"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0040": {
+    "image_path": "images/51/11/51114105_10420763696.jpg",
+    "product_id": "1524",
+    "question": "nhưng đổi sang dạng tuýp đơn giản của thương hiệu Hàn Quốc dùng chiết xuất trà xanh thay vì chiết xuất trái cây",
+    "translated_question": "with a single-tube minimalist packaging from a Korean brand that uses green tea extract instead of fruit extracts",
+    "answer_product_id": [
+      "1140"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0041": {
+    "image_path": "images/44/92/44928441_21932796263.jpg",
+    "product_id": "2091",
+    "question": "từ thương hiệu khác có chứa salicylic acid dành riêng cho da sần sùi và không đều màu",
+    "translated_question": "from a different brand with added salicylic acid specifically targeting rough and bumpy skin texture",
+    "answer_product_id": [
+      "1771"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0042": {
+    "image_path": "images/36/2_/tiki_362_tikishop_27_big.jpg",
+    "product_id": "tiki_362",
+    "question": "nhưng ở dạng sữa rửa mặt thay vì dạng lotion",
+    "translated_question": "in a facial cleanser format instead of a lotion",
+    "answer_product_id": [
+      "2049"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 5
+  },
+  "DEV-R5-0043": {
+    "image_path": "images/91/8_/tiki_918_tikishop_8_big.jpg",
+    "product_id": "tiki_918",
+    "question": "dạng kem chống nắng SPF50+ thay vì bộ toner và serum",
+    "translated_question": "in a sunscreen format with SPF50+ protection instead of a toner and serum set",
+    "answer_product_id": [
+      "tiki_668"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0044": {
+    "image_path": "images/30/9_/tiki_309_tikishop_61_big.jpg",
+    "product_id": "tiki_309",
+    "question": "cho tôi xem sữa rửa mặt của cùng thương hiệu thay vì kem dưỡng mắt",
+    "translated_question": "show me a face cleanser from the same brand instead of an eye cream",
+    "answer_product_id": [
+      "422"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0045": {
+    "image_path": "images/12/34/tiki_1234_tikishop_21_big.jpg",
+    "product_id": "tiki_1234",
+    "question": "dạng tuýp có SPF chống nắng và dưỡng trắng nâng tông da thay vì dạng serum cô đặc",
+    "translated_question": "in a tube format with SPF sun protection and skin tone-up benefits instead of a serum concentrate",
+    "answer_product_id": [
+      "tiki_499"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0046": {
+    "image_path": "images/89/29/892935381_15995812483.jpg",
+    "product_id": "17",
+    "question": "nhưng với công thức dịu nhẹ hơn, không hương liệu và không cồn, tập trung vào phục hồi màng bảo vệ da thay vì kiểm soát dầu và mụn đầu đen, đóng gói dạng tuýp nhỏ tiện mang theo",
+    "translated_question": "but in a gentler, fragrance-free and alcohol-free formula focused on skin barrier repair rather than oil control and blackhead removal, in a smaller travel-friendly tube size",
+    "answer_product_id": [
+      "1903"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0047": {
+    "image_path": "images/19/10/191055262_14028160014.jpg",
+    "product_id": "1992",
+    "question": "có công thức dưỡng trắng và làm sáng da, ngăn melanin và chống UV thay vì tập trung dưỡng ẩm sâu",
+    "translated_question": "with a whitening and brightening formula that targets melanin and includes UV protection instead of the deep moisture focus",
+    "answer_product_id": [
+      "1350"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0048": {
+    "image_path": "images/27/88/278837524_8843677104.jpg",
+    "product_id": "2145",
+    "question": "nhưng dạng chai pump lớn hơn thay vì ống mẫu nhỏ",
+    "translated_question": "in a larger pump bottle size instead of the small sample tube",
+    "answer_product_id": [
+      "1405"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0049": {
+    "image_path": "images/35/7_/tiki_357_tikishop_15_big.jpg",
+    "product_id": "tiki_357",
+    "question": "dạng tuýp vừa dùng được như sữa rửa mặt vừa là mặt nạ đất sét thay vì dạng nước toner",
+    "translated_question": "in a tube format that works as both a cleanser and clay mask instead of a liquid toner",
+    "answer_product_id": [
+      "183"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0050": {
+    "image_path": "images/14/87/14879703_4750721383.jpg",
+    "product_id": "552",
+    "question": "từ thương hiệu khác có gel rửa mặt trị mụn tương tự, tốt nhất là có combo kèm size nhỏ dùng thử",
+    "translated_question": "from a different brand with a similar acne-fighting purifying gel formula, preferably with a combo set that includes a smaller travel size",
+    "answer_product_id": [
+      "1385"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0051": {
+    "image_path": "images/37/1_/tiki_371_nan_big.jpg",
+    "product_id": "tiki_371",
+    "question": "dạng serum lỏng có collagen và chiết xuất đông trùng hạ thảo thay vì kem dưỡng",
+    "translated_question": "in serum liquid form with collagen and cordyceps extract instead of a cream",
+    "answer_product_id": [
+      "tiki_1187"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0052": {
+    "image_path": "images/78/05/78052603_10624338216.jpg",
+    "product_id": "1538",
+    "question": "nhưng dạng gel đặc trị mụn và lỗ chân lông của thương hiệu khác",
+    "translated_question": "with a gel formula specifically targeting acne and blackheads from a different brand",
+    "answer_product_id": [
+      "581"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0053": {
+    "image_path": "images/37/25/372577643_9693769822.jpg",
+    "product_id": "228",
+    "question": "có công thức sữa bò thay vì nghệ, tập trung vào dưỡng ẩm thay vì ngăn ngừa mụn",
+    "translated_question": "with a cow milk formula instead of turmeric, targeting moisturizing benefits rather than acne-fighting",
+    "answer_product_id": [
+      "1532"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0054": {
+    "image_path": "images/80/82/808289592_13296500641.jpg",
+    "product_id": "520",
+    "question": "từ thương hiệu khác có nhiều lựa chọn kích thước và được thiết kế đặc biệt cho da dầu và da mụn",
+    "translated_question": "from a different brand with options for multiple sizes and designed specifically for oily and acne-prone skin",
+    "answer_product_id": [
+      "835"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0055": {
+    "image_path": "images/17/55/175572825_4962979462.jpg",
+    "product_id": "726",
+    "question": "vẫn là dòng Eucerin Pro Acne nhưng dạng toner thay vì sữa rửa mặt tạo bọt",
+    "translated_question": "same Eucerin Pro Acne line but in a toner format instead of a cleansing foam",
+    "answer_product_id": [
+      "tiki_332"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 5
+  },
+  "DEV-R5-0056": {
+    "image_path": "images/40/75/407528689_11015531869.jpg",
+    "product_id": "94",
+    "question": "từ thương hiệu khác có công thức trà xanh dạng sữa rửa mặt tạo bọt",
+    "translated_question": "from a different brand with a green tea formula in a foam cleanser format",
+    "answer_product_id": [
+      "331"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0057": {
+    "image_path": "images/17/40/tiki_1740_tikishop_31_big.jpg",
+    "product_id": "tiki_1740",
+    "question": "từ thương hiệu khác có thiết kế 2 công dụng và đóng gói hình chữ nhật dài hơn với nhiều miếng hơn",
+    "translated_question": "from a different brand with a dual-purpose design and comes in a taller rectangular pack with more pieces",
+    "answer_product_id": [
+      "tiki_1813"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0058": {
+    "image_path": "images/69/15/6915796_7266518732.jpg",
+    "product_id": "2237",
+    "question": "từ thương hiệu khác có dạng tuýp kèm hộp và công dụng làm sạch sâu trị mụn mạnh hơn",
+    "translated_question": "from a different brand with a tube/box packaging format and a stronger anti-acne deep cleansing claim",
+    "answer_product_id": [
+      "1318"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0059": {
+    "image_path": "images/43/30/43300567_7459620955.jpg",
+    "product_id": "1325",
+    "question": "có công thức đất sét khoáng để làm sạch sâu hơn thay vì sữa rửa mặt dạng bọt thông thường",
+    "translated_question": "with a mineral clay formula for deeper cleansing instead of a standard foam cleanser",
+    "answer_product_id": [
+      "336"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0060": {
+    "image_path": "images/97/99/979943_694389549.mp4",
+    "product_id": "544",
+    "question": "dạng chai bơm từ thương hiệu khác với thiết kế tối giản hơn và dung tích lớn hơn 200ml",
+    "translated_question": "in a pump bottle format from a different brand with a more minimalist aesthetic and larger 200ml size",
+    "answer_product_id": [
+      "647"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0061": {
+    "image_path": "images/58/64/58647841_963278159.jpg",
+    "product_id": "1257",
+    "question": "từ thương hiệu khác có công thức trà xanh và kèm theo toner kiểm soát dầu",
+    "translated_question": "from a different brand with a green tea formula that also includes a toner for oil control",
+    "answer_product_id": [
+      "1422"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0062": {
+    "image_path": "images/11/57/tiki_1157_tikishop_3_big.jpg",
+    "product_id": "tiki_1157",
+    "question": "nhưng tập trung trị mụn và thâm bằng thảo dược thiên nhiên thay vì dưỡng trắng da",
+    "translated_question": "but targets acne and blemishes with herbal/natural ingredients instead of focusing on whitening",
+    "answer_product_id": [
+      "tiki_1228"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0063": {
+    "image_path": "images/23/23/232374172_20624815701.mp4",
+    "product_id": "934",
+    "question": "cho mình xem sản phẩm CeraVe Hydrating Cleanser tương tự nhưng dung tích lớn hơn 473ml",
+    "translated_question": "show me the same CeraVe Hydrating Cleanser but in a larger 473ml bottle size",
+    "answer_product_id": [
+      "257"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0064": {
+    "image_path": "images/31/18/311804570_15391477296.jpg",
+    "product_id": "182",
+    "question": "dạng chai bơm từ thương hiệu Nhật khác có hyaluronic acid để dưỡng ẩm hơn",
+    "translated_question": "in a pump bottle format from a different Japanese brand with hyaluronic acid for hydration",
+    "answer_product_id": [
+      "789"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0065": {
+    "image_path": "images/72/17/72177588_1668328803.jpg",
+    "product_id": "616",
+    "question": "từ thương hiệu khác có công dụng dưỡng sáng da với thành phần nước gạo, size lớn hơn",
+    "translated_question": "from a different brand with a brightening/whitening focus using rice water ingredients, in a larger size",
+    "answer_product_id": [
+      "1891"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0066": {
+    "image_path": "images/92/8_/tiki_928_tikishop_27_big.jpg",
+    "product_id": "tiki_928",
+    "question": "dạng sữa rửa mặt thay vì nước cân bằng da, cùng thương hiệu Simple",
+    "translated_question": "in a facial cleanser format instead of a toner, same brand",
+    "answer_product_id": [
+      "122"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0067": {
+    "image_path": "images/43/00/43000680_19417213026.jpg",
+    "product_id": "2108",
+    "question": "cho tôi xem sản phẩm tương tự nhưng của thương hiệu Nhật Bản với chiết xuất lúa mạch thay vì nghệ, và dung tích lớn hơn",
+    "translated_question": "show me something like this but from a Japanese brand with barley extract instead of turmeric, and in a larger size",
+    "answer_product_id": [
+      "1841"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0068": {
+    "image_path": "images/55/92/55924287_17482137613.jpg",
+    "product_id": "801",
+    "question": "nhưng dạng tuýp sữa rửa mặt gel thay vì bộ nước tẩy trang và toner dạng lỏng",
+    "translated_question": "but in tube format with a facial wash gel instead of the liquid micellar water and toner set",
+    "answer_product_id": [
+      "1983"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0069": {
+    "image_path": "images/20/01/20018783_5161123672.jpg",
+    "product_id": "1693",
+    "question": "dạng chai bơm dung tích lớn hơn từ thương hiệu da liễu nổi tiếng hơn",
+    "translated_question": "in a larger pump bottle format from a well-known dermatological brand",
+    "answer_product_id": [
+      "1826"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0070": {
+    "image_path": "images/17/98/179843376_13357835556.jpg",
+    "product_id": "760",
+    "question": "nhưng có nhãn tiếng Anh thay vì tiếng Ba Lan, và là phiên bản quốc tế thông thường của các sản phẩm rửa mặt",
+    "translated_question": "with English-language labeling instead of Polish, and showing the standard international versions of the cleansers",
+    "answer_product_id": [
+      "774"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0071": {
+    "image_path": "images/30/55/30555440_6816589038.mp4",
+    "product_id": "715",
+    "question": "cho tôi xem sản phẩm tương tự REFERENCE nhưng của thương hiệu khác tập trung cho da mụn với công thức gel pH thấp và chiết xuất trà xanh",
+    "translated_question": "show me something like REFERENCE but from a different brand that focuses on acne-prone skin with a low pH gel formula and green tea extract",
+    "answer_product_id": [
+      "612"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0072": {
+    "image_path": "images/66/8_/tiki_668_tikishop_0_big.jpg",
+    "product_id": "tiki_668",
+    "question": "dạng sữa rửa mặt tạo bọt thay vì kem chống nắng, cùng dòng Madagascar Centella",
+    "translated_question": "in a foam cleanser format instead of a sunscreen, from the same Madagascar Centella line",
+    "answer_product_id": [
+      "1412"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0073": {
+    "image_path": "images/23/70/237063363_13831373248.jpg",
+    "product_id": "2027",
+    "question": "vẫn là sữa rửa mặt tạo bọt Neutrogena nhưng dạng tuýp với công thức làm sạch sâu dịu nhẹ thay vì phiên bản nghệ",
+    "translated_question": "same Neutrogena foaming cleanser brand but in a tube format with a gentle deep clean formula instead of the curcuma version",
+    "answer_product_id": [
+      "1317"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0074": {
+    "image_path": "images/45/2_/tiki_452_tikishop_0_big.jpg",
+    "product_id": "tiki_452",
+    "question": "từ thương hiệu khác với công thức dưỡng ẩm thay vì trị mụn, và có tuýp lớn hơn",
+    "translated_question": "from a different brand with a moisturizing formula instead of anti-acne, and in a larger tube size",
+    "answer_product_id": [
+      "tiki_1027"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0075": {
+    "image_path": "images/51/65/51652219_4271416499.jpg",
+    "product_id": "377",
+    "question": "dạng mini nhỏ gọn để dùng thử trước khi mua size lớn",
+    "translated_question": "in a smaller travel-size version for trying out before committing to the full size",
+    "answer_product_id": [
+      "769"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0076": {
+    "image_path": "images/15/48/tiki_1548_tikishop_0_big.jpg",
+    "product_id": "tiki_1548",
+    "question": "nhưng dạng chai nhỏ du lịch 50ml và dành cho da nhạy cảm thay vì da mụn",
+    "translated_question": "but in a smaller travel-size bottle and formulated for sensitive skin instead of acne-prone skin",
+    "answer_product_id": [
+      "tiki_1636"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0077": {
+    "image_path": "images/36/55/36559034_6004945386.jpg",
+    "product_id": "537",
+    "question": "nhưng có đầu bơm và dung tích lớn hơn khoảng 473ml",
+    "translated_question": "with a pump dispenser and a much larger size around 473ml",
+    "answer_product_id": [
+      "82"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0078": {
+    "image_path": "images/63/3_/tiki_633_tikishop_43_big.jpg",
+    "product_id": "tiki_633",
+    "question": "nhưng đổi sang loại nước hoa hồng bí đao giúp cân bằng dầu và giảm mụn thay vì làm sáng da",
+    "translated_question": "with a winter melon toner variant that targets oil balancing and pimple reduction instead of brightening",
+    "answer_product_id": [
+      "tiki_621"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0079": {
+    "image_path": "images/14/90/tiki_1490_tikishop_16_big.jpg",
+    "product_id": "tiki_1490",
+    "question": "từ thương hiệu khác với dạng sữa rửa mặt tạo bọt thay vì gel tẩy tế bào chết",
+    "translated_question": "from a different brand with a foaming cleanser format instead of a peeling gel",
+    "answer_product_id": [
+      "147"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0080": {
+    "image_path": "images/12/98/tiki_1298_tikishop_21_big.jpg",
+    "product_id": "tiki_1298",
+    "question": "từ serum nhỏ giọt màu bạc nhẹ nhàng sang thiết kế chai màu đen sang trọng thương hiệu Lancôme với công thức cô đặc kích hoạt tuổi trẻ",
+    "translated_question": "from a light silver dropper serum to a sleek black bottle design with a Lancôme luxury feel and youth-activating concentrate formula",
+    "answer_product_id": [
+      "tiki_1264"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0081": {
+    "image_path": "images/34/03/340371383_7883562600.jpg",
+    "product_id": "774",
+    "question": "cho mình xem riêng sản phẩm Hydrating Cleanser dạng chai lớn đơn lẻ thay vì mua cả bộ sản phẩm",
+    "translated_question": "show me just the Hydrating Cleanser on its own in a larger single bottle instead of the multi-product set",
+    "answer_product_id": [
+      "154"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0082": {
+    "image_path": "images/12/60/126076798_8846623699.jpg",
+    "product_id": "1329",
+    "question": "nhưng dùng công thức trà xanh thay vì hoa anh đào, và tuýp to hơn một chút",
+    "translated_question": "with a green tea formula instead of cherry blossom, in a larger tube size",
+    "answer_product_id": [
+      "311"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0083": {
+    "image_path": "images/24/08/24082707_4857660599.jpg",
+    "product_id": "174",
+    "question": "từ thương hiệu khác và có dạng bộ combo nhiều chai thay vì mua lẻ một chai",
+    "translated_question": "from a different brand with a multi-pack value set format instead of a single bottle",
+    "answer_product_id": [
+      "234"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0084": {
+    "image_path": "images/50/8_/tiki_508_tikishop_61_big.jpg",
+    "product_id": "tiki_508",
+    "question": "cho tôi xem sữa rửa mặt dịu nhẹ của cùng thương hiệu thay vì kem chống nắng",
+    "translated_question": "for a gentle face cleanser from the same brand instead of a sunscreen",
+    "answer_product_id": [
+      "417"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0085": {
+    "image_path": "images/22/73/227329341_12728891909.jpg",
+    "product_id": "2109",
+    "question": "có hạt tẩy tế bào chết dạng tuýp nhỏ hơn từ thương hiệu khác, vẫn dành cho da dầu và da mụn",
+    "translated_question": "with exfoliating beads in a smaller tube format from a different brand, targeting the same oily and acne-prone skin concern",
+    "answer_product_id": [
+      "916"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0086": {
+    "image_path": "images/29/93/29935989_6380066221.jpg",
+    "product_id": "861",
+    "question": "từ một thương hiệu Hàn Quốc khác với nhiều lựa chọn công thức hơn như phiên bản lỗ chân lông núi lửa, trà xanh, hay muối biển",
+    "translated_question": "from a different Korean brand with more variety of formula options like volcanic pore, green tea, or sea salt versions",
+    "answer_product_id": [
+      "1347"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0087": {
+    "image_path": "images/88/26/882668163_19761240849.jpg",
+    "product_id": "530",
+    "question": "có dạng bộ combo chăm sóc da đầy đủ gồm nước tẩy trang và toner đi kèm, không chỉ mỗi sữa rửa mặt đơn lẻ",
+    "translated_question": "comes as a complete skincare routine set with a micellar water and toner included, not just a standalone face wash",
+    "answer_product_id": [
+      "625"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0088": {
+    "image_path": "images/12/30/tiki_1230_tikishop_2_big.jpg",
+    "product_id": "tiki_1230",
+    "question": "dạng sữa rửa mặt giúp ngừa mụn và làm sạch lỗ chân lông thay vì serum điều trị cô đặc",
+    "translated_question": "in a face cleanser format that targets acne and pore cleansing instead of a concentrated serum treatment",
+    "answer_product_id": [
+      "711"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0089": {
+    "image_path": "images/54/92/549295567_11556175066.jpg",
+    "product_id": "767",
+    "question": "từ thương hiệu khác có công dụng làm sạch dầu và thu nhỏ lỗ chân lông thay vì dưỡng ẩm lô hội",
+    "translated_question": "from a different brand with oil-clearing and pore-minimizing claims instead of soothing aloe vera",
+    "answer_product_id": [
+      "600"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0090": {
+    "image_path": "images/20/01/20018783_17402097819.jpg",
+    "product_id": "1607",
+    "question": "từ thương hiệu Nhật Bản với thành phần thiên nhiên thực vật thay vì gel trị mụn kiểm soát dầu",
+    "translated_question": "from a Japanese brand with a more natural/botanical ingredient focus instead of an acne-targeting gel formula",
+    "answer_product_id": [
+      "22"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0091": {
+    "image_path": "images/85/42/854276862_21746805252.jpg",
+    "product_id": "429",
+    "question": "nhưng dạng toner thay vì sữa rửa mặt, tập trung vào dưỡng sáng và cân bằng da",
+    "translated_question": "but a toner format instead of a cleanser, focused on brightening and balancing skin radiance",
+    "answer_product_id": [
+      "tiki_350"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0092": {
+    "image_path": "images/97/9_/tiki_979_tikishop_2_big.jpg",
+    "product_id": "tiki_979",
+    "question": "từ thương hiệu khác dạng tuýp có công dụng làm sáng da",
+    "translated_question": "from a different brand in a tube format with skin brightening claims",
+    "answer_product_id": [
+      "tiki_994"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0093": {
+    "image_path": "images/77/94/779446567_13995110712.jpg",
+    "product_id": "20",
+    "question": "nhưng tập trung vào kiểm soát mụn và trị mụn thay vì dưỡng ẩm, từ thương hiệu khác",
+    "translated_question": "but focused on acne control and anti-acne treatment instead of moisturizing, from a different brand",
+    "answer_product_id": [
+      "1575"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0094": {
+    "image_path": "images/16/89/168976484_10265344463.jpg",
+    "product_id": "1833",
+    "question": "dạng tuýp từ thương hiệu khác có công dụng làm trắng và sáng da thay vì dạng chai bơm",
+    "translated_question": "in a tube format from a different brand with whitening and brightening claims instead of a pump bottle",
+    "answer_product_id": [
+      "416"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0095": {
+    "image_path": "images/47/23/47230535_1485193125.jpg",
+    "product_id": "1398",
+    "question": "từ thương hiệu khác có kết cấu sủi bọt với tro núi lửa để làm sạch lỗ chân lông thay vì công thức dịu nhẹ từ đậu nành",
+    "translated_question": "from a different brand with a foam texture and volcanic ash for pore cleansing instead of soy-based gentle formula",
+    "answer_product_id": [
+      "1596"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0096": {
+    "image_path": "images/17/85/178567683_4537748921.jpg",
+    "product_id": "88",
+    "question": "có thành phần trà xanh và kích thước tuýp nhỏ hơn từ một thương hiệu Nhật khác",
+    "translated_question": "with green tea ingredients and a smaller tube size from a different Japanese brand",
+    "answer_product_id": [
+      "184"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0097": {
+    "image_path": "images/10/9_/tiki_109_tikishop_9_big.jpg",
+    "product_id": "tiki_109",
+    "question": "có thiết kế trắng tối giản hơn và bổ sung thêm công dụng phức hợp vitamin và chống nhăn từ một thương hiệu khác",
+    "translated_question": "with a cleaner white minimalist design and featuring added vitamin complex and anti-wrinkle benefits from a different brand",
+    "answer_product_id": [
+      "tiki_573"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0098": {
+    "image_path": "images/31/56/315629668_3455178555.jpg",
+    "product_id": "2241",
+    "question": "cho tôi xem sản phẩm tương tự nhưng của thương hiệu Nhật khác tập trung dưỡng ẩm và làm sáng da hơn, thiết kế tuýp trắng đơn giản",
+    "translated_question": "show me something like this but from a different Japanese brand with a moisturizing and brightening focus, in a plain white tube design",
+    "answer_product_id": [
+      "783"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0099": {
+    "image_path": "images/40/98/409846092_9163418317.mp4",
+    "product_id": "1896",
+    "question": "nhưng là thương hiệu Hàn Quốc dùng thành phần tự nhiên như gạo lứt hoặc than hoạt tính để làm sạch sâu thay vì công thức Nhật",
+    "translated_question": "with a Korean brand that uses natural ingredients like brown rice or charcoal for deep cleansing instead of a Japanese formula",
+    "answer_product_id": [
+      "185"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0100": {
+    "image_path": "images/25/77/25774301_16418761162.jpg",
+    "product_id": "197",
+    "question": "có công thức làm sạch sâu bằng than hoạt tính và khả năng thải độc ô nhiễm thay vì dưỡng trắng, với size lớn hơn",
+    "translated_question": "with a charcoal-based deep cleansing formula and pollution detox claims instead of a brightening formula, in a larger size",
+    "answer_product_id": [
+      "1078"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0101": {
+    "image_path": "images/83/43/83432445_2113736365.mp4",
+    "product_id": "1146",
+    "question": "nhưng dùng bơ thay vì trà xanh làm thành phần chính, và có dung tích lớn hơn",
+    "translated_question": "but with avocado instead of green tea as the key ingredient, and in a larger size",
+    "answer_product_id": [
+      "1681"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0102": {
+    "image_path": "images/1_/ti/tiki_1_tikishop_0_big.jpg",
+    "product_id": "tiki_1",
+    "question": "từ thương hiệu khác với thành phần thiên nhiên như bơ thay vì niacinamide B5",
+    "translated_question": "from a different brand with a natural ingredient focus like avocado instead of niacinamide B5",
+    "answer_product_id": [
+      "tiki_554"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0103": {
+    "image_path": "images/86/3_/tiki_863_tikishop_9_big.jpg",
+    "product_id": "tiki_863",
+    "question": "với công thức thảo dược trà xanh thay vì phức hợp vitamin tế bào gốc, và thiết kế gói phẳng thay vì bao bì hình viên nang",
+    "translated_question": "with a green tea herbal formula instead of the stem cell vitamin complex, in a flat packet design rather than the pill-capsule themed packaging",
+    "answer_product_id": [
+      "tiki_45"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0104": {
+    "image_path": "images/38/27/382767637_15581859112.jpg",
+    "product_id": "745",
+    "question": "dành cho da dầu và da mụn thay vì da khô và da nhạy cảm, có công dụng kiểm soát dầu từ thương hiệu khác",
+    "translated_question": "for oily and acne-prone skin instead of dry and sensitive skin, with oil control benefits from a different brand",
+    "answer_product_id": [
+      "312"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0105": {
+    "image_path": "images/28/6_/tiki_286_tikishop_28_big.jpg",
+    "product_id": "tiki_286",
+    "question": "có bao bì màu đỏ và vàng sang trọng hơn và chứa retinol như thành phần chống lão hóa chính",
+    "translated_question": "with a warmer, more luxurious red and gold packaging and containing retinol as the key anti-aging ingredient",
+    "answer_product_id": [
+      "tiki_910"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0106": {
+    "image_path": "images/16/96/16969108_11054616604.jpg",
+    "product_id": "1281",
+    "question": "từ thương hiệu khác với kích thước mini tiện lợi và dạng gel thay vì dạng bọt whip",
+    "translated_question": "from a different brand with a smaller travel-size format and a gel texture instead of a foam whip",
+    "answer_product_id": [
+      "769"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0107": {
+    "image_path": "images/18/55/185522883_10201911117.jpg",
+    "product_id": "1725",
+    "question": "từ thương hiệu được bác sĩ da liễu quốc tế khuyên dùng hơn, chai to hơn và có thêm thành phần dưỡng ẩm như ceramides",
+    "translated_question": "from a more internationally recognized dermatologist-recommended brand with a larger bottle size and added hydrating ingredients like ceramides",
+    "answer_product_id": [
+      "989"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0108": {
+    "image_path": "images/64/7_/tiki_647_tikishop_68_big.jpg",
+    "product_id": "tiki_647",
+    "question": "cho tôi xem sản phẩm tương tự nhưng dạng nước tẩy trang micellar với chiết xuất hoa hồng thay vì toner nghệ",
+    "translated_question": "show me something like this but a micellar water formula with rose extract instead of turmeric toner",
+    "answer_product_id": [
+      "tiki_1589"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0109": {
+    "image_path": "images/15/66/156610565_3148123994.jpg",
+    "product_id": "1036",
+    "question": "cho tôi xem phiên bản nhỏ hơn dùng thử với công dụng làm sáng da White Beauty thay vì Flawless Radiance",
+    "translated_question": "show me a smaller travel-size version with a white beauty brightening claim instead of flawless radiance",
+    "answer_product_id": [
+      "197"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0110": {
+    "image_path": "images/17/55/175572825_8645434997.mp4",
+    "product_id": "2195",
+    "question": "dạng chai bơm lớn hơn của thương hiệu khác với kết cấu tạo bọt",
+    "translated_question": "in a larger pump bottle format from a different brand with a foaming texture",
+    "answer_product_id": [
+      "1741"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0111": {
+    "image_path": "images/21/08/21080428_7821184960.mp4",
+    "product_id": "52",
+    "question": "có công thức gel dịu nhẹ, cân bằng pH phù hợp để dùng buổi sáng hàng ngày thay vì sữa rửa mặt than hoạt tính kiểm soát dầu",
+    "translated_question": "with a gentler, pH-balanced gel formula suitable for daily morning use instead of a charcoal-based oil control wash",
+    "answer_product_id": [
+      "284"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0112": {
+    "image_path": "images/76/32/763202287_14384221562.jpg",
+    "product_id": "36",
+    "question": "của thương hiệu khác với dung tích lớn hơn và có công thức collagen hoặc hyaluronic acid",
+    "translated_question": "from a different brand with a larger size and collagen or hyaluronic acid formula",
+    "answer_product_id": [
+      "976"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0113": {
+    "image_path": "images/17/03/17036909_7032697369.jpg",
+    "product_id": "1967",
+    "question": "có chiết xuất nghệ thay vì sữa bò, với công dụng trị mụn và làm trắng da",
+    "translated_question": "with turmeric extract instead of cow milk, targeting anti-acne and skin whitening benefits",
+    "answer_product_id": [
+      "733"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 5
+  },
+  "DEV-R5-0114": {
+    "image_path": "images/18/17/181790483_19541851288.jpg",
+    "product_id": "645",
+    "question": "dành cho da khô thay vì da dầu, có tác dụng dưỡng ẩm thay vì làm sạch sâu dạng bọt",
+    "translated_question": "formulated for dry skin instead of oily skin, with hydrating properties rather than deep cleansing foam",
+    "answer_product_id": [
+      "1819"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0115": {
+    "image_path": "images/29/42/294242812_20809424514.jpg",
+    "product_id": "1187",
+    "question": "nhưng có công thức trà xanh dành riêng cho da mụn từ thương hiệu khác",
+    "translated_question": "but with a green tea formula specifically targeting acne-prone skin from a different brand",
+    "answer_product_id": [
+      "1546"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0116": {
+    "image_path": "images/95/48/95489804_4839531162.jpg",
+    "product_id": "1861",
+    "question": "có công thức dưỡng ẩm và nhẹ nhàng hơn, tập trung vào việc cấp ẩm thay vì làm sạch sâu lỗ chân lông, tốt nhất là từ thương hiệu Nhật Bản",
+    "translated_question": "with a moisturizing and gentle formula focused on hydration rather than deep pore cleansing, preferably from a Japanese brand",
+    "answer_product_id": [
+      "2225"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0117": {
+    "image_path": "images/18/96/189623332_14321326960.jpg",
+    "product_id": "2006",
+    "question": "dạng tuýp trắng với công thức pH thấp nhẹ nhàng hơn để dùng buổi sáng hàng ngày thay vì gel làm sạch chuyên sâu màu xanh",
+    "translated_question": "in a white tube with a gentler low pH formula for daily morning use instead of a green intensive purifying gel",
+    "answer_product_id": [
+      "27"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0118": {
+    "image_path": "images/53/6_/tiki_536_tikishop_3_big.jpg",
+    "product_id": "tiki_536",
+    "question": "dạng gel rửa mặt dành cho da dầu và da mụn thay vì kem dưỡng",
+    "translated_question": "a gel face wash format for oily and acne-prone skin instead of a cream",
+    "answer_product_id": [
+      "143"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0119": {
+    "image_path": "images/60/33/60338102_9138822642.jpg",
+    "product_id": "684",
+    "question": "cho tôi xem phiên bản mini size đi kèm với một loại sữa rửa mặt Senka khác trong bộ đôi",
+    "translated_question": "show me a smaller travel-size version that comes bundled with another Senka variant in a set",
+    "answer_product_id": [
+      "2174"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0120": {
+    "image_path": "images/57/0_/tiki_570_tikishop_13_big.jpg",
+    "product_id": "tiki_570",
+    "question": "có mùi mật ong thay vì dâu tây sữa chua, của thương hiệu khác, và được bán theo bộ 10 miếng",
+    "translated_question": "with honey instead of strawberry yogurt, from a different brand, and sold as a multi-pack of 10 sheets",
+    "answer_product_id": [
+      "tiki_878"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0121": {
+    "image_path": "images/77/94/779446622_20228384074.jpg",
+    "product_id": "1774",
+    "question": "có công thức Nhật Bản tập trung làm sáng da với thành phần thực vật tự nhiên như chiết xuất lúa mạch thay vì kiểm soát dầu",
+    "translated_question": "with a Japanese formula focused on skin brightening and natural botanical ingredients like barley extract instead of oil control",
+    "answer_product_id": [
+      "182"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0122": {
+    "image_path": "images/64/31/643136851_15529940982.jpg",
+    "product_id": "1947",
+    "question": "nhưng dạng gel của một thương hiệu quốc tế nổi tiếng, không màu nhân tạo và không hương liệu",
+    "translated_question": "but in a gel formula from a well-known international brand with no artificial colors or fragrances",
+    "answer_product_id": [
+      "731"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0123": {
+    "image_path": "images/45/75/45750695_766700834.jpg",
+    "product_id": "2169",
+    "question": "nhưng có vòi bơm và chai to hơn để dùng hàng ngày",
+    "translated_question": "with a pump dispenser and larger bottle size for everyday use",
+    "answer_product_id": [
+      "381"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0124": {
+    "image_path": "images/13/31/133143407_3134023069.jpg",
+    "product_id": "399",
+    "question": "từ thương hiệu Hàn Quốc hoặc phương Tây với dạng jelly pH thấp nhẹ dịu thay vì dạng sữa rửa mặt tạo bọt",
+    "translated_question": "from a Korean or Western brand with a gentle low-pH jelly formula instead of a foam cleanser",
+    "answer_product_id": [
+      "1882"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0125": {
+    "image_path": "images/29/55/29559718_597059716.jpg",
+    "product_id": "1102",
+    "question": "nhưng là thương hiệu Nhật tập trung vào dưỡng ẩm và làm sáng da thay vì trà xanh, và tuýp to hơn",
+    "translated_question": "with a Japanese brand focused on moisturizing and skin brightening instead of green tea, and in a larger tube size",
+    "answer_product_id": [
+      "2159"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0126": {
+    "image_path": "images/91/6_/tiki_916_tikishop_0_big.jpg",
+    "product_id": "tiki_916",
+    "question": "cùng hãng Cocoon nhưng đổi sang sữa rửa mặt nghệ thay vì nước toner sen",
+    "translated_question": "same brand but switch to a face wash with turmeric instead of a lotus toner",
+    "answer_product_id": [
+      "735"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0127": {
+    "image_path": "images/19/38/193849872_6809559513.jpg",
+    "product_id": "1064",
+    "question": "dạng tuýp với công dụng chăm sóc mụn cho da dễ nổi mụn, và có chương trình mua 1 tặng 1",
+    "translated_question": "in a tube format with acne-care benefits for acne-prone skin, and comes in a buy-one-get-one deal",
+    "answer_product_id": [
+      "24"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0128": {
+    "image_path": "images/62/0_/tiki_620_tikishop_36_big.jpg",
+    "product_id": "tiki_620",
+    "question": "dạng tuýp với công thức dịu nhẹ và dưỡng ẩm thay vì dạng nước toner",
+    "translated_question": "in a tube format with a gentle, moisturizing formula instead of a tonic",
+    "answer_product_id": [
+      "1850"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0129": {
+    "image_path": "images/37/25/37251700_2940166061.jpg",
+    "product_id": "371",
+    "question": "cho tôi xem sản phẩm tương tự nhưng là sữa rửa mặt dành riêng cho da mặt của cùng thương hiệu, size nhỏ hơn thay vì gel tắm toàn thân",
+    "translated_question": "show me something like this but specifically a facial cleanser version from the same brand, in a smaller size for face use rather than a full-body shower gel",
+    "answer_product_id": [
+      "95"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0130": {
+    "image_path": "images/26/32/26320661_1436341173.jpg",
+    "product_id": "1547",
+    "question": "nhưng theo phong cách Nhật Bản tối giản hơn với công thức nhau thai cừu thay vì nhân sâm, đóng gói màu hồng pastel nhẹ nhàng",
+    "translated_question": "with a softer, more minimalist Japanese formula featuring sheep placenta instead of ginseng, in a gentle pink pastel packaging",
+    "answer_product_id": [
+      "1890"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0131": {
+    "image_path": "images/18/4_/tiki_184_tikishop_68_big.jpg",
+    "product_id": "tiki_184",
+    "question": "cho tôi xem bộ combo chăm sóc da đầy đủ gồm sữa rửa mặt size lớn hơn kèm serum và kem dưỡng thay vì chỉ một chai xịt đơn lẻ",
+    "translated_question": "show me a full skincare combo set with a larger cleanser and additional serum and cream products instead of just the single spray bottle",
+    "answer_product_id": [
+      "tiki_1322"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0132": {
+    "image_path": "images/14/36/14365154_3819624230.jpg",
+    "product_id": "1070",
+    "question": "nhưng có công thức nhẹ hơn, dưỡng ẩm hơn với hương hoa anh đào thay vì lựu và màu sắc pastel nhẹ nhàng hơn",
+    "translated_question": "with a lighter, more hydrating formula in a softer pastel color and cherry blossom scent instead of pomegranate",
+    "answer_product_id": [
+      "1329"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0133": {
+    "image_path": "images/43/75/43755523_13994477209.jpg",
+    "product_id": "827",
+    "question": "nhưng dạng tẩy da chết kiểu lăn bóc để loại bỏ da chết sâu hơn thay vì dạng gel rửa mặt",
+    "translated_question": "but in a peeling/exfoliating roll-off format for deeper dead skin removal instead of a gel cleanser",
+    "answer_product_id": [
+      "tiki_1424"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0134": {
+    "image_path": "images/41/17/411733089_10297736015.jpg",
+    "product_id": "1290",
+    "question": "dạng tuýp của hãng khác, dành cho da dầu hoặc da hỗn hợp thay vì da nhạy cảm",
+    "translated_question": "in a tube format from a different brand, designed for oily or combination skin instead of sensitive skin",
+    "answer_product_id": [
+      "819"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0135": {
+    "image_path": "images/57/85/5785851_4293587567.jpg",
+    "product_id": "1401",
+    "question": "nhưng chai to hơn nhiều để dùng hàng ngày ở nhà thay vì chai mini du lịch",
+    "translated_question": "in a much larger size bottle for everyday home use instead of the travel mini",
+    "answer_product_id": [
+      "168"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0136": {
+    "image_path": "images/79/59/795987077_12894315997.jpg",
+    "product_id": "1082",
+    "question": "từ thương hiệu khác có công dụng làm sáng da và trị mụn thay vì kiểm soát dầu, dành cho nữ",
+    "translated_question": "from a different brand with skin brightening and anti-acne benefits instead of oil control, targeted at women",
+    "answer_product_id": [
+      "799"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0137": {
+    "image_path": "images/13/59/tiki_1359_tikishop_1_big.jpg",
+    "product_id": "tiki_1359",
+    "question": "chỉ một chai toner đơn lẻ màu vàng hổ phách thay vì cả bộ quà tặng màu hồng",
+    "translated_question": "a single standalone toner bottle in a golden amber color instead of a full pink gift set",
+    "answer_product_id": [
+      "tiki_380"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0138": {
+    "image_path": "images/64/75/64756349_6859107103.jpg",
+    "product_id": "959",
+    "question": "dạng chai bơm với nhãn tối giản hơn và hương thảo mộc phương Đông thay vì dạng tuýp",
+    "translated_question": "in a pump bottle format with a more minimalist label and herbal oriental scent instead of a tube",
+    "answer_product_id": [
+      "1606"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0139": {
+    "image_path": "images/29/54/295459902_6749033721.mp4",
+    "product_id": "1210",
+    "question": "của thương hiệu khác có thành phần axit amin và dành cho cả nam lẫn nữ",
+    "translated_question": "with a different brand that highlights amino acid ingredients and explicitly targets both men and women",
+    "answer_product_id": [
+      "907"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0140": {
+    "image_path": "images/51/55/515537428_19606795856.mp4",
+    "product_id": "1113",
+    "question": "có công thức chiết xuất thảo dược tập trung vào ngăn ngừa mụn và làm sạch sâu thay vì trà xanh",
+    "translated_question": "with a herbal extract formula that focuses on acne prevention and deep cleansing instead of green tea",
+    "answer_product_id": [
+      "575"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0141": {
+    "image_path": "images/40/57/405719966_3018608676.mp4",
+    "product_id": "1383",
+    "question": "dạng chai nhỏ tiện mang theo của thương hiệu được bác sĩ da liễu khuyên dùng, có ceramide dành cho da thường đến da dầu",
+    "translated_question": "in a smaller travel-size bottle from a dermatologist-recommended brand with ceramides for normal to oily skin",
+    "answer_product_id": [
+      "1159"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0142": {
+    "image_path": "images/91/52/9152250_3019169923.jpg",
+    "product_id": "1778",
+    "question": "từ thương hiệu khác có nhiều lựa chọn thành phần hơn như than hoạt tính, trà xanh, hoặc hoa hồng",
+    "translated_question": "from a different brand with more variety of ingredient-based options like charcoal, green tea, or rose",
+    "answer_product_id": [
+      "132"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0143": {
+    "image_path": "images/51/47/514711479_20921391954.jpg",
+    "product_id": "2000",
+    "question": "từ thương hiệu da liễu châu Âu như La Roche-Posay, dạng tuýp mini hoặc gói dùng thử tiện lợi hơn",
+    "translated_question": "from a European dermatological brand like La Roche-Posay, in a smaller travel-size tube or sachet format",
+    "answer_product_id": [
+      "713"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0144": {
+    "image_path": "images/16/96/16969108_16176750457.jpg",
+    "product_id": "692",
+    "question": "dạng tuýp đầy đủ size lớn hơn với nhiều lựa chọn như dưỡng trắng, chống lão hóa hoặc dành cho da mụn",
+    "translated_question": "in a full-size tube with multiple variants to choose from, like brightening, anti-aging, or acne care options",
+    "answer_product_id": [
+      "341"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0145": {
+    "image_path": "images/92/71/92710145_1607659743.jpg",
+    "product_id": "505",
+    "question": "dành cho da khô với công thức dưỡng ẩm hơn và có kèm theo một lọ lotion mini",
+    "translated_question": "formulated for dry skin with added moisturizing benefits and comes as a set with a travel-size lotion",
+    "answer_product_id": [
+      "157"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0146": {
+    "image_path": "images/10/12/tiki_1012_tikishop_21_big.jpg",
+    "product_id": "tiki_1012",
+    "question": "chỉ muốn mua riêng kem chống nắng thôi, không cần mua cả bộ với sữa rửa mặt và nước xịt khoáng",
+    "translated_question": "just the sunscreen on its own without the cleanser and thermal water as a set",
+    "answer_product_id": [
+      "tiki_987"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0147": {
+    "image_path": "images/70/53/705398224_14083350371.jpg",
+    "product_id": "2062",
+    "question": "nhưng có công thức Nhật Bản tập trung vào chống lão hóa và tái tạo da với thành phần nhau thai tế bào gốc thay vì thảo dược đông y",
+    "translated_question": "with a Japanese formula focused on anti-aging and skin renewal benefits like placenta stem cell ingredients instead of traditional herbal medicine",
+    "answer_product_id": [
+      "131"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0148": {
+    "image_path": "images/14/30/14309578_2529532743.jpg",
+    "product_id": "357",
+    "question": "từ thương hiệu khác với tuýp lớn hơn và có nhiều lựa chọn cho các vấn đề da khác nhau",
+    "translated_question": "from a different brand with a larger tube size and multiple variant options for different skin concerns",
+    "answer_product_id": [
+      "238"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0149": {
+    "image_path": "images/94/59/94590967_1611847885.jpg",
+    "product_id": "325",
+    "question": "từ thương hiệu Việt nhỏ sang thương hiệu quốc tế nổi tiếng như Cetaphil với chai lớn hơn và có đầu bơm tiện dụng",
+    "translated_question": "from a smaller Vietnamese brand to a well-known international brand like Cetaphil with a larger bottle size and pump dispenser",
+    "answer_product_id": [
+      "1436"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0150": {
+    "image_path": "images/22/2_/tiki_222_tikishop_49_big.jpg",
+    "product_id": "tiki_222",
+    "question": "nhưng dùng nha đam thay vì dịch tiết ốc sên làm thành phần chính",
+    "translated_question": "with aloe vera instead of snail secretion filtrate as the key ingredient",
+    "answer_product_id": [
+      "tiki_595"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 5
+  },
+  "DEV-R5-0151": {
+    "image_path": "images/18/64/18644537_1807375954.jpg",
+    "product_id": "629",
+    "question": "bán thành combo 2 tuýp thay vì chỉ mua lẻ một cái thôi",
+    "translated_question": "sold as a bundle pack of two tubes instead of a single one",
+    "answer_product_id": [
+      "192"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0152": {
+    "image_path": "images/57/42/57422295_17454631713.jpg",
+    "product_id": "355",
+    "question": "dạng chai bơm thay vì tuýp, với dung tích lớn hơn phù hợp để dùng hàng ngày",
+    "translated_question": "in a pump bottle format instead of a tube, with a larger size suitable for daily use",
+    "answer_product_id": [
+      "333"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0153": {
+    "image_path": "images/45/23/452303032_10953152624.jpg",
+    "product_id": "1841",
+    "question": "cho tôi xem loại size lớn hơn với công dụng dưỡng ẩm và làm sáng da thay vì trị mụn",
+    "translated_question": "show me a larger size with moisturizing and brightening claims instead of acne-focused formula",
+    "answer_product_id": [
+      "1136"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0154": {
+    "image_path": "images/10/09/tiki_1009_tikishop_21_big.jpg",
+    "product_id": "tiki_1009",
+    "question": "dạng gel tuýp có tác dụng dưỡng trắng và dung tích lớn hơn",
+    "translated_question": "in a gel tube format with brightening/whitening properties and a larger size",
+    "answer_product_id": [
+      "tiki_494"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0155": {
+    "image_path": "images/18/30/183019548_4300818416.jpg",
+    "product_id": "950",
+    "question": "nhưng tập trung vào làm sạch lỗ chân lông và làm sáng da từ thương hiệu Hàn Quốc thay vì công thức thảo mộc tự nhiên",
+    "translated_question": "with a focus on pore-cleansing and skin brightening from a Korean brand instead of a botanical herbal formula",
+    "answer_product_id": [
+      "1517"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0156": {
+    "image_path": "images/36/34/36346029_6642945970.jpg",
+    "product_id": "893",
+    "question": "cho tôi xem sản phẩm Acnes Vitamin Cleanser tương tự nhưng dạng mini size nhỏ hơn để mang đi du lịch",
+    "translated_question": "show me the same Acnes Vitamin Cleanser but in a smaller mini travel size",
+    "answer_product_id": [
+      "1491"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0157": {
+    "image_path": "images/10/93/tiki_1093_tikishop_0_big.jpg",
+    "product_id": "tiki_1093",
+    "question": "dạng mặt nạ kem hoặc gel rửa trôi từ thương hiệu Hàn Quốc thay vì miếng dán lột mũi",
+    "translated_question": "in a wash-off cream or gel mask format from a Korean brand instead of a pore strip",
+    "answer_product_id": [
+      "tiki_572"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0158": {
+    "image_path": "images/53/11/531115369_13419028671.jpg",
+    "product_id": "1611",
+    "question": "nhưng tập trung vào việc trị mụn và làm sạch lỗ chân lông thay vì tẩy tế bào chết, với thiết kế trông chuyên dụng hơn",
+    "translated_question": "but focused on acne-fighting and pore cleansing rather than exfoliation, with a more clinical look",
+    "answer_product_id": [
+      "2005"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0159": {
+    "image_path": "images/17/08/tiki_1708_tikishop_0_big.jpg",
+    "product_id": "tiki_1708",
+    "question": "từ thương hiệu khác với hộp đựng hình trụ gọn gàng hơn thay vì đóng gói túi nhựa",
+    "translated_question": "from a different brand with a cleaner cylindrical container design instead of the plastic bag packaging",
+    "answer_product_id": [
+      "tiki_1709"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0160": {
+    "image_path": "images/48/47/484747243_8876355829.mp4",
+    "product_id": "1507",
+    "question": "dạng gel thay vì foam và từ thương hiệu khác với công thức pH thấp dành cho buổi sáng",
+    "translated_question": "with a gel texture instead of foam and from a different brand with low pH morning cleansing claims",
+    "answer_product_id": [
+      "256"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0161": {
+    "image_path": "images/25/89/25892343_4710204553.mp4",
+    "product_id": "1631",
+    "question": "nhưng dung tích lớn hơn, dạng gel tạo bọt dành riêng cho da dầu và da mụn từ thương hiệu da liễu nổi tiếng hơn",
+    "translated_question": "but in a larger size, with a foaming gel formula specifically designed for oily and acne-prone skin from a well-known dermatological brand",
+    "answer_product_id": [
+      "655"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0162": {
+    "image_path": "images/24/6_/tiki_246_tikishop_83_big.jpg",
+    "product_id": "tiki_246",
+    "question": "nhưng có thành phần retinol và công dụng chống nhăn, đựng trong tuýp màu đỏ thay vì hộp hồng",
+    "translated_question": "with retinol and anti-wrinkle benefits in a red tube packaging instead",
+    "answer_product_id": [
+      "tiki_605"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0163": {
+    "image_path": "images/15/20/tiki_1520_tikishop_124_big.jpg",
+    "product_id": "tiki_1520",
+    "question": "dạng tuýp thay vì hũ, và dùng để tẩy tế bào chết cho mặt thay vì toàn thân",
+    "translated_question": "in a tube format instead of jars, and designed for facial use rather than body exfoliation",
+    "answer_product_id": [
+      "tiki_1426"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0164": {
+    "image_path": "images/50/94/50949408_1234928475.jpg",
+    "product_id": "1346",
+    "question": "ở dạng size mini hoặc sample để tôi có thể dùng thử nhiều loại trước khi mua chai to",
+    "translated_question": "in travel-size or sample format so I can try multiple variants before committing to a full-size bottle",
+    "answer_product_id": [
+      "1716"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0165": {
+    "image_path": "images/13/97/139743620_4147304247.jpg",
+    "product_id": "1709",
+    "question": "dành cho da dầu và da mụn thay vì dưỡng sáng da và da nhạy cảm",
+    "translated_question": "formulated for oily and acne-prone skin instead of brightening and sensitive skin",
+    "answer_product_id": [
+      "1157"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0166": {
+    "image_path": "images/85/36/85363371_15657530932.mp4",
+    "product_id": "1454",
+    "question": "dạng tuýp màu xanh lá của thương hiệu Pháp với công dụng làm sạch sâu và tẩy tế bào chết mạnh hơn cho da dầu mụn",
+    "translated_question": "in a green tube from a French brand with stronger purifying and exfoliating claims for oily acne-prone skin",
+    "answer_product_id": [
+      "838"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0167": {
+    "image_path": "images/80/86/80861283_4379990039.jpg",
+    "product_id": "1986",
+    "question": "cho tôi xem sữa rửa mặt dạng tuýp của thương hiệu Nhật Bản có công dụng trị mụn và làm sáng da",
+    "translated_question": "show me a Japanese brand face wash that comes in a tube format with acne-care and brightening claims",
+    "answer_product_id": [
+      "231"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0168": {
+    "image_path": "images/49/01/490198472_16901748755.jpg",
+    "product_id": "148",
+    "question": "cùng thương hiệu CeraVe nhưng dành cho da khô thay vì da dầu, và chai to hơn",
+    "translated_question": "same brand but formulated for dry skin instead of oily skin, and in a larger bottle size",
+    "answer_product_id": [
+      "1781"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0169": {
+    "image_path": "images/13/97/139743620_2337295995.jpg",
+    "product_id": "597",
+    "question": "dạng tuýp có thành phần collagen chính để dưỡng ẩm và nuôi dưỡng da",
+    "translated_question": "in a tube format with collagen as the key ingredient for nourishing and moisturizing",
+    "answer_product_id": [
+      "2160"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0170": {
+    "image_path": "images/13/22/132283372_3592416479.mp4",
+    "product_id": "165",
+    "question": "có khả năng kiểm soát dầu tốt hơn và làm sạch sâu hơn để da mịn mờ, tốt nhất là có bạc hà cho cảm giác mát lạnh",
+    "translated_question": "with better oil control and deep cleansing for a matte finish, preferably with mint for a refreshing feel",
+    "answer_product_id": [
+      "1747"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0171": {
+    "image_path": "images/46/6_/tiki_466_tikishop_5_big.jpg",
+    "product_id": "tiki_466",
+    "question": "có công thức nâng tone và làm sáng da, giúp đều màu da hơn, trong tuýp nhỏ hơn",
+    "translated_question": "with a tone-up and skin brightening formula that evens out skin tone, in a smaller tube size",
+    "answer_product_id": [
+      "tiki_482"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0172": {
+    "image_path": "images/58/39/58399260_1960831875.jpg",
+    "product_id": "514",
+    "question": "thương hiệu Hàn Quốc thay vì hàng Trung Quốc, có công dụng dưỡng ẩm sâu và có nhiều phiên bản công thức khác nhau",
+    "translated_question": "from a Korean brand instead, with deep hydrating claims and comes in multiple formula variants",
+    "answer_product_id": [
+      "1852"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0173": {
+    "image_path": "images/14/3_/tiki_143_tikishop_16_big.jpg",
+    "product_id": "tiki_143",
+    "question": "có tinh chất trà xanh collagen thay vì chiết xuất ngọc trai, dạng mặt nạ miếng chữ nhật phẳng từ thương hiệu khác",
+    "translated_question": "with green tea collagen essence instead of pearl extract, in a flat rectangular sheet mask format from a different brand",
+    "answer_product_id": [
+      "tiki_21"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0174": {
+    "image_path": "images/4_/ti/tiki_4_tikishop_1_big.jpg",
+    "product_id": "tiki_4",
+    "question": "nhưng dạng serum với đầu nhỏ giọt từ thương hiệu cao cấp hơn, có công thức phục hồi đa tầng đồng bộ để chống lão hóa sâu hơn",
+    "translated_question": "but in a serum dropper bottle format from a luxury brand with a synchronized multi-recovery complex for deeper anti-aging repair",
+    "answer_product_id": [
+      "tiki_896"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0175": {
+    "image_path": "images/95/05/95050988_4746910265.mp4",
+    "product_id": "1844",
+    "question": "dành cho da nhạy cảm với công thức cân bằng pH dịu nhẹ thay vì tập trung kiểm soát dầu và mụn",
+    "translated_question": "designed for sensitive skin with a gentle pH-balanced formula instead of an acne and oil control focus",
+    "answer_product_id": [
+      "1271"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0176": {
+    "image_path": "images/14/24/tiki_1424_tikishop_3_big.jpg",
+    "product_id": "tiki_1424",
+    "question": "dạng gel rửa mặt thay vì dạng kì tẩy da chết, có công dụng giảm mụn và làm sạch lỗ chân lông",
+    "translated_question": "in a gel cleanser format instead of a peeling roll, with acne-fighting and pore-cleansing benefits",
+    "answer_product_id": [
+      "581"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0177": {
+    "image_path": "images/72/17/72177588_1411807514.jpg",
+    "product_id": "2180",
+    "question": "dạng gel xanh từ thương hiệu được bác sĩ da liễu khuyên dùng dành cho da dầu và da mụn, có nhiều kích thước khác nhau",
+    "translated_question": "in a blue gel formula from a dermatologist-recommended brand targeting oily and acne-prone skin, available in multiple sizes",
+    "answer_product_id": [
+      "835"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0178": {
+    "image_path": "images/16/09/tiki_1609_tikishop_0_big.jpg",
+    "product_id": "tiki_1609",
+    "question": "từ thương hiệu khác với bao bì được thiết kế dành cho da nhạy cảm",
+    "translated_question": "from a different brand with packaging designed for sensitive skin",
+    "answer_product_id": [
+      "tiki_1645"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0179": {
+    "image_path": "images/18/17/181790483_9479298675.jpg",
+    "product_id": "1523",
+    "question": "dành cho da nhạy cảm thay vì làm sáng da, từ thương hiệu da liễu với công thức dịu nhẹ hơn",
+    "translated_question": "designed for sensitive skin instead, from a dermatological brand with a gentle soothing formula rather than a brightening focus",
+    "answer_product_id": [
+      "2137"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0180": {
+    "image_path": "images/16/30/tiki_1630_tikishop_126_big.jpg",
+    "product_id": "tiki_1630",
+    "question": "dạng kem hoặc gel rửa mặt từ thương hiệu khác có tác dụng làm sáng da và được đóng gói trong tuýp",
+    "translated_question": "in a cream or gel cleanser format from a different brand that targets skin brightening and is packaged in a tube",
+    "answer_product_id": [
+      "tiki_1648"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0181": {
+    "image_path": "images/21/42/214290776_4775807695.jpg",
+    "product_id": "451",
+    "question": "có công thức trị mụn từ thương hiệu chăm sóc da mụn chuyên biệt thay vì chiết xuất bơ",
+    "translated_question": "with an acne-fighting formula from a dedicated acne skincare brand instead of avocado extract",
+    "answer_product_id": [
+      "837"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0182": {
+    "image_path": "images/11/68/tiki_1168_tikishop_21_big.jpg",
+    "product_id": "tiki_1168",
+    "question": "cho tôi xem size lớn hơn dạng chai có vòi bơm thay vì hộp nhỏ",
+    "translated_question": "show me a larger bottle size with a pump dispenser format instead of the small box",
+    "answer_product_id": [
+      "tiki_1167"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0183": {
+    "image_path": "images/20/89/20895938_13246621162.jpg",
+    "product_id": "583",
+    "question": "dạng chai có vòi bơm từ thương hiệu quốc tế nổi tiếng hơn",
+    "translated_question": "in a pump bottle format from a more internationally recognized brand",
+    "answer_product_id": [
+      "339"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0184": {
+    "image_path": "images/17/97/tiki_1797_tikishop_74_big.jpg",
+    "product_id": "tiki_1797",
+    "question": "có gói nhỏ hơn tiện mang theo với công thức làm trắng thay vì dưỡng ẩm đậm đặc",
+    "translated_question": "comes in a smaller travel-size pack with a whitening formula instead of rich moist",
+    "answer_product_id": [
+      "tiki_1794"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0185": {
+    "image_path": "images/15/84/tiki_1584_tikishop_6_big.jpg",
+    "product_id": "tiki_1584",
+    "question": "nhưng với chai dung tích lớn hơn 500ml",
+    "translated_question": "in a larger 500ml bottle size",
+    "answer_product_id": [
+      "tiki_1577"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0186": {
+    "image_path": "images/16/28/1628408_6655610083.jpg",
+    "product_id": "828",
+    "question": "có công thức dưỡng ẩm và thành phần tự nhiên như chiết xuất gạo lứt thay vì axit salicylic trị mụn",
+    "translated_question": "with a moisturizing formula and natural ingredients like brown rice extract instead of acne-fighting salicylic acid",
+    "answer_product_id": [
+      "1744"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0187": {
+    "image_path": "images/27/06/27068662_13428178594.jpg",
+    "product_id": "987",
+    "question": "vẫn là thương hiệu Acnes nhưng dạng serum thay vì sữa rửa mặt",
+    "translated_question": "from the same Acnes brand but in a serum format instead of a face wash",
+    "answer_product_id": [
+      "tiki_539"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0188": {
+    "image_path": "images/20/09/20097978_6137439819.mp4",
+    "product_id": "2002",
+    "question": "nhưng dạng sữa rửa mặt tạo bọt có chứa AHA/BHA/PHA để trị mụn chủ động hơn",
+    "translated_question": "but in a foam cleanser format with AHA/BHA/PHA exfoliating acids for more active acne treatment",
+    "answer_product_id": [
+      "1302"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0189": {
+    "image_path": "images/43/65/436580479_5089132290.jpg",
+    "product_id": "733",
+    "question": "cho tôi xem sản phẩm có dung tích lớn hơn và công thức dưỡng ẩm từ thương hiệu Nhật thay vì chiết xuất nghệ",
+    "translated_question": "show me something with a larger size and moisturizing formula from a Japanese brand instead of turmeric extract",
+    "answer_product_id": [
+      "2159"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0190": {
+    "image_path": "images/47/7_/tiki_477_tikishop_0_big.jpg",
+    "product_id": "tiki_477",
+    "question": "cho tôi xem sản phẩm tương tự nhưng là sữa rửa mặt kiểm soát dầu và thu nhỏ lỗ chân lông thay vì kem chống nắng",
+    "translated_question": "show me something like this but a facial cleanser focused on oil control and pore minimizing instead of sunscreen",
+    "answer_product_id": [
+      "1721"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0191": {
+    "image_path": "images/11/64/tiki_1164_tikishop_48_big.jpg",
+    "product_id": "tiki_1164",
+    "question": "dạng toner nước thay vì serum, và có dung tích lớn hơn",
+    "translated_question": "in a toner/water format instead of a serum, in a larger bottle size",
+    "answer_product_id": [
+      "tiki_655"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0192": {
+    "image_path": "images/84/6_/tiki_846_tikishop_13_big.jpg",
+    "product_id": "tiki_846",
+    "question": "nhưng dạng mặt nạ giấy với thành phần trái cây tươi thay vì đất sét",
+    "translated_question": "but in a sheet mask format with a fresh fruit ingredient instead of clay",
+    "answer_product_id": [
+      "tiki_134"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0193": {
+    "image_path": "images/13/76/tiki_1376_tikishop_125_big.jpg",
+    "product_id": "tiki_1376",
+    "question": "dạng serum tẩy da chết với công thức mạnh hơn thay vì dạng toner",
+    "translated_question": "with a stronger exfoliating formula in a serum format instead of a toner",
+    "answer_product_id": [
+      "tiki_1535"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0194": {
+    "image_path": "images/20/21/202136663_4118545903.mp4",
+    "product_id": "1296",
+    "question": "nhưng dạng bọt có đầu bơm và chứa thành phần rong biển/thực vật tự nhiên thay vì sữa dê",
+    "translated_question": "with a foam pump dispenser format and seaweed/natural botanical ingredients instead of goat milk",
+    "answer_product_id": [
+      "1489"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0195": {
+    "image_path": "images/25/08/250802784_3438379446.jpg",
+    "product_id": "723",
+    "question": "từ thương hiệu khác dạng gel rửa mặt tạo bọt và dung tích lớn hơn 200ml",
+    "translated_question": "from a different brand with a foaming gel formula and a larger 200ml size",
+    "answer_product_id": [
+      "541"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0196": {
+    "image_path": "images/33/39/33397422_21719351044.jpg",
+    "product_id": "119",
+    "question": "cho tôi xem riêng sản phẩm sữa rửa mặt thôi, không cần combo với nước tẩy trang, và theo mẫu tuýp thiết kế mới hơn",
+    "translated_question": "show me just the foam cleanser on its own without the makeup remover, and in the newer updated tube design",
+    "answer_product_id": [
+      "90"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0197": {
+    "image_path": "images/13/28/132838273_3593663287.jpg",
+    "product_id": "1157",
+    "question": "cho tôi xem sản phẩm sữa rửa mặt dạng bọt thay vì dạng gel, tập trung vào việc phục hồi da nhẹ nhàng hàng ngày thay vì kiểm soát dầu và ngừa mụn",
+    "translated_question": "show me a foam cleanser instead of a gel formula, focused on gentle daily repair rather than oil control and acne prevention",
+    "answer_product_id": [
+      "484"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0198": {
+    "image_path": "images/55/4_/tiki_554_tikishop_0_big.jpg",
+    "product_id": "tiki_554",
+    "question": "từ thương hiệu khác có thành phần collagen và công dụng trị mụn thay vì dưỡng ẩm từ bơ",
+    "translated_question": "from a different brand with collagen and acne-fighting benefits instead of avocado moisturizing",
+    "answer_product_id": [
+      "tiki_27"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0199": {
+    "image_path": "images/97/0_/tiki_970_tikishop_128_big.jpg",
+    "product_id": "tiki_970",
+    "question": "nhưng có thêm collagen và công dụng làm trắng da, dạng kem đặc hơn thay vì gel nước nhẹ",
+    "translated_question": "but with collagen and whitening benefits, and in a richer cream formula rather than a lightweight aqua gel",
+    "answer_product_id": [
+      "tiki_465"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0200": {
+    "image_path": "images/35/87/35876642_1621722140.jpg",
+    "product_id": "304",
+    "question": "nhưng có thành phần than hoạt tính và giải độc thay vì công thức làm sáng da màu hồng",
+    "translated_question": "with activated charcoal and detoxifying ingredients instead of the brightening pink formula",
+    "answer_product_id": [
+      "747"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0201": {
+    "image_path": "images/41/25/412579242_9557244641.jpg",
+    "product_id": "1066",
+    "question": "nhưng dạng gel pH thấp từ thương hiệu Hàn Quốc nổi tiếng hơn thay vì dạng foam",
+    "translated_question": "with a low-pH gel formula from a more well-known Korean brand instead of a foam cleanser",
+    "answer_product_id": [
+      "1649"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0202": {
+    "image_path": "images/25/16/251676721_4173202197.jpg",
+    "product_id": "2064",
+    "question": "nhưng từ thương hiệu thiên nhiên nhẹ dịu phù hợp mọi loại da, tập trung làm sạch mà không cần công dụng dưỡng trắng",
+    "translated_question": "but from a natural/botanical brand that is gentle for all skin types and focuses on cleansing without whitening claims",
+    "answer_product_id": [
+      "506"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0203": {
+    "image_path": "images/21/_t/tiki_21_tikishop_2_big.jpg",
+    "product_id": "tiki_21",
+    "question": "dạng sữa rửa mặt tạo bọt từ thương hiệu nổi tiếng thay vì mặt nạ miếng",
+    "translated_question": "in a foaming cleanser format from a well-known brand instead of sheet masks",
+    "answer_product_id": [
+      "1188"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0204": {
+    "image_path": "images/55/36/553648370_12425562318.mp4",
+    "product_id": "1831",
+    "question": "cho tôi xem sản phẩm tương tự nhưng dạng chai có vòi bơm và có tác dụng kiểm soát dầu thay vì dạng tuýp",
+    "translated_question": "show me something like this but in a pump bottle format with oil control benefits instead of a tube",
+    "answer_product_id": [
+      "1791"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0205": {
+    "image_path": "images/57/3_/tiki_573_tikishop_9_big.jpg",
+    "product_id": "tiki_573",
+    "question": "có công thức mật ong tự nhiên thay vì phức hợp hyaluronic vitamin, và đóng gói dạng miếng lẻ thay vì hộp",
+    "translated_question": "with a natural honey formula instead of hyaluronic vitamin complex, and packaged as individual sheets rather than a boxed set",
+    "answer_product_id": [
+      "tiki_878"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0206": {
+    "image_path": "images/61/8_/tiki_618_tikishop_0_big.jpg",
+    "product_id": "tiki_618",
+    "question": "dạng serum có ống nhỏ giọt với nồng độ niacinamide cao hơn để điều trị chuyên sâu hơn",
+    "translated_question": "in a dropper serum format with a higher concentration of niacinamide for more intensive treatment",
+    "answer_product_id": [
+      "tiki_1163"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0207": {
+    "image_path": "images/22/85/228502319_11252252936.jpg",
+    "product_id": "2165",
+    "question": "dạng tuýp thương hiệu Nhật với thành phần trà xanh thay vì nọc ong",
+    "translated_question": "in a Japanese brand tube format with green tea ingredients instead of bee venom",
+    "answer_product_id": [
+      "399"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0208": {
+    "image_path": "images/68/53/68532539_1215007085.jpg",
+    "product_id": "1204",
+    "question": "cho tôi xem sản phẩm tương tự nhưng của thương hiệu Hatomugi có công dụng dưỡng ẩm và làm sáng da hơn",
+    "translated_question": "show me something similar but from the Hatomugi brand with brightening and moisturizing benefits instead",
+    "answer_product_id": [
+      "698"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0209": {
+    "image_path": "images/56/4_/tiki_564_tikishop_2_big.jpg",
+    "product_id": "tiki_564",
+    "question": "dạng nước toner với chai dung tích lớn hơn 310ml thay vì mặt nạ",
+    "translated_question": "in a liquid toner format with a larger 310ml bottle size instead of a face mask",
+    "answer_product_id": [
+      "tiki_915"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0210": {
+    "image_path": "images/15/27/tiki_1527_tikishop_130_big.jpg",
+    "product_id": "tiki_1527",
+    "question": "nhưng dạng sữa rửa mặt tạo bọt với đầu bơm thay vì dạng gel tẩy tế bào chết trong tuýp",
+    "translated_question": "but in a foaming face wash pump bottle format instead of a peeling gel tube",
+    "answer_product_id": [
+      "1274"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0211": {
+    "image_path": "images/81/0_/tiki_810_tikishop_22_big.jpg",
+    "product_id": "tiki_810",
+    "question": "nhưng có bao bì vàng sang trọng hơn và công thức chứa prebiotic thay vì B5",
+    "translated_question": "with a more luxurious gold packaging and a prebiotic-infused formula instead of the B5 formula",
+    "answer_product_id": [
+      "tiki_172"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0212": {
+    "image_path": "images/30/22/30223877_4841107942.jpg",
+    "product_id": "879",
+    "question": "có thành phần nghệ và kiwi thay vì matcha và lựu đỏ, và size lớn hơn 100g",
+    "translated_question": "with turmeric and kiwi ingredients instead of matcha and pomegranate, and in a larger 100g size",
+    "answer_product_id": [
+      "945"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0213": {
+    "image_path": "images/38/67/38674078_17085754312.jpg",
+    "product_id": "573",
+    "question": "dạng gel thay vì dạng bọt, dành riêng cho da dầu và da mụn, từ thương hiệu được bác sĩ da liễu khuyên dùng",
+    "translated_question": "in a gel format instead of foam, specifically designed for acne-prone and oily skin, from a dermatologist-recommended brand",
+    "answer_product_id": [
+      "1385"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0214": {
+    "image_path": "images/33/39/33397422_1758917547.jpg",
+    "product_id": "1473",
+    "question": "nhưng cho mình phiên bản có bổ sung collagen, tuýp màu hồng và có công dụng đàn hồi da",
+    "translated_question": "but specifically the collagen-infused version with a pink tube and elasticity-boosting claims",
+    "answer_product_id": [
+      "1980"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0215": {
+    "image_path": "images/39/3_/tiki_393_tikishop_0_big.jpg",
+    "product_id": "tiki_393",
+    "question": "nhưng dạng dầu tẩy trang thay vì dạng nước dưỡng da",
+    "translated_question": "but in a cleansing oil formula instead of a lotion",
+    "answer_product_id": [
+      "tiki_1553"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 5
+  },
+  "DEV-R5-0216": {
+    "image_path": "images/12/19/12190563_18616960070.jpg",
+    "product_id": "762",
+    "question": "nhưng có công thức sảng khoái dịu nhẹ cho mọi loại da thay vì chỉ dành riêng cho da dầu và da mụn",
+    "translated_question": "but with a refreshing formula that's gentle for all skin types instead of specifically targeting oily and acne-prone skin",
+    "answer_product_id": [
+      "794"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0217": {
+    "image_path": "images/14/05/140523966_2296868349.jpg",
+    "product_id": "463",
+    "question": "từ thương hiệu Nhật Bản với nhiều phiên bản khác nhau tập trung vào dưỡng ẩm, làm sạch và ngăn mụn thay vì một sản phẩm thảo dược Việt Nam duy nhất",
+    "translated_question": "from a Japanese brand with multiple variants targeting moisturizing, cleansing, and acne prevention instead of a single Vietnamese herbal formula",
+    "answer_product_id": [
+      "472"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0218": {
+    "image_path": "images/55/9_/tiki_559_tikishop_14_big.jpg",
+    "product_id": "tiki_559",
+    "question": "có công thức thảo dược trà xanh thay vì công thức làm trắng, được trình bày xòe ra thay vì xếp chồng phẳng",
+    "translated_question": "with a green tea herbal formula instead of a whitening formula, displayed fanned out rather than stacked flat",
+    "answer_product_id": [
+      "tiki_45"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0219": {
+    "image_path": "images/23/15/231547049_17675673845.jpg",
+    "product_id": "910",
+    "question": "của thương hiệu khác dạng tuýp đơn và công thức gel pH thấp thay vì dạng sữa rửa mặt",
+    "translated_question": "from a different brand with a single tube format and a low-pH gel formula instead of foam",
+    "answer_product_id": [
+      "1783"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0220": {
+    "image_path": "images/86/2_/tiki_862_nan_big.jpg",
+    "product_id": "tiki_862",
+    "question": "từ thương hiệu khác tập trung vào dưỡng ẩm sâu thay vì làm trắng da, và đi kèm hộp lớn hơn với các gói miếng mặt nạ riêng lẻ",
+    "translated_question": "from a different brand with a focus on deep hydration and moisturizing benefits rather than whitening, and comes in a larger box set with individual sheet packets",
+    "answer_product_id": [
+      "tiki_118"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0221": {
+    "image_path": "images/17/6_/tiki_176_tikishop_28_big.jpg",
+    "product_id": "tiki_176",
+    "question": "dạng cushion compact có chống nắng thay vì dạng chai xịt mist",
+    "translated_question": "in a compact cushion format with sun protection instead of a mist bottle",
+    "answer_product_id": [
+      "tiki_495"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0222": {
+    "image_path": "images/21/16/211607387_11873951245.mp4",
+    "product_id": "226",
+    "question": "dạng chai bơm tạo bọt thay vì sản phẩm đóng hộp dạng tuýp",
+    "translated_question": "comes in a foaming pump bottle format instead of a box-packaged tube",
+    "answer_product_id": [
+      "1845"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0223": {
+    "image_path": "images/87/2_/tiki_872_tikishop_0_big.jpg",
+    "product_id": "tiki_872",
+    "question": "từ thương hiệu khác với công thức cica/centella dịu nhẹ cho da nhạy cảm thay vì dưỡng sáng với tranexamic acid",
+    "translated_question": "from a different brand with a soothing cica/centella formula for sensitive skin instead of brightening tranexamic acid",
+    "answer_product_id": [
+      "tiki_561"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0224": {
+    "image_path": "images/79/28/79285599_8217726096.jpg",
+    "product_id": "1685",
+    "question": "dạng tuýp từ thương hiệu Nhật Bản với thành phần thảo mộc/thực vật thay vì sữa",
+    "translated_question": "in a tube format from a Japanese brand with herbal/plant-based ingredients instead of milk",
+    "answer_product_id": [
+      "1568"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0225": {
+    "image_path": "images/18/06/tiki_1806_tikishop_52_big.jpg",
+    "product_id": "tiki_1806",
+    "question": "dạng combo nhiều túi gộp lại với nhau để tiết kiệm hơn",
+    "translated_question": "in a bulk combo pack with multiple bags bundled together for better value",
+    "answer_product_id": [
+      "tiki_1828"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0226": {
+    "image_path": "images/16/22/tiki_1622_tikishop_30_big.jpg",
+    "product_id": "tiki_1622",
+    "question": "dạng sữa rửa mặt hoặc foam thay vì nước tẩy trang dạng lỏng, có nhiều kích thước và công thức khác nhau",
+    "translated_question": "in a facial wash or foam cleanser format rather than a liquid cleansing water, with multiple size and formula options",
+    "answer_product_id": [
+      "656"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0227": {
+    "image_path": "images/23/15/231547049_14183624011.jpg",
+    "product_id": "2083",
+    "question": "cùng thương hiệu và dung lượng nhưng tập trung dưỡng ẩm sâu với hyaluronic acid thay vì trị mụn",
+    "translated_question": "same brand and size but focused on deep hydration with hyaluronic acid instead of acne care",
+    "answer_product_id": [
+      "51"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0228": {
+    "image_path": "images/48/_t/tiki_48_tikishop_0_big.jpg",
+    "product_id": "tiki_48",
+    "question": "từ thương hiệu khác và có chiết xuất tre thay vì trà xanh",
+    "translated_question": "from a different brand and featuring bamboo extract instead of green tea",
+    "answer_product_id": [
+      "tiki_33"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0229": {
+    "image_path": "images/20/50/205083574_3610431636.jpg",
+    "product_id": "363",
+    "question": "loại Acnes Vitamin Cleanser tương tự nhưng dạng mini nhỏ gọn tiện mang đi",
+    "translated_question": "the same Acnes Vitamin Cleanser but in a smaller mini travel size",
+    "answer_product_id": [
+      "1491"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0230": {
+    "image_path": "images/83/_t/tiki_83_tikishop_36_big.jpg",
+    "product_id": "tiki_83",
+    "question": "dạng gel nhẹ nhàng với độ pH thấp từ thương hiệu Hàn Quốc thay vì dạng kem mặt nạ như thế này",
+    "translated_question": "with a lightweight gel formula and low pH balance from a Korean brand instead of a cream mask format",
+    "answer_product_id": [
+      "446"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0231": {
+    "image_path": "images/19/38/193849872_4211989251.jpg",
+    "product_id": "1381",
+    "question": "nhưng là thương hiệu Hàn Quốc có chứa AHA, BHA và PHA để trị mụn chuyên sâu hơn",
+    "translated_question": "but from a Korean brand that uses AHA, BHA, and PHA exfoliating acids for a more intensive acne-clearing treatment",
+    "answer_product_id": [
+      "1302"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0232": {
+    "image_path": "images/31/89/31897126_11838779395.jpg",
+    "product_id": "1111",
+    "question": "của thương hiệu khác với dung tích lớn hơn 200ml và có cả phiên bản cho da dầu mụn lẫn da nhạy cảm",
+    "translated_question": "from a different brand with a larger 200ml size and available in options for both oily/acne-prone and sensitive skin types",
+    "answer_product_id": [
+      "541"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0233": {
+    "image_path": "images/10/59/105957377_12793451782.jpg",
+    "product_id": "849",
+    "question": "từ thương hiệu khác có công dụng làm trắng sáng da và đựng trong tuýp thay vì chai bơm",
+    "translated_question": "from a different brand with a whitening/brightening claim and comes in a tube format instead of a pump bottle",
+    "answer_product_id": [
+      "1323"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0234": {
+    "image_path": "images/10/66/106665958_14722635866.mp4",
+    "product_id": "1959",
+    "question": "nhưng dạng gel tạo bọt từ thương hiệu da liễu, không xà phòng và phù hợp cho da dầu nhạy cảm trong chai lớn hơn",
+    "translated_question": "but in a foaming gel format from a dermatological brand, soap-free and suitable for sensitive oily skin in a larger bottle",
+    "answer_product_id": [
+      "1814"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0235": {
+    "image_path": "images/17/33/173394936_5332664497.jpg",
+    "product_id": "410",
+    "question": "có dạng combo nhiều chai thay vì chỉ một chai lớn duy nhất",
+    "translated_question": "comes in a multi-pack bundle with multiple bottles instead of a single large bottle",
+    "answer_product_id": [
+      "234"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0236": {
+    "image_path": "images/12/23/122312387_6025980576.jpg",
+    "product_id": "1216",
+    "question": "của thương hiệu quốc tế nổi tiếng hơn, có nhiều kích cỡ khác nhau kể cả chai lớn có đầu bơm",
+    "translated_question": "from a different and more internationally recognized brand, available in multiple sizes including a large pump bottle option",
+    "answer_product_id": [
+      "266"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0237": {
+    "image_path": "images/20/11/201129082_17381391716.jpg",
+    "product_id": "859",
+    "question": "dạng tuýp sữa rửa mặt tạo bọt với thành phần trà xanh thay vì nghệ tây, từ một thương hiệu skincare Hàn Quốc nổi tiếng",
+    "translated_question": "in a foam tube format with green tea ingredients instead, from a popular Korean skincare brand",
+    "answer_product_id": [
+      "1885"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0238": {
+    "image_path": "images/67/43/67433415_5768109218.mp4",
+    "product_id": "1169",
+    "question": "dạng tuýp từ thương hiệu khác có công dụng chống lão hóa thay vì trị mụn",
+    "translated_question": "in a tube format from a different brand with anti-aging benefits instead of acne-fighting properties",
+    "answer_product_id": [
+      "1739"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0239": {
+    "image_path": "images/29/93/29935989_19930307648.jpg",
+    "product_id": "1229",
+    "question": "từ dòng sản phẩm khác có công thức dành cho da nhạy cảm hoặc da hư tổn theo hướng chuyên da liễu thay vì mùi trái cây",
+    "translated_question": "from a different line with a dermatologist-focused formula for sensitive or damaged skin rather than a fruit-scented blend",
+    "answer_product_id": [
+      "484"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0240": {
+    "image_path": "images/15/28/152872415_2346886973.jpg",
+    "product_id": "1009",
+    "question": "nhưng có công thức tinh dầu tràm trà trị mụn thay vì nghệ",
+    "translated_question": "with a tea tree oil formula targeting acne and blemishes instead of turmeric",
+    "answer_product_id": [
+      "744"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0241": {
+    "image_path": "images/14/11/14118887_8468751868.jpg",
+    "product_id": "1236",
+    "question": "có tác dụng làm sáng và trắng da với chiết xuất gạo thay vì tràm trà, bao bì màu pastel nhẹ nhàng hơn",
+    "translated_question": "with a brightening and skin whitening focus using rice extract instead of tea tree, in a softer pastel packaging",
+    "answer_product_id": [
+      "1151"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0242": {
+    "image_path": "images/23/23/232374172_20033041116.jpg",
+    "product_id": "1418",
+    "question": "nhưng dạng chai pump dung tích lớn hơn nhiều để dùng được lâu hơn",
+    "translated_question": "in a much larger pump bottle size suitable for long-term use",
+    "answer_product_id": [
+      "1846"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 5
+  },
+  "DEV-R5-0243": {
+    "image_path": "images/15/68/tiki_1568_tikishop_6_big.jpg",
+    "product_id": "tiki_1568",
+    "question": "cho tôi xem nước tẩy trang Bioderma Sebium H2O tương tự nhưng dung tích nhỏ hơn tiện mang đi du lịch",
+    "translated_question": "show me the same Bioderma Sebium H2O micellar water but in a smaller travel-sized bottle",
+    "answer_product_id": [
+      "tiki_1545"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0244": {
+    "image_path": "images/64/57/645786304_17572704423.jpg",
+    "product_id": "1153",
+    "question": "có công thức dưỡng trắng và làm sáng da thay vì chống lão hóa, đóng gói màu xanh",
+    "translated_question": "with a brightening and whitening formula instead of anti-aging, in blue packaging",
+    "answer_product_id": [
+      "511"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0245": {
+    "image_path": "images/12/14/tiki_1214_tikishop_28_big.jpg",
+    "product_id": "tiki_1214",
+    "question": "dạng chai đầy đủ kích thước với công thức serum/essence từ thương hiệu cao cấp Hàn Quốc khác thay vì các gói sample nhỏ lẻ",
+    "translated_question": "in a full-size bottle format with a serum/essence formula from a different Korean luxury brand instead of individual sample sachets",
+    "answer_product_id": [
+      "tiki_1120"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0246": {
+    "image_path": "images/11/11/111138057_9587055242.jpg",
+    "product_id": "204",
+    "question": "dạng bọt có vòi bơm và tập trung vào việc trị mụn từ thương hiệu khác",
+    "translated_question": "with a foam pump format and acne-care focus from a different brand",
+    "answer_product_id": [
+      "1014"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0247": {
+    "image_path": "images/54/60/546036505_11853196702.jpg",
+    "product_id": "949",
+    "question": "từ thương hiệu khác dùng chiết xuất gạo thay vì trà xanh, với dung tích lớn hơn",
+    "translated_question": "from a different brand with rice extract instead of green tea, in a larger size",
+    "answer_product_id": [
+      "1420"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0248": {
+    "image_path": "images/16/71/167114296_15306639672.jpg",
+    "product_id": "1601",
+    "question": "từ thương hiệu khác tập trung cho da nhạy cảm với công thức đơn giản hơn, không hương liệu",
+    "translated_question": "from a different brand with a focus on sensitive skin and a simpler, fragrance-free formula",
+    "answer_product_id": [
+      "1582"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0249": {
+    "image_path": "images/43/87/43873741_12639789650.jpg",
+    "product_id": "1420",
+    "question": "dành cho nam và có thành phần tràm trà thay vì chiết xuất gạo, phù hợp cho da dầu mụn hoặc da hỗn hợp",
+    "translated_question": "for men and formulated with tea tree instead of rice extract, targeting acne-prone or combination skin",
+    "answer_product_id": [
+      "1236"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0250": {
+    "image_path": "images/80/31/80311948_21008859889.jpg",
+    "product_id": "885",
+    "question": "từ thương hiệu Nhật khác dạng tuýp có tác dụng dưỡng ẩm và làm sáng da thay vì dạng bột tẩy tế bào chết",
+    "translated_question": "from a different Japanese brand that comes in tube form with moisturizing and brightening benefits instead of a powder scrub",
+    "answer_product_id": [
+      "472"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0251": {
+    "image_path": "images/43/62/436221_7560195502.jpg",
+    "product_id": "824",
+    "question": "dạng tuýp nhỏ hơn với công thức trà xanh từ một thương hiệu Hàn Quốc",
+    "translated_question": "in a smaller tube format with a green tea formula from a Korean brand",
+    "answer_product_id": [
+      "1794"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0252": {
+    "image_path": "images/14/52/tiki_1452_tikishop_28_big.jpg",
+    "product_id": "tiki_1452",
+    "question": "dạng tuýp với công thức sữa rửa mặt tạo bọt hoặc dạng kem thay vì gel tẩy tế bào chết",
+    "translated_question": "in a tube format with a foam or cream cleanser formula instead of a peeling gel",
+    "answer_product_id": [
+      "1760"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0253": {
+    "image_path": "images/25/97/259755591_17226230537.jpg",
+    "product_id": "2203",
+    "question": "dành riêng cho da mụn với công dụng trị mụn và làm sạch lỗ chân lông, từ thương hiệu khác",
+    "translated_question": "specifically for acne-prone skin with anti-acne and pore-cleansing claims, from a different brand",
+    "answer_product_id": [
+      "71"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0254": {
+    "image_path": "images/17/32/tiki_1732_tikishop_57_big.jpg",
+    "product_id": "tiki_1732",
+    "question": "cùng thương hiệu nhưng gói lớn hơn 120 miếng thay vì 80 miếng",
+    "translated_question": "same brand but with a larger pack size of 120 pieces instead of 80",
+    "answer_product_id": [
+      "tiki_1709"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0255": {
+    "image_path": "images/44/68/446880198_9157466871.mp4",
+    "product_id": "1609",
+    "question": "từ thương hiệu khác có bao bì pastel tối giản hơn và có thêm công dụng dưỡng ẩm",
+    "translated_question": "from a different brand with a more minimalist pastel packaging and added moisturizing benefits",
+    "answer_product_id": [
+      "93"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0256": {
+    "image_path": "images/77/_t/tiki_77_tikishop_9_big.jpg",
+    "product_id": "tiki_77",
+    "question": "dạng hộp với thành phần lô hội dịu da thay vì hoa hồng, thiết kế bao bì tối giản hơn",
+    "translated_question": "in a box set format with aloe vera soothing ingredients instead of rose, featuring a cleaner minimal packaging design",
+    "answer_product_id": [
+      "tiki_62"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0257": {
+    "image_path": "images/22/49/224966023_13705224110.jpg",
+    "product_id": "340",
+    "question": "nhưng dạng sữa rửa mặt tạo bọt thay vì dạng jelly, có chiết xuất trái cây giúp se khít lỗ chân lông từ thương hiệu khác",
+    "translated_question": "with a foam texture instead of jelly, featuring fruit extracts for pore-tightening benefits from a different brand",
+    "answer_product_id": [
+      "659"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0258": {
+    "image_path": "images/73/5_/tiki_735_nan_big.jpg",
+    "product_id": "tiki_735",
+    "question": "có dạng bộ sản phẩm trị sẹo đầy đủ bao gồm cả miếng silicone và gel trị sẹo thay vì chỉ có miếng dán ngực đơn lẻ",
+    "translated_question": "comes as a complete scar treatment kit that includes both a silicone sheet and a scar gel instead of just the breast anchor sheet alone",
+    "answer_product_id": [
+      "tiki_757"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0259": {
+    "image_path": "images/37/2_/tiki_372_tikishop_48_big.jpg",
+    "product_id": "tiki_372",
+    "question": "có chiết xuất hoa hồng thay vì bí đao, dùng để tẩy trang thay vì toner, và dung tích lớn hơn 500ml",
+    "translated_question": "with rose extract instead of winter melon, formulated for makeup removal rather than toning, and in a larger 500ml size",
+    "answer_product_id": [
+      "tiki_1571"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0260": {
+    "image_path": "images/14/87/14879703_4258794231.jpg",
+    "product_id": "2151",
+    "question": "từ thương hiệu khác dạng tuýp dành riêng cho da hỗn hợp và da dầu với kết cấu gel tạo bọt",
+    "translated_question": "from a different brand in a tube format that specifically targets combination and oily skin with a foaming gel texture",
+    "answer_product_id": [
+      "819"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0261": {
+    "image_path": "images/25/74/257422144_3353292346.jpg",
+    "product_id": "1638",
+    "question": "cùng thương hiệu nhưng size lớn hơn 100g với các variant khác như Matcha Lựu Đỏ và Nghệ Kiwi thay vì vậy",
+    "translated_question": "same brand but in a larger 100g size with different flavor variants like Matcha Pomegranate and Turmeric Kiwi instead",
+    "answer_product_id": [
+      "1477"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0262": {
+    "image_path": "images/21/31/21317062_1002242335.jpg",
+    "product_id": "2054",
+    "question": "cùng hãng innisfree nhưng muốn loại có thành phần trà xanh thay vì volcanic pore, bao bì màu xanh lá",
+    "translated_question": "same brand but with a green tea formula instead of volcanic pore-cleansing ingredients, and in green packaging",
+    "answer_product_id": [
+      "250"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0263": {
+    "image_path": "images/65/5_/tiki_655_tikishop_57_big.jpg",
+    "product_id": "tiki_655",
+    "question": "size nhỏ hơn với công thức khác tập trung kiểm soát dầu và giảm mụn thay vì dưỡng sáng da",
+    "translated_question": "smaller size with a different formula targeting oil control and acne reduction rather than brightening",
+    "answer_product_id": [
+      "tiki_382"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0264": {
+    "image_path": "images/11/84/118436101_3107226451.mp4",
+    "product_id": "2043",
+    "question": "cho tôi xem sản phẩm tương tự nhưng có công thức thảo dược/tràm trà tập trung vào làm sạch sâu và kiểm soát dầu từ thương hiệu khác",
+    "translated_question": "show me something like this but a herbal/tea tree formula focused on deep cleansing and oil control from a different brand",
+    "answer_product_id": [
+      "1766"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0265": {
+    "image_path": "images/62/_t/tiki_62_tikishop_25_big.jpg",
+    "product_id": "tiki_62",
+    "question": "nhưng dạng mặt nạ miếng của thương hiệu Nhật Bản tập trung vào se khít lỗ chân lông thay vì làm dịu da",
+    "translated_question": "but in a Japanese brand sheet mask format focused on pore tightening rather than soothing and calming",
+    "answer_product_id": [
+      "tiki_51"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0266": {
+    "image_path": "images/42/6_/tiki_426_tikishop_48_big.jpg",
+    "product_id": "tiki_426",
+    "question": "nhưng ở dạng serum có ống nhỏ giọt để dưỡng chất đậm đặc hơn",
+    "translated_question": "in a serum format with a dropper for more concentrated active ingredients",
+    "answer_product_id": [
+      "tiki_1218"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0267": {
+    "image_path": "images/11/11/111138057_8287055694.jpg",
+    "product_id": "1",
+    "question": "từ thương hiệu Hàn Quốc với công thức pH thấp giúp cân bằng độ pH cho da thay thế",
+    "translated_question": "from a Korean brand with a low pH formula that balances skin pH instead",
+    "answer_product_id": [
+      "69"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0268": {
+    "image_path": "images/11/30/113037750_11479774853.jpg",
+    "product_id": "925",
+    "question": "từ một thương hiệu Hàn Quốc cao cấp hơn với thành phần thảo mộc và dung tích lớn hơn",
+    "translated_question": "from a more premium Korean brand with herbal ingredients and a larger size",
+    "answer_product_id": [
+      "1708"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0269": {
+    "image_path": "images/17/46/17469044_9570701997.jpg",
+    "product_id": "1208",
+    "question": "cho tôi xem sản phẩm tương tự nhưng size lớn hơn và chỉ tập trung vào làm sạch da thôi, không cần chức năng tẩy trang",
+    "translated_question": "show me something like this but in a larger size focused only on cleansing without the makeup remover function",
+    "answer_product_id": [
+      "2182"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0270": {
+    "image_path": "images/14/8_/tiki_148_tikishop_2_big.jpg",
+    "product_id": "tiki_148",
+    "question": "nhưng có công thức chiết xuất hoa hồng và dạng dầu tẩy trang thay vì bạc hà",
+    "translated_question": "with a rose-infused formula and cleansing oil texture instead of mint",
+    "answer_product_id": [
+      "tiki_1637"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0271": {
+    "image_path": "images/14/03/tiki_1403_tikishop_1_big.jpg",
+    "product_id": "tiki_1403",
+    "question": "nhưng đổi sang dòng dưỡng trắng sáng da thay vì dòng cấp ẩm màu hồng, với bao bì trắng tinh tế hơn",
+    "translated_question": "with a whitening and brightening formula instead of the pink moisturizing line, in a clean white packaging",
+    "answer_product_id": [
+      "tiki_1391"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0272": {
+    "image_path": "images/12/25/122572609_2866652229.jpg",
+    "product_id": "1172",
+    "question": "nhưng là thương hiệu Hàn Quốc với công thức pH thấp và bao bì tuýp trắng tối giản hơn",
+    "translated_question": "from a Korean brand with a low pH formula and minimalist white tube packaging instead",
+    "answer_product_id": [
+      "27"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0273": {
+    "image_path": "images/12/70/tiki_1270_tikishop_0_big.jpg",
+    "product_id": "tiki_1270",
+    "question": "dạng gel rửa mặt kiểm soát nhờn thay vì dạng serum",
+    "translated_question": "in a face wash gel format for oil control instead of a serum",
+    "answer_product_id": [
+      "1228"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0274": {
+    "image_path": "images/20/21/202136663_7512993617.mp4",
+    "product_id": "411",
+    "question": "cho tôi xem sản phẩm tương tự nhưng có thành phần tẩy tế bào chết BHA và dung tích lớn hơn 200ml từ thương hiệu khác",
+    "translated_question": "show me something like this but with BHA exfoliating ingredients and a larger 200ml size from a different brand",
+    "answer_product_id": [
+      "717"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0275": {
+    "image_path": "images/25/97/259755591_17226230537.jpg",
+    "product_id": "2203",
+    "question": "nhưng là hàng Nhật có công dụng trị mụn và tuýp to hơn một chút",
+    "translated_question": "but from a Japanese brand with acne-care benefits and a larger tube size",
+    "answer_product_id": [
+      "1841"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0276": {
+    "image_path": "images/13/40/tiki_1340_tikishop_8_big.jpg",
+    "product_id": "tiki_1340",
+    "question": "từ thương hiệu khác với công thức gel nhẹ nhàng hơn tập trung vào cân bằng độ pH thay vì tẩy tế bào chết đa axit",
+    "translated_question": "from a different brand with a gentler gel formula focused on pH balancing rather than multi-acid exfoliation",
+    "answer_product_id": [
+      "69"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0277": {
+    "image_path": "images/71/78/717890218_15063488376.mp4",
+    "product_id": "1284",
+    "question": "cho tôi xem sản phẩm tương tự nhưng dạng tuýp nhỏ tiện mang theo thay vì chai pump to",
+    "translated_question": "show me something like this but in a smaller travel-friendly tube format instead of a large pump bottle",
+    "answer_product_id": [
+      "202"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0278": {
+    "image_path": "images/18/64/18644537_4143515576.jpg",
+    "product_id": "217",
+    "question": "nhưng có công dụng trị mụn và kiểm soát thâm mụn thay vì dưỡng da đàn hồi collagen, dạng tuýp màu xanh",
+    "translated_question": "with acne-fighting and blemish-control benefits instead of collagen firming, in a green tube",
+    "answer_product_id": [
+      "1025"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0279": {
+    "image_path": "images/12/23/122312387_4041670820.jpg",
+    "product_id": "1653",
+    "question": "có dạng gel rửa mặt sáng da và dưỡng ẩm với dung tích lớn hơn 150ml từ thương hiệu khác",
+    "translated_question": "with a brightening and moisturizing gel formula in a larger 150ml size from a different brand",
+    "answer_product_id": [
+      "tiki_1125"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0280": {
+    "image_path": "images/66/70/66709839_19213828919.jpg",
+    "product_id": "1293",
+    "question": "dạng tuýp nhỏ mini tiện mang theo thay vì chai bơm lớn",
+    "translated_question": "in a smaller travel-size tube format instead of the large pump bottle",
+    "answer_product_id": [
+      "1418"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0281": {
+    "image_path": "images/37/2_/tiki_372_tikishop_48_big.jpg",
+    "product_id": "tiki_372",
+    "question": "dạng gel rửa mặt có chiết xuất hoa hồng thay vì toner",
+    "translated_question": "in a gel face wash format with rose extract instead of a toner",
+    "answer_product_id": [
+      "567"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0282": {
+    "image_path": "images/14/13/tiki_1413_tikishop_28_big.jpg",
+    "product_id": "tiki_1413",
+    "question": "cho tôi xem bộ sản phẩm tương tự nhưng của thương hiệu The Whoo với bao bì sang trọng theo phong cách cung đình Hàn Quốc và chai màu vàng thay vì thiết kế trắng tối giản",
+    "translated_question": "show me something like this but from The Whoo brand with a more luxurious traditional Korean packaging and golden-toned bottles instead of the white minimalist design",
+    "answer_product_id": [
+      "tiki_1316"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0283": {
+    "image_path": "images/16/79/tiki_1679_tikishop_21_big.jpg",
+    "product_id": "tiki_1679",
+    "question": "cho tôi xem sữa rửa mặt tạo bọt của Vichy thay vì nước tẩy trang, tốt nhất là loại trị mụn và làm sạch sâu lỗ chân lông",
+    "translated_question": "show me a foaming face wash from Vichy instead of a micellar water, ideally one that targets acne and deeply cleanses pores",
+    "answer_product_id": [
+      "757"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0284": {
+    "image_path": "images/68/99/68991511_6843017415.jpg",
+    "product_id": "1574",
+    "question": "của thương hiệu khác với công thức dưỡng ẩm nhẹ nhàng hơn thay vì tẩy da chết",
+    "translated_question": "from a different brand with a gentler, moisturizing formula instead of an exfoliating scrub",
+    "answer_product_id": [
+      "1479"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0285": {
+    "image_path": "images/10/11/tiki_1011_tikishop_58_big.jpg",
+    "product_id": "tiki_1011",
+    "question": "sản phẩm rửa mặt của cùng thương hiệu La Roche-Posay nhưng dành để trị mụn và làm sạch da thay vì chống nắng",
+    "translated_question": "a face cleanser from the same brand that targets acne and impurities instead of sun protection",
+    "answer_product_id": [
+      "960"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0286": {
+    "image_path": "images/13/42/134238200_7169455675.jpg",
+    "product_id": "1099",
+    "question": "từ thương hiệu cao cấp hơn với công thức dưỡng sáng và nuôi dưỡng da thay vì tập trung trị mụn",
+    "translated_question": "from a luxury brand with a brightening and nourishing formula instead of acne-focused ingredients",
+    "answer_product_id": [
+      "1821"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0287": {
+    "image_path": "images/81/24/812449960_15295497414.jpg",
+    "product_id": "211",
+    "question": "có đầu bơm, dung tích lớn hơn, và dành cho da nhạy cảm hoặc da sần sùi thay vì da dầu",
+    "translated_question": "with a pump dispenser, larger size, and formulated for sensitive or bumpy skin rather than oily skin",
+    "answer_product_id": [
+      "438"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0288": {
+    "image_path": "images/12/32/12325354_8168359497.jpg",
+    "product_id": "176",
+    "question": "có dạng chai bơm với kết cấu tạo bọt thay vì tuýp bóp như thế này",
+    "translated_question": "comes in a pump bottle format with a foamy texture instead of a squeeze tube",
+    "answer_product_id": [
+      "979"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0289": {
+    "image_path": "images/86/6_/tiki_866_tikishop_31_big.jpg",
+    "product_id": "tiki_866",
+    "question": "của thương hiệu innisfree với thành phần lô hội và thiết kế màu xanh lá tươi mát thay vì màu xanh dương dưỡng ẩm",
+    "translated_question": "from innisfree brand with aloe vera ingredients and a refreshing green design instead of hydrating blue",
+    "answer_product_id": [
+      "tiki_3"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0290": {
+    "image_path": "images/18/17/181790483_14216530844.jpg",
+    "product_id": "1407",
+    "question": "của thương hiệu khác với dạng gel trị mụn thay vì dạng sữa rửa mặt dạng foam, và có hộp đóng gói bên ngoài",
+    "translated_question": "from a different brand with an anti-acne gel formula instead of a foam cleanser, and comes with visible box packaging",
+    "answer_product_id": [
+      "1318"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0291": {
+    "image_path": "images/43/32/433229_18704739030.jpg",
+    "product_id": "2137",
+    "question": "dành cho da dầu và da hỗn hợp có công dụng trị mụn và thông thoáng lỗ chân lông thay vì loại dành cho da nhạy cảm",
+    "translated_question": "for oily and combination skin with acne-fighting and pore-purifying benefits instead of one formulated for sensitive skin",
+    "answer_product_id": [
+      "552"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0292": {
+    "image_path": "images/17/57/175753395_20711497482.jpg",
+    "product_id": "768",
+    "question": "dạng mặt nạ thay vì sữa rửa mặt, nhưng vẫn có thành phần nghệ Hưng Yên tương tự",
+    "translated_question": "in a mask format instead of a cleanser, with the same turmeric and Hung Yen ingredients",
+    "answer_product_id": [
+      "tiki_547"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0293": {
+    "image_path": "images/19/97/19977874_1644238436.jpg",
+    "product_id": "412",
+    "question": "nhưng dùng công thức than hoạt tính và giải độc thay vì dưỡng trắng da",
+    "translated_question": "with a charcoal and detoxifying formula instead of a brightening/whitening one",
+    "answer_product_id": [
+      "747"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0294": {
+    "image_path": "images/17/98/179843376_13357835556.jpg",
+    "product_id": "760",
+    "question": "vẫn là CeraVe nhưng muốn xem bản nhập khẩu từ Pháp có tên sản phẩm tiếng Anh rõ ràng như Foaming Cleanser thay vì bản tiếng Ba Lan",
+    "translated_question": "same CeraVe brand but in the French-imported version with clearly labeled English product names like Foaming Cleanser and Hydrating Cleanser instead of the Polish edition",
+    "answer_product_id": [
+      "65"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0295": {
+    "image_path": "images/39/39/393971535_2969880575.jpg",
+    "product_id": "1909",
+    "question": "cho tôi xem riêng sản phẩm Yến Mạch Dâu Tằm dạng tuýp đơn lớn hơn thay vì bộ nhiều sản phẩm",
+    "translated_question": "show me just the Oatmeal and Mulberry variant in a larger standalone tube instead of the multi-pack set",
+    "answer_product_id": [
+      "61"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0296": {
+    "image_path": "images/58/0_/tiki_580_tikishop_13_big.jpg",
+    "product_id": "tiki_580",
+    "question": "từ thương hiệu khác dùng hình lá nha đam thật thay vì hình bát sữa chua, có thiết kế tự nhiên và thực vật hơn",
+    "translated_question": "from a different brand that uses a real aloe vera leaf image instead of a yogurt bowl design, with a more natural/botanical aesthetic",
+    "answer_product_id": [
+      "tiki_32"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0297": {
+    "image_path": "images/51/07/51079670_3652673451.jpg",
+    "product_id": "424",
+    "question": "nhưng dạng chai nhỏ hơn cỡ du lịch tiện mang theo",
+    "translated_question": "in a smaller travel-size bottle that's easier to carry around",
+    "answer_product_id": [
+      "704"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0298": {
+    "image_path": "images/86/26/862604304_20847681729.jpg",
+    "product_id": "1608",
+    "question": "từ thương hiệu khác với công thức thảo dược thiên nhiên dạng sữa rửa mặt tạo bọt thay vì dạng kem",
+    "translated_question": "from a different brand with a natural herb-based formula in a foam cleanser format instead of a cream",
+    "answer_product_id": [
+      "1642"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0299": {
+    "image_path": "images/38/4_/tiki_384_tikishop_14_big.jpg",
+    "product_id": "tiki_384",
+    "question": "có dạng bộ chăm sóc da đầy đủ gồm nước tẩy trang micellar và sữa rửa mặt đi kèm, không chỉ mình toner thôi",
+    "translated_question": "comes as a complete skincare set with a micellar cleansing water and facial wash included, not just the toner alone",
+    "answer_product_id": [
+      "1225"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0300": {
+    "image_path": "images/77/52/77523532_21408070909.jpg",
+    "product_id": "273",
+    "question": "từ thương hiệu khác có thành phần nước gạo dưỡng sáng da và tuýp to hơn",
+    "translated_question": "from a different brand with rice water brightening ingredients and a larger tube size",
+    "answer_product_id": [
+      "1891"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0301": {
+    "image_path": "images/53/10/531044510_13339628291.jpg",
+    "product_id": "300",
+    "question": "dạng tuýp với thành phần từ gạo và tạo bọt thay vì chai bơm với amino acid",
+    "translated_question": "in a tube format with rice-based ingredients and a foaming texture instead of a pump bottle with amino acids",
+    "answer_product_id": [
+      "1331"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0302": {
+    "image_path": "images/13/12/131276862_2139694957.jpg",
+    "product_id": "1235",
+    "question": "nhưng tập trung vào dưỡng ẩm sâu với hyaluronic acid thay vì làm sáng da và tẩy tế bào chết",
+    "translated_question": "but focused on deep moisturizing and hyaluronic acid hydration rather than whitening and exfoliating dead skin cells",
+    "answer_product_id": [
+      "1579"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0303": {
+    "image_path": "images/28/98/28989942_4066263103.jpg",
+    "product_id": "1084",
+    "question": "dạng tuýp có đầu cọ rửa mặt và công thức amino acid dịu nhẹ hơn, giúp dưỡng ẩm tốt hơn",
+    "translated_question": "in a tube format with a brush applicator head and amino acid formula for a gentler, more moisturizing cleanse",
+    "answer_product_id": [
+      "20"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0304": {
+    "image_path": "images/76/74/767425026_17770600697.jpg",
+    "product_id": "786",
+    "question": "nhưng dùng công thức thảo dược tự nhiên từ thương hiệu dược phẩm châu Âu thay vì công thức rau củ màu sắc của Hàn Quốc",
+    "translated_question": "with a more natural herbal/botanical formula from a European pharmacy brand instead of the colorful vegetable-based Korean formula",
+    "answer_product_id": [
+      "571"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0305": {
+    "image_path": "images/54/3_/tiki_543_tikishop_41_big.jpg",
+    "product_id": "tiki_543",
+    "question": "dạng gel rửa mặt size lớn hơn thay vì ống gel trị mụn nhỏ",
+    "translated_question": "in a larger face wash gel format instead of a small spot treatment tube",
+    "answer_product_id": [
+      "1165"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0306": {
+    "image_path": "images/13/43/tiki_1343_tikishop_1_big.jpg",
+    "product_id": "tiki_1343",
+    "question": "một sản phẩm tẩy trang đơn lẻ từ cùng thương hiệu thay vì bộ quà tặng nhiều món",
+    "translated_question": "a single standalone cleanser product from the same brand instead of a multi-piece gift set",
+    "answer_product_id": [
+      "tiki_1632"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0307": {
+    "image_path": "images/15/44/154406528_2720038576.jpg",
+    "product_id": "2026",
+    "question": "nhưng dùng công thức trà xanh của thương hiệu Hàn Quốc khác và có bao bì tuýp màu xanh lá nổi bật hơn",
+    "translated_question": "with a green tea formula from a different Korean brand that comes in a more vibrant green tube packaging",
+    "answer_product_id": [
+      "1140"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0308": {
+    "image_path": "images/15/66/156610565_3148123994.jpg",
+    "product_id": "1036",
+    "question": "dạng sữa rửa mặt màu đỏ chống lão hóa giúp da trẻ trung rạng rỡ thay vì dưỡng sáng đều màu da",
+    "translated_question": "in a red anti-aging formula targeting youthful glowing skin instead of even tone brightening",
+    "answer_product_id": [
+      "1780"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0309": {
+    "image_path": "images/35/6_/tiki_356_tikishop_21_big.jpg",
+    "product_id": "tiki_356",
+    "question": "dạng tuýp mini dùng để rửa mặt thay vì là toner",
+    "translated_question": "in a travel-size tube format that's a face wash instead of a toner",
+    "answer_product_id": [
+      "2074"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0310": {
+    "image_path": "images/11/54/tiki_1154_tikishop_27_big.jpg",
+    "product_id": "tiki_1154",
+    "question": "nhưng có thiết kế chai góc cạnh chuyên nghiệp hơn từ thương hiệu dược mỹ phẩm Pháp tập trung vào chống lão hóa",
+    "translated_question": "with a more clinical and angular bottle design from a French pharmacy brand focused on anti-aging",
+    "answer_product_id": [
+      "tiki_1298"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0311": {
+    "image_path": "images/31/91/319175938_9304507804.jpg",
+    "product_id": "793",
+    "question": "dạng chai pump nhỏ hơn từ thương hiệu khác với thành phần thực vật tự nhiên hơn, như hoa cúc calendula",
+    "translated_question": "in a smaller pump bottle from a different brand with a more natural botanical ingredient focus, like calendula",
+    "answer_product_id": [
+      "474"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0312": {
+    "image_path": "images/31/34/313414847_11010530415.jpg",
+    "product_id": "2015",
+    "question": "nhưng dạng tẩy tế bào chết dạng kì (peeling roll) thay vì gel rửa mặt thông thường",
+    "translated_question": "but in a peeling/exfoliating roll-off gel format instead of a wash-off cleanser",
+    "answer_product_id": [
+      "tiki_1424"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0313": {
+    "image_path": "images/53/59/53598449_4955501696.jpg",
+    "product_id": "1908",
+    "question": "từ thương hiệu được công nhận quốc tế hơn và có nhiều size khác nhau bao gồm cả chai pump lớn",
+    "translated_question": "from a more internationally recognized brand and available in multiple sizes including a large pump bottle option",
+    "answer_product_id": [
+      "1241"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0314": {
+    "image_path": "images/15/72/tiki_1572_tikishop_21_big.jpg",
+    "product_id": "tiki_1572",
+    "question": "dạng gel rửa mặt tạo bọt thay vì nước tẩy trang micellar, dạng mini size tiện mang theo",
+    "translated_question": "in a foaming gel cleanser format instead of micellar water, in a mini travel size",
+    "answer_product_id": [
+      "386"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0315": {
+    "image_path": "images/68/85/68857313_9871053698.jpg",
+    "product_id": "1015",
+    "question": "cho tôi xem sản phẩm tương tự nhưng là sữa rửa mặt dạng foam của thương hiệu khác tập trung làm sạch lỗ chân lông và làm sáng da thay vì cân bằng dầu",
+    "translated_question": "show me something like this but a foam cleanser from a different brand that focuses on pore-cleansing and brightening rather than oil-balancing",
+    "answer_product_id": [
+      "1517"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0316": {
+    "image_path": "images/53/0_/tiki_530_tikishop_1_big.jpg",
+    "product_id": "tiki_530",
+    "question": "có bộ dưỡng ẩm đầy đủ tập trung vào việc cấp nước thay vì chống nắng, và có bao bì màu hồng đẹp mắt",
+    "translated_question": "with a full moisturizing skincare set focused on hydration rather than sun protection, and with a pink aesthetic packaging",
+    "answer_product_id": [
+      "tiki_1403"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0317": {
+    "image_path": "images/84/4_/tiki_844_tikishop_0_big.jpg",
+    "product_id": "tiki_844",
+    "question": "nhưng dạng mặt nạ đất sét có thành phần matcha và làm sạch lỗ chân lông thay vì mặt nạ miếng",
+    "translated_question": "but in a clay mask format with pore-cleansing and matcha ingredients instead of a sheet mask",
+    "answer_product_id": [
+      "tiki_58"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0318": {
+    "image_path": "images/37/25/372577643_9693769822.jpg",
+    "product_id": "228",
+    "question": "cho tôi xem sữa rửa mặt E100 nghệ tương tự nhưng size lớn hơn 100ml, hoặc các dòng E100 khác như nha đam hay sữa bò",
+    "translated_question": "show me the same E100 turmeric facial cleanser but in a larger 100ml size, or other E100 variants like aloe vera or milk",
+    "answer_product_id": [
+      "2099"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0319": {
+    "image_path": "images/29/93/29935989_6380066221.jpg",
+    "product_id": "861",
+    "question": "cùng thương hiệu nhưng muốn sản phẩm có công thức chuyên sâu theo hướng da liễu dành cho da nhạy cảm hoặc da tổn thương thay vì thành phần thảo mộc thiên nhiên",
+    "translated_question": "from the same brand but with a more clinical/dermatologist-focused formula for sensitive or damaged skin instead of herbal botanicals",
+    "answer_product_id": [
+      "484"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0320": {
+    "image_path": "images/30/1_/tiki_301_tikishop_100_big.jpg",
+    "product_id": "tiki_301",
+    "question": "có công thức retinol dạng tuýp lăn giúp giảm nếp nhăn và thâm quầng vùng mắt",
+    "translated_question": "with retinol formula in a roll-on tube format that targets wrinkles and dark circles around the eyes",
+    "answer_product_id": [
+      "tiki_605"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0321": {
+    "image_path": "images/49/2_/tiki_492_tikishop_21_big.jpg",
+    "product_id": "tiki_492",
+    "question": "dạng tuýp gel thay vì dạng chai",
+    "translated_question": "in a tube/gel format instead of a bottle",
+    "answer_product_id": [
+      "tiki_488"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0322": {
+    "image_path": "images/64/75/64756349_3258926676.jpg",
+    "product_id": "2010",
+    "question": "có công thức gel pH thấp nhẹ nhàng hơn cho da hàng ngày thay vì tập trung vào thành phần salicylic acid",
+    "translated_question": "with a lower pH gel formula that is gentler for daily use instead of the salicylic acid focus",
+    "answer_product_id": [
+      "1186"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0323": {
+    "image_path": "images/17/24/172499869_4502437417.jpg",
+    "product_id": "1100",
+    "question": "nhưng là của thương hiệu Sulwhasoo, dạng chai có vòi bơm và dung tích lớn hơn một chút",
+    "translated_question": "but from Sulwhasoo brand, in a pump bottle format with a slightly larger size",
+    "answer_product_id": [
+      "1185"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0324": {
+    "image_path": "images/96/0_/tiki_960_tikishop_13_big.jpg",
+    "product_id": "tiki_960",
+    "question": "nhưng dạng dầu tẩy trang thay vì nước toner, của thương hiệu Sakura",
+    "translated_question": "with a cleansing oil formula instead of toner water, from the Sakura brand",
+    "answer_product_id": [
+      "tiki_1600"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0325": {
+    "image_path": "images/37/98/379849017_8379963419.jpg",
+    "product_id": "553",
+    "question": "dạng chai bơm lớn hơn từ thương hiệu uy tín hơn với bao bì chuyên nghiệp và gọn gàng hơn",
+    "translated_question": "in a larger pump bottle format from a more established brand with cleaner professional packaging",
+    "answer_product_id": [
+      "611"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0326": {
+    "image_path": "images/11/41/tiki_1141_tikishop_1_big.jpg",
+    "product_id": "tiki_1141",
+    "question": "dạng tuýp có khả năng chống nắng và nâng tone da thay vì tinh chất dưỡng da",
+    "translated_question": "in a tube format with sun protection and skin tone-up benefits instead of a treatment essence",
+    "answer_product_id": [
+      "tiki_454"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0327": {
+    "image_path": "images/47/26/472614570_16131167529.jpg",
+    "product_id": "632",
+    "question": "từ thương hiệu khác nổi tiếng hơn trên thế giới nhưng vẫn có công thức dịu nhẹ không xà phòng tương tự",
+    "translated_question": "from a different and more internationally recognized brand with similar gentle, soap-free formula",
+    "answer_product_id": [
+      "178"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0328": {
+    "image_path": "images/23/58/235814543_4921554725.jpg",
+    "product_id": "1497",
+    "question": "cho tôi xem bộ combo gồm có toner và nước tẩy trang micellar kèm theo sữa rửa mặt để có một routine skincare đầy đủ hơn",
+    "translated_question": "show me something like this but a combo set that includes a toner and micellar cleansing water alongside the facial wash for a complete skincare routine",
+    "answer_product_id": [
+      "159"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0329": {
+    "image_path": "images/15/53/155362283_5681952153.jpg",
+    "product_id": "622",
+    "question": "với tuýp màu trắng và công thức dưỡng ẩm nhẹ nhàng hơn từ thương hiệu Nhật thay vì sản phẩm đất sét từ Đài Loan",
+    "translated_question": "with a white tube packaging and a more gentle moisturizing formula from a Japanese brand instead of a Taiwanese clay-based one",
+    "answer_product_id": [
+      "1589"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0330": {
+    "image_path": "images/21/01/210104545_18603761287.jpg",
+    "product_id": "1285",
+    "question": "từ thương hiệu skincare Hàn Quốc khác với công thức gel pH thấp nhẹ nhàng hơn cho hàng rào ẩm tự nhiên của da",
+    "translated_question": "from a different Korean skincare brand with a low pH gel formula that's gentler on skin's natural moisture barrier",
+    "answer_product_id": [
+      "2179"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0331": {
+    "image_path": "images/18/36/18363975_5245373811.mp4",
+    "product_id": "1448",
+    "question": "có bao bì màu sắc và thiết kế hiện đại hơn, đồng thời được formulate đặc biệt cho việc rửa mặt nhẹ nhàng buổi sáng với pH thấp",
+    "translated_question": "with a more colorful, modern packaging design and specifically formulated for low pH gentle daily morning cleansing",
+    "answer_product_id": [
+      "256"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0332": {
+    "image_path": "images/92/00/92004331_3949321196.jpg",
+    "product_id": "153",
+    "question": "nhưng là thương hiệu Hàn Quốc có nhiều công dụng hơn như tẩy tế bào chết, làm sáng da và làm sạch sâu trong cùng một sản phẩm",
+    "translated_question": "with a Korean brand that has multi-function benefits like deep cleansing, peeling, and brightening all in one product",
+    "answer_product_id": [
+      "1133"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0333": {
+    "image_path": "images/37/59/375976505_9916088216.jpg",
+    "product_id": "854",
+    "question": "dạng gel dành riêng cho da dầu và da mụn, của thương hiệu khác",
+    "translated_question": "in a gel formula specifically designed for oily and acne-prone skin, from a different brand",
+    "answer_product_id": [
+      "378"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0334": {
+    "image_path": "images/19/4_/tiki_194_tikishop_52_big.jpg",
+    "product_id": "tiki_194",
+    "question": "nhưng dung tích lớn hơn 400ml thay vì bình xịt nhỏ 150ml",
+    "translated_question": "in a larger 400ml bottle size instead of the small 150ml spray can",
+    "answer_product_id": [
+      "tiki_588"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0335": {
+    "image_path": "images/58/42/58428439_16728738707.jpg",
+    "product_id": "625",
+    "question": "chỉ cần nước tẩy trang micellar Simple riêng lẻ dạng chai lớn 400ml thay vì mua combo bộ sản phẩm",
+    "translated_question": "just the micellar cleansing water on its own in a larger 400ml bottle instead of the combo set",
+    "answer_product_id": [
+      "tiki_1566"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0336": {
+    "image_path": "images/87/78/8778931_9662507905.jpg",
+    "product_id": "1040",
+    "question": "cho tôi xem phiên bản vừa tẩy trang vừa rửa mặt trong một bước thay vì chỉ là sữa rửa mặt thông thường",
+    "translated_question": "show me a version that combines makeup removing and cleansing in one step instead of just a facial foam",
+    "answer_product_id": [
+      "1799"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0337": {
+    "image_path": "images/33/00/330043829_4862068578.jpg",
+    "product_id": "1640",
+    "question": "dạng kem rửa mặt trong tuýp với thành phần nhau thai cừu Nhật Bản thay vì xà phòng bánh",
+    "translated_question": "in a creamy tube cleanser format with Japanese sheep placenta ingredients instead of a bar soap",
+    "answer_product_id": [
+      "1096"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0338": {
+    "image_path": "images/43/32/433229_19704913122.jpg",
+    "product_id": "819",
+    "question": "sữa rửa mặt dạng gel của thương hiệu Hàn Quốc có công thức pH thấp dịu nhẹ cho da thay vì thương hiệu dược mỹ phẩm Pháp",
+    "translated_question": "a gel cleanser from a Korean brand with low pH formula for gentle daily use instead of a French dermatological brand",
+    "answer_product_id": [
+      "2179"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0339": {
+    "image_path": "images/80/42/804248731_15091336986.mp4",
+    "product_id": "562",
+    "question": "có công thức gel cân bằng độ pH và chiết xuất tràm trà dành cho da mụn thay vì sữa rửa mặt dịu nhẹ thông thường",
+    "translated_question": "focuses on acne-prone skin with a pH-balancing gel formula and tea tree extract instead of a gentle everyday cleanser",
+    "answer_product_id": [
+      "2050"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0340": {
+    "image_path": "images/18/13/tiki_1813_tikishop_247_big.jpg",
+    "product_id": "tiki_1813",
+    "question": "từ thương hiệu khác với miếng bông hình tròn và bao bì màu xanh mint thay vì màu hồng",
+    "translated_question": "from a different brand with round-shaped pads and a teal/mint colored packaging instead",
+    "answer_product_id": [
+      "tiki_1704"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0341": {
+    "image_path": "images/59/49/594969517_13369564865.jpg",
+    "product_id": "1830",
+    "question": "dạng gel rửa mặt tạo bọt dành cho da dầu thay vì xà phòng bánh",
+    "translated_question": "in a liquid gel or foam cleanser format for oily skin instead of a bar soap",
+    "answer_product_id": [
+      "2019"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0342": {
+    "image_path": "images/16/34/163465698_2605114984.jpg",
+    "product_id": "274",
+    "question": "có dạng combo nhiều chai đi kèm trong một bộ thay vì mua từng chai lẻ",
+    "translated_question": "comes in a multi-pack bundle with multiple bottles included instead of individual single bottles",
+    "answer_product_id": [
+      "200"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0343": {
+    "image_path": "images/13/11/13110797_13819919154.jpg",
+    "product_id": "177",
+    "question": "có công thức dưỡng ẩm thay vì làm sạch sảng khoái, phù hợp hơn cho da khô",
+    "translated_question": "with a moisturising formula instead of a refreshing one, better suited for dry skin",
+    "answer_product_id": [
+      "806"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0344": {
+    "image_path": "images/63/0_/tiki_630_tikishop_105_big.jpg",
+    "product_id": "tiki_630",
+    "question": "nhưng dung tích lớn hơn và là dạng nước tẩy trang micellar dịu nhẹ cho da nhạy cảm thay vì toner tẩy tế bào chết",
+    "translated_question": "in a larger size and formulated as a micellar water for sensitive skin instead of an exfoliating toner",
+    "answer_product_id": [
+      "tiki_1639"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0345": {
+    "image_path": "images/12/99/12995761_7092872450.mp4",
+    "product_id": "2212",
+    "question": "với dung tích lớn hơn và từ thương hiệu phổ biến hơn được da liễu khuyên dùng, phù hợp cho nhiều loại da kể cả da mụn",
+    "translated_question": "in a larger size and from a more widely available brand with dermatologist-recommended formulas for multiple skin types including acne-prone skin",
+    "answer_product_id": [
+      "49"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0346": {
+    "image_path": "images/26/77/267753421_14066396827.jpg",
+    "product_id": "142",
+    "question": "từ thương hiệu khác với tuýp màu xanh lá và công thức làm sạch chuyên sâu hơn dành cho da dễ nổi mụn",
+    "translated_question": "from a different brand with a green tube and a more intensive purifying formula for acne-prone skin",
+    "answer_product_id": [
+      "2006"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0347": {
+    "image_path": "images/82/69/82695272_18011616706.jpg",
+    "product_id": "1925",
+    "question": "từ thương hiệu Hàn Quốc khác với công thức gel pH thấp nhẹ dịu hơn dành cho việc rửa mặt buổi sáng hàng ngày",
+    "translated_question": "from a different Korean brand with a low pH gel formula designed for gentle daily morning cleansing",
+    "answer_product_id": [
+      "1298"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0348": {
+    "image_path": "images/17/03/17037958_9757868098.jpg",
+    "product_id": "1572",
+    "question": "thương hiệu cao cấp hơn, dung tích lớn hơn và thiết kế tuýp có điểm nhấn vàng thay vì tuýp mini nhỏ gọn",
+    "translated_question": "with a more premium brand, a larger size, and a gold-accented tube design instead of the plain mini travel size",
+    "answer_product_id": [
+      "1899"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0349": {
+    "image_path": "images/23/36/233692311_7046600794.jpg",
+    "product_id": "334",
+    "question": "dạng tuýp nhỏ tiện mang theo khi đi du lịch dành cho da dầu và da hỗn hợp thay vì da nhạy cảm",
+    "translated_question": "in a smaller travel-size tube format designed for oily and combination skin instead of sensitive skin",
+    "answer_product_id": [
+      "652"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0350": {
+    "image_path": "images/24/16/241653613_10324103654.jpg",
+    "product_id": "2034",
+    "question": "có thiết kế trái cây vui nhộn và hương đào, màu sắc tươi tắn và dưỡng ẩm hơn thay vì bao bì trắng tối giản",
+    "translated_question": "with a fun fruity design and peach scent, something more colorful and moisturizing rather than plain white minimalist packaging",
+    "answer_product_id": [
+      "2155"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0351": {
+    "image_path": "images/17/21/17218651_11996725093.jpg",
+    "product_id": "1675",
+    "question": "nhưng dạng tuýp nhỏ tiện mang đi thay vì chai bơm to",
+    "translated_question": "in a smaller travel-friendly tube size instead of the large pump bottle",
+    "answer_product_id": [
+      "674"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0352": {
+    "image_path": "images/24/46/244613917_4063567507.mp4",
+    "product_id": "488",
+    "question": "nhưng dạng tuýp từ thương hiệu Nhật với công dụng dưỡng ẩm và ngừa mụn thay vì dạng chai bơm",
+    "translated_question": "but in a tube format from a Japanese brand with hydrating and anti-acne benefits instead",
+    "answer_product_id": [
+      "1378"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0353": {
+    "image_path": "images/59/49/594969517_12268220289.jpg",
+    "product_id": "1489",
+    "question": "dạng tuýp từ thương hiệu Nhật Bản với thành phần hạt ý dĩ thay vì rong biển",
+    "translated_question": "in a tube format from a Japanese brand with coix seed ingredients instead of seaweed",
+    "answer_product_id": [
+      "2182"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0354": {
+    "image_path": "images/84/46/844603777_20745685120.mp4",
+    "product_id": "1378",
+    "question": "từ một thương hiệu phổ biến hơn ở các nhà thuốc và có nhiều lựa chọn kích thước cho da thường đến da dầu",
+    "translated_question": "from a brand more widely available at pharmacies and with multiple size options for normal to oily skin",
+    "answer_product_id": [
+      "756"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0355": {
+    "image_path": "images/54/78/54782289_1251257349.mp4",
+    "product_id": "536",
+    "question": "dạng tuýp từ thương hiệu dịu nhẹ, không mùi hương, phù hợp hơn cho da nhạy cảm",
+    "translated_question": "in a tube format from a gentle, fragrance-free brand that is better suited for sensitive skin",
+    "answer_product_id": [
+      "1942"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0356": {
+    "image_path": "images/13/64/13644_3148572107.jpg",
+    "product_id": "1879",
+    "question": "dạng gel hoặc dạng lỏng từ thương hiệu khác, dành cho da dầu mụn thay vì dạng balm tẩy trang",
+    "translated_question": "in a gel or liquid format from a different brand, targeting oily and acne-prone skin instead of a cleansing balm",
+    "answer_product_id": [
+      "1550"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0357": {
+    "image_path": "images/26/17/261729678_9376581064.jpg",
+    "product_id": "1754",
+    "question": "từ thương hiệu được biết đến rộng rãi hơn trên thế giới nhưng vẫn có công thức dịu nhẹ, không xà phòng phù hợp cho mọi loại da",
+    "translated_question": "from a more internationally recognized brand with the same gentle, soap-free formula for all skin types",
+    "answer_product_id": [
+      "424"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0358": {
+    "image_path": "images/12/32/tiki_1232_tikishop_21_big.jpg",
+    "product_id": "tiki_1232",
+    "question": "dạng xịt khoáng thay vì dạng serum booster",
+    "translated_question": "in a spray/mist format instead of a serum booster",
+    "answer_product_id": [
+      "tiki_195"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0359": {
+    "image_path": "images/99/6_/tiki_996_tikishop_21_big.jpg",
+    "product_id": "tiki_996",
+    "question": "dạng tuýp nhỏ tiện mang theo thay vì hũ",
+    "translated_question": "in a smaller travel-size tube format instead of a jar",
+    "answer_product_id": [
+      "tiki_488"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0360": {
+    "image_path": "images/20/4_/tiki_204_tikishop_0_big.jpg",
+    "product_id": "tiki_204",
+    "question": "cho tôi xem sản phẩm tương tự nhưng của La Roche-Posay, có công dụng làm dịu mụn sưng và kiểm soát bóng nhờn, dung tích lớn hơn 300ml",
+    "translated_question": "show me something like this but from La Roche-Posay, with acne-calming and oil-control benefits, and in a larger 300ml size",
+    "answer_product_id": [
+      "tiki_192"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0361": {
+    "image_path": "images/64/75/64756349_4044246908.jpg",
+    "product_id": "752",
+    "question": "nhưng dùng công thức trà xanh thay vì chiết xuất bija, và đóng gói trong tuýp màu xanh lá",
+    "translated_question": "but with a green tea formula instead of bija extract, and in a green tube packaging",
+    "answer_product_id": [
+      "1937"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0362": {
+    "image_path": "images/53/6_/tiki_536_tikishop_3_big.jpg",
+    "product_id": "tiki_536",
+    "question": "nhưng dạng huyền dịch chấm mụn thay vì kem dưỡng",
+    "translated_question": "but in a spot treatment liquid format instead of a cream",
+    "answer_product_id": [
+      "tiki_535"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0363": {
+    "image_path": "images/21/08/21080428_7821184960.mp4",
+    "product_id": "52",
+    "question": "cho tôi xem sữa rửa mặt tạo bọt có thành phần sữa để làm trắng da thay vì than hoạt tính",
+    "translated_question": "show me a foaming facial cleanser with a milk-based formula for whitening instead of activated charcoal",
+    "answer_product_id": [
+      "2065"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0364": {
+    "image_path": "images/44/40/44400321_18521441276.mp4",
+    "product_id": "756",
+    "question": "vẫn là CeraVe nhưng có axit salicylic để tẩy tế bào chết nhẹ nhàng thay vì dạng tạo bọt",
+    "translated_question": "same CeraVe brand but with salicylic acid for gentle exfoliation instead of a foaming formula",
+    "answer_product_id": [
+      "2017"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0365": {
+    "image_path": "images/17/97/179727281_17728647831.jpg",
+    "product_id": "526",
+    "question": "nhưng có nhiều lựa chọn công thức hơn như việt quất, hạt táo, làm sáng lỗ chân lông và olive để tôi có thể chọn theo nhu cầu da",
+    "translated_question": "with a wider variety of formula options to choose from, like blueberry, apple seed, brightening pore, and olive real cleansing",
+    "answer_product_id": [
+      "1101"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0366": {
+    "image_path": "images/38/04/38041393_2388334483.mp4",
+    "product_id": "1586",
+    "question": "cho tôi xem sản phẩm tương tự nhưng từ thương hiệu cao cấp Hàn Quốc có công dụng chống lão hóa và dưỡng ẩm với bao bì tuýp màu be/nude",
+    "translated_question": "show me something similar but from a Korean luxury brand with anti-aging and moisturizing benefits in a beige/nude tube packaging",
+    "answer_product_id": [
+      "1459"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0367": {
+    "image_path": "images/55/83/558328933_13928097285.mp4",
+    "product_id": "141",
+    "question": "dạng chai bơm từ thương hiệu được bác sĩ da liễu khuyên dùng cho da dầu và da mụn thay vì dưỡng ẩm",
+    "translated_question": "in a pump bottle format from a dermatologist-recommended brand targeting oily and acne-prone skin instead of moisturizing",
+    "answer_product_id": [
+      "498"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0368": {
+    "image_path": "images/66/7_/tiki_667_tikishop_2_big.jpg",
+    "product_id": "tiki_667",
+    "question": "dạng kem dưỡng thể size lớn hơn thay vì tuýp nhỏ dùng cho mặt",
+    "translated_question": "in a larger size body lotion format instead of a small facial tube",
+    "answer_product_id": [
+      "tiki_464"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0369": {
+    "image_path": "images/38/81/388141950_15706167512.jpg",
+    "product_id": "1163",
+    "question": "có công thức chiết xuất gạo, dung tích lớn hơn 150ml từ thương hiệu Hàn Quốc khác, với thiết kế màu hồng nhẹ nhàng",
+    "translated_question": "with a rice-based formula in a larger 150ml size from a different Korean brand, with a soft pink aesthetic",
+    "answer_product_id": [
+      "2103"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0370": {
+    "image_path": "images/18/15/tiki_1815_tikishop_23_big.jpg",
+    "product_id": "tiki_1815",
+    "question": "bán theo thùng combo nhiều gói thay vì một tuýp đơn lẻ",
+    "translated_question": "sold as a bulk box set with multiple packages instead of a single tube",
+    "answer_product_id": [
+      "tiki_1778"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0371": {
+    "image_path": "images/32/92/329288196_6863943994.jpg",
+    "product_id": "1428",
+    "question": "nhưng dùng công thức nước gạo sáng da thay vì nha đam, một tuýp lớn hơn từ thương hiệu khác",
+    "translated_question": "with rice water brightening formula instead of aloe, from a single larger tube by a different brand",
+    "answer_product_id": [
+      "2103"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0372": {
+    "image_path": "images/31/8_/tiki_318_tikishop_68_big.jpg",
+    "product_id": "tiki_318",
+    "question": "dạng tuýp và dùng để rửa mặt với thành phần cà phê thay vì dạng nước cân bằng da",
+    "translated_question": "in a tube format and used for cleansing the face with a coffee-based formula instead of a toning liquid",
+    "answer_product_id": [
+      "tiki_1517"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0373": {
+    "image_path": "images/22/16/22167426_1269525378.jpg",
+    "product_id": "2196",
+    "question": "dành cho da thường đến da khô với thành phần dưỡng ẩm thay vì trị mụn, từ một thương hiệu khác",
+    "translated_question": "designed for normal to dry skin with hydrating ingredients instead of acne-fighting ones, from a different brand",
+    "answer_product_id": [
+      "1008"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0374": {
+    "image_path": "images/43/00/43000680_19417213026.jpg",
+    "product_id": "2108",
+    "question": "nhưng dùng công thức thương hiệu Hàn Quốc với hồng sâm thay vì nghệ, và tuýp to hơn",
+    "translated_question": "with a Korean brand formula featuring red ginseng instead of turmeric, in a larger tube size",
+    "answer_product_id": [
+      "66"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0375": {
+    "image_path": "images/87/78/8778931_3444036799.jpg",
+    "product_id": "1437",
+    "question": "từ thương hiệu khác có nhiều size lựa chọn và dạng gel pH thấp thay vì dạng sữa rửa mặt",
+    "translated_question": "from a different brand with multiple size options and a low-pH gel formula instead of a foam",
+    "answer_product_id": [
+      "500"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0376": {
+    "image_path": "images/38/32/383277694_11957012785.jpg",
+    "product_id": "1012",
+    "question": "nhưng dùng chiết xuất gạo dưỡng trắng thay vì trà xanh, và có size nhỏ tiện mang đi",
+    "translated_question": "with a brightening rice extract formula instead of green tea, and available in a smaller travel-friendly size",
+    "answer_product_id": [
+      "795"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0377": {
+    "image_path": "images/96/36/96363_4613237994.mp4",
+    "product_id": "1551",
+    "question": "cho tôi xem sữa rửa mặt dạng gel tương tự nhưng từ thương hiệu Hàn Quốc có công thức pH thấp dùng buổi sáng",
+    "translated_question": "show me a gel face cleanser like this but from a Korean brand with a low pH formula for morning use",
+    "answer_product_id": [
+      "237"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0378": {
+    "image_path": "images/49/94/49944814_8921166256.jpg",
+    "product_id": "1946",
+    "question": "nhưng là sản phẩm thương hiệu Hàn Quốc với thành phần hồng sâm và bao bì màu đỏ cao cấp thay vì chiết xuất nghệ",
+    "translated_question": "with a Korean brand formula featuring red ginseng and a premium red packaging instead of turmeric-based ingredients",
+    "answer_product_id": [
+      "1515"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0379": {
+    "image_path": "images/25/09/250961403_11258651232.mp4",
+    "product_id": "1051",
+    "question": "nhưng dạng gel pH thấp dịu nhẹ hơn từ một thương hiệu skincare Hàn Quốc nổi tiếng",
+    "translated_question": "but in a gentle low-pH gel formula from a well-known Korean skincare brand",
+    "answer_product_id": [
+      "1728"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0380": {
+    "image_path": "images/13/5_/tiki_135_tikishop_13_big.jpg",
+    "product_id": "tiki_135",
+    "question": "cho tôi xem sản phẩm rửa mặt thay vì mặt nạ miếng, tập trung vào trị mụn thay vì dưỡng trắng",
+    "translated_question": "a face cleanser instead of a sheet mask, focused on acne control rather than whitening",
+    "answer_product_id": [
+      "683"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0381": {
+    "image_path": "images/11/13/111345312_15601843711.jpg",
+    "product_id": "2045",
+    "question": "có dạng kem rửa mặt dành riêng cho da dầu và da mụn, của thương hiệu khác",
+    "translated_question": "with a creamy wash formula specifically targeting acne-prone and oily skin, from a different brand",
+    "answer_product_id": [
+      "2072"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0382": {
+    "image_path": "images/67/01/67019172_13156088803.jpg",
+    "product_id": "1465",
+    "question": "chỉ lấy sữa rửa mặt dạng tuýp thôi, có nhiều loại để chọn, không cần kèm toner hay nước tẩy trang",
+    "translated_question": "with only the facial wash product in a tube format, available in multiple variants, without the toner or micellar water included",
+    "answer_product_id": [
+      "1497"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0383": {
+    "image_path": "images/47/17/471702984_16931203907.jpg",
+    "product_id": "1864",
+    "question": "từ thương hiệu khác có kết cấu dạng gel và công thức pH thấp dành cho buổi sáng",
+    "translated_question": "from a different brand with a gel texture and a low-pH formula marketed for morning use",
+    "answer_product_id": [
+      "1649"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0384": {
+    "image_path": "images/10/26/102665814_16982016291.jpg",
+    "product_id": "882",
+    "question": "có bao bì màu xanh lá và thành phần thực vật tự nhiên như tràm trà thay vì niacinamide, tốt nhất là loại dùng được cả như mặt nạ đất sét",
+    "translated_question": "with a green tube packaging and a natural botanical ingredient like tea tree instead of niacinamide, ideally one that doubles as a clay mask",
+    "answer_product_id": [
+      "183"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0385": {
+    "image_path": "images/13/27/132753669_6118262128.jpg",
+    "product_id": "1200",
+    "question": "nhưng có công thức trị mụn và chứa vitamin thay vì thành phần sữa dưỡng trắng da",
+    "translated_question": "with a focus on acne-fighting and vitamin-enriched formula instead of whitening milk ingredients",
+    "answer_product_id": [
+      "84"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0386": {
+    "image_path": "images/29/25/292573837_8020834764.jpg",
+    "product_id": "869",
+    "question": "nhưng có bao bì đen hiện đại hơn và tập trung mạnh hơn vào giảm mụn nhanh và ngừa thâm hiệu quả",
+    "translated_question": "with a more modern, sleek black packaging and stronger emphasis on fast acne reduction and dark spot prevention",
+    "answer_product_id": [
+      "33"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0387": {
+    "image_path": "images/13/04/tiki_1304_tikishop_28_big.jpg",
+    "product_id": "tiki_1304",
+    "question": "nhưng đổi sang thương hiệu Su:m37 với hộp quà phong cách đá cẩm thạch hiện đại hơn và bộ lớn hơn có chai bơm",
+    "translated_question": "with a more modern marble-style luxury packaging and from the Su:m37 brand instead, with a larger set including a pump bottle",
+    "answer_product_id": [
+      "tiki_1332"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0388": {
+    "image_path": "images/17/55/175572825_4962979462.jpg",
+    "product_id": "726",
+    "question": "vẫn là dòng Eucerin Pro Acne nhưng dạng toner thay vì sữa rửa mặt tạo bọt",
+    "translated_question": "same Eucerin Pro Acne line but in a toner format instead of a cleansing foam",
+    "answer_product_id": [
+      "tiki_332"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 5
+  },
+  "DEV-R5-0389": {
+    "image_path": "images/35/4_/tiki_354_tikishop_1_big.jpg",
+    "product_id": "tiki_354",
+    "question": "dạng sữa rửa mặt thay vì nước cân bằng, cùng thương hiệu Whoo cao cấp của Hàn Quốc",
+    "translated_question": "in a cleanser format instead of a toner, from the same luxury Korean brand",
+    "answer_product_id": [
+      "1979"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0390": {
+    "image_path": "images/51/38/51381266_10411137752.jpg",
+    "product_id": "1713",
+    "question": "từ thương hiệu khác với dạng gel dành riêng cho da dầu và da mụn với độ pH thấp",
+    "translated_question": "from a different brand with a gel formula specifically designed for oily and acne-prone skin with low pH",
+    "answer_product_id": [
+      "891"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0391": {
+    "image_path": "images/48/97/48973616_4080165442.jpg",
+    "product_id": "697",
+    "question": "từ thương hiệu quốc tế nổi tiếng hơn có tùy chọn đầu bơm và có sẵn kích thước lớn hơn 500ml",
+    "translated_question": "from a well-known international brand with a pump dispenser option and available in a larger 500ml size",
+    "answer_product_id": [
+      "1436"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0392": {
+    "image_path": "images/10/73/10737267_4659411911.jpg",
+    "product_id": "759",
+    "question": "dạng dầu tẩy trang từ thương hiệu Nhật Bản thay vì gel rửa mặt",
+    "translated_question": "with a cleansing oil format from a Japanese brand instead of a gel cleanser",
+    "answer_product_id": [
+      "tiki_1600"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0393": {
+    "image_path": "images/18/14/tiki_1814_tikishop_247_big.jpg",
+    "product_id": "tiki_1814",
+    "question": "dạng túi thay vì hộp, với thiết kế bông tự nhiên",
+    "translated_question": "in a bag/pouch format instead of a box, with a natural cotton aesthetic",
+    "answer_product_id": [
+      "tiki_1808"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0394": {
+    "image_path": "images/25/89/25892343_4710204553.mp4",
+    "product_id": "1631",
+    "question": "dạng tuýp thay vì chai bơm, có thành phần dưỡng ẩm từ thực vật và thương hiệu Nhật Bản",
+    "translated_question": "with a tube format instead of a pump bottle, featuring plant-based moisturizing ingredients and Japanese branding",
+    "answer_product_id": [
+      "1831"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0395": {
+    "image_path": "images/95/05/95050988_4746910265.mp4",
+    "product_id": "1844",
+    "question": "của thương hiệu khác với công thức dưỡng ẩm hơn phù hợp cho da thường đến da khô thay vì da dầu mụn",
+    "translated_question": "from a different brand with a creamier, more hydrating formula suitable for normal to dry skin instead of oily/acne-prone skin",
+    "answer_product_id": [
+      "991"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0396": {
+    "image_path": "images/43/59/435911373_13623966836.mp4",
+    "product_id": "1952",
+    "question": "dành riêng cho da dầu với công thức sữa rửa mặt tạo bọt làm sạch sâu từ thương hiệu khác",
+    "translated_question": "designed specifically for oily skin with deep cleansing foam formula from a different brand",
+    "answer_product_id": [
+      "503"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0397": {
+    "image_path": "images/7_/ti/tiki_7_tikishop_2_big.jpg",
+    "product_id": "tiki_7",
+    "question": "dạng gel rửa mặt dạng lỏng thay vì mặt nạ",
+    "translated_question": "in a liquid gel cleanser format instead of a face mask",
+    "answer_product_id": [
+      "567"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0398": {
+    "image_path": "images/25/80/258099521_4043100857.jpg",
+    "product_id": "1981",
+    "question": "nhưng dung tích lớn hơn, bao bì tối màu hơn, và có công thức đặc trị mụn và làm sáng da",
+    "translated_question": "with a larger tube size, darker packaging, and formulated specifically for acne care and skin brightening",
+    "answer_product_id": [
+      "1076"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  },
+  "DEV-R5-0399": {
+    "image_path": "images/16/17/tiki_1617_tikishop_0_big.jpg",
+    "product_id": "tiki_1617",
+    "question": "từ thương hiệu khác được thiết kế riêng cho da nhạy cảm với kích thước nhỏ gọn tiện mang theo",
+    "translated_question": "from a different brand specifically formulated for sensitive skin in a smaller travel-friendly size",
+    "answer_product_id": [
+      "tiki_1588"
+    ],
+    "rule": "llm_free_form",
+    "confidence": 4
+  }
+}

@@ -1,0 +1,28 @@
+# Autoresearch roadmap — block 7 (Sonnet-rewritten captions).
+# Rewriter (~$1, one-time) added `translated_question_rewritten` to each query
+# with richer brand/category/format context. Test whether the richer caption
+# lifts brand_swap and overall.
+#
+# Compare against the v6 wide-dev winners:
+#   - name(α=0.05) + Haiku@20 + translated_question:   overall 0.162, brand 0.011
+#   - brand(α=0.30) + Haiku@20 + translated_question:  overall 0.133, brand 0.016
+# Question: does swapping caption_source to rewritten lift either?
+
+- id: R_name_a05_rewritten
+  prompt: "a photo of $ that {caption}"
+  fuse_text: {kind: name, alpha: 0.05}
+  rerank: {enabled: true, model: "haiku", topk: 20}
+  caption_source: "translated_question_rewritten"
+
+- id: R_brand_a30_rewritten
+  prompt: "a photo of $ that {caption}"
+  fuse_text: {kind: brand, alpha: 0.30}
+  rerank: {enabled: true, model: "haiku", topk: 20}
+  caption_source: "translated_question_rewritten"
+
+- id: R_name_a05_rewritten_judge
+  prompt: "a photo of $ that {caption}"
+  fuse_text: {kind: name, alpha: 0.05}
+  rerank: {enabled: true, model: "haiku", topk: 20}
+  caption_source: "translated_question_rewritten"
+  holdout_judge: true

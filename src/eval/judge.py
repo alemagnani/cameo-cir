@@ -135,13 +135,36 @@ class ClaudeJudge:
     # ------------------------------------------------------------------
 
     @staticmethod
-    def _load_image(image_path: str) -> Optional[str]:
-        """Load image from data/raw/<image_path> and return base64-encoded JPEG."""
+    def _load_image(image_path: str, max_side: int = 384) -> Optional[str]:
+        """Load image (or first frame of .mp4) as base64-encoded JPEG, downscaled to ≤max_side."""
+        import io
+        from pathlib import Path as _Path
+        from PIL import Image
         full = ROOT / "data" / "raw" / image_path
         if not full.exists():
             return None
-        with open(full, "rb") as f:
-            return base64.standard_b64encode(f.read()).decode("utf-8")
+        try:
+            if _Path(full).suffix.lower() == ".mp4":
+                import cv2
+                cap = cv2.VideoCapture(str(full))
+                ok, frame = cap.read()
+                cap.release()
+                if not ok:
+                    return None
+                img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+            else:
+                img = Image.open(full).convert("RGB")
+        except Exception:
+            return None
+        w, h = img.size
+        if max(w, h) > max_side:
+            if w >= h:
+                img = img.resize((max_side, int(h * max_side / w)))
+            else:
+                img = img.resize((int(w * max_side / h), max_side))
+        buf = io.BytesIO()
+        img.save(buf, format="JPEG", quality=85)
+        return base64.standard_b64encode(buf.getvalue()).decode("utf-8")
 
     def score(
         self,

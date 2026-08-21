@@ -1,0 +1,5 @@
+# third pass: rerank the high-recall ViT-H top-50 candidates (the dev-429 "fix")
+# both models already beat Haiku and are cached. K=50 -> need max-images 51.
+# tag|hf_id|tensor_parallel|extra_args
+qwen32b_vith50|Qwen/Qwen2.5-VL-32B-Instruct|2|--max-images 51 --max-model-len 16384
+internvl3_38b_vith50|OpenGVLab/InternVL3-38B|2|--max-images 51 --max-model-len 16384

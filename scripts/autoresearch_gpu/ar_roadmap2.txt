@@ -1,0 +1,13 @@
+# tag|backbone|pretrained|alpha|brand_union|rerank_tag|rerank_hf|topk
+vith_a0_bu0_internvl3_k20|ViT-H-14|laion2b_s32b_b79k|0|0|internvl3|OpenGVLab/InternVL3-38B|20
+vith_a0_bu1_internvl3_k20|ViT-H-14|laion2b_s32b_b79k|0|1|internvl3|OpenGVLab/InternVL3-38B|20
+vith_a02_bu0_internvl3_k20|ViT-H-14|laion2b_s32b_b79k|0.2|0|internvl3|OpenGVLab/InternVL3-38B|20
+vith_a02_bu1_internvl3_k20|ViT-H-14|laion2b_s32b_b79k|0.2|1|internvl3|OpenGVLab/InternVL3-38B|20
+bigg_a0_bu0_internvl3_k20|ViT-bigG-14|laion2b_s39b_b160k|0|0|internvl3|OpenGVLab/InternVL3-38B|20
+bigg_a0_bu1_internvl3_k20|ViT-bigG-14|laion2b_s39b_b160k|0|1|internvl3|OpenGVLab/InternVL3-38B|20
+bigg_a02_bu0_internvl3_k20|ViT-bigG-14|laion2b_s39b_b160k|0.2|0|internvl3|OpenGVLab/InternVL3-38B|20
+bigg_a02_bu1_internvl3_k20|ViT-bigG-14|laion2b_s39b_b160k|0.2|1|internvl3|OpenGVLab/InternVL3-38B|20
+bigg_a0_bu0_qwen72b_k20|ViT-bigG-14|laion2b_s39b_b160k|0|0|qwen72b|Qwen/Qwen2.5-VL-72B-Instruct|20
+bigg_a0_bu1_qwen72b_k20|ViT-bigG-14|laion2b_s39b_b160k|0|1|qwen72b|Qwen/Qwen2.5-VL-72B-Instruct|20
+bigg_a0_bu1_qwen32b_k10|ViT-bigG-14|laion2b_s39b_b160k|0|1|qwen32b|Qwen/Qwen2.5-VL-32B-Instruct|10
+bigg_a0_bu1_qwen32b_k30|ViT-bigG-14|laion2b_s39b_b160k|0|1|qwen32b|Qwen/Qwen2.5-VL-32B-Instruct|30

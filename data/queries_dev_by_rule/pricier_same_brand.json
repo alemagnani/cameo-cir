@@ -1,0 +1,262 @@
+{
+  "DEV-0020": {
+    "image_path": "images/32/54/325451816_7967764725.mp4",
+    "product_id": "315",
+    "question": "Mình muốn tìm sản phẩm xịn hơn của hãng Ecowipes, khoảng tầm 350k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Ecowipes), around 350k VND.",
+    "answer_product_id": [
+      "2120"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 114999,
+    "tgt_price": 350000,
+    "ref_brand": "Ecowipes"
+  },
+  "DEV-0021": {
+    "image_path": "images/18/04/tiki_1804_tikishop_251_big.jpg",
+    "product_id": "tiki_1804",
+    "question": "Cho mình hỏi REIHAKU có dòng cao cấp hơn không, tầm 222k ạ?",
+    "translated_question": "I'd like a more premium option from the same brand (REIHAKU), around 222k VND.",
+    "answer_product_id": [
+      "tiki_1741"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 129000,
+    "tgt_price": 222130,
+    "ref_brand": "REIHAKU"
+  },
+  "DEV-0022": {
+    "image_path": "images/15/08/tiki_1508_tikishop_31_big.jpg",
+    "product_id": "tiki_1508",
+    "question": "Mình đang tìm sản phẩm Heliocare loại cao cấp hơn, khoảng 520k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Heliocare), around 520k VND.",
+    "answer_product_id": [
+      "tiki_1272"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 114000,
+    "tgt_price": 520000,
+    "ref_brand": "Heliocare"
+  },
+  "DEV-0023": {
+    "image_path": "images/90/2_/tiki_902_tikishop_109_big.jpg",
+    "product_id": "tiki_902",
+    "question": "Hãng Teoxane có sản phẩm nào xịn hơn không ạ, tầm 2189k?",
+    "translated_question": "I'd like a more premium option from the same brand (Teoxane), around 2189k VND.",
+    "answer_product_id": [
+      "tiki_1345"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 715000,
+    "tgt_price": 2189000,
+    "ref_brand": "Teoxane"
+  },
+  "DEV-0024": {
+    "image_path": "images/72/08/720896521_12390024714.jpg",
+    "product_id": "921",
+    "question": "Mình muốn nâng cấp lên dòng cao hơn của ANESSA, khoảng 133k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (ANESSA), around 133k VND.",
+    "answer_product_id": [
+      "1145"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 46000,
+    "tgt_price": 133000,
+    "ref_brand": "ANESSA"
+  },
+  "DEV-0025": {
+    "image_path": "images/71/4_/tiki_714_tikishop_156_big.jpg",
+    "product_id": "tiki_714",
+    "question": "Cho mình hỏi Bimore có dòng nào xịn hơn không, tầm 924k ạ?",
+    "translated_question": "I'd like a more premium option from the same brand (Bimore), around 924k VND.",
+    "answer_product_id": [
+      "tiki_772"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 147000,
+    "tgt_price": 924000,
+    "ref_brand": "Bimore"
+  },
+  "DEV-0026": {
+    "image_path": "images/24/4_/tiki_244_tikishop_82_big.jpg",
+    "product_id": "tiki_244",
+    "question": "Mình đang tìm sản phẩm cao cấp hơn của Zo Skin Health, khoảng 3359k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Zo Skin Health), around 3359k VND.",
+    "answer_product_id": [
+      "tiki_1195"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 1489000,
+    "tgt_price": 3359000,
+    "ref_brand": "Zo Skin Health"
+  },
+  "DEV-0027": {
+    "image_path": "images/32/84/32848859_14562371578.mp4",
+    "product_id": "1739",
+    "question": "Hãng Olay có dòng nào cao cấp hơn không ạ, tầm 659k?",
+    "translated_question": "I'd like a more premium option from the same brand (Olay), around 659k VND.",
+    "answer_product_id": [
+      "tiki_1154"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 120000,
+    "tgt_price": 659000,
+    "ref_brand": "Olay"
+  },
+  "DEV-0028": {
+    "image_path": "images/10/98/tiki_1098_tikishop_168_big.jpg",
+    "product_id": "tiki_1098",
+    "question": "Mình muốn tìm DECUMAR loại xịn hơn, khoảng 2493k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (DECUMAR), around 2493k VND.",
+    "answer_product_id": [
+      "tiki_757"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 194000,
+    "tgt_price": 2493000,
+    "ref_brand": "DECUMAR"
+  },
+  "DEV-0029": {
+    "image_path": "images/85/15/85154498_9312822152.jpg",
+    "product_id": "1410",
+    "question": "Cho mình hỏi Plants and Flowers có sản phẩm nào cao cấp hơn không, tầm 180k ạ?",
+    "translated_question": "I'd like a more premium option from the same brand (Plants and Flowers), around 180k VND.",
+    "answer_product_id": [
+      "2061"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 89900,
+    "tgt_price": 180000,
+    "ref_brand": "Plants and Flowers"
+  },
+  "DEV-0030": {
+    "image_path": "images/15/18/tiki_1518_tikishop_110_big.jpg",
+    "product_id": "tiki_1518",
+    "question": "Mình đang cần tìm dòng xịn hơn của Dr. MAXCELL, khoảng 1750k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Dr. MAXCELL), around 1750k VND.",
+    "answer_product_id": [
+      "tiki_374"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 670000,
+    "tgt_price": 1750000,
+    "ref_brand": "Dr. MAXCELL"
+  },
+  "DEV-0031": {
+    "image_path": "images/11/08/tiki_1108_tikishop_31_big.jpg",
+    "product_id": "tiki_1108",
+    "question": "Hãng Thorakao có sản phẩm cao cấp hơn không ạ, tầm 190k?",
+    "translated_question": "I'd like a more premium option from the same brand (Thorakao), around 190k VND.",
+    "answer_product_id": [
+      "tiki_1307"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 40000,
+    "tgt_price": 190000,
+    "ref_brand": "Thorakao"
+  },
+  "DEV-0032": {
+    "image_path": "images/15/52/tiki_1552_tikishop_77_big.jpg",
+    "product_id": "tiki_1552",
+    "question": "Mình muốn tìm đồ hãng Green Pharmacy loại xịn hơn, khoảng 695k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Green Pharmacy), around 695k VND.",
+    "answer_product_id": [
+      "tiki_1384"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 270630,
+    "tgt_price": 695000,
+    "ref_brand": "Green Pharmacy"
+  },
+  "DEV-0033": {
+    "image_path": "images/12/8_/tiki_128_tikishop_48_big.jpg",
+    "product_id": "tiki_128",
+    "question": "Cho mình hỏi Herbario có dòng nào cao cấp hơn không, tầm 910k ạ?",
+    "translated_question": "I'd like a more premium option from the same brand (Herbario), around 910k VND.",
+    "answer_product_id": [
+      "tiki_1416"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 110000,
+    "tgt_price": 910500,
+    "ref_brand": "Herbario"
+  },
+  "DEV-0034": {
+    "image_path": "images/85/0_/tiki_850_tikishop_0_big.jpg",
+    "product_id": "tiki_850",
+    "question": "Mình đang tìm sản phẩm Kiehl's xịn hơn, khoảng 329k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Kiehl's), around 329k VND.",
+    "answer_product_id": [
+      "tiki_841"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 49000,
+    "tgt_price": 329000,
+    "ref_brand": "Kiehl's"
+  },
+  "DEV-0035": {
+    "image_path": "images/14/85/tiki_1485_tikishop_51_big.jpg",
+    "product_id": "tiki_1485",
+    "question": "Hãng MH BEAUTY SPA có dòng cao cấp hơn không ạ, tầm 7500k?",
+    "translated_question": "I'd like a more premium option from the same brand (MH BEAUTY SPA), around 7500k VND.",
+    "answer_product_id": [
+      "tiki_280"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 1670000,
+    "tgt_price": 7500000,
+    "ref_brand": "MH BEAUTY SPA"
+  },
+  "DEV-0036": {
+    "image_path": "images/17/03/17037958_9757868098.jpg",
+    "product_id": "1572",
+    "question": "Mình muốn nâng lên dòng xịn hơn của Eleven huesday, khoảng 327k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Eleven huesday), around 327k VND.",
+    "answer_product_id": [
+      "781"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 35000,
+    "tgt_price": 327000,
+    "ref_brand": "Eleven huesday"
+  },
+  "DEV-0037": {
+    "image_path": "images/69/_t/tiki_69_tikishop_0_big.jpg",
+    "product_id": "tiki_69",
+    "question": "Cho mình hỏi Colorkey có sản phẩm nào cao cấp hơn không, tầm 139k ạ?",
+    "translated_question": "I'd like a more premium option from the same brand (Colorkey), around 139k VND.",
+    "answer_product_id": [
+      "tiki_144"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 15000,
+    "tgt_price": 139000,
+    "ref_brand": "Colorkey"
+  },
+  "DEV-0038": {
+    "image_path": "images/15/34/15345917_126592372.jpg",
+    "product_id": "2066",
+    "question": "Mình đang tìm đồ hãng Simple loại xịn hơn, khoảng 249k ạ.",
+    "translated_question": "I'd like a more premium option from the same brand (Simple), around 249k VND.",
+    "answer_product_id": [
+      "974"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 87500,
+    "tgt_price": 249000,
+    "ref_brand": "Simple"
+  },
+  "DEV-0039": {
+    "image_path": "images/80/15/80157617_4461089311.jpg",
+    "product_id": "1042",
+    "question": "Hãng SKINAVIS có dòng nào cao cấp hơn không ạ, tầm 220k?",
+    "translated_question": "I'd like a more premium option from the same brand (SKINAVIS), around 220k VND.",
+    "answer_product_id": [
+      "706"
+    ],
+    "rule": "pricier_same_brand",
+    "ref_price": 42000,
+    "tgt_price": 220000,
+    "ref_brand": "SKINAVIS"
+  }
+}

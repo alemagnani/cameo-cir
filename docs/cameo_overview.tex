@@ -1,0 +1,204 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=0.8in]{geometry}
+\usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\setlist{nosep,leftmargin=1.3em}
+\titlespacing*{\section}{0pt}{1.0ex}{0.5ex}
+\titlespacing*{\subsection}{0pt}{0.7ex}{0.3ex}
+\newcommand{\dev}{\textsc{dev}}
+\newcommand{\off}{\textsc{off-20}}
+\newcommand{\bad}{\textcolor{red}{\textbf{[X]}}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0.45ex}
+
+\title{\vspace{-3em}\textbf{CAMEO-CIR --- Project Overview \& Results}\\[-0.2em]
+\large NTCIR-19 CAMEO Composed Image Retrieval subtask}
+\author{}\date{Updated 2026-07-06 \quad (internal reference)}
+
+\begin{document}
+\maketitle
+\vspace{-3.5em}
+
+%==============================================================
+\section{Problem, Goal, Deadlines, Submission}
+\textbf{Problem.} Composed Image Retrieval: given a \emph{reference product image} + a
+\emph{natural-language modification} (``similar but cheaper'', ``same format from brand X''),
+return a \emph{ranked list} from a fixed corpus of \textbf{4{,}075 face-cleanser products}
+(Vietnamese e-commerce). Zero-shot; test labels withheld until after submission. Metrics: \textbf{NDCG@K, MAP}.
+
+\textbf{Deadlines} (confirmed from \texttt{cameo-task.com}, 2026-06-12): \textbf{team registration due
+\underline{Jul 10, 2026 (AOE)}} via the NTCIR-19 system (separate, earlier cliff); \textbf{final runs due
+\underline{Jul 20, 2026}}; results released Aug 1; task paper to NTCIR-19 proceedings Oct 2026; workshop
+Dec 2026, Tokyo. \emph{Metrics: nDCG@5, nDCG@10 (TREC-style pooled, 3-point human relevance).}
+\textbf{Submission:} the \textbf{20 official CIR queries}, format = \texttt{sample\_submission.json}, email to
+\texttt{allie.tran@dcu.ie} (subject ``CAMEO Submission - [Team Name]''), \textbf{max 5 runs} named
+\texttt{<team>\_CIR\_Run<id>.json}, + workshop paper. \textbf{Schema (verified against the official sample):}
+each entry needs \emph{both} \texttt{answer} (ranked list of \emph{image filenames}) \emph{and}
+\texttt{answer\_product\_id} (ranked \emph{product ids}); an earlier draft that put ids in \texttt{answer} and
+omitted \texttt{answer\_product\_id} was corrected. \textbf{Submission-ready set: \texttt{data/submission/final/}}
+--- 5 schema-valid runs, all image filenames map to the corpus (0 unmapped), with \textbf{metadata-fused +
+Qwen-72B (\off\ 0.923) promoted to Run1} and bigG+Qwen-72B / rerank variants as Run2--5 for diversity.
+Email not yet sent (awaiting go); a later email supersedes before Jul 20.
+
+%==============================================================
+\section{How everything is evaluated (read this first)}
+Three regimes; numbers are \textbf{not comparable across them} because the ground truth differs.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{@{}p{2.4cm}p{3.1cm}p{3.0cm}p{4.4cm}@{}}
+\toprule
+Regime & Data & Ground truth & Properties \\
+\midrule
+\textbf{Our \dev} & \texttt{queries\_dev} 429; \texttt{\_full} 2{,}083 (synthetic) & \textbf{exact} single
+\texttt{answer\_product\_id} & free, deterministic, \emph{harsh} (1 right answer); for recall iteration; relative signal \\
+\addlinespace
+\textbf{Validation \off} & 20 organizer CIR queries & \textbf{graded} Claude Sonnet-vision judge (cached) &
+many products relevant $\Rightarrow$ scores look high (0.87--0.92); closest proxy to the real metric; $n{=}20$ noisy \\
+\addlinespace
+\textbf{Real test} & organizers' held-out & human TREC judgments & withheld; only seen after submission \\
+\bottomrule
+\end{tabular}
+\end{table}
+\textbf{Why \dev\ ($\sim$0.05--0.26) looks far below \off\ ($\sim$0.9):} it is the \emph{metric}, not the
+system --- exact single-answer vs.\ lenient graded relevance. Use \dev\ for retrieval/recall progress,
+\off\ as the quality proxy. \emph{Caveat: MAP$>$1 at large K is a known AP bug; trust NDCG there.}
+
+%==============================================================
+\section{Data: provided vs.\ created}
+\textbf{Provided:} corpus 4{,}075 products (\texttt{brand}, numeric \texttt{price} VND,
+\texttt{translated\_name/description}, image; $\sim$1.9\,GB images); 30 official queries (\textbf{20 CIR}
++ 10 QA, no answers); sample-submission template. \textbf{Created by us} ($\sim$\$40 Sonnet; exact GT):
+\texttt{queries\_dev} 429 templated (cheaper/pricier\_same\_brand, format/brand/claim\_swap);
+rule5/5a/5b LLM free-form (400/646/608, a\&b \textbf{held out}); \texttt{\_full} = \textbf{2{,}083} merged.
+\textbf{We use validation only} --- the real test is withheld (no leakage).
+
+%==============================================================
+\section{What was tried, and how it was evaluated}
+Pipeline = \textbf{Stage-1 retrieval} $\to$ \textbf{Stage-2 listwise rerank}. Every variant scored by
+\texttt{eval\_by\_rule.py} on \dev\ (per-rule, free) and by the cached judge on \off.
+
+\subsection{Stage-1 retrieval --- the recall bottleneck (\dev-429, no rerank)}
+\begin{table}[h]\centering\small
+\begin{tabular}{@{}lccl@{}}
+\toprule
+Method & R@20 & R@50 & verdict \\
+\midrule
+iSEARLE/SEARLE-Phi, CLIP ViT-L/14 (EXP-001) & 0.084 & 0.154 & weak baseline \\
+SEARLE-OTI (GPU textual inversion, EXP-004) & 0.142 & 0.212 & 2$\times$ Phi \checkmark \\
+open\_clip ViT-H/14 & 0.343 & 0.415 & 4$\times$ Phi \checkmark \\
+ViT-bigG-14 + name-fusion & 0.359 & 0.436 & best \emph{visual} \checkmark \\
+EVA02-L & 0.294 & 0.364 & worse \\
+SigLIP-2 / EVA02-E shootout & --- & --- & inconclusive (wrong variant; later run env/deadline-cut) \\
+brand-union (symbolic, brand\_swap) & --- & 0.19 & 7.5$\times$ on brand\_swap \checkmark \\
+\textbf{metadata-fused (\#1, extracted)} & \textbf{0.431} & \textbf{0.527} & \textbf{breaks the visual ceiling} \checkmark\checkmark \\
+\bottomrule
+\end{tabular}
+\end{table}
+\emph{Visual backbones plateau $\sim$0.43 R@50; bigger ($\to$ViT-bigG/EVA) doesn't break it. RRF
+\textbf{ensembling} of backbones came back \bad\ negative (union recall lives too deep to rerank).}
+
+\subsection{Stage-2 reranking --- local VLM vs.\ the API (\off\ judge, on identical Phi top-20)}
+\begin{table}[h]\centering\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Reranker & \off\ NDCG@10 & cost / full rerank \\
+\midrule
+\textbf{Qwen2.5-VL-72B} & \textbf{0.913} & \$0 (GPU-hr) \\
+InternVL3-38B & 0.907 & \$0 \\
+Qwen2.5-VL-32B & 0.894 & \$0 \\
+Haiku (API baseline) & 0.872 & $\sim$\$11 \\
+Pixtral-Large (FP8) & 0.869 & \$0 \\
+GLM-4.5V & \multicolumn{2}{l}{\bad\ failed to load (vLLM)} \\
+\bottomrule
+\end{tabular}
+\end{table}
+\emph{Every viable local VLM $\ge$ Haiku at $\sim$\$0 marginal cost. This changed the cost structure
+(API per-token, scaling with experiments $\to$ flat GPU-hour) and removed rate limits.}
+
+\subsection{Approach \#1 --- LLM/metadata structured retrieval (the new edge)}
+The corpus's \texttt{brand}, numeric \texttt{price}, and \texttt{description} are \emph{ignored by visual
+CLIP}. \texttt{metadata\_retrieve.py} scores products by brand match $+$ price proximity $+$ format/claim
+keyword hits; a \textbf{Haiku extractor} (\texttt{llm\_extract.py}) pulls those fields from free text
+(extraction vs gold: brand 100\%, format/claim 100\% present, price 100\% when stated). Metadata-priority
+fusion with bigG, \textbf{Stage-1, no rerank}, \dev-429: NDCG@10 \textbf{0.200} (bigG 0.157), R@50
+\textbf{0.527} (bigG 0.436). Per-rule big wins: cheaper 0.29 / pricier 0.36 / format 0.23 (the \textbf{price}
+signal, never used before). \textbf{On \off: metadata-fused + Qwen-72B = NDCG@10 0.923} --- best official yet.
+
+\subsection{Autoresearch \& negatives}
+\textbf{GPU-native autoresearch} (self-driving loop, \textbf{LLM proposer} with the API key kept local via a
+producer/consumer split): 21 configs over backbone $\times \alpha \times$ brand-union $\times$ reranker
+$\times$ top-K $\to$ \textbf{converged} at bigG+brand-union+Qwen-72B (\dev-429 0.205). Findings: bigG$>$ViT-H,
+brand-union helps, top-K=30 best for brand\_swap, $\alpha$ negligible. \textbf{Negatives} (validated cheaply):
+rewritten captions \bad, embedding brand fusion \bad, high-$\alpha$ name fusion \bad, RRF ensembling \bad,
+symbolic format/claim matching \bad\ (brand+format too tight, pool$\sim$1).
+
+\subsection{Approach \#2 --- MagicLens: attempted, ENV-BLOCKED}
+Weights downloaded (base 666MB, large 1.86GB) + adapter written (\texttt{run\_magiclens\_cir.py}). Blocked by
+a fragile mid-2024 JAX pin: jax 0.4.30 matches the weights but scenic's TensorFlow needs newer
+protobuf/ml\_dtypes; jax 0.10 imports but \emph{segfaults} on the 2024 model; python 3.9 too old for current
+flax/optax (4 env attempts). Needs the authors' exact env (their Docker). Deprioritized --- adapter+weights ready.
+
+%==============================================================
+\section{Results consolidated --- and what we make of them}
+\begin{table}[h]\centering\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Pipeline & \dev-429 (exact) & \dev-full 2{,}083 & \off-20 (judge) \\
+\midrule
+Old: SEARLE-Phi + Haiku rerank & 0.044 & 0.162 & 0.872 \\
+bigG + brand-union + Qwen-72B (converged visual) & 0.205 & 0.255$^{\dagger}$ & 0.883--0.913 \\
+\textbf{metadata-fused Stage-1} (no rerank) & \textbf{0.200} & 0.115$^{\ddagger}$ & --- \\
+\textbf{metadata-fused + Qwen-72B} & 0.173$^{\S}$ & --- & \textbf{0.923} \\
+\bottomrule
+\end{tabular}
+\end{table}
+{\footnotesize $^{\dagger}$Qwen-32B variant. $^{\ddagger}$neutral on full-dev: big win on the structured 21\%,
+free-form 79\% has no structure to extract. $^{\S}$rerank \emph{hurts} metadata on exact-match (see below).}
+
+\textbf{What we make of it:}
+\begin{itemize}
+\item \textbf{Recall is the real bottleneck}, not the reranker. On \dev\ the answer was in Phi's top-20
+only 8\% of the time; the whole 0.044$\to$0.2 arc is Stage-1 (backbone $+$ metadata), not rerank tuning.
+\item \textbf{Local VLM reranking $\ge$ the Haiku API at $\sim$\$0} --- the single most useful operational result.
+\item \textbf{Metadata (price/brand/format) is the new lever} and is \emph{orthogonal} to visual reranking:
+it gives the best Stage-1 on structured rules and the best \off\ score, but a visual reranker \emph{demotes}
+its exact structural matches (0.200$\to$0.173 on exact-\dev). $\Rightarrow$ don't visual-rerank metadata hits.
+\item \textbf{\dev\ and \off\ disagree by design} and that's informative: \off\ is recall-saturated/lenient
+(everything clusters $\sim$0.9, reranker dominates), \dev\ is strict (separates Stage-1 quality). Trust the
+\emph{direction} that agrees on both.
+\item \textbf{brand\_swap is the hard rule} ($\sim$0.1) --- brand-name matching in the corpus is the weak link.
+\end{itemize}
+
+%==============================================================
+\section{What to try next --- and why}
+\begin{enumerate}
+\item \textbf{Finalize \& email the 5 runs} (deadline-driven). Promote \textbf{metadata-fused + Qwen-72B}
+(\off\ 0.923) as a run; keep Qwen-72B/bigG and top-K=30 variants for diversity against the unknown test.
+\item \textbf{Strengthen \#1's brand resolution} --- brand\_swap recall $\sim$0.21 is gated by fuzzy brand-name
+matching; better normalization / a brand embedding would lift the single worst rule, and \#1 already works.
+\item \textbf{Metadata-\emph{aware} reranker} --- since visual rerank demotes structural matches, keep the
+metadata head fixed (or fuse rerank scores with the metadata score) instead of letting the VLM overwrite it.
+\item \textbf{MagicLens via the authors' Docker} --- the only clean way to get the 2024 JAX pin; a purpose-built
+CIR Stage-1 is the best remaining shot at the visual recall ceiling (ensembling did not break it).
+\item \textbf{Generalize \#1 to the natural official queries} --- the extractor already runs on free text; validate
+extraction quality on \off\ and confirm the 0.923 holds beyond the 5 structured official queries.
+\item \textbf{Fix the MAP$>$1 eval bug} so MAP is trustworthy at K$>$20 before relying on it for submission ranking.
+\end{enumerate}
+
+%==============================================================
+\section{Effort \& cost log (for transparency)}
+\textbf{Compute:} $\sim$10 vast.ai GPU sessions (reranker validation, recall sweeps, 3 autoresearch sessions,
+fused-pool rerank, backbone shootout). \textbf{Anthropic API $\approx$\$235} (Haiku reranks during early
+blocks + dev generation + judge + extractor); \textbf{GPU $\approx$\$60}. \textbf{Ops discipline:} a local
+``reaper'' continuously pulls results and auto-destroys each box on completion or a hard deadline --- several
+flaky/dead hosts were destroyed pre-billing; \textbf{no runaway cost}. \textbf{Battles fought:} CUDA
+driver$\leftrightarrow$torch mismatch, Qwen-72B KV-cache OOM (mem-tuned), InternVL3 image-token overflow,
+2 deadline-cut sessions (over-scope), 4 MagicLens dependency-snapshot failures. \textbf{Net:} the project moved
+from a 0.044/0.872 baseline to a \textbf{0.20+ \dev\ / 0.92 \off} pipeline, with a working free-marginal-cost
+reranker and a new metadata lever; remaining upside is in different \emph{levers} (metadata-aware rerank,
+MagicLens), not more tuning of the converged visual design.
+\end{document}

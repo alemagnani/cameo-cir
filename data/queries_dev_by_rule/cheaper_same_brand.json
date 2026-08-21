@@ -1,0 +1,262 @@
+{
+  "DEV-0000": {
+    "image_path": "images/79/9_/tiki_799_tikishop_178_big.jpg",
+    "product_id": "tiki_799",
+    "question": "Mình đang tìm sản phẩm cùng hãng Naturie nhưng rẻ hơn, tầm 49k thôi ạ.",
+    "translated_question": "Looking for the same brand (Naturie) but cheaper, around 49k VND.",
+    "answer_product_id": [
+      "tiki_787"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 379000,
+    "tgt_price": 49000,
+    "ref_brand": "Naturie"
+  },
+  "DEV-0001": {
+    "image_path": "images/12/68/tiki_1268_tikishop_61_big.jpg",
+    "product_id": "tiki_1268",
+    "question": "Mình đang tìm sản phẩm cùng hãng Wonjin Effect nhưng rẻ hơn, khoảng 105k ạ.",
+    "translated_question": "Looking for the same brand (Wonjin Effect) but cheaper, around 105k VND.",
+    "answer_product_id": [
+      "1309"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 1469000,
+    "tgt_price": 105000,
+    "ref_brand": "Wonjin Effect"
+  },
+  "DEV-0002": {
+    "image_path": "images/61/0_/tiki_610_tikishop_14_big.jpg",
+    "product_id": "tiki_610",
+    "question": "Cho mình hỏi hãng Qise có sản phẩm nào rẻ hơn không ạ, tầm 17k?",
+    "translated_question": "Looking for the same brand (Qise) but cheaper, around 17k VND.",
+    "answer_product_id": [
+      "tiki_111"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 165000,
+    "tgt_price": 16800,
+    "ref_brand": "Qise"
+  },
+  "DEV-0003": {
+    "image_path": "images/11/31/tiki_1131_tikishop_30_big.jpg",
+    "product_id": "tiki_1131",
+    "question": "Mình muốn tìm đồ hãng Kosé nhưng giá mềm hơn chút, khoảng 45k ạ.",
+    "translated_question": "Looking for the same brand (Kosé) but cheaper, around 45k VND.",
+    "answer_product_id": [
+      "tiki_1655"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 255000,
+    "tgt_price": 45000,
+    "ref_brand": "Kosé"
+  },
+  "DEV-0004": {
+    "image_path": "images/16/59/tiki_1659_tikishop_6_big.jpg",
+    "product_id": "tiki_1659",
+    "question": "Có sản phẩm nào của Herbloom giá rẻ hơn không ạ, tầm 30k thôi?",
+    "translated_question": "Looking for the same brand (Herbloom) but cheaper, around 30k VND.",
+    "answer_product_id": [
+      "1056"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 535000,
+    "tgt_price": 30000,
+    "ref_brand": "Herbloom"
+  },
+  "DEV-0005": {
+    "image_path": "images/15/46/154625875_9195196529.jpg",
+    "product_id": "163",
+    "question": "Mình cần tìm hàng hãng CLUB nhưng rẻ hơn tí, khoảng 7k ạ.",
+    "translated_question": "Looking for the same brand (CLUB) but cheaper, around 7k VND.",
+    "answer_product_id": [
+      "1640"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 45000,
+    "tgt_price": 6900,
+    "ref_brand": "CLUB"
+  },
+  "DEV-0006": {
+    "image_path": "images/48/4_/tiki_484_tikishop_49_big.jpg",
+    "product_id": "tiki_484",
+    "question": "Cho mình hỏi hãng Rainbow L'affair có sản phẩm nào giá tầm 25k không ạ, rẻ hơn loại đang xem?",
+    "translated_question": "Looking for the same brand (Rainbow L'affair) but cheaper, around 25k VND.",
+    "answer_product_id": [
+      "tiki_875"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 245000,
+    "tgt_price": 25000,
+    "ref_brand": "Rainbow L'affair"
+  },
+  "DEV-0007": {
+    "image_path": "images/13/96/tiki_1396_tikishop_18_big.jpg",
+    "product_id": "tiki_1396",
+    "question": "Mình đang tìm đồ hãng SCENTIO giá rẻ hơn, khoảng 20k ạ.",
+    "translated_question": "Looking for the same brand (SCENTIO) but cheaper, around 20k VND.",
+    "answer_product_id": [
+      "1745"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 246600,
+    "tgt_price": 20400,
+    "ref_brand": "SCENTIO"
+  },
+  "DEV-0008": {
+    "image_path": "images/20/06/20065767_602783526.jpg",
+    "product_id": "706",
+    "question": "Hãng SKINAVIS có sản phẩm nào rẻ hơn không ạ, tầm 42k thôi?",
+    "translated_question": "Looking for the same brand (SKINAVIS) but cheaper, around 42k VND.",
+    "answer_product_id": [
+      "1042"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 220000,
+    "tgt_price": 42000,
+    "ref_brand": "SKINAVIS"
+  },
+  "DEV-0009": {
+    "image_path": "images/18/07/tiki_1807_tikishop_247_big.jpg",
+    "product_id": "tiki_1807",
+    "question": "Mình muốn tìm hàng hãng Milaganics nhưng giá rẻ hơn, khoảng 23k ạ.",
+    "translated_question": "Looking for the same brand (Milaganics) but cheaper, around 23k VND.",
+    "answer_product_id": [
+      "tiki_1813"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 90000,
+    "tgt_price": 23000,
+    "ref_brand": "Milaganics"
+  },
+  "DEV-0010": {
+    "image_path": "images/10/25/tiki_1025_tikishop_129_big.jpg",
+    "product_id": "tiki_1025",
+    "question": "Cho mình hỏi Dr.Morita có cái nào giá mềm hơn không, tầm 29k ạ?",
+    "translated_question": "Looking for the same brand (Dr.Morita) but cheaper, around 29k VND.",
+    "answer_product_id": [
+      "282"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 202730,
+    "tgt_price": 29000,
+    "ref_brand": "Dr.Morita"
+  },
+  "DEV-0011": {
+    "image_path": "images/12/17/tiki_1217_tikishop_98_big.jpg",
+    "product_id": "tiki_1217",
+    "question": "Mình đang cần tìm sản phẩm hãng PIME rẻ hơn, khoảng 68k thôi ạ.",
+    "translated_question": "Looking for the same brand (PIME) but cheaper, around 68k VND.",
+    "answer_product_id": [
+      "tiki_557"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 1920000,
+    "tgt_price": 68000,
+    "ref_brand": "PIME"
+  },
+  "DEV-0012": {
+    "image_path": "images/11/47/11474300_823346276.jpg",
+    "product_id": "1984",
+    "question": "Hãng BYVIBES WONDER BATH có sản phẩm nào giá tầm 28k không ạ, rẻ hơn loại này?",
+    "translated_question": "Looking for the same brand (BYVIBES WONDER BATH) but cheaper, around 28k VND.",
+    "answer_product_id": [
+      "1602"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 390000,
+    "tgt_price": 27500,
+    "ref_brand": "BYVIBES WONDER BATH"
+  },
+  "DEV-0013": {
+    "image_path": "images/16/71/167114296_15408780532.jpg",
+    "product_id": "1344",
+    "question": "Mình muốn mua hàng SKIN1004 nhưng giá rẻ hơn, tầm 45k ạ.",
+    "translated_question": "Looking for the same brand (SKIN1004) but cheaper, around 45k VND.",
+    "answer_product_id": [
+      "485"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 250000,
+    "tgt_price": 45000,
+    "ref_brand": "SKIN1004"
+  },
+  "DEV-0014": {
+    "image_path": "images/12/29/tiki_1229_nan_big.jpg",
+    "product_id": "tiki_1229",
+    "question": "Có sản phẩm nào của Jomi rẻ hơn không ạ, khoảng 29k thôi?",
+    "translated_question": "Looking for the same brand (Jomi) but cheaper, around 29k VND.",
+    "answer_product_id": [
+      "tiki_835"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 470000,
+    "tgt_price": 29000,
+    "ref_brand": "Jomi"
+  },
+  "DEV-0015": {
+    "image_path": "images/13/3_/tiki_133_tikishop_51_big.jpg",
+    "product_id": "tiki_133",
+    "question": "Mình đang tìm hàng hãng Phoenix Pharma nhưng giá thấp hơn, tầm 4870k ạ.",
+    "translated_question": "Looking for the same brand (Phoenix Pharma) but cheaper, around 4870k VND.",
+    "answer_product_id": [
+      "tiki_912"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 18000000,
+    "tgt_price": 4870000,
+    "ref_brand": "Phoenix Pharma"
+  },
+  "DEV-0016": {
+    "image_path": "images/38/6_/tiki_386_tikishop_0_big.jpg",
+    "product_id": "tiki_386",
+    "question": "Cho mình hỏi Torriden có sản phẩm nào rẻ hơn không, khoảng 66k ạ?",
+    "translated_question": "Looking for the same brand (Torriden) but cheaper, around 66k VND.",
+    "answer_product_id": [
+      "tiki_561"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 506000,
+    "tgt_price": 66000,
+    "ref_brand": "Torriden"
+  },
+  "DEV-0017": {
+    "image_path": "images/11/11/111138057_20567055749.mp4",
+    "product_id": "102",
+    "question": "Hãng SIMPLE PURE có cái nào giá rẻ hơn không ạ, tầm 9k thôi?",
+    "translated_question": "Looking for the same brand (SIMPLE PURE) but cheaper, around 9k VND.",
+    "answer_product_id": [
+      "355"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 182000,
+    "tgt_price": 9000,
+    "ref_brand": "SIMPLE PURE"
+  },
+  "DEV-0018": {
+    "image_path": "images/75/7_/tiki_757_tikishop_163_big.jpg",
+    "product_id": "tiki_757",
+    "question": "Mình cần tìm sản phẩm DECUMAR nhưng giá mềm hơn, khoảng 194k ạ.",
+    "translated_question": "Looking for the same brand (DECUMAR) but cheaper, around 194k VND.",
+    "answer_product_id": [
+      "tiki_1098"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 2493000,
+    "tgt_price": 194000,
+    "ref_brand": "DECUMAR"
+  },
+  "DEV-0019": {
+    "image_path": "images/24/3_/tiki_243_tikishop_1_big.jpg",
+    "product_id": "tiki_243",
+    "question": "Có đồ nào của Goodal rẻ hơn không ạ, tầm 19k thôi?",
+    "translated_question": "Looking for the same brand (Goodal) but cheaper, around 19k VND.",
+    "answer_product_id": [
+      "tiki_71"
+    ],
+    "rule": "cheaper_same_brand",
+    "ref_price": 9524000,
+    "tgt_price": 19000,
+    "ref_brand": "Goodal"
+  }
+}

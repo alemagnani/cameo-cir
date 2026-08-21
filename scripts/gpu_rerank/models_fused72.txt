@@ -1,0 +1,2 @@
+# Qwen-72B rerank of the metadata-fused top-30 pool
+qwen72b_fused30|Qwen/Qwen2.5-VL-72B-Instruct|2|--max-images 31 --gpu-mem-util 0.97 --max-model-len 8192 --enforce-eager

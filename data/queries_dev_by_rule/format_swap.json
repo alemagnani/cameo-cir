@@ -1,0 +1,2252 @@
+{
+  "DEV-0040": {
+    "image_path": "images/51/8_/tiki_518_tikishop_21_big.jpg",
+    "product_id": "tiki_518",
+    "question": "Vẫn thương hiệu B-LAB nhưng cho mình hỏi bên có sữa rửa mặt dạng gel không, không phải loại nước tẩy trang hay tẩy trang ấy?",
+    "translated_question": "Same brand (B-LAB), but I want a gel cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_158"
+    ],
+    "rule": "format_swap",
+    "ref_price": 385000,
+    "tgt_price": 450000,
+    "ref_brand": "B-LAB",
+    "ref_format": "micellar",
+    "tgt_format": "gel"
+  },
+  "DEV-0041": {
+    "image_path": "images/11/02/tiki_1102_tikishop_138_big.jpg",
+    "product_id": "tiki_1102",
+    "question": "Vẫn thương hiệu Asap nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng kem ấy?",
+    "translated_question": "Same brand (Asap), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1221"
+    ],
+    "rule": "format_swap",
+    "ref_price": 306252,
+    "tgt_price": 705000,
+    "ref_brand": "Asap",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0042": {
+    "image_path": "images/51/6_/tiki_516_tikishop_1_big.jpg",
+    "product_id": "tiki_516",
+    "question": "Vẫn thương hiệu Fixderma nhưng mình muốn mua nước tẩy trang chứ không phải sữa rửa mặt dạng kem?",
+    "translated_question": "Same brand (Fixderma), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1604"
+    ],
+    "rule": "format_swap",
+    "ref_price": 794000,
+    "tgt_price": 121000,
+    "ref_brand": "Fixderma",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0043": {
+    "image_path": "images/15/67/tiki_1567_tikishop_0_big.jpg",
+    "product_id": "tiki_1567",
+    "question": "Vẫn thương hiệu L'ORÉAL nhưng mình muốn sữa rửa mặt dạng kem thay vì nước tẩy trang?",
+    "translated_question": "Same brand (L'ORÉAL), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_708"
+    ],
+    "rule": "format_swap",
+    "ref_price": 265780,
+    "tgt_price": 325000,
+    "ref_brand": "L'ORÉAL",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0044": {
+    "image_path": "images/12/93/tiki_1293_tikishop_34_big.jpg",
+    "product_id": "tiki_1293",
+    "question": "Vẫn thương hiệu SENKA nhưng mình muốn sữa rửa mặt dạng đất sét thay vì nước tẩy trang?",
+    "translated_question": "Same brand (SENKA), but I want a clay-based cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_81"
+    ],
+    "rule": "format_swap",
+    "ref_price": 1970000,
+    "tgt_price": 720000,
+    "ref_brand": "SENKA",
+    "ref_format": "micellar",
+    "tgt_format": "clay"
+  },
+  "DEV-0045": {
+    "image_path": "images/71/48/714889987_16143481251.jpg",
+    "product_id": "527",
+    "question": "Vẫn thương hiệu BYVIBES WONDER BATH nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt tạo bọt?",
+    "translated_question": "Same brand (BYVIBES WONDER BATH), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "471"
+    ],
+    "rule": "format_swap",
+    "ref_price": 195000,
+    "tgt_price": 189000,
+    "ref_brand": "BYVIBES WONDER BATH",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0046": {
+    "image_path": "images/35/82/35826509_2107511769.jpg",
+    "product_id": "911",
+    "question": "Vẫn thương hiệu Aveeno nhưng cho mình đổi sang sữa rửa mặt dạng kem thay vì loại tạo bọt được không?",
+    "translated_question": "Same brand (Aveeno), but I want a cream cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_88"
+    ],
+    "rule": "format_swap",
+    "ref_price": 234500,
+    "tgt_price": 250000,
+    "ref_brand": "Aveeno",
+    "ref_format": "foam",
+    "tgt_format": "cream"
+  },
+  "DEV-0047": {
+    "image_path": "images/96/7_/tiki_967_tikishop_157_big.jpg",
+    "product_id": "tiki_967",
+    "question": "Vẫn thương hiệu LAB AND LAB nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng gel?",
+    "translated_question": "Same brand (LAB AND LAB), but I want a cream cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_910"
+    ],
+    "rule": "format_swap",
+    "ref_price": 1360000,
+    "tgt_price": 1360000,
+    "ref_brand": "LAB AND LAB",
+    "ref_format": "gel",
+    "tgt_format": "cream"
+  },
+  "DEV-0048": {
+    "image_path": "images/61/9_/tiki_619_tikishop_0_big.jpg",
+    "product_id": "tiki_619",
+    "question": "Vẫn thương hiệu THE SAEM nhưng mình muốn sữa rửa mặt tạo bọt thay vì nước tẩy trang?",
+    "translated_question": "Same brand (THE SAEM), but I want a foaming cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1341"
+    ],
+    "rule": "format_swap",
+    "ref_price": 271600,
+    "tgt_price": 465000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "micellar",
+    "tgt_format": "foam"
+  },
+  "DEV-0049": {
+    "image_path": "images/12/74/tiki_1274_tikishop_182_big.jpg",
+    "product_id": "tiki_1274",
+    "question": "Vẫn thương hiệu O HUI nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng kem?",
+    "translated_question": "Same brand (O HUI), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1696"
+    ],
+    "rule": "format_swap",
+    "ref_price": 1290000,
+    "tgt_price": 2570000,
+    "ref_brand": "O HUI",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0050": {
+    "image_path": "images/10/26/tiki_1026_tikishop_16_big.jpg",
+    "product_id": "tiki_1026",
+    "question": "Vẫn thương hiệu BIODERMA nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng kem?",
+    "translated_question": "Same brand (BIODERMA), but I want a foaming cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "1744"
+    ],
+    "rule": "format_swap",
+    "ref_price": 115000,
+    "tgt_price": 54000,
+    "ref_brand": "BIODERMA",
+    "ref_format": "cream",
+    "tgt_format": "foam"
+  },
+  "DEV-0051": {
+    "image_path": "images/11/39/tiki_1139_tikishop_57_big.jpg",
+    "product_id": "tiki_1139",
+    "question": "Vẫn thương hiệu LYCOS nhưng mình muốn sữa rửa mặt dạng gel thay vì dạng kem?",
+    "translated_question": "Same brand (LYCOS), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_838"
+    ],
+    "rule": "format_swap",
+    "ref_price": 160000,
+    "tgt_price": 122000,
+    "ref_brand": "LYCOS",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0052": {
+    "image_path": "images/20/2_/tiki_202_tikishop_53_big.jpg",
+    "product_id": "tiki_202",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng mình muốn sữa rửa mặt dạng gel thay vì dạng bột?",
+    "translated_question": "Same brand (Beauty of Joseon), but I want a gel cleanser instead of a powder cleanser.",
+    "answer_product_id": [
+      "tiki_1455"
+    ],
+    "rule": "format_swap",
+    "ref_price": 275000,
+    "tgt_price": 218250,
+    "ref_brand": "Beauty of Joseon",
+    "ref_format": "powder",
+    "tgt_format": "gel"
+  },
+  "DEV-0053": {
+    "image_path": "images/58/_t/tiki_58_tikishop_0_big.jpg",
+    "product_id": "tiki_58",
+    "question": "Vẫn thương hiệu THE SAEM nhưng mình muốn sữa rửa mặt dạng gel thay vì loại đất sét?",
+    "translated_question": "Same brand (THE SAEM), but I want a gel cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_1192"
+    ],
+    "rule": "format_swap",
+    "ref_price": 280000,
+    "tgt_price": 329000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "clay",
+    "tgt_format": "gel"
+  },
+  "DEV-0054": {
+    "image_path": "images/76/8_/tiki_768_tikishop_173_big.jpg",
+    "product_id": "tiki_768",
+    "question": "Vẫn thương hiệu Fairy Complexion Today nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng bột?",
+    "translated_question": "Same brand (Fairy Complexion Today), but I want a cream cleanser instead of a powder cleanser.",
+    "answer_product_id": [
+      "tiki_1681"
+    ],
+    "rule": "format_swap",
+    "ref_price": 111000,
+    "tgt_price": 169000,
+    "ref_brand": "Fairy Complexion Today",
+    "ref_format": "powder",
+    "tgt_format": "cream"
+  },
+  "DEV-0055": {
+    "image_path": "images/48/74/48747614_11251761531.jpg",
+    "product_id": "1048",
+    "question": "Vẫn thương hiệu Estée Lauder nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt tạo bọt?",
+    "translated_question": "Same brand (Estée Lauder), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_1643"
+    ],
+    "rule": "format_swap",
+    "ref_price": 268000,
+    "tgt_price": 309260,
+    "ref_brand": "Estée Lauder",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0056": {
+    "image_path": "images/53/02/53021207_11941807126.jpg",
+    "product_id": "2147",
+    "question": "Vẫn thương hiệu Clean & Clear nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng gel?",
+    "translated_question": "Same brand (Clean & Clear), but I want a foaming cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "1273"
+    ],
+    "rule": "format_swap",
+    "ref_price": 230000,
+    "tgt_price": 62000,
+    "ref_brand": "Clean & Clear",
+    "ref_format": "gel",
+    "tgt_format": "foam"
+  },
+  "DEV-0057": {
+    "image_path": "images/53/7_/tiki_537_tikishop_138_big.jpg",
+    "product_id": "tiki_537",
+    "question": "Vẫn thương hiệu Asap nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng gel?",
+    "translated_question": "Same brand (Asap), but I want a cream cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1102"
+    ],
+    "rule": "format_swap",
+    "ref_price": 59000,
+    "tgt_price": 306252,
+    "ref_brand": "Asap",
+    "ref_format": "gel",
+    "tgt_format": "cream"
+  },
+  "DEV-0058": {
+    "image_path": "images/23/70/237063363_13831373248.jpg",
+    "product_id": "2027",
+    "question": "Vẫn thương hiệu Mik@vonk nhưng mình muốn sữa rửa mặt dạng gel thay vì loại tạo bọt?",
+    "translated_question": "Same brand (Mik@vonk), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "1645"
+    ],
+    "rule": "format_swap",
+    "ref_price": 155000,
+    "tgt_price": 155000,
+    "ref_brand": "Mik@vonk",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0059": {
+    "image_path": "images/55/7_/tiki_557_tikishop_98_big.jpg",
+    "product_id": "tiki_557",
+    "question": "Vẫn thương hiệu PIME nhưng mình muốn sữa rửa mặt dạng gel thay vì dạng bột?",
+    "translated_question": "Same brand (PIME), but I want a gel cleanser instead of a powder cleanser.",
+    "answer_product_id": [
+      "tiki_1476"
+    ],
+    "rule": "format_swap",
+    "ref_price": 68000,
+    "tgt_price": 525200,
+    "ref_brand": "PIME",
+    "ref_format": "powder",
+    "tgt_format": "gel"
+  },
+  "DEV-0060": {
+    "image_path": "images/18/17/181790483_8179329718.jpg",
+    "product_id": "2188",
+    "question": "Vẫn thương hiệu Ipek nhưng mình muốn sữa rửa mặt dạng đất sét thay vì loại tạo bọt?",
+    "translated_question": "Same brand (Ipek), but I want a clay-based cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "2073"
+    ],
+    "rule": "format_swap",
+    "ref_price": 95000,
+    "tgt_price": 170000,
+    "ref_brand": "Ipek",
+    "ref_format": "foam",
+    "tgt_format": "clay"
+  },
+  "DEV-0061": {
+    "image_path": "images/11/92/tiki_1192_tikishop_0_big.jpg",
+    "product_id": "tiki_1192",
+    "question": "Vẫn thương hiệu THE SAEM nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng gel?",
+    "translated_question": "Same brand (THE SAEM), but I want a foaming cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1341"
+    ],
+    "rule": "format_swap",
+    "ref_price": 329000,
+    "tgt_price": 465000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "gel",
+    "tgt_format": "foam"
+  },
+  "DEV-0062": {
+    "image_path": "images/53/7_/tiki_537_tikishop_138_big.jpg",
+    "product_id": "tiki_537",
+    "question": "Vẫn thương hiệu Asap nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng gel?",
+    "translated_question": "Same brand (Asap), but I want a micellar / makeup-removing cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1221"
+    ],
+    "rule": "format_swap",
+    "ref_price": 59000,
+    "tgt_price": 705000,
+    "ref_brand": "Asap",
+    "ref_format": "gel",
+    "tgt_format": "micellar"
+  },
+  "DEV-0063": {
+    "image_path": "images/15/12/tiki_1512_tikishop_0_big.jpg",
+    "product_id": "tiki_1512",
+    "question": "Vẫn thương hiệu SCENTIO nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng gel?",
+    "translated_question": "Same brand (SCENTIO), but I want a cream cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_927"
+    ],
+    "rule": "format_swap",
+    "ref_price": 178000,
+    "tgt_price": 155480,
+    "ref_brand": "SCENTIO",
+    "ref_format": "gel",
+    "tgt_format": "cream"
+  },
+  "DEV-0064": {
+    "image_path": "images/16/97/tiki_1697_tikishop_27_big.jpg",
+    "product_id": "tiki_1697",
+    "question": "Vẫn thương hiệu Heliocare nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng kem?",
+    "translated_question": "Same brand (Heliocare), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1633"
+    ],
+    "rule": "format_swap",
+    "ref_price": 198850,
+    "tgt_price": 170000,
+    "ref_brand": "Heliocare",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0065": {
+    "image_path": "images/22/30/22309593_2794228855.jpg",
+    "product_id": "913",
+    "question": "Vẫn thương hiệu JULYHOUSE nhưng mình muốn sữa rửa mặt dạng kem thay vì loại tạo bọt?",
+    "translated_question": "Same brand (JULYHOUSE), but I want a cream cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "2110"
+    ],
+    "rule": "format_swap",
+    "ref_price": 25000,
+    "tgt_price": 26000,
+    "ref_brand": "JULYHOUSE",
+    "ref_format": "foam",
+    "tgt_format": "cream"
+  },
+  "DEV-0066": {
+    "image_path": "images/28/26/282614943_7141410474.mp4",
+    "product_id": "1459",
+    "question": "Vẫn thương hiệu OHUI nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt tạo bọt?",
+    "translated_question": "Same brand (OHUI), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_389"
+    ],
+    "rule": "format_swap",
+    "ref_price": 260000,
+    "tgt_price": 977000,
+    "ref_brand": "OHUI",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0067": {
+    "image_path": "images/72/17/72177588_1668328803.jpg",
+    "product_id": "616",
+    "question": "Vẫn thương hiệu Eau Thermale Avene nhưng mình muốn sữa rửa mặt dạng gel thay vì loại tạo bọt?",
+    "translated_question": "Same brand (Eau Thermale Avene), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "2180"
+    ],
+    "rule": "format_swap",
+    "ref_price": 245000,
+    "tgt_price": 260000,
+    "ref_brand": "Eau Thermale Avene",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0068": {
+    "image_path": "images/92/7_/tiki_927_tikishop_2_big.jpg",
+    "product_id": "tiki_927",
+    "question": "Vẫn thương hiệu SCENTIO nhưng mình muốn sữa rửa mặt dạng gel thay vì dạng kem?",
+    "translated_question": "Same brand (SCENTIO), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1512"
+    ],
+    "rule": "format_swap",
+    "ref_price": 155480,
+    "tgt_price": 178000,
+    "ref_brand": "SCENTIO",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0069": {
+    "image_path": "images/73/0_/tiki_730_tikishop_0_big.jpg",
+    "product_id": "tiki_730",
+    "question": "Vẫn thương hiệu Acnes nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng kem?",
+    "translated_question": "Same brand (Acnes), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1614"
+    ],
+    "rule": "format_swap",
+    "ref_price": 55000,
+    "tgt_price": 64000,
+    "ref_brand": "Acnes",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0070": {
+    "image_path": "images/21/1_/tiki_211_nan_big.jpg",
+    "product_id": "tiki_211",
+    "question": "Vẫn thương hiệu DR.LACIR nhưng mình muốn sữa rửa mặt dạng kem thay vì nước tẩy trang?",
+    "translated_question": "Same brand (DR.LACIR), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_272"
+    ],
+    "rule": "format_swap",
+    "ref_price": 590000,
+    "tgt_price": 250000,
+    "ref_brand": "DR.LACIR",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0071": {
+    "image_path": "images/58/2_/tiki_582_tikishop_51_big.jpg",
+    "product_id": "tiki_582",
+    "question": "Vẫn thương hiệu Phoenix Pharma nhưng mình muốn sữa rửa mặt dạng kem thay vì loại đất sét?",
+    "translated_question": "Same brand (Phoenix Pharma), but I want a cream cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_305"
+    ],
+    "rule": "format_swap",
+    "ref_price": 7970000,
+    "tgt_price": 16000000,
+    "ref_brand": "Phoenix Pharma",
+    "ref_format": "clay",
+    "tgt_format": "cream"
+  },
+  "DEV-0072": {
+    "image_path": "images/10/18/tiki_1018_tikishop_53_big.jpg",
+    "product_id": "tiki_1018",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng mình muốn sữa rửa mặt dạng bột thay vì dạng kem?",
+    "translated_question": "Same brand (Beauty of Joseon), but I want a powder cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_202"
+    ],
+    "rule": "format_swap",
+    "ref_price": 281060,
+    "tgt_price": 275000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_format": "cream",
+    "tgt_format": "powder"
+  },
+  "DEV-0073": {
+    "image_path": "images/21/2_/tiki_212_tikishop_73_big.jpg",
+    "product_id": "tiki_212",
+    "question": "Vẫn thương hiệu An Thy nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng kem?",
+    "translated_question": "Same brand (An Thy), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1668"
+    ],
+    "rule": "format_swap",
+    "ref_price": 1580000,
+    "tgt_price": 950000,
+    "ref_brand": "An Thy",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0074": {
+    "image_path": "images/37/25/37251933_591989299.jpg",
+    "product_id": "210",
+    "question": "Vẫn thương hiệu ORIGINS nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt tạo bọt?",
+    "translated_question": "Same brand (ORIGINS), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "847"
+    ],
+    "rule": "format_swap",
+    "ref_price": 90000,
+    "tgt_price": 73500,
+    "ref_brand": "ORIGINS",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0075": {
+    "image_path": "images/49/39/493961558_12021113371.jpg",
+    "product_id": "307",
+    "question": "Vẫn thương hiệu Kingphar nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng gel?",
+    "translated_question": "Same brand (Kingphar), but I want a foaming cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "1859"
+    ],
+    "rule": "format_swap",
+    "ref_price": 165000,
+    "tgt_price": 138000,
+    "ref_brand": "Kingphar",
+    "ref_format": "gel",
+    "tgt_format": "foam"
+  },
+  "DEV-0076": {
+    "image_path": "images/28/3_/tiki_283_tikishop_89_big.jpg",
+    "product_id": "tiki_283",
+    "question": "Vẫn thương hiệu Farmstay nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng bột?",
+    "translated_question": "Same brand (Farmstay), but I want a micellar / makeup-removing cleanser instead of a powder cleanser.",
+    "answer_product_id": [
+      "tiki_933"
+    ],
+    "rule": "format_swap",
+    "ref_price": 355000,
+    "tgt_price": 329000,
+    "ref_brand": "Farmstay",
+    "ref_format": "powder",
+    "tgt_format": "micellar"
+  },
+  "DEV-0077": {
+    "image_path": "images/99/1_/tiki_991_tikishop_58_big.jpg",
+    "product_id": "tiki_991",
+    "question": "Vẫn thương hiệu Rusty Lab nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng kem?",
+    "translated_question": "Same brand (Rusty Lab), but I want a foaming cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "680"
+    ],
+    "rule": "format_swap",
+    "ref_price": 379900,
+    "tgt_price": 375000,
+    "ref_brand": "Rusty Lab",
+    "ref_format": "cream",
+    "tgt_format": "foam"
+  },
+  "DEV-0078": {
+    "image_path": "images/12/1_/tiki_121_tikishop_1_big.jpg",
+    "product_id": "tiki_121",
+    "question": "Vẫn thương hiệu BALANCE ACTIVE FORMULA nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng kem?",
+    "translated_question": "Same brand (BALANCE ACTIVE FORMULA), but I want a foaming cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_790"
+    ],
+    "rule": "format_swap",
+    "ref_price": 607500,
+    "tgt_price": 697000,
+    "ref_brand": "BALANCE ACTIVE FORMULA",
+    "ref_format": "cream",
+    "tgt_format": "foam"
+  },
+  "DEV-0079": {
+    "image_path": "images/16/33/163380981_9457595204.jpg",
+    "product_id": "336",
+    "question": "Vẫn thương hiệu Pond's nhưng mình muốn nước tẩy trang thay vì loại sữa rửa mặt đất sét?",
+    "translated_question": "Same brand (Pond's), but I want a micellar / makeup-removing cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_312"
+    ],
+    "rule": "format_swap",
+    "ref_price": 10500,
+    "tgt_price": 75000,
+    "ref_brand": "Pond's",
+    "ref_format": "clay",
+    "tgt_format": "micellar"
+  },
+  "DEV-0080": {
+    "image_path": "images/11/57/115770316_1801367754.jpg",
+    "product_id": "183",
+    "question": "Vẫn thương hiệu Laikou nhưng cho mình xem sữa rửa mặt dạng gel thay vì dạng đất sét nhé.",
+    "translated_question": "Same brand (Laikou), but I want a gel cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_1446"
+    ],
+    "rule": "format_swap",
+    "ref_price": 185000,
+    "tgt_price": 270630,
+    "ref_brand": "Laikou",
+    "ref_format": "clay",
+    "tgt_format": "gel"
+  },
+  "DEV-0081": {
+    "image_path": "images/58/_t/tiki_58_tikishop_0_big.jpg",
+    "product_id": "tiki_58",
+    "question": "Vẫn thương hiệu THE SAEM nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng đất sét.",
+    "translated_question": "Same brand (THE SAEM), but I want a cream cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_1397"
+    ],
+    "rule": "format_swap",
+    "ref_price": 280000,
+    "tgt_price": 135000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "clay",
+    "tgt_format": "cream"
+  },
+  "DEV-0082": {
+    "image_path": "images/17/1_/tiki_171_tikishop_1_big.jpg",
+    "product_id": "tiki_171",
+    "question": "Vẫn thương hiệu CNP Laboratory nhưng cho mình loại sữa rửa mặt tạo bọt thay vì dạng kem nhé.",
+    "translated_question": "Same brand (CNP Laboratory), but I want a foaming cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "1218"
+    ],
+    "rule": "format_swap",
+    "ref_price": 183000,
+    "tgt_price": 90000,
+    "ref_brand": "CNP Laboratory",
+    "ref_format": "cream",
+    "tgt_format": "foam"
+  },
+  "DEV-0083": {
+    "image_path": "images/41/27/412741369_8362840413.jpg",
+    "product_id": "1721",
+    "question": "Vẫn thương hiệu Bioré nhưng mình muốn sữa rửa mặt dạng đất sét thay vì dạng tạo bọt.",
+    "translated_question": "Same brand (Bioré), but I want a clay-based cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "1900"
+    ],
+    "rule": "format_swap",
+    "ref_price": 55000,
+    "tgt_price": 35000,
+    "ref_brand": "Bioré",
+    "ref_format": "foam",
+    "tgt_format": "clay"
+  },
+  "DEV-0084": {
+    "image_path": "images/34/13/341325550_15713736996.mp4",
+    "product_id": "1863",
+    "question": "Vẫn thương hiệu LAC nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt tạo bọt.",
+    "translated_question": "Same brand (LAC), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_388"
+    ],
+    "rule": "format_swap",
+    "ref_price": 93500,
+    "tgt_price": 201000,
+    "ref_brand": "LAC",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0085": {
+    "image_path": "images/17/05/170513361_8128932863.jpg",
+    "product_id": "2170",
+    "question": "Vẫn thương hiệu Mik@vonk nhưng cho mình sữa rửa mặt dạng kem thay vì dạng tạo bọt nhé.",
+    "translated_question": "Same brand (Mik@vonk), but I want a cream cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_237"
+    ],
+    "rule": "format_swap",
+    "ref_price": 189000,
+    "tgt_price": 343000,
+    "ref_brand": "Mik@vonk",
+    "ref_format": "foam",
+    "tgt_format": "cream"
+  },
+  "DEV-0086": {
+    "image_path": "images/51/19/51194522_3688745978.jpg",
+    "product_id": "1900",
+    "question": "Vẫn thương hiệu Bioré nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng đất sét.",
+    "translated_question": "Same brand (Bioré), but I want a foaming cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "1721"
+    ],
+    "rule": "format_swap",
+    "ref_price": 35000,
+    "tgt_price": 55000,
+    "ref_brand": "Bioré",
+    "ref_format": "clay",
+    "tgt_format": "foam"
+  },
+  "DEV-0087": {
+    "image_path": "images/16/15/tiki_1615_tikishop_53_big.jpg",
+    "product_id": "tiki_1615",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng mình muốn sữa rửa mặt dạng gel thay vì nước tẩy trang.",
+    "translated_question": "Same brand (Beauty of Joseon), but I want a gel cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1455"
+    ],
+    "rule": "format_swap",
+    "ref_price": 208550,
+    "tgt_price": 218250,
+    "ref_brand": "Beauty of Joseon",
+    "ref_format": "micellar",
+    "tgt_format": "gel"
+  },
+  "DEV-0088": {
+    "image_path": "images/11/57/115770316_1801367754.jpg",
+    "product_id": "183",
+    "question": "Vẫn thương hiệu Laikou nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng đất sét.",
+    "translated_question": "Same brand (Laikou), but I want a cream cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_308"
+    ],
+    "rule": "format_swap",
+    "ref_price": 185000,
+    "tgt_price": 379000,
+    "ref_brand": "Laikou",
+    "ref_format": "clay",
+    "tgt_format": "cream"
+  },
+  "DEV-0089": {
+    "image_path": "images/42/0_/tiki_420_tikishop_53_big.jpg",
+    "product_id": "tiki_420",
+    "question": "Vẫn thương hiệu Goskin nhưng cho mình nước tẩy trang thay vì sữa rửa mặt dạng gel nhé.",
+    "translated_question": "Same brand (Goskin), but I want a micellar / makeup-removing cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_407"
+    ],
+    "rule": "format_swap",
+    "ref_price": 449000,
+    "tgt_price": 339000,
+    "ref_brand": "Goskin",
+    "ref_format": "gel",
+    "tgt_format": "micellar"
+  },
+  "DEV-0090": {
+    "image_path": "images/86/9_/tiki_869_tikishop_18_big.jpg",
+    "product_id": "tiki_869",
+    "question": "Vẫn thương hiệu Reihaku Hatomugi nhưng mình muốn sữa rửa mặt dạng kem thay vì nước tẩy trang.",
+    "translated_question": "Same brand (Reihaku Hatomugi), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_113"
+    ],
+    "rule": "format_swap",
+    "ref_price": 806000,
+    "tgt_price": 114000,
+    "ref_brand": "Reihaku Hatomugi",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0091": {
+    "image_path": "images/25/42/254252995_12483419828.mp4",
+    "product_id": "734",
+    "question": "Vẫn thương hiệu so natural nhưng cho mình loại sữa rửa mặt dạng gel thay vì dạng tạo bọt nhé.",
+    "translated_question": "Same brand (so natural), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_1503"
+    ],
+    "rule": "format_swap",
+    "ref_price": 219000,
+    "tgt_price": 213400,
+    "ref_brand": "so natural",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0092": {
+    "image_path": "images/14/90/149019141_7140296317.jpg",
+    "product_id": "1541",
+    "question": "Vẫn thương hiệu Bioré nhưng mình muốn sữa rửa mặt tạo bọt thay vì nước tẩy trang.",
+    "translated_question": "Same brand (Bioré), but I want a foaming cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "1721"
+    ],
+    "rule": "format_swap",
+    "ref_price": 41500,
+    "tgt_price": 55000,
+    "ref_brand": "Bioré",
+    "ref_format": "micellar",
+    "tgt_format": "foam"
+  },
+  "DEV-0093": {
+    "image_path": "images/55/_t/tiki_55_tikishop_21_big.jpg",
+    "product_id": "tiki_55",
+    "question": "Vẫn thương hiệu Aveeno nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng đất sét.",
+    "translated_question": "Same brand (Aveeno), but I want a cream cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_88"
+    ],
+    "rule": "format_swap",
+    "ref_price": 175000,
+    "tgt_price": 250000,
+    "ref_brand": "Aveeno",
+    "ref_format": "clay",
+    "tgt_format": "cream"
+  },
+  "DEV-0094": {
+    "image_path": "images/30/54/305418665_12430820729.jpg",
+    "product_id": "2199",
+    "question": "Vẫn thương hiệu Acnes nhưng cho mình dầu tẩy trang thay vì sữa rửa mặt tạo bọt nhé.",
+    "translated_question": "Same brand (Acnes), but I want a cleansing oil instead of a foaming cleanser.",
+    "answer_product_id": [
+      "987"
+    ],
+    "rule": "format_swap",
+    "ref_price": 7000,
+    "tgt_price": 7000,
+    "ref_brand": "Acnes",
+    "ref_format": "foam",
+    "tgt_format": "oil"
+  },
+  "DEV-0095": {
+    "image_path": "images/59/59/59597911_2589619280.jpg",
+    "product_id": "1141",
+    "question": "Vẫn thương hiệu Acnes nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt tạo bọt.",
+    "translated_question": "Same brand (Acnes), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_1614"
+    ],
+    "rule": "format_swap",
+    "ref_price": 65000,
+    "tgt_price": 64000,
+    "ref_brand": "Acnes",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0096": {
+    "image_path": "images/15/48/tiki_1548_tikishop_0_big.jpg",
+    "product_id": "tiki_1548",
+    "question": "Vẫn thương hiệu Ipek nhưng mình muốn sữa rửa mặt dạng đất sét thay vì nước tẩy trang.",
+    "translated_question": "Same brand (Ipek), but I want a clay-based cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "2073"
+    ],
+    "rule": "format_swap",
+    "ref_price": 169000,
+    "tgt_price": 170000,
+    "ref_brand": "Ipek",
+    "ref_format": "micellar",
+    "tgt_format": "clay"
+  },
+  "DEV-0097": {
+    "image_path": "images/44/3_/tiki_443_tikishop_55_big.jpg",
+    "product_id": "tiki_443",
+    "question": "Vẫn thương hiệu Scentuals nhưng cho mình nước tẩy trang thay vì sữa rửa mặt dạng kem nhé.",
+    "translated_question": "Same brand (Scentuals), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1739"
+    ],
+    "rule": "format_swap",
+    "ref_price": 279000,
+    "tgt_price": 60000,
+    "ref_brand": "Scentuals",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0098": {
+    "image_path": "images/51/6_/tiki_516_tikishop_1_big.jpg",
+    "product_id": "tiki_516",
+    "question": "Vẫn thương hiệu Fixderma nhưng mình muốn sữa rửa mặt dạng bột thay vì dạng kem.",
+    "translated_question": "Same brand (Fixderma), but I want a powder cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_515"
+    ],
+    "rule": "format_swap",
+    "ref_price": 794000,
+    "tgt_price": 566000,
+    "ref_brand": "Fixderma",
+    "ref_format": "cream",
+    "tgt_format": "powder"
+  },
+  "DEV-0099": {
+    "image_path": "images/30/35/303543901_16318097063.jpg",
+    "product_id": "1357",
+    "question": "Vẫn thương hiệu Vanicream nhưng mình muốn sữa rửa mặt dạng gel thay vì dạng tạo bọt.",
+    "translated_question": "Same brand (Vanicream), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_1061"
+    ],
+    "rule": "format_swap",
+    "ref_price": 230000,
+    "tgt_price": 139000,
+    "ref_brand": "Vanicream",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0100": {
+    "image_path": "images/44/46/44469878_14667665621.jpg",
+    "product_id": "1397",
+    "question": "Vẫn thương hiệu Christina nhưng cho mình loại sữa rửa mặt tạo bọt thay vì dạng gel nhé.",
+    "translated_question": "Same brand (Christina), but I want a foaming cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "1868"
+    ],
+    "rule": "format_swap",
+    "ref_price": 260000,
+    "tgt_price": 182000,
+    "ref_brand": "Christina",
+    "ref_format": "gel",
+    "tgt_format": "foam"
+  },
+  "DEV-0101": {
+    "image_path": "images/42/9_/tiki_429_tikishop_17_big.jpg",
+    "product_id": "tiki_429",
+    "question": "Vẫn thương hiệu SK-II nhưng mình muốn sữa rửa mặt tạo bọt thay vì nước tẩy trang.",
+    "translated_question": "Same brand (SK-II), but I want a foaming cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "2010"
+    ],
+    "rule": "format_swap",
+    "ref_price": 479000,
+    "tgt_price": 129000,
+    "ref_brand": "SK-II",
+    "ref_format": "micellar",
+    "tgt_format": "foam"
+  },
+  "DEV-0102": {
+    "image_path": "images/14/9_/tiki_149_tikishop_2_big.jpg",
+    "product_id": "tiki_149",
+    "question": "Vẫn thương hiệu d program nhưng mình muốn sữa rửa mặt dạng kem thay vì nước tẩy trang.",
+    "translated_question": "Same brand (d program), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_165"
+    ],
+    "rule": "format_swap",
+    "ref_price": 269100,
+    "tgt_price": 300000,
+    "ref_brand": "d program",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0103": {
+    "image_path": "images/15/64/tiki_1564_tikishop_2_big.jpg",
+    "product_id": "tiki_1564",
+    "question": "Vẫn thương hiệu Senka nhưng mình muốn sữa rửa mặt dạng đất sét thay vì nước tẩy trang.",
+    "translated_question": "Same brand (Senka), but I want a clay-based cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "1077"
+    ],
+    "rule": "format_swap",
+    "ref_price": 89000,
+    "tgt_price": 25000,
+    "ref_brand": "Senka",
+    "ref_format": "micellar",
+    "tgt_format": "clay"
+  },
+  "DEV-0104": {
+    "image_path": "images/13/97/tiki_1397_tikishop_8_big.jpg",
+    "product_id": "tiki_1397",
+    "question": "Vẫn thương hiệu THE SAEM nhưng cho mình sữa rửa mặt dạng gel thay vì dạng kem nhé.",
+    "translated_question": "Same brand (THE SAEM), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1192"
+    ],
+    "rule": "format_swap",
+    "ref_price": 135000,
+    "tgt_price": 329000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0105": {
+    "image_path": "images/31/87/31872599_556514602.jpg",
+    "product_id": "1744",
+    "question": "Vẫn thương hiệu BIODERMA nhưng mình muốn sữa rửa mặt dạng bột thay vì dạng tạo bọt.",
+    "translated_question": "Same brand (BIODERMA), but I want a powder cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_35"
+    ],
+    "rule": "format_swap",
+    "ref_price": 54000,
+    "tgt_price": 195000,
+    "ref_brand": "BIODERMA",
+    "ref_format": "foam",
+    "tgt_format": "powder"
+  },
+  "DEV-0106": {
+    "image_path": "images/16/41/tiki_1641_tikishop_9_big.jpg",
+    "product_id": "tiki_1641",
+    "question": "Vẫn thương hiệu BIODERMA nhưng mình muốn sữa rửa mặt dạng bột thay vì nước tẩy trang.",
+    "translated_question": "Same brand (BIODERMA), but I want a powder cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_35"
+    ],
+    "rule": "format_swap",
+    "ref_price": 208550,
+    "tgt_price": 195000,
+    "ref_brand": "BIODERMA",
+    "ref_format": "micellar",
+    "tgt_format": "powder"
+  },
+  "DEV-0107": {
+    "image_path": "images/44/36/443677978_10545629088.mp4",
+    "product_id": "1868",
+    "question": "Vẫn thương hiệu Christina nhưng mình muốn sữa rửa mặt dạng gel thay vì dạng tạo bọt.",
+    "translated_question": "Same brand (Christina), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "1397"
+    ],
+    "rule": "format_swap",
+    "ref_price": 182000,
+    "tgt_price": 260000,
+    "ref_brand": "Christina",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0108": {
+    "image_path": "images/67/9_/tiki_679_tikishop_0_big.jpg",
+    "product_id": "tiki_679",
+    "question": "Vẫn thương hiệu Sleepless Ant nhưng cho mình loại sữa rửa mặt dạng gel thay vì dạng kem nhé.",
+    "translated_question": "Same brand (Sleepless Ant), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_716"
+    ],
+    "rule": "format_swap",
+    "ref_price": 159000,
+    "tgt_price": 88000,
+    "ref_brand": "Sleepless Ant",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0109": {
+    "image_path": "images/12/12/tiki_1212_tikishop_2_big.jpg",
+    "product_id": "tiki_1212",
+    "question": "Vẫn thương hiệu Angel's Liquid nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng kem.",
+    "translated_question": "Same brand (Angel's Liquid), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_925"
+    ],
+    "rule": "format_swap",
+    "ref_price": 559000,
+    "tgt_price": 549000,
+    "ref_brand": "Angel's Liquid",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0110": {
+    "image_path": "images/18/53/185337128_17332778695.jpg",
+    "product_id": "1782",
+    "question": "Vẫn thương hiệu Etude House nhưng mình muốn sữa rửa mặt tạo bọt thay vì dạng kem.",
+    "translated_question": "Same brand (Etude House), but I want a foaming cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "943"
+    ],
+    "rule": "format_swap",
+    "ref_price": 34000,
+    "tgt_price": 48000,
+    "ref_brand": "Etude House",
+    "ref_format": "cream",
+    "tgt_format": "foam"
+  },
+  "DEV-0111": {
+    "image_path": "images/31/2_/tiki_312_tikishop_0_big.jpg",
+    "product_id": "tiki_312",
+    "question": "Vẫn thương hiệu Pond's nhưng mình muốn sữa rửa mặt dạng đất sét thay vì nước tẩy trang.",
+    "translated_question": "Same brand (Pond's), but I want a clay-based cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "336"
+    ],
+    "rule": "format_swap",
+    "ref_price": 75000,
+    "tgt_price": 10500,
+    "ref_brand": "Pond's",
+    "ref_format": "micellar",
+    "tgt_format": "clay"
+  },
+  "DEV-0112": {
+    "image_path": "images/17/39/tiki_1739_tikishop_55_big.jpg",
+    "product_id": "tiki_1739",
+    "question": "Vẫn thương hiệu Scentuals nhưng mình muốn sữa rửa mặt dạng kem thay vì nước tẩy trang.",
+    "translated_question": "Same brand (Scentuals), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_443"
+    ],
+    "rule": "format_swap",
+    "ref_price": 60000,
+    "tgt_price": 279000,
+    "ref_brand": "Scentuals",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0113": {
+    "image_path": "images/14/89/tiki_1489_tikishop_87_big.jpg",
+    "product_id": "tiki_1489",
+    "question": "Vẫn thương hiệu Thorakao nhưng cho mình nước tẩy trang thay vì sữa rửa mặt dạng kem nhé.",
+    "translated_question": "Same brand (Thorakao), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_921"
+    ],
+    "rule": "format_swap",
+    "ref_price": 106000,
+    "tgt_price": 84000,
+    "ref_brand": "Thorakao",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0114": {
+    "image_path": "images/13/31/tiki_1331_tikishop_21_big.jpg",
+    "product_id": "tiki_1331",
+    "question": "Vẫn thương hiệu GAMMAPHIL nhưng mình muốn sữa rửa mặt dạng bột thay vì nước tẩy trang.",
+    "translated_question": "Same brand (GAMMAPHIL), but I want a powder cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_685"
+    ],
+    "rule": "format_swap",
+    "ref_price": 2170000,
+    "tgt_price": 465000,
+    "ref_brand": "GAMMAPHIL",
+    "ref_format": "micellar",
+    "tgt_format": "powder"
+  },
+  "DEV-0115": {
+    "image_path": "images/81/_t/tiki_81_tikishop_34_big.jpg",
+    "product_id": "tiki_81",
+    "question": "Vẫn thương hiệu SENKA nhưng mình muốn sữa rửa mặt dạng kem thay vì dạng đất sét.",
+    "translated_question": "Same brand (SENKA), but I want a cream cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_898"
+    ],
+    "rule": "format_swap",
+    "ref_price": 720000,
+    "tgt_price": 1470000,
+    "ref_brand": "SENKA",
+    "ref_format": "clay",
+    "tgt_format": "cream"
+  },
+  "DEV-0116": {
+    "image_path": "images/70/1_/tiki_701_tikishop_0_big.jpg",
+    "product_id": "tiki_701",
+    "question": "Vẫn thương hiệu Kosé nhưng cho mình loại sữa rửa mặt dạng gel thay vì dạng bột nhé.",
+    "translated_question": "Same brand (Kosé), but I want a gel cleanser instead of a powder cleanser.",
+    "answer_product_id": [
+      "tiki_670"
+    ],
+    "rule": "format_swap",
+    "ref_price": 149000,
+    "tgt_price": 129000,
+    "ref_brand": "Kosé",
+    "ref_format": "powder",
+    "tgt_format": "gel"
+  },
+  "DEV-0117": {
+    "image_path": "images/57/0_/tiki_570_tikishop_13_big.jpg",
+    "product_id": "tiki_570",
+    "question": "Vẫn thương hiệu Vedette nhưng mình muốn sữa rửa mặt dạng gel thay vì dạng kem.",
+    "translated_question": "Same brand (Vedette), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1051"
+    ],
+    "rule": "format_swap",
+    "ref_price": 21000,
+    "tgt_price": 88000,
+    "ref_brand": "Vedette",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0118": {
+    "image_path": "images/54/6_/tiki_546_tikishop_2_big.jpg",
+    "product_id": "tiki_546",
+    "question": "Vẫn thương hiệu Gamma nhưng mình muốn nước tẩy trang thay vì sữa rửa mặt dạng gel.",
+    "translated_question": "Same brand (Gamma), but I want a micellar / makeup-removing cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "494"
+    ],
+    "rule": "format_swap",
+    "ref_price": 118680,
+    "tgt_price": 117500,
+    "ref_brand": "Gamma",
+    "ref_format": "gel",
+    "tgt_format": "micellar"
+  },
+  "DEV-0119": {
+    "image_path": "images/40/16/401692_21733848558.jpg",
+    "product_id": "1499",
+    "question": "Vẫn thương hiệu 36 Ingredients nhưng cho mình nước tẩy trang thay vì sữa rửa mặt tạo bọt nhé.",
+    "translated_question": "Same brand (36 Ingredients), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_453"
+    ],
+    "rule": "format_swap",
+    "ref_price": 260000,
+    "tgt_price": 480000,
+    "ref_brand": "36 Ingredients",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0120": {
+    "image_path": "images/15/70/tiki_1570_tikishop_68_big.jpg",
+    "product_id": "tiki_1570",
+    "question": "Vẫn thương hiệu Herbario nhưng cho mình hỏi bên có sữa rửa mặt dạng bột không, không phải nước tẩy trang nhé?",
+    "translated_question": "Same brand (Herbario), but I want a powder cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1251"
+    ],
+    "rule": "format_swap",
+    "ref_price": 218250,
+    "tgt_price": 242000,
+    "ref_brand": "Herbario",
+    "ref_format": "micellar",
+    "tgt_format": "powder"
+  },
+  "DEV-0121": {
+    "image_path": "images/32/9_/tiki_329_tikishop_63_big.jpg",
+    "product_id": "tiki_329",
+    "question": "Vẫn thương hiệu Rusty Lab nhưng mình muốn tìm sữa rửa mặt tạo bọt thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (Rusty Lab), but I want a foaming cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "680"
+    ],
+    "rule": "format_swap",
+    "ref_price": 399000,
+    "tgt_price": 375000,
+    "ref_brand": "Rusty Lab",
+    "ref_format": "micellar",
+    "tgt_format": "foam"
+  },
+  "DEV-0122": {
+    "image_path": "images/16/0_/tiki_160_tikishop_9_big.jpg",
+    "product_id": "tiki_160",
+    "question": "Vẫn thương hiệu BIODERMA nhưng mình muốn dùng sữa rửa mặt tạo bọt chứ không phải nước tẩy trang ạ.",
+    "translated_question": "Same brand (BIODERMA), but I want a foaming cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "1744"
+    ],
+    "rule": "format_swap",
+    "ref_price": 159000,
+    "tgt_price": 54000,
+    "ref_brand": "BIODERMA",
+    "ref_format": "micellar",
+    "tgt_format": "foam"
+  },
+  "DEV-0123": {
+    "image_path": "images/16/86/tiki_1686_tikishop_99_big.jpg",
+    "product_id": "tiki_1686",
+    "question": "Vẫn thương hiệu PIME nhưng cho mình đổi sang sữa rửa mặt dạng bột thay vì dạng kem được không ạ?",
+    "translated_question": "Same brand (PIME), but I want a powder cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_557"
+    ],
+    "rule": "format_swap",
+    "ref_price": 760500,
+    "tgt_price": 68000,
+    "ref_brand": "PIME",
+    "ref_format": "cream",
+    "tgt_format": "powder"
+  },
+  "DEV-0124": {
+    "image_path": "images/40/8_/tiki_408_tikishop_61_big.jpg",
+    "product_id": "tiki_408",
+    "question": "Vẫn thương hiệu Wonjin Effect nhưng mình muốn tìm sữa rửa mặt dạng kem thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (Wonjin Effect), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1145"
+    ],
+    "rule": "format_swap",
+    "ref_price": 389000,
+    "tgt_price": 333960,
+    "ref_brand": "Wonjin Effect",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0125": {
+    "image_path": "images/14/87/14879703_146212735.mp4",
+    "product_id": "448",
+    "question": "Vẫn thương hiệu ROUND LAB nhưng mình muốn dùng sữa rửa mặt dạng kem thay vì dạng gel ạ.",
+    "translated_question": "Same brand (ROUND LAB), but I want a cream cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1437"
+    ],
+    "rule": "format_swap",
+    "ref_price": 455000,
+    "tgt_price": 710000,
+    "ref_brand": "ROUND LAB",
+    "ref_format": "gel",
+    "tgt_format": "cream"
+  },
+  "DEV-0126": {
+    "image_path": "images/29/20/292075878_19643243445.jpg",
+    "product_id": "873",
+    "question": "Vẫn thương hiệu Farmona Dermacos nhưng mình muốn tìm sữa rửa mặt dạng kem thay vì dạng tạo bọt ạ.",
+    "translated_question": "Same brand (Farmona Dermacos), but I want a cream cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "467"
+    ],
+    "rule": "format_swap",
+    "ref_price": 48000,
+    "tgt_price": 45000,
+    "ref_brand": "Farmona Dermacos",
+    "ref_format": "foam",
+    "tgt_format": "cream"
+  },
+  "DEV-0127": {
+    "image_path": "images/38/8_/tiki_388_tikishop_0_big.jpg",
+    "product_id": "tiki_388",
+    "question": "Vẫn thương hiệu LAC nhưng mình muốn sữa rửa mặt tạo bọt chứ không phải nước tẩy trang nhé.",
+    "translated_question": "Same brand (LAC), but I want a foaming cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "1863"
+    ],
+    "rule": "format_swap",
+    "ref_price": 201000,
+    "tgt_price": 93500,
+    "ref_brand": "LAC",
+    "ref_format": "micellar",
+    "tgt_format": "foam"
+  },
+  "DEV-0128": {
+    "image_path": "images/27/0_/tiki_270_tikishop_92_big.jpg",
+    "product_id": "tiki_270",
+    "question": "Vẫn thương hiệu FRESH nhưng mình muốn đổi sang sữa rửa mặt dạng bột thay vì dạng kem ạ.",
+    "translated_question": "Same brand (FRESH), but I want a powder cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1513"
+    ],
+    "rule": "format_swap",
+    "ref_price": 2480000,
+    "tgt_price": 2140000,
+    "ref_brand": "FRESH",
+    "ref_format": "cream",
+    "tgt_format": "powder"
+  },
+  "DEV-0129": {
+    "image_path": "images/89/8_/tiki_898_tikishop_34_big.jpg",
+    "product_id": "tiki_898",
+    "question": "Vẫn thương hiệu SENKA nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng kem ạ.",
+    "translated_question": "Same brand (SENKA), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1293"
+    ],
+    "rule": "format_swap",
+    "ref_price": 1470000,
+    "tgt_price": 1970000,
+    "ref_brand": "SENKA",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0130": {
+    "image_path": "images/16/1_/tiki_161_tikishop_61_big.jpg",
+    "product_id": "tiki_161",
+    "question": "Vẫn thương hiệu B-LAB nhưng mình muốn dùng sữa rửa mặt đất sét thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (B-LAB), but I want a clay-based cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_459"
+    ],
+    "rule": "format_swap",
+    "ref_price": 525000,
+    "tgt_price": 508000,
+    "ref_brand": "B-LAB",
+    "ref_format": "micellar",
+    "tgt_format": "clay"
+  },
+  "DEV-0131": {
+    "image_path": "images/14/99/tiki_1499_tikishop_231_big.jpg",
+    "product_id": "tiki_1499",
+    "question": "Vẫn thương hiệu MQ SKN nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng kem ạ.",
+    "translated_question": "Same brand (MQ SKN), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1625"
+    ],
+    "rule": "format_swap",
+    "ref_price": 241000,
+    "tgt_price": 604000,
+    "ref_brand": "MQ SKN",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0132": {
+    "image_path": "images/11/52/tiki_1152_tikishop_11_big.jpg",
+    "product_id": "tiki_1152",
+    "question": "Vẫn thương hiệu Lassie'el nhưng mình muốn dùng sữa rửa mặt dạng kem thay vì dạng đất sét ạ.",
+    "translated_question": "Same brand (Lassie'el), but I want a cream cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_37"
+    ],
+    "rule": "format_swap",
+    "ref_price": 271660,
+    "tgt_price": 340000,
+    "ref_brand": "Lassie'el",
+    "ref_format": "clay",
+    "tgt_format": "cream"
+  },
+  "DEV-0133": {
+    "image_path": "images/11/84/tiki_1184_tikishop_5_big.jpg",
+    "product_id": "tiki_1184",
+    "question": "Vẫn thương hiệu PRETASA nhưng mình muốn tìm sữa rửa mặt dạng kem thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (PRETASA), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1213"
+    ],
+    "rule": "format_swap",
+    "ref_price": 80000,
+    "tgt_price": 1420000,
+    "ref_brand": "PRETASA",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0134": {
+    "image_path": "images/16/57/tiki_1657_tikishop_9_big.jpg",
+    "product_id": "tiki_1657",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng mình muốn dùng sữa rửa mặt dạng bột thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (Beauty of Joseon), but I want a powder cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_202"
+    ],
+    "rule": "format_swap",
+    "ref_price": 266750,
+    "tgt_price": 275000,
+    "ref_brand": "Beauty of Joseon",
+    "ref_format": "micellar",
+    "tgt_format": "powder"
+  },
+  "DEV-0135": {
+    "image_path": "images/28/2_/tiki_282_tikishop_21_big.jpg",
+    "product_id": "tiki_282",
+    "question": "Vẫn thương hiệu B-LAB nhưng mình muốn đổi sang sữa rửa mặt đất sét thay vì dạng kem ạ.",
+    "translated_question": "Same brand (B-LAB), but I want a clay-based cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_459"
+    ],
+    "rule": "format_swap",
+    "ref_price": 1050000,
+    "tgt_price": 508000,
+    "ref_brand": "B-LAB",
+    "ref_format": "cream",
+    "tgt_format": "clay"
+  },
+  "DEV-0136": {
+    "image_path": "images/25/2_/tiki_252_tikishop_49_big.jpg",
+    "product_id": "tiki_252",
+    "question": "Vẫn thương hiệu Farmstay nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng kem ạ.",
+    "translated_question": "Same brand (Farmstay), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_933"
+    ],
+    "rule": "format_swap",
+    "ref_price": 319000,
+    "tgt_price": 329000,
+    "ref_brand": "Farmstay",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0137": {
+    "image_path": "images/16/32/163266766_21403983819.jpg",
+    "product_id": "137",
+    "question": "Vẫn thương hiệu Senka nhưng mình muốn dùng sữa rửa mặt đất sét thay vì loại tạo bọt ạ.",
+    "translated_question": "Same brand (Senka), but I want a clay-based cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "1077"
+    ],
+    "rule": "format_swap",
+    "ref_price": 35000,
+    "tgt_price": 25000,
+    "ref_brand": "Senka",
+    "ref_format": "foam",
+    "tgt_format": "clay"
+  },
+  "DEV-0138": {
+    "image_path": "images/27/4_/tiki_274_tikishop_14_big.jpg",
+    "product_id": "tiki_274",
+    "question": "Vẫn thương hiệu Bori nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng kem ạ.",
+    "translated_question": "Same brand (Bori), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_909"
+    ],
+    "rule": "format_swap",
+    "ref_price": 59000,
+    "tgt_price": 60000,
+    "ref_brand": "Bori",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0139": {
+    "image_path": "images/49/50/495022596_10678089764.jpg",
+    "product_id": "783",
+    "question": "Vẫn thương hiệu Nature Republic nhưng mình muốn dùng nước tẩy trang thay vì sữa rửa mặt tạo bọt ạ.",
+    "translated_question": "Same brand (Nature Republic), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_1544"
+    ],
+    "rule": "format_swap",
+    "ref_price": 52050,
+    "tgt_price": 119000,
+    "ref_brand": "Nature Republic",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0140": {
+    "image_path": "images/15/8_/tiki_158_tikishop_21_big.jpg",
+    "product_id": "tiki_158",
+    "question": "Vẫn thương hiệu B-LAB nhưng mình muốn tìm sữa rửa mặt đất sét thay vì dạng gel ạ.",
+    "translated_question": "Same brand (B-LAB), but I want a clay-based cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_459"
+    ],
+    "rule": "format_swap",
+    "ref_price": 450000,
+    "tgt_price": 508000,
+    "ref_brand": "B-LAB",
+    "ref_format": "gel",
+    "tgt_format": "clay"
+  },
+  "DEV-0141": {
+    "image_path": "images/16/70/tiki_1670_tikishop_110_big.jpg",
+    "product_id": "tiki_1670",
+    "question": "Vẫn thương hiệu Dr. MAXCELL nhưng mình muốn dùng sữa rửa mặt dạng gel thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (Dr. MAXCELL), but I want a gel cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1518"
+    ],
+    "rule": "format_swap",
+    "ref_price": 670000,
+    "tgt_price": 670000,
+    "ref_brand": "Dr. MAXCELL",
+    "ref_format": "micellar",
+    "tgt_format": "gel"
+  },
+  "DEV-0142": {
+    "image_path": "images/10/51/tiki_1051_nan_big.jpg",
+    "product_id": "tiki_1051",
+    "question": "Vẫn thương hiệu Vedette nhưng mình muốn tìm sữa rửa mặt dạng kem thay vì dạng gel ạ.",
+    "translated_question": "Same brand (Vedette), but I want a cream cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_570"
+    ],
+    "rule": "format_swap",
+    "ref_price": 88000,
+    "tgt_price": 21000,
+    "ref_brand": "Vedette",
+    "ref_format": "gel",
+    "tgt_format": "cream"
+  },
+  "DEV-0143": {
+    "image_path": "images/11/92/tiki_1192_tikishop_0_big.jpg",
+    "product_id": "tiki_1192",
+    "question": "Vẫn thương hiệu THE SAEM nhưng mình muốn đổi sang sữa rửa mặt đất sét thay vì dạng gel ạ.",
+    "translated_question": "Same brand (THE SAEM), but I want a clay-based cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_58"
+    ],
+    "rule": "format_swap",
+    "ref_price": 329000,
+    "tgt_price": 280000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "gel",
+    "tgt_format": "clay"
+  },
+  "DEV-0144": {
+    "image_path": "images/14/67/tiki_1467_tikishop_116_big.jpg",
+    "product_id": "tiki_1467",
+    "question": "Vẫn thương hiệu BIODERMA nhưng mình muốn dùng sữa rửa mặt dạng bột thay vì dạng gel ạ.",
+    "translated_question": "Same brand (BIODERMA), but I want a powder cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_35"
+    ],
+    "rule": "format_swap",
+    "ref_price": 129000,
+    "tgt_price": 195000,
+    "ref_brand": "BIODERMA",
+    "ref_format": "gel",
+    "tgt_format": "powder"
+  },
+  "DEV-0145": {
+    "image_path": "images/15/07/tiki_1507_tikishop_89_big.jpg",
+    "product_id": "tiki_1507",
+    "question": "Vẫn thương hiệu Farmstay nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng gel ạ.",
+    "translated_question": "Same brand (Farmstay), but I want a micellar / makeup-removing cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_933"
+    ],
+    "rule": "format_swap",
+    "ref_price": 282270,
+    "tgt_price": 329000,
+    "ref_brand": "Farmstay",
+    "ref_format": "gel",
+    "tgt_format": "micellar"
+  },
+  "DEV-0146": {
+    "image_path": "images/16/33/tiki_1633_tikishop_125_big.jpg",
+    "product_id": "tiki_1633",
+    "question": "Vẫn thương hiệu Heliocare nhưng mình muốn dùng sữa rửa mặt dạng kem thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (Heliocare), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1697"
+    ],
+    "rule": "format_swap",
+    "ref_price": 170000,
+    "tgt_price": 198850,
+    "ref_brand": "Heliocare",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0147": {
+    "image_path": "images/14/23/tiki_1423_tikishop_3_big.jpg",
+    "product_id": "tiki_1423",
+    "question": "Vẫn thương hiệu COMPLIMENT nhưng mình muốn tìm sữa rửa mặt đất sét thay vì dạng gel ạ.",
+    "translated_question": "Same brand (COMPLIMENT), but I want a clay-based cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_24"
+    ],
+    "rule": "format_swap",
+    "ref_price": 95000,
+    "tgt_price": 85000,
+    "ref_brand": "COMPLIMENT",
+    "ref_format": "gel",
+    "tgt_format": "clay"
+  },
+  "DEV-0148": {
+    "image_path": "images/45/19/451978743_10109502293.jpg",
+    "product_id": "1963",
+    "question": "Vẫn thương hiệu Ecowipes nhưng mình muốn dùng nước tẩy trang thay vì sữa rửa mặt tạo bọt ạ.",
+    "translated_question": "Same brand (Ecowipes), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "1871"
+    ],
+    "rule": "format_swap",
+    "ref_price": 155000,
+    "tgt_price": 140000,
+    "ref_brand": "Ecowipes",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0149": {
+    "image_path": "images/36/46/364668808_4389463015.mp4",
+    "product_id": "540",
+    "question": "Vẫn thương hiệu Gamma nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt tạo bọt ạ.",
+    "translated_question": "Same brand (Gamma), but I want a micellar / makeup-removing cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "494"
+    ],
+    "rule": "format_swap",
+    "ref_price": 120500,
+    "tgt_price": 117500,
+    "ref_brand": "Gamma",
+    "ref_format": "foam",
+    "tgt_format": "micellar"
+  },
+  "DEV-0150": {
+    "image_path": "images/58/_t/tiki_58_tikishop_0_big.jpg",
+    "product_id": "tiki_58",
+    "question": "Vẫn thương hiệu THE SAEM nhưng mình muốn dùng sữa rửa mặt tạo bọt thay vì loại đất sét ạ.",
+    "translated_question": "Same brand (THE SAEM), but I want a foaming cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_1341"
+    ],
+    "rule": "format_swap",
+    "ref_price": 280000,
+    "tgt_price": 465000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "clay",
+    "tgt_format": "foam"
+  },
+  "DEV-0151": {
+    "image_path": "images/12/93/tiki_1293_tikishop_34_big.jpg",
+    "product_id": "tiki_1293",
+    "question": "Vẫn thương hiệu SENKA nhưng mình muốn tìm sữa rửa mặt dạng kem thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (SENKA), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_898"
+    ],
+    "rule": "format_swap",
+    "ref_price": 1970000,
+    "tgt_price": 1470000,
+    "ref_brand": "SENKA",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0152": {
+    "image_path": "images/15/69/tiki_1569_tikishop_41_big.jpg",
+    "product_id": "tiki_1569",
+    "question": "Vẫn thương hiệu COMPLIMENT nhưng mình muốn dùng sữa rửa mặt đất sét thay vì nước tẩy trang ạ.",
+    "translated_question": "Same brand (COMPLIMENT), but I want a clay-based cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_24"
+    ],
+    "rule": "format_swap",
+    "ref_price": 89000,
+    "tgt_price": 85000,
+    "ref_brand": "COMPLIMENT",
+    "ref_format": "micellar",
+    "tgt_format": "clay"
+  },
+  "DEV-0153": {
+    "image_path": "images/45/9_/tiki_459_tikishop_2_big.jpg",
+    "product_id": "tiki_459",
+    "question": "Vẫn thương hiệu B-LAB nhưng mình muốn tìm sữa rửa mặt dạng gel thay vì loại đất sét ạ.",
+    "translated_question": "Same brand (B-LAB), but I want a gel cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_158"
+    ],
+    "rule": "format_swap",
+    "ref_price": 508000,
+    "tgt_price": 450000,
+    "ref_brand": "B-LAB",
+    "ref_format": "clay",
+    "tgt_format": "gel"
+  },
+  "DEV-0154": {
+    "image_path": "images/12/15/tiki_1215_tikishop_0_big.jpg",
+    "product_id": "tiki_1215",
+    "question": "Vẫn thương hiệu Acnes nhưng mình muốn dùng nước tẩy trang thay vì sữa rửa mặt dạng gel ạ.",
+    "translated_question": "Same brand (Acnes), but I want a micellar / makeup-removing cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1614"
+    ],
+    "rule": "format_swap",
+    "ref_price": 65000,
+    "tgt_price": 64000,
+    "ref_brand": "Acnes",
+    "ref_format": "gel",
+    "tgt_format": "micellar"
+  },
+  "DEV-0155": {
+    "image_path": "images/50/2_/tiki_502_tikishop_56_big.jpg",
+    "product_id": "tiki_502",
+    "question": "Vẫn thương hiệu Goskin nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng bột ạ.",
+    "translated_question": "Same brand (Goskin), but I want a micellar / makeup-removing cleanser instead of a powder cleanser.",
+    "answer_product_id": [
+      "tiki_407"
+    ],
+    "rule": "format_swap",
+    "ref_price": 486000,
+    "tgt_price": 339000,
+    "ref_brand": "Goskin",
+    "ref_format": "powder",
+    "tgt_format": "micellar"
+  },
+  "DEV-0156": {
+    "image_path": "images/46/5_/tiki_465_tikishop_130_big.jpg",
+    "product_id": "tiki_465",
+    "question": "Vẫn thương hiệu BIODERMA nhưng mình muốn đổi sang sữa rửa mặt dạng bột thay vì dạng kem ạ.",
+    "translated_question": "Same brand (BIODERMA), but I want a powder cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_35"
+    ],
+    "rule": "format_swap",
+    "ref_price": 119000,
+    "tgt_price": 195000,
+    "ref_brand": "BIODERMA",
+    "ref_format": "cream",
+    "tgt_format": "powder"
+  },
+  "DEV-0157": {
+    "image_path": "images/13/41/tiki_1341_tikishop_8_big.jpg",
+    "product_id": "tiki_1341",
+    "question": "Vẫn thương hiệu THE SAEM nhưng mình muốn dùng sữa rửa mặt dạng gel thay vì loại tạo bọt ạ.",
+    "translated_question": "Same brand (THE SAEM), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_1192"
+    ],
+    "rule": "format_swap",
+    "ref_price": 465000,
+    "tgt_price": 329000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0158": {
+    "image_path": "images/13/64/13644_20512551976.jpg",
+    "product_id": "1550",
+    "question": "Vẫn thương hiệu Rosette nhưng mình muốn tìm nước tẩy trang thay vì sữa rửa mặt dạng gel ạ.",
+    "translated_question": "Same brand (Rosette), but I want a micellar / makeup-removing cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_939"
+    ],
+    "rule": "format_swap",
+    "ref_price": 162000,
+    "tgt_price": 185000,
+    "ref_brand": "Rosette",
+    "ref_format": "gel",
+    "tgt_format": "micellar"
+  },
+  "DEV-0159": {
+    "image_path": "images/60/5_/tiki_605_tikishop_53_big.jpg",
+    "product_id": "tiki_605",
+    "question": "Vẫn thương hiệu Beauty of Joseon nhưng mình muốn dùng sữa rửa mặt dạng gel thay vì dạng kem ạ.",
+    "translated_question": "Same brand (Beauty of Joseon), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1455"
+    ],
+    "rule": "format_swap",
+    "ref_price": 227950,
+    "tgt_price": 218250,
+    "ref_brand": "Beauty of Joseon",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0160": {
+    "image_path": "images/42/0_/tiki_420_tikishop_53_big.jpg",
+    "product_id": "tiki_420",
+    "question": "Vẫn thương hiệu Goskin đó nhưng cho mình xem sữa rửa mặt dạng bột thay vì dạng gel nhé.",
+    "translated_question": "Same brand (Goskin), but I want a powder cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_502"
+    ],
+    "rule": "format_swap",
+    "ref_price": 449000,
+    "tgt_price": 486000,
+    "ref_brand": "Goskin",
+    "ref_format": "gel",
+    "tgt_format": "powder"
+  },
+  "DEV-0161": {
+    "image_path": "images/11/3_/tiki_113_tikishop_18_big.jpg",
+    "product_id": "tiki_113",
+    "question": "Vẫn thương hiệu Reihaku Hatomugi đó nhưng cho mình xem nước tẩy trang thay vì sữa rửa mặt dạng kem nhé.",
+    "translated_question": "Same brand (Reihaku Hatomugi), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_869"
+    ],
+    "rule": "format_swap",
+    "ref_price": 114000,
+    "tgt_price": 806000,
+    "ref_brand": "Reihaku Hatomugi",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0162": {
+    "image_path": "images/25/77/25774301_16418761162.jpg",
+    "product_id": "197",
+    "question": "Vẫn thương hiệu Pond's đó nhưng cho mình xem nước tẩy trang thay vì sữa rửa mặt dạng kem nhé.",
+    "translated_question": "Same brand (Pond's), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_312"
+    ],
+    "rule": "format_swap",
+    "ref_price": 8000,
+    "tgt_price": 75000,
+    "ref_brand": "Pond's",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0163": {
+    "image_path": "images/13/97/tiki_1397_tikishop_8_big.jpg",
+    "product_id": "tiki_1397",
+    "question": "Vẫn thương hiệu THE SAEM đó nhưng cho mình xem sữa rửa mặt đất sét thay vì dạng kem nhé.",
+    "translated_question": "Same brand (THE SAEM), but I want a clay-based cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_58"
+    ],
+    "rule": "format_swap",
+    "ref_price": 135000,
+    "tgt_price": 280000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "cream",
+    "tgt_format": "clay"
+  },
+  "DEV-0164": {
+    "image_path": "images/43/98/43983841_1706240633.jpg",
+    "product_id": "2082",
+    "question": "Vẫn thương hiệu Hatomugi đó nhưng cho mình xem sữa rửa mặt dạng bột thay vì dạng bọt nhé.",
+    "translated_question": "Same brand (Hatomugi), but I want a powder cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "1940"
+    ],
+    "rule": "format_swap",
+    "ref_price": 57000,
+    "tgt_price": 52000,
+    "ref_brand": "Hatomugi",
+    "ref_format": "foam",
+    "tgt_format": "powder"
+  },
+  "DEV-0165": {
+    "image_path": "images/16/33/163380981_9457595204.jpg",
+    "product_id": "336",
+    "question": "Vẫn thương hiệu Pond's đó nhưng cho mình xem sữa rửa mặt dạng kem thay vì dạng đất sét nhé.",
+    "translated_question": "Same brand (Pond's), but I want a cream cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "197"
+    ],
+    "rule": "format_swap",
+    "ref_price": 10500,
+    "tgt_price": 8000,
+    "ref_brand": "Pond's",
+    "ref_format": "clay",
+    "tgt_format": "cream"
+  },
+  "DEV-0166": {
+    "image_path": "images/44/6_/tiki_446_tikishop_2_big.jpg",
+    "product_id": "tiki_446",
+    "question": "Vẫn thương hiệu Kose đó nhưng cho mình xem sữa rửa mặt tạo bọt thay vì dạng kem nhé.",
+    "translated_question": "Same brand (Kose), but I want a foaming cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_990"
+    ],
+    "rule": "format_swap",
+    "ref_price": 146280,
+    "tgt_price": 143520,
+    "ref_brand": "Kose",
+    "ref_format": "cream",
+    "tgt_format": "foam"
+  },
+  "DEV-0167": {
+    "image_path": "images/30/25/30254035_20527624966.jpg",
+    "product_id": "1218",
+    "question": "Vẫn thương hiệu CNP Laboratory đó nhưng cho mình xem sữa rửa mặt dạng kem thay vì dạng bọt nhé.",
+    "translated_question": "Same brand (CNP Laboratory), but I want a cream cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_171"
+    ],
+    "rule": "format_swap",
+    "ref_price": 90000,
+    "tgt_price": 183000,
+    "ref_brand": "CNP Laboratory",
+    "ref_format": "foam",
+    "tgt_format": "cream"
+  },
+  "DEV-0168": {
+    "image_path": "images/29/71/297166246_7747476877.mp4",
+    "product_id": "1273",
+    "question": "Vẫn thương hiệu Clean & Clear đó nhưng cho mình xem sữa rửa mặt dạng gel thay vì dạng bọt nhé.",
+    "translated_question": "Same brand (Clean & Clear), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "2147"
+    ],
+    "rule": "format_swap",
+    "ref_price": 62000,
+    "tgt_price": 230000,
+    "ref_brand": "Clean & Clear",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0169": {
+    "image_path": "images/11/92/tiki_1192_tikishop_0_big.jpg",
+    "product_id": "tiki_1192",
+    "question": "Vẫn thương hiệu THE SAEM đó nhưng cho mình xem sữa rửa mặt dạng kem thay vì dạng gel nhé.",
+    "translated_question": "Same brand (THE SAEM), but I want a cream cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1397"
+    ],
+    "rule": "format_swap",
+    "ref_price": 329000,
+    "tgt_price": 135000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "gel",
+    "tgt_format": "cream"
+  },
+  "DEV-0170": {
+    "image_path": "images/95/05/95050988_4746910265.mp4",
+    "product_id": "1844",
+    "question": "Vẫn thương hiệu Wonjin Effect đó nhưng cho mình xem sữa rửa mặt dạng kem thay vì dạng gel nhé.",
+    "translated_question": "Same brand (Wonjin Effect), but I want a cream cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1145"
+    ],
+    "rule": "format_swap",
+    "ref_price": 326000,
+    "tgt_price": 333960,
+    "ref_brand": "Wonjin Effect",
+    "ref_format": "gel",
+    "tgt_format": "cream"
+  },
+  "DEV-0171": {
+    "image_path": "images/13/76/137608378_6583957676.jpg",
+    "product_id": "478",
+    "question": "Vẫn thương hiệu Cerave đó nhưng cho mình xem sữa rửa mặt dạng gel thay vì dạng bọt nhé.",
+    "translated_question": "Same brand (Cerave), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "1636"
+    ],
+    "rule": "format_swap",
+    "ref_price": 36000,
+    "tgt_price": 36750,
+    "ref_brand": "Cerave",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0172": {
+    "image_path": "images/13/41/tiki_1341_tikishop_8_big.jpg",
+    "product_id": "tiki_1341",
+    "question": "Vẫn thương hiệu THE SAEM đó nhưng cho mình xem sữa rửa mặt dạng kem thay vì dạng bọt nhé.",
+    "translated_question": "Same brand (THE SAEM), but I want a cream cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "tiki_1397"
+    ],
+    "rule": "format_swap",
+    "ref_price": 465000,
+    "tgt_price": 135000,
+    "ref_brand": "THE SAEM",
+    "ref_format": "foam",
+    "tgt_format": "cream"
+  },
+  "DEV-0173": {
+    "image_path": "images/16/81/tiki_1681_tikishop_173_big.jpg",
+    "product_id": "tiki_1681",
+    "question": "Vẫn thương hiệu Fairy Complexion Today đó nhưng cho mình xem sữa rửa mặt dạng bột thay vì dạng kem nhé.",
+    "translated_question": "Same brand (Fairy Complexion Today), but I want a powder cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_768"
+    ],
+    "rule": "format_swap",
+    "ref_price": 169000,
+    "tgt_price": 111000,
+    "ref_brand": "Fairy Complexion Today",
+    "ref_format": "cream",
+    "tgt_format": "powder"
+  },
+  "DEV-0174": {
+    "image_path": "images/43/87/43873741_700049940.mp4",
+    "product_id": "2065",
+    "question": "Vẫn thương hiệu Cell Fusion C đó nhưng cho mình xem sữa rửa mặt dạng gel thay vì dạng bọt nhé.",
+    "translated_question": "Same brand (Cell Fusion C), but I want a gel cleanser instead of a foaming cleanser.",
+    "answer_product_id": [
+      "961"
+    ],
+    "rule": "format_swap",
+    "ref_price": 99000,
+    "tgt_price": 235000,
+    "ref_brand": "Cell Fusion C",
+    "ref_format": "foam",
+    "tgt_format": "gel"
+  },
+  "DEV-0175": {
+    "image_path": "images/32/20/322093553_8424534812.jpg",
+    "product_id": "1773",
+    "question": "Vẫn thương hiệu Hatomugi đó nhưng cho mình xem sữa rửa mặt dạng bột thay vì nước tẩy trang nhé.",
+    "translated_question": "Same brand (Hatomugi), but I want a powder cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "1940"
+    ],
+    "rule": "format_swap",
+    "ref_price": 47000,
+    "tgt_price": 52000,
+    "ref_brand": "Hatomugi",
+    "ref_format": "micellar",
+    "tgt_format": "powder"
+  },
+  "DEV-0176": {
+    "image_path": "images/14/37/tiki_1437_tikishop_2_big.jpg",
+    "product_id": "tiki_1437",
+    "question": "Vẫn thương hiệu ROUND LAB đó nhưng cho mình xem nước tẩy trang thay vì sữa rửa mặt dạng kem nhé.",
+    "translated_question": "Same brand (ROUND LAB), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_618"
+    ],
+    "rule": "format_swap",
+    "ref_price": 710000,
+    "tgt_price": 686000,
+    "ref_brand": "ROUND LAB",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0177": {
+    "image_path": "images/17/93/tiki_1793_tikishop_30_big.jpg",
+    "product_id": "tiki_1793",
+    "question": "Vẫn thương hiệu Kosé đó nhưng cho mình xem sữa rửa mặt dạng gel thay vì nước tẩy trang nhé.",
+    "translated_question": "Same brand (Kosé), but I want a gel cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_670"
+    ],
+    "rule": "format_swap",
+    "ref_price": 119000,
+    "tgt_price": 129000,
+    "ref_brand": "Kosé",
+    "ref_format": "micellar",
+    "tgt_format": "gel"
+  },
+  "DEV-0178": {
+    "image_path": "images/12/54/tiki_1254_tikishop_21_big.jpg",
+    "product_id": "tiki_1254",
+    "question": "Vẫn thương hiệu HIDATI đó nhưng cho mình xem nước tẩy trang thay vì sữa rửa mặt dạng kem nhé.",
+    "translated_question": "Same brand (HIDATI), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_317"
+    ],
+    "rule": "format_swap",
+    "ref_price": 365000,
+    "tgt_price": 350000,
+    "ref_brand": "HIDATI",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0179": {
+    "image_path": "images/31/2_/tiki_312_tikishop_0_big.jpg",
+    "product_id": "tiki_312",
+    "question": "Vẫn thương hiệu Pond's đó nhưng cho mình xem sữa rửa mặt dạng kem thay vì nước tẩy trang nhé.",
+    "translated_question": "Same brand (Pond's), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "197"
+    ],
+    "rule": "format_swap",
+    "ref_price": 75000,
+    "tgt_price": 8000,
+    "ref_brand": "Pond's",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0180": {
+    "image_path": "images/16/24/16244682_12430351182.jpg",
+    "product_id": "1932",
+    "question": "Vẫn thương hiệu Huxley (헉슬리) đó nhưng cho mình xem sữa rửa mặt tạo bọt thay vì dạng gel nhé.",
+    "translated_question": "Same brand (Huxley (헉슬리)), but I want a foaming cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "1660"
+    ],
+    "rule": "format_swap",
+    "ref_price": 320000,
+    "tgt_price": 300000,
+    "ref_brand": "Huxley (헉슬리)",
+    "ref_format": "gel",
+    "tgt_format": "foam"
+  },
+  "DEV-0181": {
+    "image_path": "images/16/96/tiki_1696_tikishop_182_big.jpg",
+    "product_id": "tiki_1696",
+    "question": "Vẫn thương hiệu O HUI đó nhưng cho mình xem sữa rửa mặt dạng kem thay vì nước tẩy trang nhé.",
+    "translated_question": "Same brand (O HUI), but I want a cream cleanser instead of a micellar / makeup-removing cleanser.",
+    "answer_product_id": [
+      "tiki_1274"
+    ],
+    "rule": "format_swap",
+    "ref_price": 2570000,
+    "tgt_price": 1290000,
+    "ref_brand": "O HUI",
+    "ref_format": "micellar",
+    "tgt_format": "cream"
+  },
+  "DEV-0182": {
+    "image_path": "images/24/_t/tiki_24_tikishop_3_big.jpg",
+    "product_id": "tiki_24",
+    "question": "Vẫn thương hiệu COMPLIMENT đó nhưng cho mình xem nước tẩy trang thay vì sữa rửa mặt đất sét nhé.",
+    "translated_question": "Same brand (COMPLIMENT), but I want a micellar / makeup-removing cleanser instead of a clay-based cleanser.",
+    "answer_product_id": [
+      "tiki_1569"
+    ],
+    "rule": "format_swap",
+    "ref_price": 85000,
+    "tgt_price": 89000,
+    "ref_brand": "COMPLIMENT",
+    "ref_format": "clay",
+    "tgt_format": "micellar"
+  },
+  "DEV-0183": {
+    "image_path": "images/30/5_/tiki_305_tikishop_51_big.jpg",
+    "product_id": "tiki_305",
+    "question": "Vẫn thương hiệu Phoenix Pharma đó nhưng cho mình xem sữa rửa mặt đất sét thay vì dạng kem nhé.",
+    "translated_question": "Same brand (Phoenix Pharma), but I want a clay-based cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_582"
+    ],
+    "rule": "format_swap",
+    "ref_price": 16000000,
+    "tgt_price": 7970000,
+    "ref_brand": "Phoenix Pharma",
+    "ref_format": "cream",
+    "tgt_format": "clay"
+  },
+  "DEV-0184": {
+    "image_path": "images/16/86/tiki_1686_tikishop_99_big.jpg",
+    "product_id": "tiki_1686",
+    "question": "Vẫn thương hiệu PIME đó nhưng cho mình xem sữa rửa mặt dạng gel thay vì dạng kem nhé.",
+    "translated_question": "Same brand (PIME), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1476"
+    ],
+    "rule": "format_swap",
+    "ref_price": 760500,
+    "tgt_price": 525200,
+    "ref_brand": "PIME",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0185": {
+    "image_path": "images/25/8_/tiki_258_tikishop_88_big.jpg",
+    "product_id": "tiki_258",
+    "question": "Vẫn thương hiệu M.O.I COSMETICS đó nhưng cho mình xem sữa rửa mặt dạng gel thay vì dạng kem nhé.",
+    "translated_question": "Same brand (M.O.I COSMETICS), but I want a gel cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_1484"
+    ],
+    "rule": "format_swap",
+    "ref_price": 168000,
+    "tgt_price": 266750,
+    "ref_brand": "M.O.I COSMETICS",
+    "ref_format": "cream",
+    "tgt_format": "gel"
+  },
+  "DEV-0186": {
+    "image_path": "images/13/55/tiki_1355_tikishop_205_big.jpg",
+    "product_id": "tiki_1355",
+    "question": "Vẫn thương hiệu Bapscarcare đó nhưng cho mình xem nước tẩy trang thay vì sữa rửa mặt dạng kem nhé.",
+    "translated_question": "Same brand (Bapscarcare), but I want a micellar / makeup-removing cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "tiki_997"
+    ],
+    "rule": "format_swap",
+    "ref_price": 518000,
+    "tgt_price": 379000,
+    "ref_brand": "Bapscarcare",
+    "ref_format": "cream",
+    "tgt_format": "micellar"
+  },
+  "DEV-0187": {
+    "image_path": "images/12/94/tiki_1294_tikishop_21_big.jpg",
+    "product_id": "tiki_1294",
+    "question": "Vẫn thương hiệu Ipek đó nhưng cho mình xem sữa rửa mặt đất sét thay vì dạng kem nhé.",
+    "translated_question": "Same brand (Ipek), but I want a clay-based cleanser instead of a cream cleanser.",
+    "answer_product_id": [
+      "2073"
+    ],
+    "rule": "format_swap",
+    "ref_price": 193030,
+    "tgt_price": 170000,
+    "ref_brand": "Ipek",
+    "ref_format": "cream",
+    "tgt_format": "clay"
+  },
+  "DEV-0188": {
+    "image_path": "images/14/76/tiki_1476_tikishop_99_big.jpg",
+    "product_id": "tiki_1476",
+    "question": "Vẫn thương hiệu PIME đó nhưng cho mình xem sữa rửa mặt dạng bột thay vì dạng gel nhé.",
+    "translated_question": "Same brand (PIME), but I want a powder cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_557"
+    ],
+    "rule": "format_swap",
+    "ref_price": 525200,
+    "tgt_price": 68000,
+    "ref_brand": "PIME",
+    "ref_format": "gel",
+    "tgt_format": "powder"
+  },
+  "DEV-0189": {
+    "image_path": "images/14/23/tiki_1423_tikishop_3_big.jpg",
+    "product_id": "tiki_1423",
+    "question": "Vẫn thương hiệu COMPLIMENT đó nhưng cho mình xem nước tẩy trang thay vì sữa rửa mặt dạng gel nhé.",
+    "translated_question": "Same brand (COMPLIMENT), but I want a micellar / makeup-removing cleanser instead of a gel cleanser.",
+    "answer_product_id": [
+      "tiki_1569"
+    ],
+    "rule": "format_swap",
+    "ref_price": 95000,
+    "tgt_price": 89000,
+    "ref_brand": "COMPLIMENT",
+    "ref_format": "gel",
+    "tgt_format": "micellar"
+  }
+}

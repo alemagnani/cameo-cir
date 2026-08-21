@@ -1,0 +1,4 @@
+# Step 2 frozen reranker. tp=1 fits 1xA100-80GB (enforce-eager for headroom).
+# For speed on 2 GPUs, change tp to 2 and drop --enforce-eager.
+# tag|hf_id|tensor_parallel|extra_args
+qwen32b_step2|Qwen/Qwen2.5-VL-32B-Instruct|1|--max-images 21 --max-model-len 16384 --enforce-eager
