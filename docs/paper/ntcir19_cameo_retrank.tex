@@ -10,6 +10,7 @@
 
 \settopmatter{printacmref=false}
 \renewcommand\footnotetextcopyrightpermission[1]{} % drop copyright footnote per NTCIR
+\setlength{\emergencystretch}{2em} % avoid marginal overfull boxes
 
 \begin{document}
 
@@ -29,8 +30,8 @@ E-commerce: A Structured-Attribute and Local-VLM Reranking Pipeline}
 We describe team \textbf{retrank}'s participation in the NTCIR-19 CAMEO
 Composed Image Retrieval (CIR) subtask: given a reference product image and
 a natural-language modification (e.g.\ ``similar but cheaper'', ``same
-format from a different brand''), rank a fixed corpus of 4{,}075 Vietnamese
-face-cleanser products. Our pipeline is two-stage: a Stage-1 retriever
+format from a different brand''), rank a fixed corpus of 4{,}086 Vietnamese
+skincare products. Our pipeline is two-stage: a Stage-1 retriever
 followed by a listwise Stage-2 vision-language reranker. Our central finding
 is that \textbf{recall, not reranking, is the bottleneck}: training-free
 CLIP composition (ViT-bigG) plateaus at roughly 0.44 Recall@50 on our
@@ -66,7 +67,7 @@ models, e-commerce, query understanding, reranking}
 
 %% ---- NTCIR-required fields (between Keywords and Introduction) ----
 \noindent\textbf{Team Name:} retrank\\
-\textbf{Subtasks:} CAMEO Composed Image Retrieval (CIR), Vietnamese / English
+\textbf{Subtasks:} Composed Image Retrieval (CIR)
 \medskip
 
 %==================================================================
@@ -75,8 +76,9 @@ Composed Image Retrieval (CIR) asks a system to retrieve a target image
 given a \emph{reference image} together with a \emph{natural-language
 modification} that specifies how the target should differ from the
 reference. The NTCIR-19 CAMEO pilot task~\cite{cameo} situates CIR in a realistic
-e-commerce setting: a corpus of 4{,}075 Vietnamese face-cleanser products,
-each with an image, a brand, a numeric price, and a translated
+e-commerce setting: a corpus of 4{,}086 Vietnamese skincare products
+(cleansers, toners, sunscreens, and more), each with an image, a brand, a
+numeric price, and a translated
 name/description, and a set of 20 official CIR queries expressed as shopper
 requests (``the same product but cheaper'', ``a gel cleanser from brand
 X'', ``something for sensitive skin''). Systems return a ranked list per
@@ -144,10 +146,13 @@ e-commerce corpus the symbolic attributes are a first-class retrieval signal.
 %==================================================================
 \section{Task and Data}
 \label{sec:data}
-\textbf{Corpus.} 4{,}075 face-cleanser products, drawn from the ViEcomRec
-Vietnamese e-commerce dataset~\cite{viecomrec} (originally 2{,}244
-face-cleanser products crawled from Shopee, with attributes extracted from
-free-text descriptions) as extended by the task organizers~\cite{cameo}. Each
+\textbf{Corpus.} 4{,}086 Vietnamese skincare products spanning cleansers,
+toners, sunscreens, and other skincare, drawn from the ViEcomRec Vietnamese
+e-commerce dataset~\cite{viecomrec} --- originally 2{,}244 face-cleanser
+products crawled from a real Vietnamese e-commerce platform, with attributes
+extracted from free-text descriptions --- as extended to further skincare
+categories by the task organizers~\cite{cameo}. The full collection comprises
+387{,}034 reviews from 318{,}500 users across the 4{,}086 products. Each
 product has a product image (some entries are short videos, handled by
 first-frame extraction), a \texttt{brand}, a numeric \texttt{price} in VND, and
 translated \texttt{name}/\texttt{description} fields. Prices and descriptions
@@ -181,10 +186,9 @@ harsh (Section~\ref{sec:setup}) but ideal for measuring whether Stage-1
 recall is improving. This data is used strictly for development; the
 official test set is never used for tuning.
 
-\textbf{Submission format.} Runs follow the official
-\texttt{sample\_submission.json} schema: for each query, a ranked
-\texttt{answer} list of image filenames and a parallel
-\texttt{answer\_product\_id} list. Up to five runs per subtask are allowed.
+\textbf{Submission format.} Each run gives, per query, a ranked list of image
+filenames and a parallel list of product ids in the official JSON schema; up to
+five runs per subtask are allowed.
 
 %==================================================================
 \section{Method}
@@ -196,6 +200,7 @@ training-free visual composition and a metadata-grounded symbolic retriever
 
 \begin{figure*}[t]
 \centering
+\resizebox{\textwidth}{!}{%
 \begin{tikzpicture}[
   font=\small,
   box/.style={draw, rounded corners, align=center, minimum height=9mm,
@@ -239,7 +244,8 @@ training-free visual composition and a metadata-grounded symbolic retriever
           fit=(rerank),
           label={[font=\small\bfseries]above:Stage 2: Rerank}] {};
   \end{scope}
-\end{tikzpicture}
+\end{tikzpicture}%
+}
 \caption{The team-retrank pipeline. Stage-1 fuses a training-free visual
 composition (ViT-bigG) with a metadata-grounded symbolic retriever driven by
 an LLM query-attribute extractor; the metadata branch abstains when no
@@ -273,7 +279,7 @@ image embedding $v_p$ with its product-name text embedding $n_p$ into a
 single index vector, again renormalized:
 \[
 \tilde{v}_p \;=\; \text{normalize}\!\big(a\,n_p + (1-a)\,v_p\big),
-\qquad a=\texttt{fuse\_name\_alpha}\in[0,1],
+\, a=\texttt{fuse\_name\_alpha}\in[0,1],
 \]
 and the retrieval score is the cosine of the two:
 $s(p)=\cos(q,\tilde{v}_p)=q^{\!\top}\tilde{v}_p$ (both unit-norm). Name
@@ -286,7 +292,7 @@ have little effect near this operating point, while pushing $a$ high degraded
 results (Section~\ref{sec:analysis}). ViT-bigG-14 with a small $a$ was our
 strongest purely visual configuration.
 The reference product is excluded from its own results. Retrieval is
-exhaustive over the 4{,}075-product corpus (no approximate search is needed
+exhaustive over the 4{,}086-product corpus (no approximate search is needed
 at this scale), which removes any recall loss from an ANN index.
 
 For the \texttt{brand\_swap} query type we additionally apply a
@@ -358,21 +364,20 @@ or $|B|$ is implausibly large ($>200$, a fixed heuristic to reject
 brand strings so generic they select a large slice of the corpus), the
 retriever \emph{abstains} and defers entirely to the visual ranking; this
 guard is why the metadata branch does not degrade queries with no usable
-brand constraint. Otherwise each $p\in B$ (excluding the reference) is scored
+brand constraint. Otherwise each $p\in B$ (excluding the reference) is scored,
+writing $\pi_p,\pi_t$ for the product and target price:
 \[
 s(p)=\underbrace{1}_{\text{brand}}
-      +\,2\cdot\mathbb{1}[\text{format kw hit}]
-      +\,2\cdot\mathbb{1}[\text{claim kw hit}]
-      +\,g(p),
+      +2\cdot\mathbb{1}[\text{format kw hit}]
+      +2\cdot\mathbb{1}[\text{claim kw hit}]+g(p),
 \]
 \[
 g(p)=\begin{cases}
-\exp\!\Big(\!-\dfrac{\rho^2}{2\sigma^2}\Big),
-  & \text{if price}_p \text{ and price}_\text{tgt}\text{ are both available},\\[4pt]
+\exp\!\big(-\rho^2/2\sigma^2\big), & \text{if } \pi_p,\pi_t\ \text{available},\\[2pt]
 0, & \text{otherwise},
 \end{cases}
 \quad
-\rho=\frac{|\text{price}_p-\text{price}_\text{tgt}|}{\max(\text{price}_\text{tgt},1)}.
+\rho=\frac{|\pi_p-\pi_t|}{\max(\pi_t,1)}.
 \]
 A format/claim ``hit'' is a two-stage test: the extracted format/claim phrase
 selects a set of keyword expansions from a fixed dictionary (e.g.\ ``micellar''
@@ -410,10 +415,8 @@ $w_\text{img},w_\text{txt}$, name-fusion weight $a$, whether to apply the
 symbolic brand-union, reranker model, and top-$K$. Because local reranking made each
 trial nearly free, we ran a self-driving search: an LLM \emph{proposer}
 suggests the next configuration to try, a GPU \emph{consumer} runs it and
-reports the development score (Dev-429 NDCG@10, our selection objective), and
-the loop repeats. For security we kept the proposer (which needs an API key)
-on a local machine and pushed only configuration lines to the rented GPU box,
-so no credential ever left our environment. The search is a greedy,
+reports the development score (Dev-429 nDCG@10, our selection objective), and
+the loop repeats. The search is a greedy,
 LLM-guided walk with no formal stopping rule; we stopped after 21
 configurations produced no further improvement. The \emph{best of the 21}
 was ViT-bigG $+$ brand-union $+$ a local VLM reranker at top-$K{=}20$, with
@@ -497,6 +500,7 @@ Runs~2--4 share a byte-identical SEARLE-Phi candidate membership (identical
 per-topic relevance-label vectors in the released counts), so their score
 differences come purely from reranker ordering.}
 \label{tab:official}
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}llcc@{}}
 \toprule
 Run & Stage-1 pool $\to$ reranker & nDCG@5 & nDCG@10 \\
@@ -507,7 +511,7 @@ Run2 & SEARLE-Phi $\to$ Qwen-72B & 0.680 & 0.636 \\
 Run3 & SEARLE-Phi $\to$ InternVL3-38B & 0.650 & 0.628 \\
 Run4 & SEARLE-Phi $\to$ Qwen-32B & 0.625 & 0.606 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{table}
 
 \textbf{Cross-team standing.} Five teams submitted 15 CIR runs. On the
@@ -620,19 +624,19 @@ Pixtral-Large (FP8, local) & 0.869 & $\sim$\$0 \\
 
 \subsection{Per-rule breakdown}
 Table~\ref{tab:perrule} breaks the metadata-fused Stage-1 down by query type
-(Dev, NDCG@10). The price-driven rules (\texttt{cheaper}, \texttt{pricier})
+(Dev, nDCG@10). The price-driven rules (\texttt{cheaper}, \texttt{pricier})
 score highest; \texttt{brand\_swap} remains the hardest rule, gated by
 brand-name resolution rather than by price or format.
 
 \begin{table}[t]
 \centering\small
-\caption{Metadata-fused Stage-1 per rule (Dev, NDCG@10, extracted fields).}
+\caption{Metadata-fused Stage-1 per rule (Dev, nDCG@10, extracted fields).}
 \label{tab:perrule}
 \begin{tabular}{@{}lccccc@{}}
 \toprule
 Rule & cheaper & pricier & format & claim & brand \\
 \midrule
-NDCG@10 & 0.293 & 0.362 & 0.234 & 0.173 & 0.117 \\
+nDCG@10 & 0.293 & 0.362 & 0.234 & 0.173 & 0.117 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -642,7 +646,7 @@ NDCG@10 & 0.293 & 0.362 & 0.234 & 0.173 & 0.117 \\
 To isolate each metadata term we score the metadata-only retriever with gold
 fields, enabling one term at a time (Table~\ref{tab:ablation}). Price is
 decisively the active ingredient: adding it to the brand base lifts overall
-NDCG@10 from 0.084 to 0.232, while format and claim add little on their own.
+nDCG@10 from 0.084 to 0.232, while format and claim add little on their own.
 Strikingly, enabling \emph{all} terms (0.211) is slightly \emph{below}
 brand$+$price (0.232): the format/claim keyword bonuses add more noise than
 signal. This attribution is for the \emph{metadata-only ranking with gold
@@ -654,7 +658,7 @@ the realistic effect is narrower (Table~\ref{tab:goldext}).
 \begin{table}[t]
 \centering\small
 \caption{Metadata component ablation (gold fields, metadata-only, Dev
-NDCG@10). Brand is always the gate; each row adds the named term(s).}
+nDCG@10). Brand is always the gate; each row adds the named term(s).}
 \label{tab:ablation}
 \begin{tabular}{@{}lcccccc@{}}
 \toprule
@@ -671,7 +675,7 @@ all four          & 0.250 & 0.250 & 0.251 & 0.179 & 0.179 & 0.211 \\
 
 \begin{table}[t]
 \centering\small
-\caption{Gold vs.\ extracted fields (metadata-only, Dev NDCG@10). Extraction
+\caption{Gold vs.\ extracted fields (metadata-only, Dev nDCG@10). Extraction
 is lossless on the price rules and costs $\sim$0.08 overall, spread across the
 three non-price rules (format, claim, brand).}
 \label{tab:goldext}
@@ -688,30 +692,31 @@ extracted (Haiku)& 0.250 & 0.250 & 0.151 & 0.089 & 0.116 & \textbf{0.131} \\
 \subsection{Recall is the ceiling: an oracle upper bound}
 \label{sec:oracle}
 Table~\ref{tab:oracle} makes the recall-bottleneck argument controlled. For
-each Stage-1 pool we compute an \emph{oracle} reranker --- the best NDCG@10
+each Stage-1 pool we compute an \emph{oracle} reranker --- the best nDCG@10
 achievable by reordering that fixed pool, which for a single gold answer
 equals candidate recall at the pool depth --- and compare it to the actual
-NDCG@10. The oracle ceiling rises only with Stage-1 recall
+nDCG@10. The oracle ceiling rises only with Stage-1 recall
 ($0.154\to0.436\to0.527$), and no reranker, however good, can exceed it.
 This is the clean version of the bottleneck claim: improving Stage-1
 raises the ceiling; reranker tuning only closes the gap beneath it.
 
 \begin{table}[t]
 \centering\small
-\caption{Stage-1 candidate recall and the resulting oracle-reranker NDCG@10
-ceiling vs.\ the Stage-1 NDCG@10 (Dev-429). For a single gold answer, oracle
-NDCG@10 at depth $d$ equals R@$d$: oracle@20$=$R@20 (the depth the deployed
+\caption{Stage-1 candidate recall and the resulting oracle-reranker nDCG@10
+ceiling vs.\ the Stage-1 nDCG@10 (Dev-429). For a single gold answer, oracle
+nDCG@10 at depth $d$ equals R@$d$: oracle@20$=$R@20 (the depth the deployed
 reranker sees) and oracle@50$=$R@50 (the full retrieved pool).}
 \label{tab:oracle}
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}lcccc@{}}
 \toprule
-Stage-1 pool & R@20 & R@50 & oracle@20/@50 & Stage-1 NDCG@10 \\
+Stage-1 pool & R@20 & R@50 & oracle@20/@50 & Stage-1 nDCG@10 \\
 \midrule
 SEARLE-Phi            & 0.084 & 0.154 & 0.084 / 0.154 & 0.029 \\
 bigG$+$fusion (visual)& 0.359 & 0.436 & 0.359 / 0.436 & 0.157 \\
 Metadata-fused        & \textbf{0.431} & \textbf{0.527} & \textbf{0.431 / 0.527} & \textbf{0.200} \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{table}
 
 \subsection{Consolidated pipeline comparison}
@@ -742,7 +747,7 @@ Metadata-fused + VLM rerank & 0.173$^{\dagger}$ & \textbf{0.923} \\
 \label{sec:analysis}
 \textbf{Recall is the real bottleneck.} The oracle upper bound
 (Table~\ref{tab:oracle}, Section~\ref{sec:oracle}) makes this precise: the
-best NDCG@10 obtainable by \emph{any} reranker over a fixed pool equals that
+best nDCG@10 obtainable by \emph{any} reranker over a fixed pool equals that
 pool's candidate recall, which climbs only as Stage-1 improves
 ($0.154\to0.436\to0.527$). With the weak SEARLE-Phi pool the ceiling is
 0.154 --- a perfect reranker still fails on $>$84\% of queries --- so the
@@ -772,11 +777,11 @@ recall (R@50 0.527 vs.\ 0.436) and the best Official-20 proxy. Within the
 metadata ranking itself, the ablation (Table~\ref{tab:ablation},
 metadata-only, gold fields) shows the \emph{price} term carries almost all of
 the quality --- brand$+$price (0.232) already exceeds all four terms together
-(0.211) in metadata-only NDCG@10, so the format/claim keyword bonuses are net
+(0.211) in metadata-only nDCG@10, so the format/claim keyword bonuses are net
 noise. We call the
 metadata and visual signals \emph{complementary} rather than orthogonal: the
 effect is concentrated on structured rules, and on the full 2{,}083-query Dev
-set (79\% free-form, no extractable structure) metadata fusion changes NDCG@10
+set (79\% free-form, no extractable structure) metadata fusion changes nDCG@10
 only slightly (0.115 vs.\ 0.119 for bigG alone, a decrease of 0.004; we did not
 estimate uncertainty for this comparison). Quantifying the unique-recall
 overlap between the two candidate sets is future work.
@@ -787,7 +792,7 @@ quality (0.200$\rightarrow$0.173), even though the same reranker \emph{helps}
 on a visual pool: a per-item rank-shift audit of a representative bigG pool
 (39 gold items in the pre-rerank top-20) shows the reranker moving the gold
 item up 24 times and down only 13 (none exit the top-20). Reranking by visual
-similarity is thus beneficial when Stage-1 is itself visual (pool NDCG@10
+similarity is thus beneficial when Stage-1 is itself visual (pool nDCG@10
 0.028$\to$0.046 on the audited pair). We could not reproduce the item-level demotion \emph{on the metadata
 pool} because that pool's reranked run was not saved (one rerank pass would
 close this; flagged). We therefore report this as a caution and a concrete
@@ -802,7 +807,7 @@ of the number of experiments, which is what made the self-driving
 configuration search affordable.
 
 \textbf{The hard case is brand substitution.} ``Same format, different
-brand'' queries are the weakest rule (NDCG@10 $\approx$0.12), gated by
+brand'' queries are the weakest rule (nDCG@10 $\approx$0.12), gated by
 brand-name resolution in the corpus; better brand normalization or a brand
 embedding is the most direct remaining lever.
 
@@ -865,7 +870,7 @@ MagicLens Stage-1 & — & env-blocked \\
 Visual encoders use open\_clip~\cite{openclip}: ViT-H/14
 (\texttt{laion2b\_s32b\_b79k}) and ViT-bigG/14 (\texttt{laion2b\_s39b\_b160k}).
 Corpus embeddings are precomputed once and cached; retrieval is exhaustive
-cosine similarity over the 4{,}075 products (no ANN index). Some corpus
+cosine similarity over the 4{,}086 products (no ANN index). Some corpus
 entries are short videos, from which we extract the first frame, with a
 neutral placeholder for unreadable files. The query-attribute extractor is a
 small hosted LLM (Claude Haiku) with per-query caching. Rerankers are served
@@ -879,9 +884,7 @@ generation, the proxy judge, and the extractor) and about \$60 in GPU rental;
 the ``$\sim$\$0'' entries in Table~\ref{tab:rerank} are the \emph{marginal}
 cost of one more rerank pass once a host is already rented, not the total.
 All development scoring uses a single evaluation harness with per-rule
-breakdowns so every configuration is measured identically. (For cost
-control, a local watchdog tears down each GPU host on completion or a hard
-deadline.)
+breakdowns so every configuration is measured identically.
 
 \begin{table}[t]
 \centering\small
@@ -941,8 +944,8 @@ H.~Hajishirzi, A.~Farhadi, and L.~Schmidt. OpenCLIP. Zenodo, 2021.
 doi:10.5281/zenodo.5143773.
 \bibitem{qwenvl} S.~Bai, K.~Chen, X.~Liu, J.~Wang, W.~Ge, et al.
 Qwen2.5-VL Technical Report. arXiv:2502.13923, 2025.
-\bibitem{cameo} A.~Tran, Q.-L.~Tran, H.-B.~Le, B.~T.~Nguyen, and
-A.~L.~P.~De~Ocampo. Overview of CAMEO: Composed Access to Multimodal
+\bibitem{cameo} A.~Tran, Q.-L.~Tran, H.-B.~Le, A.~L.~P.~De~Ocampo, and
+B.~T.~Nguyen. Overview of CAMEO: Composed Access to Multimodal
 E-commerce Objects. In \emph{Proceedings of the 19th NTCIR Conference on
 Evaluation of Information Access Technologies (NTCIR-19)}, Tokyo, Japan,
 2026.
