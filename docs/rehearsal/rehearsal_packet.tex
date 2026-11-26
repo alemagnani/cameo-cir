@@ -1,0 +1,498 @@
+% Rehearsal packet — team retrank, NTCIR-19 CAMEO CIR
+% Source of truth for every number: docs/paper/ntcir19_cameo_retrank.tex (submitted, final).
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{booktabs,tabularx,longtable,amssymb}
+\usepackage[shortlabels]{enumitem}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\setlength{\emergencystretch}{2em}
+
+\definecolor{accent}{RGB}{0,96,160}
+\definecolor{warn}{RGB}{170,40,30}
+\newtcolorbox{say}[1]{colback=accent!4,colframe=accent,fonttitle=\bfseries,
+  title={#1},left=2mm,right=2mm,top=1mm,bottom=1mm,breakable}
+\newtcolorbox{caution}{colback=warn!4,colframe=warn,left=2mm,right=2mm,top=1mm,bottom=1mm,breakable}
+\setlist{itemsep=1pt,topsep=2pt}
+\newcommand{\inpaper}{\textcolor{accent}{\small[paper]}}
+\newcommand{\bg}{\textcolor{black!55}{\small[background --- don't quote]}}
+
+\title{\textbf{Rehearsal Packet}\\[2pt]\large Team retrank --- NTCIR-19 CAMEO Composed Image Retrieval}
+\author{Alessandro Magnani (Independent)}
+\date{Prepared 24 November 2026}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\bigskip
+
+\begin{caution}
+\textbf{Ground rule.} Every number you say aloud must be in the submitted paper.
+Items marked \bg{} are project history for your own understanding: true, but not in
+the paper, so do not present them as results. Items marked \inpaper{} are safe to quote.
+\end{caution}
+
+%=====================================================================
+\section{Logistics}
+\begin{itemize}
+  \item \textbf{Talk slot:} 8 minutes total = \textbf{6 min talk + 2 min Q\&A}, hybrid CAMEO
+        session (organizers' email of 27 Oct). Program:
+        \url{https://research.nii.ac.jp/ntcir/ntcir-19/program20261016.html}.
+  \item \textbf{Slides:} \texttt{docs/slides/retrank\_cameo\_slides.pdf} --- 7 slides, 16:9.
+        Target \textbf{5:40--5:50} so you never get cut off.
+  \item \textbf{Poster:} \texttt{docs/poster/NTCIR19-CAMEO-MagnaniA-poster.pdf} --- A0 portrait,
+        fonts embedded. \textbf{Upload by 27 Nov (AoE)} via
+        \url{https://forms.gle/nqv8jNeEYjB3nnMG8} (one poster per task: CAMEO and R2C2).
+  \item \textbf{Bring:} the slides PDF on laptop + USB stick + emailed to yourself; a
+        presenter timer; this packet.
+\end{itemize}
+
+%=====================================================================
+\section{Competition setup at a glance \inpaper}
+\begin{itemize}
+  \item \textbf{Venue:} NTCIR-19, CAMEO task (Composed Access to Multimodal E-commerce
+        Objects), \textbf{Composed Image Retrieval (CIR) subtask}. We cite the organizers'
+        overview paper.
+  \item \textbf{Task:} given a \textbf{reference product image} and a
+        \textbf{natural-language modification} (a shopper request, e.g.\ ``the same product
+        but cheaper'', ``a gel cleanser from brand X'', ``something for sensitive skin''), return
+        a ranked list from a fixed catalogue.
+  \item \textbf{Corpus:} \textbf{4,086} Vietnamese skincare products (cleansers, toners,
+        sunscreens and more). It comes from the ViEcomRec dataset (originally 2,244 face
+        cleansers), extended by the organizers. Each product has an image (some are short
+        videos; we use the first frame), a brand, a numeric price in VND, and a translated
+        name/description. The full collection has 387,034 reviews from 318,500 users.
+  \item \textbf{Queries:} \textbf{20} official CIR topics: a reference product plus a
+        Vietnamese request, with an English translation. There were \textbf{no labels before
+        submission}.
+  \item \textbf{Evaluation:} results are pooled across participants and judged by humans on
+        a \textbf{3-point scale}; the metrics are \textbf{nDCG@5 / nDCG@10}. The judgments were
+        released on 2026-08-17.
+  \item \textbf{Submission:} up to \textbf{5 runs} per subtask, as JSON giving the ranked
+        image filenames and product ids.
+  \item \textbf{Participation:} \textbf{5 teams, 15 CIR runs}. We placed \textbf{3rd of 5}
+        at both cutoffs (best run 0.740 / 0.714).
+  \item \textbf{Our own evaluation setup:} the official set was small and unlabeled, so we
+        built \textbf{Dev}: 429 templated queries with one exact answer each, across five rules
+        (cheaper 20, pricier 20, format swap 150, brand swap 89, claim swap 150). Merged with
+        LLM-paraphrased free-form queries, it gives 2,083. We also used an \textbf{Official-20
+        proxy}: a cached Claude Sonnet vision judge. The three regimes are not comparable, and
+        we \textbf{never tuned on the official queries}.
+\end{itemize}
+
+%=====================================================================
+\section{Paper contributions \inpaper}
+The paper's framing: ``a set of empirically grounded findings'' rather than a single new
+model, built on a standard two-stage design (Stage-1 retrieval $\to$ Stage-2 VLM rerank).
+\begin{enumerate}
+  \item \textbf{Recall is the bottleneck.}
+    \begin{itemize}
+      \item The limit is whether the answer enters the Stage-1 pool at all.
+      \item Dev R@50 plateaus at about 0.44 for visual Stage-1; with one gold answer, no
+            reranker can exceed the pool's recall.
+      \item Officially, three rerankers over the same pool span only 0.030 nDCG@10
+            (per-topic ranges up to 0.22). Swapping Stage-1 with the reranker fixed gains
+            +0.078 and +0.103.
+    \end{itemize}
+  \item \textbf{Structured metadata is a complementary recall lever.}
+    \begin{itemize}
+      \item An LLM attribute extractor plus symbolic brand, price, format and claim matching
+            recovers products a visual encoder can't see.
+      \item R@50 rises from 0.44 to 0.53 on structured query types.
+      \item Price carries the gain: brand only 0.084 vs.\ brand + price 0.232.
+      \item It is roughly neutral on the full Dev set, which is mostly free-form (0.115 vs.\
+            0.119).
+    \end{itemize}
+  \item \textbf{Local open-weight VLM rerankers are competitive with a hosted API.}
+    \begin{itemize}
+      \item Three of the four local models beat Haiku on the proxy; Pixtral is marginally
+            below.
+      \item The marginal cost is near zero versus about \$11 per pass on the API, which moves
+            the cost from per-token to flat GPU-hours. That helps both iteration speed and
+            reproducibility.
+    \end{itemize}
+  \item \textbf{A caution: visual reranking may conflict with exact structural matches.} In
+        one Dev comparison, reranking the metadata pool went from 0.200 to 0.173. The mechanism
+        is unverified and needs a repeated controlled run.
+  \item \textbf{Methodological:} an explicit \textbf{three-regime evaluation} (Dev / proxy /
+        official) with stated validity threats, plus a documented account of what did not
+        work.
+\end{enumerate}
+
+%=====================================================================
+\section{The message in one breath}
+\begin{say}{One sentence}
+On CAMEO's skincare catalogue, getting the right products into the candidate pool mattered
+more, in aggregate, than how we reranked them: product metadata, especially price, finds what
+a visual encoder can't, and local open-weight rerankers are competitive with a hosted API at
+near-zero marginal cost.
+\end{say}
+
+\textbf{Three claims} (in this order, everywhere):
+\begin{enumerate}
+  \item \textbf{Recall is the ceiling.} No reranker can beat the candidate pool's recall.
+  \item \textbf{Price is the metadata signal that matters.} It is invisible to vision.
+  \item \textbf{Local open-weight VLM rerankers are competitive} with a hosted API at
+        $\sim$\$0 marginal cost.
+\end{enumerate}
+
+\textbf{Five numbers to know cold} \inpaper:
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+0.740 / 0.714 & best official nDCG@5 / @10 (Run1); 3rd of 5 teams at both cutoffs \\
+0.019 & spread of the top four teams on nDCG@10 (no ordering claimed among 2nd--4th) \\
+0.436 $\to$ 0.527 & Dev R@50: best visual vs.\ metadata-fused Stage-1 \\
+0.084 $\to$ 0.232 & Dev metadata-only nDCG@10: brand only vs.\ brand + price \\
+0.030 vs.\ +0.078 / +0.103 & official: reranker swap vs.\ Stage-1 swap (nDCG@10) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+%=====================================================================
+\section{The 6-minute talk script}
+About 125 words per minute. The times are cumulative targets. Read it aloud with a timer
+at least three times; the bracketed lines are what to cut if you are running long.
+
+\begin{say}{Slide 1 --- Title \hfill 0:00--0:20}
+Hi, I'm Alessandro Magnani, team retrank. This talk is about composed image retrieval on
+CAMEO's skincare catalogue, and the main message fits in one line: on this task, getting the
+right products into the candidate pool mattered more, on average, than how we reranked them.
+\end{say}
+
+\begin{say}{Slide 2 --- The task \hfill 0:20--1:10}
+You get a photo of a product and a shopper's request --- ``the same product but cheaper'',
+``a gel cleanser from brand X'' --- and you rank 4,086 Vietnamese skincare products. There
+are 20 official topics, judged by pooling all teams' runs, scored with nDCG at 5 and 10.
+
+What makes it interesting is on the right: many requests are about price, brand or
+format. Those live in the product's metadata, not in its pixels, so a visual encoder can't
+see them.
+
+One note before any numbers: I'll quote three kinds. Our own synthetic dev set, with one
+exact answer per query; a Claude vision-judge proxy on the official queries; and the
+official human scores. They are not comparable to each other.
+\end{say}
+
+\begin{say}{Slide 3 --- Approach \hfill 1:10--2:10}
+Two stages. Stage 1 has two branches. The \emph{visual} branch is training-free: we
+combine CLIP ViT-bigG embeddings of the reference image and the request, and each product's
+image is fused with its name.
+
+The \emph{metadata} branch uses an LLM to read the request and pull out the target brand,
+price, format and claim. We then score products of that brand by how close their price is,
+plus keyword matches --- and if no brand is confidently named, the branch stays silent.
+
+We put confident metadata hits first, then the visual list. Stage 2 is an open-weight VLM,
+Qwen2.5-VL-72B, served locally, which reorders the top twenty.
+\end{say}
+
+\begin{say}{Slide 4 --- Finding 1: recall is the ceiling \hfill 2:10--3:00}
+First finding. A reranker can only reorder what Stage 1 found. With one gold answer per dev
+query, the best any reranker can do is the pool's recall.
+
+Look at recall at 50. The textual-inversion baseline, SEARLE, gets 0.15. The best visual
+backbone gets 0.44 --- and visual backbones plateau there. Adding metadata takes it to
+0.53; it's the only thing that broke the plateau.
+
+So: raise the ceiling in Stage 1. Reranking only closes the gap beneath it.
+\end{say}
+
+\begin{say}{Slide 5 --- Finding 2: price; local rerankers \hfill 3:00--4:00}
+Which metadata matters? Turning on one term at a time: brand alone gives 0.084; adding
+price jumps to 0.232; adding the format and claim keywords on top actually lowers it a
+little. Price is the signal --- it's exactly what ``cheaper'' asks for, and vision can't see
+it. The honest limit: on our larger, mostly free-form dev set, metadata is roughly neutral.
+
+On the right, rerankers. Same candidate pool, proxy judge: three of four local open models
+score above the hosted Haiku API, Pixtral just below. The gaps are within noise, so I'd call
+them competitive --- [but the cost changes from about eleven dollars a pass to roughly zero
+once a GPU is rented; our whole GPU bill was about sixty dollars.]
+\end{say}
+
+\begin{say}{Slide 6 --- Official results \hfill 4:00--5:10}
+Officially, our primary run --- metadata-fused plus Qwen-72B --- scored 0.740 and 0.714:
+third of five teams at both cutoffs. At nDCG at 10 the top four are within 0.019, so I
+wouldn't read an order into second to fourth.
+
+Our five runs form a useful controlled comparison. Runs 2 to 4 share an identical candidate
+pool with three different rerankers: they differ by only 0.03, not significant. Keep the
+reranker fixed and change the Stage-1 pool, and you gain 0.08 and 0.10. So, in aggregate,
+candidate generation is the bigger lever.
+
+Two caveats. Per topic, the reranker choice still swings up to 0.22. And these contrasts
+change the whole Stage 1 --- Run 5's brand-union added no candidates on the official topics ---
+so the metadata-specific evidence comes from the dev ablation.
+\end{say}
+
+\begin{say}{Slide 7 --- Takeaways \hfill 5:10--5:50}
+To wrap up. Recall, not reranking, caps this task in aggregate. Structured metadata ---
+especially price --- recovers what vision can't see. And local open rerankers are competitive
+at near-zero marginal cost. One caution: in one dev comparison, visually reranking the metadata
+pool lowered quality from 0.200 to 0.173, and we haven't verified why. Next: better brand
+resolution, repeating that audit, and validating the extractor on natural queries. Thank you
+--- happy to take questions.
+\end{say}
+
+\textbf{If you're behind:} at 4:00 you should be starting Slide 6. If you're past 4:20,
+skip the bracketed cost aside on Slide 5 and shorten the caveats to one sentence:
+``these swap the whole Stage 1, so metadata's own effect is shown on dev.''
+
+%=====================================================================
+\section{Poster pitches}
+Visitors arrive at different depths. Pick the version that matches their interest; point
+at the blocks as you go.
+
+\begin{say}{30 seconds (the hallway version)}
+We did composed image retrieval on a Vietnamese skincare catalogue. The main lesson: getting
+the right products into the candidate pool matters more than reranking. Here
+[\emph{Finding 1}] a perfect reranker can't beat the pool's recall; product metadata,
+mostly price, is what broke the visual ceiling [\emph{Finding 2}]; and local open rerankers
+are competitive with a hosted API at near-zero marginal cost [\emph{Finding 3}]. Officially
+we were third of five; at nDCG@10 the top four are within 0.019.
+\end{say}
+
+\begin{say}{2 minutes (the standard tour)}
+\begin{enumerate}[leftmargin=*]
+  \item \emph{Top row, The Task:} photo + shopper request $\to$ rank 4,086 skincare
+        products; the catch is that many requests are about price or brand.
+  \item \emph{Top row, Approach:} two stages --- a training-free CLIP branch plus a metadata branch
+        where an LLM reads brand, price, format and claim from the request; metadata hits go
+        first; a local VLM reranks the top 20.
+  \item \emph{Evaluation Regimes:} three different scoreboards --- our synthetic dev set, an LLM-judge
+        proxy, and the official human scores --- so don't compare across them.
+  \item \emph{Finding 1:} recall at 50 goes 0.15 $\to$ 0.44 $\to$ 0.53; the visual
+        backbones plateau, and only metadata breaks it.
+  \item \emph{Finding 2:} brand alone 0.084, add price 0.232; the keyword bonuses add noise.
+  \item \emph{Finding 3:} three of four local rerankers score above the API, within noise;
+        Pixtral just below; near-zero marginal cost per pass.
+  \item \emph{Official Results:} 0.740 / 0.714, third of five. Same pool with three rerankers
+        moves 0.03; a new Stage-1 pool with the same reranker moves 0.08--0.10. Whole-Stage-1
+        swaps, so metadata's own effect comes from Dev.
+  \item \emph{Where It Still Fails:} brand swap; price-band topics.
+\end{enumerate}
+\end{say}
+
+\begin{say}{5 minutes (for someone who works on CIR)}
+The 2-minute tour, plus: the oracle argument (one gold answer $\Rightarrow$ oracle nDCG@10
+$=$ recall at the reranked depth); the extractor's accuracy on templated queries
+(brand 428/429, price 40/40); gold vs.\ extracted fields (0.211 vs.\ 0.131, with no loss
+on the price rules); the Friedman test (p$\approx$0.52); the per-topic reranker range
+(0.22); the caution that visually reranking the metadata pool lowered Dev quality
+(0.200 $\to$ 0.173) with an unverified mechanism; and the negative results.
+\end{say}
+
+%=====================================================================
+\section{Everything we did, and why}
+In chronological order. Each item gives what we did, why, the result, and whether it's in
+the paper.
+
+\subsection*{Phase 1 --- Framing (May 2026)}
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Read the organizers' reading list} (MagicLens, Pic2Word/SEARLE, UNION, CASE,
+        CIRCO). \emph{Why:} to know the zero-shot CIR state of the art before picking an approach.
+        \emph{Decision:} zero-shot, two-stage (retrieve $\to$ rerank), with a training-free visual composition
+        that requires no CIR training.
+  \item \textbf{Translate the Vietnamese requests to English} (VN$\to$EN) and use English CLIP.
+        \emph{Why:} cheapest path, and the queries come with English translations.
+        \inpaper
+\end{enumerate}
+
+\subsection*{Phase 2 --- Baseline and measurement (May--June)}
+\begin{enumerate}[resume,leftmargin=*]
+  \item \textbf{SEARLE textual-inversion baseline} (CLIP ViT-L/14). \emph{Why:} built for
+        zero-shot CIR, with light compute. \emph{Result:} Dev R@20 0.084, R@50 0.154. It
+        became the weak reference pool. \inpaper
+  \item \textbf{Built our own development set.} \emph{Why:} the 20 official queries had no
+        labels, so we couldn't measure recall. 429 templated queries over five rules
+        (cheaper 20, pricier 20, format swap 150, brand swap 89, claim swap 150), each with
+        one answer known by construction, plus LLM paraphrases (Claude Sonnet,
+        $\approx$\$40) for 2,083 queries in total, with two held-out splits. \inpaper
+  \item \textbf{A proxy judge for the official queries} (cached Claude Sonnet vision judge,
+        graded). \emph{Why:} the only quality signal on the real queries before results came
+        out. \emph{Known weakness:} lenient, uncalibrated, n=20, so we used it only for
+        direction. \inpaper
+  \item \textbf{First hosted-API reranking} (Sonnet/Haiku listwise). \emph{Result:} it helped
+        the proxy judge but did nothing on Dev, the first sign that reranking can't recover
+        answers missing from the pool. \bg
+\end{enumerate}
+
+\subsection*{Phase 3 --- Attacking recall with better encoders (June)}
+\begin{enumerate}[resume,leftmargin=*]
+  \item \textbf{Stage-1 backbone sweep:} SEARLE-OTI (R@20 0.142), ViT-H/14 (0.343),
+        ViT-bigG-14 + name fusion (0.359; R@50 0.436), EVA02-L (0.294). \emph{Why:} to test
+        whether recall was limited by the encoder. \emph{Result:} about 4$\times$ better than
+        SEARLE, then a plateau near 0.44 R@50. The visual backbones we evaluated all plateaued there.
+        \inpaper
+  \item \textbf{Name fusion:} blend each product's image vector with its product-name text
+        vector ($a{=}0.2$). \emph{Why:} lets brand or format words in the request match the
+        name. \emph{Result:} small help at low weight; high weight hurt. \inpaper
+  \item \textbf{Moved reranking to local open-weight VLMs} (vLLM on rented A100s).
+        \emph{Why:} API reranking cost $\sim$\$11 per pass, was rate-limited, and scaled with
+        every experiment. \emph{Result:} Qwen-72B 0.913, InternVL3-38B 0.907, Qwen-32B 0.894,
+        Haiku 0.872, Pixtral 0.869 on the proxy. GLM-4.5V failed to load. \inpaper
+  \item \textbf{Symbolic brand-union for brand-swap queries.} \emph{Why:} the purely visual pool
+        rarely contained the different-brand target.
+        \emph{Result:} brand-swap recall $\sim$7.5$\times$; putting brand into the embedding
+        instead was worse. \inpaper
+  \item \textbf{Automated configuration search} (an LLM proposes, a GPU runs, 21 configs).
+        \emph{Why:} cheap local reranking made each trial nearly free. \emph{Result:} best
+        was bigG + brand-union + local VLM at top-20; it stopped improving, so we needed a
+        new lever, not more tuning. \inpaper
+  \item \textbf{Dead ends:} RRF ensembling of backbones, rewriting queries into richer
+        captions, using format/claim as hard filters. All gave no gain, or collapsed the pool.
+        \inpaper
+\end{enumerate}
+
+\subsection*{Phase 4 --- The new lever: metadata (June)}
+\begin{enumerate}[resume,leftmargin=*]
+  \item \textbf{LLM attribute extractor} (Claude Haiku, text-only). \emph{Why:} the corpus
+        has brand, numeric price and descriptions that vision ignores; the request has to be
+        turned into structured targets first. \emph{Result:} brand 428/429, price 40/40 on
+        the queries that state one, format/claim produced on 150/150 (coverage, not
+        correctness). \inpaper
+  \item \textbf{Symbolic scoring + metadata-first fusion.} Brand gate; score = 1 + 2 per
+        format hit + 2 per claim hit + Gaussian price proximity ($\sigma{=}0.4$, relative to
+        the target price); abstain without a confident brand; metadata list first, then
+        visual. \emph{Why:} a brand/price match is more trustworthy than a visual neighbour,
+        and the two score scales aren't comparable, so we order rather than blend.
+        \emph{Result:} Dev R@50 0.527, nDCG@10 0.200 (vs.\ 0.436 / 0.157 visual). \inpaper
+  \item \textbf{Rerank-on-metadata caution.} Visually reranking the metadata pool lowered Dev
+        exact-match (0.200 $\to$ 0.173) while the same reranker helps a visual pool (gold
+        item moved up 24 times, down 13). The reranked metadata run wasn't saved, so the
+        mechanism is unverified. \emph{Decision:} Run1 still used the reranker, because the
+        graded proxy (closer to human judging) favoured it (0.923 on the proxy). \inpaper
+  \item \textbf{MagicLens attempt.} Adapter written and weights obtained, but blocked by a
+        pinned mid-2024 JAX/scenic environment we couldn't rebuild. Not a measured result.
+        \inpaper
+\end{enumerate}
+
+\subsection*{Phase 5 --- Submission (July 10)}
+\begin{enumerate}[resume,leftmargin=*]
+  \item \textbf{Five runs, chosen for diversity} across Stage-1 pools and rerankers, to hedge
+        against an unknown test distribution. Run1 (metadata-fused + Qwen-72B) was primary.
+        The organizers confirmed no resubmission, so these runs are final. \emph{Honest
+        note:} the proxy judge clustered all strong configs at $\sim$0.88--0.91, so it
+        couldn't tell Stage-1 pools apart. That's why three SEARLE-pool runs made the
+        cut. \bg
+\end{enumerate}
+
+\subsection*{Phase 6 --- Official analysis and paper (Aug--Oct)}
+\begin{enumerate}[resume,leftmargin=*]
+  \item \textbf{Verified each run's pipeline} by matching submitted candidate sets to the
+        archived pools (Jaccard 1.00; SEARLE vs.\ bigG pools overlap only 0.22). \emph{Why:}
+        our own run labels had to be confirmed before we drew any conclusions. \inpaper
+  \item \textbf{Controlled comparisons from the official runs:} reranker-only (Runs 2--4,
+        spread 0.030, Friedman p$\approx$0.52, per-topic up to 0.22) vs.\ matched-reranker
+        Stage-1 swaps (+0.078, +0.103; 13/2/5 and 15/2/3 win/tie/loss). \inpaper
+  \item \textbf{Price-band topics:} 11 topics at 0.586 vs.\ 9 at 0.870. Their recall
+        isn't lower (0.512 vs.\ 0.492), so the gap is ordering, not coverage. Two of three
+        comparable teams show the same pattern, so it's suggestive, not a task property.
+        \inpaper
+  \item \textbf{Paper analyses:} component ablation, gold vs.\ extracted fields, rank-shift
+        audit, oracle bound. Reviewer fixes for the camera-ready (corpus 4,086 skincare; no
+        platform name). \inpaper
+\end{enumerate}
+
+\textbf{Total spend} \inpaper: $\sim$\$235 hosted-LLM API (early reranking, dev-set
+generation, proxy judge, extractor) + $\sim$\$60 GPU rental.
+
+%=====================================================================
+\section{Q\&A bank}
+Keep answers to 20--30 seconds. With only 2 minutes of Q\&A you'll get 2--3 questions.
+
+\begin{longtable}{@{}p{0.33\linewidth}p{0.63\linewidth}@{}}
+\toprule
+\textbf{Question} & \textbf{Answer} \\ \midrule \endhead
+Does metadata explain your official gain? &
+Not by itself. On the official set, our Stage-1 contrasts change the whole retriever
+family, SEARLE to bigG-based, so they don't isolate metadata. The metadata attribution
+comes from the controlled ablation on dev. \\ \addlinespace
+Is the ordering among teams 2--4 meaningful? &
+It isn't established. At nDCG@10 the top four are within 0.019 on 20 topics, and we ran no
+significance or equivalence tests, so we don't infer an order. (At nDCG@5 the spread is
+larger.) \\ \addlinespace
+Why three runs on the weak SEARLE pool? &
+We chose the five runs for diversity, and before results our proxy judge couldn't separate
+the Stage-1 pools. It turned out to be useful: those three runs are a clean
+reranker-only comparison on official data. \\ \addlinespace
+Reranking hurt the metadata pool on dev --- why rerank Run1? &
+That was one recorded dev comparison, and the mechanism isn't verified because the reranked
+run wasn't saved. Dev is exact single-answer; the graded proxy favoured reranking. We report
+it as a caution and an experiment to run. \\ \addlinespace
+Your dev set is synthetic --- isn't that biased? &
+Yes, it reflects the generator's notion of the right answer. That's why we use it only as a
+relative recall signal, check direction on the proxy, and never tuned on the official
+queries. \\ \addlinespace
+Why training-free, not a trained CIR model? &
+The training-free composition needs no CIR training, and the evidence pointed at recall from
+metadata, not a better visual embedding. MagicLens, the purpose-built option, was blocked
+by its environment. \\ \addlinespace
+How accurate is the LLM extractor on real queries? &
+On templated dev queries: brand 428/429, price 40/40. We haven't measured it on the
+natural official queries; that's future work. \\ \addlinespace
+What about ``same brand'' when the brand isn't named? &
+The extractor is text-only, so it resolves the brand only if the text names it. A lookup
+of the reference product's brand would handle the rest; we left that to the fusion side. \\ \addlinespace
+Why a Gaussian on price? &
+It peaks at the target price and decays with the relative difference, so ``around 49k''
+prefers products near 49k. It's a fixed bandwidth, $\sigma=0.4$. \\ \addlinespace
+Why listwise reranking? &
+One call ranks all candidates jointly, so the model compares them against the request, and
+it costs one generation per query. \\ \addlinespace
+Why is the proxy so much higher than the official score? &
+Different ground truth: a lenient graded LLM judge over our own runs vs.\ pooled human
+judgments. The regimes aren't comparable. \\ \addlinespace
+Why are price-band topics hard if recall is fine? &
+Many products plausibly fit; the difficulty is putting the best ones at the top. It's
+descriptive. Those topics also combine brand, format and ingredient constraints. \\ \addlinespace
+The 0.22 per-topic reranker range? &
+The 0.03 aggregate hides cancellation: individual topics are quite sensitive to the
+reranker even though the averages match. \\ \addlinespace
+Cost? &
+About \$235 in hosted-API calls overall and about \$60 of GPU. Once a GPU is rented, an
+extra rerank pass is essentially free, vs.\ about \$11 per pass on the API. \\ \addlinespace
+How does this relate to UNION (the organizers' work)? &
+UNION learns a lightweight target representation that unifies CIR and sketch retrieval. We
+asked a different question: how far non-visual product metadata carries retrieval on a
+structured catalogue. \\ \addlinespace
+What would you do next? &
+Better brand resolution (brand swap is the hardest rule); a reranker that keeps confident
+metadata matches; one more rerank pass to audit the metadata demotion item by item;
+validating the extractor on natural queries. \\
+\bottomrule
+\end{longtable}
+
+%=====================================================================
+\section{Don't say}
+\begin{caution}
+\begin{itemize}
+  \item ``We're effectively second'' or any ordering among teams 2--4; the 0.019 figure
+        is nDCG@10 only.
+  \item ``Metadata gave +0.078 / +0.103 officially.'' Those are whole-Stage-1 swaps, and
+        Run5's brand-union added no official candidates.
+  \item ``Local models are better than the API.'' Say \emph{competitive}; the gaps are within noise.
+  \item ``Reranking hurts metadata'' as a fact. It's a caution with an unverified mechanism.
+  \item ``Price is hard for every team.'' It holds for two of three comparable teams.
+  \item ``Metadata helps everywhere.'' On the full 2,083-query Dev set (79\% free-form) it's
+        roughly neutral (0.115 vs.\ 0.119). We have no free-form-only number.
+  \item The old corpus description (``4,075 face cleansers'') or the name of the source
+        platform. Say \textbf{4,086 skincare products from a Vietnamese e-commerce platform}.
+  \item Internal-only numbers from project notes that aren't in the paper.
+\end{itemize}
+\end{caution}
+
+%=====================================================================
+\section{Rehearsal checklist}
+\begin{itemize}
+  \item[$\square$] Read the script aloud with a timer 3$\times$; land at 5:40--5:50.
+  \item[$\square$] Practise the 30-second poster pitch until you don't need notes.
+  \item[$\square$] Say the five numbers from memory.
+  \item[$\square$] Practise five Q\&A answers out loud, at 20--30 seconds each.
+  \item[$\square$] Hybrid check: screen-share the slides PDF, mic, presenter timer.
+  \item[$\square$] Upload the CAMEO poster (and R2C2) by 27 Nov AoE.
+\end{itemize}
+
+\end{document}
